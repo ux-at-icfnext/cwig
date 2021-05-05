@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{%  if page.usa-link %}
+        <div class="usa-usage">
+                <p>The following component is based on the {{ page.pattern-name}} from the USWDS. The information below shows how the component was customized to match our site brand. Please review the USWDS for more information on how to use this component.</p>
+                <p><a href="{{ page.usa-link }}" class="btn"> USWDS {{ page.pattern-name }}</a></p>
+        </div>
+{% endif %}
+
+<h4>Contents:</h4>
+<ul>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#specifications">Specifications</a></li>
+        <li><a href="#code">Code Examples</a></li>
+        {%  if page.varspath %}
+            <li><a href="#vars">Variations</a></li>
+        {% endif %}
+        
+</ul>
+
+<a name="design"></a>
+<h3>Design</h3>
+{% if page.htmlpath %}
+  {% include {{ page.htmlpath }} %}
+{% endif %}
+
+<a name="specifications"></a>
+<h3>Specifications</h3>
+<p>{{ page.specification }} </p>
+<table class="usa-table">
+    <thead>
+        <tr>
+                <th>field name</th>
+                <th>field type</th>
+                <th>class name</th>
+                <th>required</th>
+                <th>content rules</th>
+                <th>example content</th>
+        </tr>
+    </thead>
+        {% for spec in page.schema %}
+        <tr>
+             <td>{{ spec.fieldname }}</td>
+             <td>{{ spec.type }}</td>
+             <td>{{ spec.class-name }}</td>
+             <td>{{ spec.required }}</td>
+             <td>{{ spec.content }}</td>
+             <td>{{ spec.example }}</td>
+        </tr>
+        {% endfor %}
+</table>
+
+
+<a name="code"></a>
+<h3>Code</h3>
+<h4>HTML</h4>
+{% highlight html %}
+    {% if page.htmlpath %}
+        {% include {{ page.htmlpath }} %}
+    {% endif %}
+{% endhighlight %}
+
+<h4>CSS</h4>
+{% highlight html %}
+        {% if page.csspath %}
+        {% include {{ page.csspath }} %}
+    {% endif %}
+{% endhighlight %}
+
+<div class="page-content">
+        {{ content }}
+</div>
+
+{% if page.varspath %}
+    <a name="vars"></a>
+    <h3>Variations</h3>
+    {% include {{ page.varspath }} %}   
+{% endif %}
+
+
+
+
+
+{% if page.last-updated %}
+        <div class="last-updated" style="font-size: 14px;">Last Updated: {{ page.last-updated }}</div>
+{% endif %}
