@@ -8,11 +8,12 @@ varspath: "patterns/alerts/alerts-variations.md"
 description: "An alert keeps users informed of important and sometimes time-sensitive changes." 
 usa-link: https://designsystem.digital.gov/components/alert/
 specification: |
-  # write up something cool to say here about this pattern
+  
 schema: 
   - fieldname: heading
     class-name: usa-alert__heading
     type: h4
+    required: on standard type only
     content: 80 characters
     example: "Watch out for Cat Zombies"
   - fieldname: body
@@ -33,9 +34,13 @@ schema:
     content: "Options: Standard, Slim, No Icon"
   - fieldname: icon
     type: icon
+    class-name:
+    required: except on no-icon type
+    content: fas-exclamation-circle | etccc
 
 
 
 
 last-updated: 4/28/21
 ---
+
