@@ -2,30 +2,33 @@
 layout: patterns
 permalink: "/accordion"
 title:  Accordion
-htmlpath: 
-csspath: 
+htmlpath: "patterns/accordion/accordion.md"
+csspath: "patterns/accordion/accordion.scss"
 description: "" # some information about this pattern
 usa-link: https://designsystem.digital.gov/components/accordion/
 specification: |+
   In general, all accordions are closed on default. In some cases it maybe aventagious to have the first accordion in open state on load, but this technique should be used sparingly.
-  
-  On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
-  
-  On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
-  
+  <br /><br />
+  - On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
+  <br /><br />
+  - On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
+  <br /><br />
   This component uses javascript functionality to work. Please see the documentation on USWDS for more information.
 schema: 
-  - fieldname: usa-accordion__heading
+  - fieldname: heading
+    class-name: usa-accordion__heading
     required: true
     type: h4
     content: 80 characters
     example: "Cats are really cool dudes"
-  - fieldname: usa-accordion__content
+  - fieldname: body
+    class-name: usa-accordion__content
     required: true
     type: rich text
     content: 500 characters
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
-  - fieldname: usa-accordion__button
+  - fieldname: button
+    class-name: usa-accordion__button
     required: true
     type: button
     content: uses "fas fa-plus" for closed state and "fas fa-minus" for open state
