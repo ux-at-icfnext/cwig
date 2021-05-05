@@ -2,8 +2,11 @@
 layout: patterns
 permalink: # use component name e.g. "/alerts"
 title:  # component title
-description: "" # some information about this pattern
+description: # some information about this pattern
 usa-link: # uswds page link
+htmlpath: # path to html file
+csspath: # path to ccs file
+varspath: # path to variations html file
 specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
