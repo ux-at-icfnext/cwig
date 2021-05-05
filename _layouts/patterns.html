@@ -13,7 +13,9 @@ layout: default
 <h4>Contents:</h4>
 <ul>
         <li><a href="#design">Design</a></li>
-        <li><a href="#description">Description</a></li>
+        {% if page.description %}
+            <li><a href="#description">Description</a></li>
+        {% endif %}
         <li><a href="#specifications">Specifications</a></li>
         <li><a href="#code">Code Examples</a></li>
         {%  if page.varspath %}
@@ -28,14 +30,17 @@ layout: default
   {% include {{ page.htmlpath }} %}
 {% endif %}
 
+{% if page.description %}
 <a name="description"></a>
-<h3>Description</h3>
-<p>{{ page.description }} </p>
+    <h3>Description</h3>
+    {{ page.description }} 
+{% endif %}
 
 
 <a name="specifications"></a>
 <h3>Specifications</h3>
-<p>{{ page.specification }} </p>
+{{ page.specification }} 
+{% if page.schema %}
 <table class="usa-table">
     <thead>
         <tr>
@@ -58,7 +63,7 @@ layout: default
         </tr>
         {% endfor %}
 </table>
-
+{% endif %}
 
 <a name="code"></a>
 <h3>Code</h3>
