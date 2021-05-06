@@ -4,12 +4,14 @@ permalink: /card
 title:  Card
 htmlpath: "patterns/card/card.md"
 description: "A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
-
+<br /><br />
 An individual card is typically a member of a collection of similar cards, not a single card in isolation. A card is distinguished from others in its collection by its content, and cards are distinguished from the broader page context in form — usually with a border or a shadow.
-
+<br /><br />
 Finally, a card is modular. This means that you can vary the order of cards in a collection without destroying any individual card’s meaning." 
 usa-link: https://designsystem.digital.gov/components/card/
-specification: # write up something cool to say here about this pattern |
+specification: |
+  on click of card system displays destination in current window <br /><br />
+  on hover display hover state # ask Maryjo how to do hover state 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname
