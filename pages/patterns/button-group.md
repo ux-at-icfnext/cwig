@@ -2,7 +2,7 @@
 layout: patterns
 permalink: "/button-group"
 title: Button Group
-description: "A button group collects similar or related actions."
+description: "The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically."
 usa-link: https://designsystem.digital.gov/components/button-group/
 specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
