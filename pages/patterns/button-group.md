@@ -1,6 +1,6 @@
 ---
 layout: patterns
-permalink: "/button-breadcrumb"
+permalink: "/button-group"
 title: Button Group
 description: "A button group collects similar or related actions."
 usa-link: https://designsystem.digital.gov/components/button-group/
