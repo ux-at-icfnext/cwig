@@ -1,11 +1,11 @@
 ---
 layout: patterns
-permalink: /data-visualizations
-title:  Data Visualizations
-description: "Usability and accessibility are complementary goals for data visualizations."
+permalink: /date-range-picker
+title:  Date Range Picker
+description: "A date range picker helps users select a range between two dates.
+" 
 
-usa-link: https://designsystem.digital.gov/components/combo-box/
-
+usa-link: https://designsystem.digital.gov/components/date-range-picker/
 specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
