@@ -1,6 +1,7 @@
 ---
 layout: patterns
-permalink: /combo-box
+permalink: "/combo-box"
+htmlpath: "patterns/combo-box/combo-box.md"
 title:  Combo Box #this was mislabeled here and above as data visualizations.  I changed it to combo box.
 description: "A combo box helps users select an item from a large list of options."
 

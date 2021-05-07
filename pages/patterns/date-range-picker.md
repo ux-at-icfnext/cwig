@@ -1,7 +1,8 @@
 ---
 layout: patterns
-permalink: /date-range-picker
+permalink: "/date-range-picker"
 title:  Date Range Picker
+htmlpath: "patterns/date-range-picker/date-range-picker.md"
 description: "A date range picker helps users select a range between two dates.
 " 
 

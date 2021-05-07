@@ -2,6 +2,7 @@
 layout: patterns
 permalink: "/button"
 title:  Button
+htmlpath: "patterns/button/button.md"
 description: "A button draws attention to important actions with a large selectable surface."
 usa-link: https://designsystem.digital.gov/components/button/
 specification: on click of button important action is selected <br /><br />

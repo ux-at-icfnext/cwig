@@ -1,11 +1,11 @@
 ---
 layout: patterns
-permalink: /file-input
-title:  FIle Input
-description: "File input allows users to attach one or multiple files.
-
+permalink: "/dropdown"
+title:  Dropdown
+htmlpath: "patterns/dropdown/dropdown.md"
+description: "A dropdown allow users to select one option from a temporary modal menu.
 "
-usa-link: https://designsystem.digital.gov/components/file-input/
+usa-link: https://designsystem.digital.gov/components/dropdown/
 specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title

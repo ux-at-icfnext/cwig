@@ -1,10 +1,11 @@
 ---
 layout: patterns
-permalink: /file-input
+permalink: "/file-input"
+
 title:  File Input
 description: "File input allows users to attach one or multiple files
 " 
-
+htmlpath: "patterns/file-input/file-input.md"
 usa-link: https://designsystem.digital.gov/components/file-input/
 specification: "When to use the file input component:
 <br/><br/>

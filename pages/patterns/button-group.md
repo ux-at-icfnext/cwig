@@ -2,6 +2,7 @@
 layout: patterns
 permalink: "/button-group"
 title: Button Group
+htmlpath: "patterns/button-group/button-group.md
 description: "A button group collects similar or related actions. 
 <br/><br/>
 The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically."

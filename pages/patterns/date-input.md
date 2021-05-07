@@ -1,7 +1,8 @@
 ---
 layout: patterns
-permalink: /date-input
+permalink: "/date-input"
 title:  Date Input
+htmlpath: "patterns/date-input/date-input.md"
 description: "Three text fields are the easiest way for users to enter most dates.
 " 
 

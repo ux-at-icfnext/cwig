@@ -1,7 +1,8 @@
 ---
 layout: patterns
-permalink: /banner
+permalink: "/banner"
 title:  Banner
+htmlpath: "patterns/banner/banner.md"
 
 description: "The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure."
 

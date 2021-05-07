@@ -1,7 +1,8 @@
 ---
 layout: patterns
-permalink: /date-picker
+permalink: "/date-picker"
 title:  Date Picker
+htmlpath: "patterns/date-picker/date-picker.md"
 description: "A date picker helps users select a single date.
 " 
 
