@@ -5,15 +5,15 @@ title:  Date Input
 description: "Three text fields are the easiest way for users to enter most dates.
 " 
 
-usa-link: https://designsystem.digital.gov/components/collection/
-specification: # write up something cool to say here about this pattern |
+usa-link: https://designsystem.digital.gov/components/date-input/
+specification: "Appropriate for most dates."
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname
     required: true
     type: h3
     content: 80 characters
-    example: "Cats are really cool dudes"
+    example: "Date of Birth"
   - fieldname: body
     class-name: usa-classname
     type: text

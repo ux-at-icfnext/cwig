@@ -6,14 +6,15 @@ description: "A footer serves site visitors who arrive at the bottom of a page w
 " 
 
 usa-link: https://designsystem.digital.gov/components/footer/
-specification: # write up something cool to say here about this pattern |
+specification: on click of links displays destination in current window <br /><br />
+  on hover display hover state # ask Maryjo how to do hover state 
 schema: # example schema below .. repeat sets for as many fields as you have
-  - fieldname: title
+  - fieldname: Link
     class-name: usa-classname
     required: true
     type: h3
     content: 80 characters
-    example: "Cats are really cool dudes"
+    example: "Disclaimers"
   - fieldname: body
     class-name: usa-classname
     type: text

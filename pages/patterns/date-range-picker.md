@@ -6,14 +6,18 @@ description: "A date range picker helps users select a range between two dates.
 " 
 
 usa-link: https://designsystem.digital.gov/components/date-range-picker/
-specification: # write up something cool to say here about this pattern |
+specification: "When to use the date range picker component:
+<br/><br/>
+Scheduling. When users need to schedule or record an event and benefit from the context of a calendar.
+<br/><br/>
+When the day of the week is important. When knowing the day of the week helps users choose a specific date."
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname
     required: true
     type: h3
     content: 80 characters
-    example: "Cats are really cool dudes"
+    example: "Event start date/Event end date"
   - fieldname: body
     class-name: usa-classname
     type: text

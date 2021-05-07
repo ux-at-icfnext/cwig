@@ -1,16 +1,20 @@
 ---
 layout: patterns
-permalink: /data-visualizations
-title:  Data Visualizations
-description: "Usability and accessibility are complementary goals for data visualizations."
+permalink: /combo-box
+title:  Combo Box #this was mislabeled here and above as data visualizations.  I changed it to combo box.
+description: "A combo box helps users select an item from a large list of options."
 
 usa-link: https://designsystem.digital.gov/components/combo-box/
 
-specification: # write up something cool to say here about this pattern |
-schema: # example schema below .. repeat sets for as many fields as you have
+specification: "When to use the combo box component:
+<br/><br/>
+More than 15 options. When there are more than 15 choices in a drop-down list it can be hard to navigate with scrolling only.
+<br/><br/>
+Limited space. Use a combo box for presenting options when screen real estate is limited."
+schema: # do we need a schema for this?
   - fieldname: title
     class-name: usa-classname
-    required: true
+    require\d: true
     type: h3
     content: 80 characters
     example: "Cats are really cool dudes"

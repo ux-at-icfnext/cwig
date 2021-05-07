@@ -4,6 +4,7 @@ permalink: /border
 title:  Border
 description: "Set width, color, style, and radius of an item’s borders
 " 
+#@dara-icf should we delete all of Border from this?  SHouldn't that go somewhere else?
 
 usa-link: https://designsystem.digital.gov/utilities/border/
 specification: # write up something cool to say here about this pattern |

@@ -1,22 +1,20 @@
 ---
 layout: patterns
-permalink: /collection
-title:  Collection
-description: "The collection component offers users a way to view short descriptions of related content, providing a simple way to access the original source to learn more. It’s useful when you want to highlight information like articles, events, or documents that appear elsewhere on your website or from other sources.
-
-Each item in the collection includes a headline that links to another page and (optionally) a small image, descriptive text, and metadata such as date, time, byline, and tags.
-
-Items in a collection should be related. This could be by publication date (for instance, all the content was posted in the last week), by content type (all articles, events, or blog posts), or by subject (all items relate to the same topic or theme). Be selective about what content you show in each collection. Consider limiting the number of items in each collection to six or fewer.
+permalink: /file-input
+title:  File Input
+description: "File input allows users to attach one or multiple files
 " 
 
-usa-link: https://designsystem.digital.gov/components/collection/
-specification: # write up something cool to say here about this pattern |
+usa-link: https://designsystem.digital.gov/components/file-input/
+specification: "When to use the file input component:
+<br/><br/>
+Documents are required. Ask users to provide files when it’s necessary."
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname
     required: true
     type: h3
-    content: 80 characters
+    content: Input accepts a single file | Input accepts only specific file types | Input accepts any kind of image | Input accepts multiple files | Input has an error | Input in a disabled state
     example: "Cats are really cool dudes"
   - fieldname: body
     class-name: usa-classname
