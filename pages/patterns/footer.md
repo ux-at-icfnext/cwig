@@ -1,7 +1,6 @@
 ---
 layout: patterns
 permalink: "/footer"
-htmlpath: "patterns/footer/footer.md"
 title: Footer
 description: "A footer serves site visitors who arrive at the bottom of a page without finding what they want.
 " 
