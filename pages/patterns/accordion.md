@@ -20,7 +20,7 @@ schema:
     required: true
     type: h4
     content: 80 characters
-    example: "Cats are really cool dudes"
+    example: "First Amendment"
   - fieldname: body
     class-name: usa-accordion__content
     required: true
