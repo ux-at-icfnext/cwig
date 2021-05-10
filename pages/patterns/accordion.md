@@ -4,7 +4,7 @@ permalink: "/accordion"
 title:  Accordion
 htmlpath: "patterns/accordion/accordion.md"
 csspath: "patterns/accordion/accordion.scss"
-description: "" # some information about this pattern
+description:  # some information about this pattern
 usa-link: https://designsystem.digital.gov/components/accordion/
 specification: |+
   In general, all accordions are closed on default. In some cases it maybe aventagious to have the first accordion in open state on load, but this technique should be used sparingly.
