@@ -10,7 +10,8 @@ The default button group arranges each button as a separate element with a gap b
 
 " 
 usa-link: https://designsystem.digital.gov/components/button-group/
-specification: |Button group contains multiple buttons.  In most cases only one should be primary.
+specification: | 
+    Button group contains multiple buttons.  In most cases only one should be primary.
   
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: button-label

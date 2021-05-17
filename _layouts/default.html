@@ -3,7 +3,10 @@
 <html>
     {% include partials/head.html %}
     <body>
-        <div class="grid-container">
+        {% include partials/header.html %}
+        {% assign hero = page.hero %}
+        {% include partials/hero.html %}
+        <div id="main-content" class="grid-container">
 
             {{ content }}
         </div>
