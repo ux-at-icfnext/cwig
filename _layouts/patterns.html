@@ -65,33 +65,46 @@ layout: default
 </table>
 {% endif %}
 
-<a name="code"></a>
-<h3>Code</h3>
-<h4>HTML</h4>
-{% highlight html %}
-    {% if page.htmlpath %}
-        {% include {{ page.htmlpath }} %}
-    {% endif %}
-{% endhighlight %}
-
-<h4>CSS</h4>
-{% highlight html %}
-        {% if page.csspath %}
-        {% include {{ page.csspath }} %}
-    {% endif %}
-{% endhighlight %}
-
 <div class="page-content">
         {{ content }}
 </div>
 
-{% if page.varspath %}
-    <a name="vars"></a>
-    <h3>Variations</h3>
-    {% include {{ page.varspath }} %}   
-{% endif %}
+<a name="code"></a>
+<h3>Code</h3>
+<div class="usa-accordion">
+<h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a1">
+          HTML
+        </button>
+      </h4>
+      <div id="a1" class="usa-accordion__content usa-prose syntax-box">
+        {% highlight html %}
+            {% if page.htmlpath %}
+                {% include {{ page.htmlpath }} %}
+            {% endif %}
+        {% endhighlight %}
 
+      </div>
+</div>
+<div class="usa-accordion">
+<h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a2">
+          CSS
+        </button>
+      </h4>
+      <div id="a2" class="usa-accordion__content usa-prose syntax-box">
+        {% highlight html %}
+            {% if page.csspath %}
+                {% include {{ page.csspath }} %}
+             {% endif %}
+        {% endhighlight %}
 
+      </div>
+</div>
 
 
 
