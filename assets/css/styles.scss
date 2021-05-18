@@ -2,4 +2,6 @@
 ---
 
 {% include_relative uswds.css %}
+{% include_relative library-styles.scss %}
+{% include_relative syntax.scss %}
 {% include patterns/patterns.scss %}
