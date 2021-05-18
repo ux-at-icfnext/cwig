@@ -8,7 +8,9 @@ varspath: "patterns/alerts/alerts-variations.md"
 description: "An alert keeps users informed of important and sometimes time-sensitive changes." 
 usa-link: https://designsystem.digital.gov/components/alert/
 specification: |
-  
+  - Note that alert content should be text only, but may contain a link.
+  <br /> - For authoring. There should be an option to apply to multiple pages or sections.
+  <br /> - <strong>If</strong> the alert is a <strong>site wide</strong> communication, consider using the <a href="/site-alert/">Site Alert</a> instead.
 schema: 
   - fieldname: heading
     class-name: usa-alert__heading
@@ -34,13 +36,13 @@ schema:
     content: "Options: Standard, Slim, No Icon"
   - fieldname: icon
     type: icon
-    class-name:
-    required: except on no-icon type
-    content: fas-exclamation-circle | etccc
+    class-name: (icons are set in the base uswds-styles )
+    required: 
+    content: (icons live in the uswds images folder)
 
 
 
 
-last-updated: 4/28/21
+last-updated: 5/18/2021
 ---
 

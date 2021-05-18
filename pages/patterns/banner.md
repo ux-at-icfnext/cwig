@@ -3,7 +3,8 @@ layout: patterns
 permalink: "/banner"
 title:  Banner
 htmlpath: "patterns/banner/banner.md"
-
+csspath: "patterns/banner/banner.scss"
+varspath: "patterns/banner/banner-variations.md"
 description: "The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure."
 
 
@@ -14,7 +15,7 @@ specification: |
 
 
 
-last-updated: # add last date... format: 2/21/21
+last-updated: 5/18/2021
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->

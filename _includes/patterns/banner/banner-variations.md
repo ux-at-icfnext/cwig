@@ -4,7 +4,7 @@
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="/assets/img/usa-icons/us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text">An official website of the United States government</p>
@@ -19,7 +19,7 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner-default">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -57,7 +57,7 @@
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="/assets/img/usa-icons/us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text">An official website of the United States government</p>
@@ -72,7 +72,7 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner-dot-mil">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -85,7 +85,7 @@
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -110,7 +110,7 @@
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="/assets/img/usa-icons/us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text">Un sitio oficial del Gobierno de Estados Unidos</p>
@@ -125,7 +125,7 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner-lang-es">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -163,7 +163,7 @@
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="/assets/img/usa-icons/us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text">Un sitio oficial del Gobierno de Estados Unidos</p>
@@ -178,7 +178,7 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner-dot-mil-lang-es">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>
@@ -191,7 +191,7 @@
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/usa-icons/icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
             <p>
               <strong>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="38px" viewBox="0 0 64 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>expand_less</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="expand_less" transform="translate(32.000000, 19.000000) scale(1, -1) translate(-32.000000, -19.000000) " fill="#000000" fill-rule="nonzero">
+            <path d="M63.36,3.917 L60.155,0.654 C59.728,0.218 59.236,0 58.68,0 C58.125,0 57.633,0.218 57.205,0.654 L32,26.313 L6.798,0.653 C6.37,0.219 5.878,0.001 5.323,0.001 C4.767,0.001 4.275,0.219 3.847,0.655 L0.642,3.918 C0.213,4.353 0,4.854 0,5.42 C0,5.985 0.214,6.486 0.642,6.921 L30.525,37.348 C30.952,37.783 31.445,38 32,38 C32.556,38 33.047,37.783 33.474,37.348 L63.361,6.921 C63.788,6.486 64,5.985 64,5.42 C64,4.854 63.788,4.353 63.36,3.917 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
