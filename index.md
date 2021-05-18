@@ -13,3 +13,10 @@ hero:
   content: This library allows us to use the USWDS customized for our clients.
 ---
 # Hello World
+
+
+<ul>
+   {% for item in site.data.navigation.library %}
+      <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+   {% endfor %}
+</ul>

@@ -1,0 +1,67 @@
+# This is the configuration for the site navigation.
+
+# primary:
+#   links: primary
+#
+primary:
+  - text: Start
+    href: /start/
+  - text: Library
+    href: /library/
+  - text: Docs
+    href: /docs/
+  - text: Updates
+    href: /releases/
+
+library:
+  - text: Grids & Layouts
+    href: /grids/
+  - text: Styles
+    href: /styles/
+  - text: Accordion
+    href: /accordion/
+  - text: Alerts
+    href: /alerts/
+  - text: Banner
+    href: /banner/
+  - text: Breadcrumb
+    href: /breadcrumb/
+  - text: Button
+    href: /button/
+  - text: Button Group
+    href: /button-group/
+  - text: Card
+    href: /card/
+  - text: Collection
+    href: /collection/
+  - text: Footer
+    href: /footer/
+  - text: Forms
+    href: /forms/
+  - text: Header
+    href: /header/
+  - text: Icon
+    href: /icon/
+  - text: Icon List
+    href: /icon-list/
+  - text: Indentifier
+    href: /identifier/
+  - text: Link
+    href: /link/
+  - text: List
+    href: /list/
+  - text: Modal
+    href: /modal/
+  - text: Process List
+    href: /process-list
+  - text: Side Navigation
+    href: /side-navigation/
+  - text: Site Alert
+    href: /site-alert/
+  - text: Summary Box
+    href: /summary-box/
+  - text: Tag
+    href: /tag/
+  - text: Tooltip
+    href: /tooltip/
+
