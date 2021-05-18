@@ -9,6 +9,8 @@ description: "A breadcrumb bar shows the location of the current page in the sit
 usa-link: https://designsystem.digital.gov/components/breadcrumb/ 
 specification: |
   We will be using the default responsive breadcrumb. 
+  <br /> - The current page of the breadcrumb is not clickable
+  <br /> - Parent/Grandparent OnClick, system displays target page in current window.
 
 
 
