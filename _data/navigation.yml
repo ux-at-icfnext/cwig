@@ -58,6 +58,8 @@ library:
     href: /side-navigation/
   - text: Site Alert
     href: /site-alert/
+  - text: Step Indicator
+    href: /step-indicator/
   - text: Summary Box
     href: /summary-box/
   - text: Tag
