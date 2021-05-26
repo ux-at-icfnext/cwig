@@ -8,7 +8,7 @@ varspath: "patterns/checkbox/checkbox-variations.md"
 description: "Checkboxes allow users to select one or more options from a list.
 <br/><br/>
 Checkboxes are an easily understandable way to indicate that users can select one or more answers to a question or items from a list. They’re always followed by a label or instructions that clearly indicate what checking the box represents." 
-usa-link: https://designsystem.digital.gov/components/card/
+usa-link: https://designsystem.digital.gov/components/checkbox/
 specification: |
   Each checkbox has two different states: selected or unselected, which are similar to an on and off switch. If a checkbox label says “Yes, send me an email,” it’s clear what checking that box (or not checking it) will accomplish.
   <br/> <br/>
