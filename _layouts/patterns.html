@@ -26,9 +26,11 @@ layout: default
 
 <a name="design"></a>
 <h3>Design</h3>
+<div class="design-preview">
 {% if page.htmlpath %}
   {% include {{ page.htmlpath }} %}
 {% endif %}
+</div>
 
 {% if page.description %}
 <a name="description"></a>
@@ -111,7 +113,9 @@ layout: default
 <br /><br />
 <a name="vars"></a>
     <h3>Design Variations</h3>
-    {% include {{ page.varspath }} %}
+    <div class="design-preview">
+        {% include {{ page.varspath }} %}
+    </div>
     <br />
     <div class="usa-accordion">
         <h4 class="usa-accordion__heading">
