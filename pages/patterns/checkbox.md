@@ -15,7 +15,7 @@ specification: |
   Checkboxes also visibly show users what’s been selected and makes it easy for them to “uncheck” an option, which can be difficult with other selection methods on a form (such as radio buttons or dropdown boxes). It’s common to include “check all that apply” instructions with checkboxes to let users know it’s okay to select more than one option at a time.
 schema: 
   - fieldname: label
-    class-name: usa-classname
+    class-name: usa-checkbox__label
     required: true
     type: text
     content: 80 characters
