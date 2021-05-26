@@ -1,0 +1,11 @@
+
+.usa-card__img img {
+    height: auto;
+}
+
+.usa-card--flag {
+    .usa-card__img img {
+        height: 100%;
+        width: auto;
+    }
+}

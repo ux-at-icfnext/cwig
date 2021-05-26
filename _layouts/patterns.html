@@ -107,6 +107,31 @@ layout: default
 </div>
 
 
+{% if page.varspath %}
+<br /><br />
+<a name="vars"></a>
+    {% include {{ page.varspath }} %}
+    <br />
+    <div class="usa-accordion">
+        <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="p3">
+            HTML
+            </button>
+        </h4>
+        <div id="p3" class="usa-accordion__content usa-prose syntax-box">
+            {% highlight html %}
+                {% include {{ page.varspath }} %}
+            {% endhighlight %}
+
+        </div>
+    </div>
+
+{% endif %}
+
+
+
 
 {% if page.last-updated %}
         <div class="last-updated" style="font-size: 14px;">Last Updated: {{ page.last-updated }}</div>

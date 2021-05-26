@@ -3,16 +3,19 @@ layout: patterns
 permalink: "/card"
 title:  Card
 htmlpath: "patterns/card/card.md"
+csspath: "patterns/card/card.scss"
+varspath: "patterns/card/card-variations.md"
 description: "A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
-<br /><br />
+<br />
 An individual card is typically a member of a collection of similar cards, not a single card in isolation. A card is distinguished from others in its collection by its content, and cards are distinguished from the broader page context in form — usually with a border or a shadow.
-<br /><br />
+<br />
 Finally, a card is modular. This means that you can vary the order of cards in a collection without destroying any individual card’s meaning." 
 usa-link: https://designsystem.digital.gov/components/card/
 specification: |
-  on click of card system displays destination in current window <br /><br />
-  on hover display hover state # ask Maryjo how to do hover state 
-schema: # example schema below .. repeat sets for as many fields as you have
+  on click of card system displays destination in current window 
+  <br />
+  on hover display hover state  
+schema: 
   - fieldname: title
     class-name: usa-classname
     required: true
@@ -23,11 +26,10 @@ schema: # example schema below .. repeat sets for as many fields as you have
     required: true
     class-name: usa-classname
     type: text
-    content: 140 characters  # flag right and flag left will need fewer characters @celeake
+    content: 140 characters  
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
   - fieldname: media
     type: image 
-    content: #image sizing tbd 
   - fieldname: link
     type: button
     required: true
@@ -39,7 +41,7 @@ schema: # example schema below .. repeat sets for as many fields as you have
 
 
 
-last-updated: # add last date... format: 2/21/21
+last-updated: 6/26/2021
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
