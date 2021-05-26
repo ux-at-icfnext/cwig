@@ -17,19 +17,20 @@ specification: |
   on hover display hover state  
 schema: 
   - fieldname: title
-    class-name: usa-classname
+    class-name: usa-card__heading
     required: true
     type: h3
     content: 80 characters
     example: "Cats are really cool dudes"
   - fieldname: body
     required: true
-    class-name: usa-classname
+    class-name: usa-card__body
     type: text
     content: 140 characters  
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
   - fieldname: media
     type: image 
+    class-name: usa-card__img
   - fieldname: link
     type: button
     required: true
