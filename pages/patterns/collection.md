@@ -31,7 +31,7 @@ schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: meta-item
     class-name: "usa-collection_meta-item"
     character: "Note: there can be mutliples of this field."
-    example: "can be used for items such as author or date"
+    example: "can be used for items such as author or date or related link"
   - fieldname: tags
     class-name: usa-collection_meta-item usa-tag
     example: see <a href="/tag">Tag</a> pattern
