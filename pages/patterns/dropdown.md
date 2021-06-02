@@ -7,7 +7,7 @@ description: "A dropdown allow users to select one option from a menu. "
 usa-link: https://designsystem.digital.gov/components/dropdown/
 specification: |
   OnClick/OnTap of dropdown, element opens to reveal the options inside. On click of option, the item is selected and the desired action is preformed byt the system.
-  <br /> In most cases this will be to have data to provide to a form for submission. In rare cases it may be used as navigation to another page.
+  In most cases this will be to have data to provide to a form for submission. In rare cases it may be used as navigation to another page.
 
 
 

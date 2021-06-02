@@ -5,16 +5,13 @@ title:  Button Group
 htmlpath: "patterns/button-group/button-group.md"
 csspath: "patterns/button-group/button-group.scss"
 
-description: "A button group collects similar or related actions.
-<br /><br />
-The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically.
-
-
-" 
+description: |
+  A button group collects similar or related actions.
+  The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically. 
 usa-link: https://designsystem.digital.gov/components/button-group/
 specification: | 
     Button group contains multiple buttons.  In most cases only one should be primary. 
-    <br /> For more information about how individual buttons function - please see [buttons](/button)
+    For more information about how individual buttons function - please see [buttons](/button)
   
 schema: 
   - fieldname: button-label

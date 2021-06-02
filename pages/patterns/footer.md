@@ -6,9 +6,10 @@ description: "A footer serves site visitors who arrive at the bottom of a page w
 " 
 
 usa-link: https://designsystem.digital.gov/components/footer/
-specification: on click of links displays destination in current window <br /><br />
-  on hover display hover state # ask Maryjo how to do hover state 
-schema: # example schema below .. repeat sets for as many fields as you have
+specification: |
+  on click of links displays destination in current window 
+  on hover display hover state 
+schema: 
   - fieldname: Link
     class-name: usa-classname
     required: true
@@ -23,7 +24,7 @@ schema: # example schema below .. repeat sets for as many fields as you have
 
 
 
-last-updated: # add last date... format: 2/21/21
+last-updated: 5/26/21 # add last date... format: 2/21/21
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
