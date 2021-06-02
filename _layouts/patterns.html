@@ -35,13 +35,13 @@ layout: default
 {% if page.description %}
 <a name="description"></a>
     <h3>Description</h3>
-    {{ page.description }} 
+    {{ page.description | markdownify}} 
 {% endif %}
 
 
 <a name="specifications"></a>
 <h3>Specifications</h3>
-{{ page.specification }} 
+{{ page.specification | markdownify }} 
 {% if page.schema %}
 <table class="usa-table">
     <thead>

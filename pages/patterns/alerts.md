@@ -9,8 +9,8 @@ description: "An alert keeps users informed of important and sometimes time-sens
 usa-link: https://designsystem.digital.gov/components/alert/
 specification: |
   - Note that alert content should be text only, but may contain a link.
-  <br /> - For authoring. There should be an option to apply to multiple pages or sections.
-  <br /> - <strong>If</strong> the alert is a <strong>site wide</strong> communication, consider using the <a href="/site-alert/">Site Alert</a> instead.
+  - For authoring. There should be an option to apply to multiple pages or sections.
+  - **If** the alert is a **site wide** communication, consider using the [Site Alert](/site-alert) instead.
 schema: 
   - fieldname: heading
     class-name: usa-alert__heading

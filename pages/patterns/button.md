@@ -7,12 +7,12 @@ description: "A button draws attention to important actions with a large selecta
 usa-link: https://designsystem.digital.gov/components/button/
 specification: |
     - OnClick/OnTap of button activates desired functionality. Functionality in determined by the context of the button (for example in a search experience or as a link item).
-    <br /> - Buttons use states for hover, focus, active
-    <br /> - The unstyled button can be used as a text link that needs to have click-space padding
-    <br /> - Buttons are keyboard accessible
-    <br /> - <strong>Disabled Button</strong> - the disabled button is used to indicate that there is actions on the page that need to happen before the button can be used. The user cannot interact with button. Once the required functionailty has happened on the page, the disabled state should be swtiched with an actionalble button
-    <br /> - <strong>Buttons for Submitting Forms</strong> - onSubmit of button, for validation should occur on all required fields. Please see the <a href="/forms/">forms</a> specification for how to deal with displaying errors and error messaging.
-    <br /> - See <a href="/button-group">Button Group</a> for how multiple buttons should interact.
+    - Buttons use states for hover, focus, active
+    - The unstyled button can be used as a text link that needs to have click-space padding
+    - Buttons are keyboard accessible
+    - **Disabled Button** - the disabled button is used to indicate that there is actions on the page that need to happen before the button can be used. The user cannot interact with button. Once the required functionailty has happened on the page, the disabled state should be swtiched with an actionalble button
+    - **Buttons for Submitting Forms** - onSubmit of button, for validation should occur on all required fields. Please see the [forms](/forms) specification for how to deal with displaying errors and error messaging.
+    - See Button Group** for how multiple buttons should interact.
 
 schema: 
   - fieldname: button-label

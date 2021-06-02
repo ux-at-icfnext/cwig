@@ -4,15 +4,13 @@ permalink: "/accordion"
 title:  Accordion
 htmlpath: "patterns/accordion/accordion.md"
 csspath: "patterns/accordion/accordion.scss"
-description:  # some information about this pattern
+description:  |
+    An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
 usa-link: https://designsystem.digital.gov/components/accordion/
-specification: |+
+specification: |
   In general, all accordions are closed on default. In some cases it maybe aventagious to have the first accordion in open state on load, but this technique should be used sparingly.
-  <br />
   - On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
-  <br />
   - On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
-  <br />
   This component uses javascript functionality to work. Please see the documentation on USWDS for more information.
 schema: 
   - fieldname: heading

@@ -5,15 +5,13 @@ title:  Card
 htmlpath: "patterns/card/card.md"
 csspath: "patterns/card/card.scss"
 varspath: "patterns/card/card-variations.md"
-description: "A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
-<br />
-An individual card is typically a member of a collection of similar cards, not a single card in isolation. A card is distinguished from others in its collection by its content, and cards are distinguished from the broader page context in form — usually with a border or a shadow.
-<br />
-Finally, a card is modular. This means that you can vary the order of cards in a collection without destroying any individual card’s meaning." 
+description: |
+    A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
+    An individual card is typically a member of a collection of similar cards, not a single card in isolation. A card is distinguished from others in its collection by its content, and cards are distinguished from the broader page context in form — usually with a border or a shadow.
+    Finally, a card is modular. This means that you can vary the order of cards in a collection without destroying any individual card’s meaning." 
 usa-link: https://designsystem.digital.gov/components/card/
 specification: |
   on click of card system displays destination in current window 
-  <br />
   on hover display hover state  
 schema: 
   - fieldname: title

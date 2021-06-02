@@ -6,11 +6,10 @@ htmlpath: "patterns/date-range-picker/date-range-picker.md"
 description: "A date range picker helps users select a range between two dates." 
 
 usa-link: https://designsystem.digital.gov/components/date-range-picker/
-specification: "When to use the date range picker component:
-<br/><br/>
-Scheduling. When users need to schedule or record an event and benefit from the context of a calendar.
-<br/><br/>
-When the day of the week is important. When knowing the day of the week helps users choose a specific date."
+specification: |
+    When to use the date range picker component:
+    Scheduling. When users need to schedule or record an event and benefit from the context of a calendar.
+    When the day of the week is important. When knowing the day of the week helps users choose a specific date."
 
 
 
