@@ -22,9 +22,6 @@ schema:
     character: 140 characters
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
 
-
-
-last-updated: 5/26/21 # add last date... format: 2/21/21
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->

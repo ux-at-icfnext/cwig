@@ -5,3 +5,14 @@
     padding: 20px;
     box-shadow: 2px 2px #d3d3d3;
 }
+
+.2-col {
+    @extend .grid-row;
+}
+.article {
+    @extend .grid-col-8;
+}
+
+.sidebar {
+    @extend .grid-col-3;
+}
