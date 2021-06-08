@@ -9,10 +9,12 @@ description: "A combo box helps users select an item from a large list of option
 usa-link: https://designsystem.digital.gov/components/combo-box/
 
 specification: |
-    When to use the combo box component:   
-    More than 15 options. When there are more than 15 choices in a drop-down list it can be hard to navigate with scrolling only.
-    Limited space. Use a combo box for presenting options over radio or checkboxes when screen real estate is limited."
+       
+OnClick/OnTap of dropdown, element opens to reveal the options inside. On click of option, the item is selected and the desired action is preformed by the system.
 
+OnClick/OnTap of "X", selected item is removed.
+  
+   
 
 
 

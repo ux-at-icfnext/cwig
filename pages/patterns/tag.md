@@ -7,10 +7,7 @@ csspath: "patterns/tag/tag.scss"
 description:  A tag draws attention to new or categorized content elements.
 usa-link: https://designsystem.digital.gov/components/tag/
 specification: 
-  When to use the tag component
-To draw attention to new, important content. Tags can focus attention on important content on that might otherwise be missed.
-To filter results with one or more tags.
-To indicate the number of new or unread items within a container. For example, to indicate the number of unread emails within a person’s inbox.
+
   
 schema: 
   - fieldname: heading

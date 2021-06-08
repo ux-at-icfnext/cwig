@@ -5,14 +5,15 @@ title:  Tooltip
 htmlpath: "patterns/tooltip/tooltip.md"
 csspath: "patterns/tooltip/tooltip.scss"
 varspath: 
-description: "A tooltip is a short descriptive message that appears when a user hovers or focuses on an element." 
-usa-link: https://designsystem.digital.gov/components/tooltip/
-specification: |
+description: "A tooltip is a short descriptive message that appears when a user hovers or focuses on an element.
   When to use the tooltip component
 Helpful, non-critical information. Use tooltips to strengthen an existing message.
 Enhance confidence. Use tooltips to increase certainty about an interaction.
 Brief descriptions. Tooltips perform best with succinct helper text.
-Lack of space. Tooltips are useful as a last resort for space-constrained UI. Explore other options for keeping content visible without a tooltip.
+Lack of space. Tooltips are useful as a last resort for space-constrained UI. Explore other options for keeping content visible without a tooltip. "
+usa-link: https://designsystem.digital.gov/components/tooltip/
+specification: |
+  on hover dispays information
 schema: 
   - fieldname: heading
     class-name: usa-alert__heading
