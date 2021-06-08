@@ -45,7 +45,7 @@ library:
         href: /date-picker/
       - text: Date Range Picker
         href: /date-range-picker/
-      - text: dropdown
+      - text: Dropdown
         href: /dropdown/
       - text: File Input
         href: /file-input/

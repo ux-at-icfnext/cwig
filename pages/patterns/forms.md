@@ -1,5 +1,5 @@
 ---
-## Will use 2-col layout once available
+layout: col-2
 permalink: "/forms"
 title: Forms
 usa-link: https://designsystem.digital.gov/components/form/
