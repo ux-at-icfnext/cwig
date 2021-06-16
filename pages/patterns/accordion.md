@@ -37,4 +37,5 @@ last-updated: 5/18/2021
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
 
-
+### Accessibility:
+Accordion trgger heading level may need to change based on which section the component is implmented
