@@ -5,3 +5,32 @@
     padding: 20px;
     box-shadow: 2px 2px #d3d3d3;
 }
+
+.col-2 {
+    @include grid-row;
+}
+.article {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(6);
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(8);
+  }
+}
+
+.sidebar {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(6);
+    @include u-order(last)
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(4);
+    @include u-order(last)
+  }
+}

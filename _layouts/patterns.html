@@ -137,7 +137,4 @@ layout: default
 
 
 
-
-{% if page.last-updated %}
-        <div class="last-updated" style="font-size: 14px;">Last Updated: {{ page.last-updated }}</div>
-{% endif %}
+<div class="last-updated" style="font-size: 14px;">Last Updated: {% last_modified_at %} </div>
