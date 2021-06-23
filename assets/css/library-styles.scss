@@ -7,12 +7,30 @@
 }
 
 .col-2 {
-    @extend .grid-row;
+    @include grid-row;
 }
 .article {
-    @extend .grid-col-8;
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(6);
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(8);
+  }
 }
 
 .sidebar {
-    @extend .grid-col-3;
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(6);
+    @include u-order(last)
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(4);
+    @include u-order(last)
+  }
 }

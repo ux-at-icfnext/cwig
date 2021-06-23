@@ -5,6 +5,18 @@ title: Forms
 usa-link: https://designsystem.digital.gov/components/form/
 ---
 
+<div class="sidebar"  markdown="1">
+### Form Controls
+{% for item in site.data.navigation.library %}
+{% if item.text == "Forms" %}
+<ul>
+{% for entry in item.subpages %}
+<li><a href="{{ entry.href }}">{{ entry.text }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+</div>
 
 <div class="article" markdown="1">
 
@@ -53,15 +65,3 @@ Please be aware of these entities as you review each form element.
 
 </div>
 
-<div class="sidebar"  markdown="1">
-### Form Controls
-{% for item in site.data.navigation.library %}
-{% if item.text == "Forms" %}
-<ul>
-{% for entry in item.subpages %}
-<li><a href="{{ entry.href }}">{{ entry.text }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
-{% endfor %}
-</div>

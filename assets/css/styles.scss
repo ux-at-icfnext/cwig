@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include_relative uswds.css %}
+@import "uswds/uswds.scss";
 {% include_relative library-styles.scss %}
 {% include_relative syntax.scss %}
 {% include patterns/patterns.scss %}
