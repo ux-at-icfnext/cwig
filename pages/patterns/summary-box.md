@@ -9,7 +9,7 @@ description:  A summary box highlights key information from a longer page or dis
 
 usa-link: https://designsystem.digital.gov/components/summary-box/
 specification: 
-on click of links displays destination in current window 
+OnClick/OnTap of links displays destination in current window 
   on hover display hover state 
   
 schema: 

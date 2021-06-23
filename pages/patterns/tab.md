@@ -9,7 +9,8 @@ description:  |
 usa-link: 
 specification: |
   
-OnClick/OnTap of tab, user is taken to the section associated with that tab.
+OnClick/OnTap of tab, the associated page is displayed
+
 schema: 
   - fieldname: heading
     class-name: usa-accordion__heading

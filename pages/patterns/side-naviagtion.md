@@ -9,7 +9,7 @@ description:  |
  Hierarchical, vertical navigation to place at the side of a page.
 usa-link: https://designsystem.digital.gov/components/side-navigation/
 specification: |
-    on click of links displays destination in current window 
+    OnClick/OnTap of links displays destination in current window 
   on hover display hover state 
 schema: 
   - fieldname: heading

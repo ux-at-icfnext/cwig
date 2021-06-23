@@ -9,7 +9,7 @@ description:  |
  Users enter the of information in a form’s text input. OnClick/OnTap of button information is entered.
 usa-link: https://designsystem.digital.gov/components/search/
 specification: |
-   on slide user can make selection from a range
+  
 schema: 
   - fieldname: heading
     class-name: usa-accordion__heading

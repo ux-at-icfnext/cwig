@@ -9,7 +9,7 @@ description:  |
 A range slider allows users to choose an approximate number from a range.
 usa-link: https://designsystem.digital.gov/components/range-slider/
 specification: |
-   on slide user can make selection from a range
+   OnSlide user can make selection from a range
 schema: 
   - fieldname: heading
     class-name: usa-accordion__heading

@@ -10,8 +10,7 @@ description: |
     Checkboxes are an easily understandable way to indicate that users can select one or more answers to a question or items from a list. They’re always followed by a label or instructions that clearly indicate what checking the box represents." 
 usa-link: https://designsystem.digital.gov/components/checkbox/
 specification: |
-on click of unselected checkhbox, element is selected.
-on click of selected checkbox, element is unselected.
+The default state should have nothing selected. OnClick/OnTap, checkbox goes between selected and unselected state.
 
 
 last-updated: 5/26/2021

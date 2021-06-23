@@ -9,7 +9,9 @@ description:  |
 Radio buttons allow users to select exactly one choice from a group.
 usa-link: https://designsystem.digital.gov/components/radio-buttons/
 specification: |
-   on click one radio butti=on is selected and if another radio button is selected it becomes unselected
+   OnClick/OnTap, radio button goes between selected and unselected state.
+
+Only one radio button can be selected out at a time. If the user selects an option, the previous option becomes unselected.
 schema: 
   - fieldname: heading
     class-name: usa-accordion__heading
