@@ -9,7 +9,11 @@ description:  |
 usa-link: 
 specification: |
   
-OnClick/OnTap of tab, the associated page is displayed
+On default,
+
+The first tab is selected. In this state the tab is not clickable/tapable and appears visibly as disabled. The tabs’ content is exposed.
+The other tabs are clickable/tapable and appear visibly as clickable/tapable.
+OnClick / OnTab of a tab, that tab becomes the selected tab, it is not longer clickable and appears visibly as disabled. The tabs’ content is exposed.
 
 schema: 
   - fieldname: heading

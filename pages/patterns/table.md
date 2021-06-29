@@ -10,7 +10,7 @@ description:  A table shows information in columns and rows.
 
 usa-link: https://designsystem.digital.gov/components/table/
 specification: 
-Tables are UI. Uusally not clickable.
+Tables are UI.  They contain content but are not clickable.
 
 
   

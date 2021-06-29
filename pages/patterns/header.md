@@ -9,7 +9,8 @@ description:  A header helps users identify where they are and provide a quick, 
 
 usa-link: https://designsystem.digital.gov/components/header/
 specification: 
-A header is non-clicklable content
+on click of links displays destination in current window 
+on hover display hover state 
   
 schema: 
   - fieldname: heading
