@@ -2,6 +2,7 @@
 ---
 
 @import "uswds/uswds.scss";
+{% include_relative colors.scss %}
 {% include_relative library-styles.scss %}
 {% include_relative syntax.scss %}
 {% include patterns/patterns.scss %}
