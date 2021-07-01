@@ -37,7 +37,7 @@ Button text should be as short as possible and lead with action words that clear
 
 ## Accessibility
 It is critical that buttons conform to Section 508 best practices so that they can be used successfully by everyone. 
-So, contrast of the button and text colors should meet W3C guidelines and alt text is required for all button text, except for disabled buttons (as disabled elements do not need to be read). 
+So, contrast of the button and text colors should meet W3C guidelines and alt text is required for all button text, except for disabled buttons (as disabled elements do not need to be read). Disabled buttons are exempt from the minimum contrast ratio requirements.
 Note that these buttons, if used as designed, are 508 compliant.
 
 
