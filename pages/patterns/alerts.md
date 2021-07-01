@@ -40,9 +40,5 @@ schema:
     required: 
     content: (icons live in the uswds images folder)
 
-
-
-
-last-updated: 5/18/2021
 ---
 

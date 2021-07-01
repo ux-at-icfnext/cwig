@@ -5,3 +5,48 @@
     padding: 20px;
     box-shadow: 2px 2px #d3d3d3;
 }
+
+.col-2 {
+    @include grid-row;
+}
+.article {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(9);
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(8);
+  }
+}
+
+.left-nav {
+  display: none;
+
+  @include at-media(desktop) {
+    @include grid-col(3);
+    display: block;
+  }
+}
+
+.sidebar {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(3);
+    @include u-order(last)
+  }
+
+  @include at-media(desktop) {
+    @include grid-col(4);
+    @include u-order(last)
+  }
+}
+
+// pull quote
+.quote {
+    margin-left: 10px; 
+    border-left: 1px solid color("primary"); // this should be the link color -- need to come back and check
+    padding-left: 10px;
+}
