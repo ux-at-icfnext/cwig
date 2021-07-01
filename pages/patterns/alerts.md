@@ -42,3 +42,6 @@ schema:
 
 ---
 
+### Accessibility
+Besure to use the correct heading level when implementing alerts. Besure not to skip heading levels.
+When implementing alerts for form validation it is important to convey the number of errors, state which form field is in error and provide instructions to users on how to receover from the error
