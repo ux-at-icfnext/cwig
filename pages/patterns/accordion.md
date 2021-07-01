@@ -32,11 +32,10 @@ schema:
     content: icons are set in the USWDS base styles using "fas fa-plus" and "fas fa-minus".
  
 
-last-updated: 5/18/2021
+
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-
 
 ### Accessibility:
 When implementing an accordion on a page, the trigger's heading level may need to change. The heading level for the trigger is based on the heading level of the section of the page that the accordion is resides in. If the accordion is added to a section that has a heading level 3 then the trigger for the accordion would be a heading level 4 (as in this example). But if the accordion is implemented in a section with a heading level 2 then the accordion trigger would need to be a heading level 3 to maintain a logical heading order hirearchy.
