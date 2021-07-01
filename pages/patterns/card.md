@@ -45,4 +45,7 @@ last-updated: 6/26/2021
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
 
+### Accessibility
+Be mindful of the heading level elment used for the card title. Ensure the heading level matches the current pages structure
+Be mindful of using Buttons/links as needed for the CTA. Links are used to take users to different pages or jump users to sectrions of the current page. Buttons should be used for actions
 
