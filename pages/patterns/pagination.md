@@ -1,31 +1,19 @@
 ---
 layout: patterns
-permalink: /pagination
+
+permalink: "/pagination"
 title:  Pagination
 description: |
-  The pagination component allows the user to navigate between pages. This is best used for long blocks of information or in search experiences where the return is over 15 items.
+  Paginated content is any content split into multiple pages determined only by a specific amount of content per page, not split by any meaningful attribute, like feature or subject or step. Search results and article collections are often paginated. Readers use the pagination component to move from page to page in paginated content, or directly to the first or last page of the paginated set.
 usa-link: https://designsystem.digital.gov/components/pagination/
-htmlpath: /patterns/pagination/pagination.md
-csspath: /patterns/pagination/pagination.scss
+htmlpath: "patterns/pagination/pagination.md"
+csspath: "patterns/pagination/pagination.scss"
+varspath: # path to variations html file
 specification: |
-  OnClick/OnTap of number the associated page is displayed
-  
-  **Previous / Start** If user on the first page, links “previous” & “start” do not display. However, on every other page that are displayed OnClick/OnTap of previous, system displays page before current page OnClick/OnTap of start, system displays the first page
-
-  **Next / Last** If user on the last page, links “next” & “last” do not display. However, on every other page that are displayed OnClick/OnTap of next, system displays page after current page OnClick/OnTap of last, system displays the last page
-schema: # example schema below .. repeat sets for as many fields as you have
-  - fieldname: title
-    class-name: usa-classname
-    required: true
-    type: h3
-    content: 80 characters
-    example: "Cats are really cool dudes"
-  - fieldname: body
-    class-name: usa-classname
-    type: text
-    character: 140 characters
-    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
-
+  - The objects in the pagination componet are refered to as "slots" by the USWDS. 
+  - On the first page, the "Previous" link is hidden
+  - On the last page, or if the paging "slots" is less than 4, the Next link is hidden
+  - OnClick/OnTap button system displays target page
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
