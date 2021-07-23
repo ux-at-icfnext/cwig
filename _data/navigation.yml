@@ -41,6 +41,8 @@ library:
     subpages:
       - text: Checkbox
         href: /checkbox/
+      - text: Combo Box
+        href: /combo-box
       - text: Date Picker
         href: /date-picker/
       - text: Date Range Picker
