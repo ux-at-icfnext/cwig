@@ -10,6 +10,7 @@
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_before"></use>
         </svg>
+
         <span class="usa-pagination__link-text"> Previous </span>
       </a>
     </li>
@@ -23,12 +24,14 @@
         1
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -38,6 +41,7 @@
         9
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -48,6 +52,7 @@
         10
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -57,12 +62,14 @@
         11
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -72,6 +79,7 @@
         24
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
@@ -79,6 +87,7 @@
         aria-label="Next page"
       >
         <span class="usa-pagination__link-text"> Next </span>
+
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
         </svg>
@@ -99,6 +108,7 @@
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_before"></use>
         </svg>
+
         <span class="usa-pagination__link-text"> Previous </span>
       </a>
     </li>
@@ -112,12 +122,14 @@
         1
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -127,6 +139,7 @@
         9
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -137,6 +150,7 @@
         10
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -146,6 +160,7 @@
         11
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -155,12 +170,14 @@
         12
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
@@ -168,6 +185,7 @@
         aria-label="Next page"
       >
         <span class="usa-pagination__link-text"> Next </span>
+
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
         </svg>
@@ -189,6 +207,7 @@
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_before"></use>
         </svg>
+
         <span class="usa-pagination__link-text"> Anterior </span>
       </a>
     </li>
@@ -202,12 +221,14 @@
         1
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -217,6 +238,7 @@
         9
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -227,6 +249,7 @@
         10
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -236,12 +259,14 @@
         11
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -251,6 +276,7 @@
         24
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
@@ -258,6 +284,7 @@
         aria-label="Siguiente página"
       >
         <span class="usa-pagination__link-text"> Siguiente </span>
+
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
         </svg>
@@ -280,6 +307,7 @@
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_before"></use>
         </svg>
+
         <span class="usa-pagination__link-text"> Anterior </span>
       </a>
     </li>
@@ -293,12 +321,14 @@
         1
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -308,6 +338,7 @@
         9
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -318,6 +349,7 @@
         10
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -327,6 +359,7 @@
         11
       </a>
     </li>
+
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
@@ -336,12 +369,14 @@
         12
       </a>
     </li>
+
     <li
       class="usa-pagination__item usa-pagination__overflow"
       role="presentation"
     >
       <span> … </span>
     </li>
+
     <li class="usa-pagination__item usa-pagination__arrow">
       <a
         href="javascript:void(0);"
@@ -349,6 +384,7 @@
         aria-label="Siguiente página"
       >
         <span class="usa-pagination__link-text"> Siguiente </span>
+
         <svg class="usa-icon" aria-hidden="true" role="img">
           <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
         </svg>

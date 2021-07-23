@@ -1,5 +1,6 @@
 ---
 layout: patterns
+
 permalink: "/pagination"
 title:  Pagination
 description: |
