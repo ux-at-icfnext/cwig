@@ -11,8 +11,8 @@ description: |
     Finally, a card is modular. This means that you can vary the order of cards in a collection without destroying any individual card’s meaning." 
 usa-link: https://designsystem.digital.gov/components/card/
 specification: |
-  on click of card system displays destination in current window 
-  on hover display hover state  
+  OnClick/OnTap of card system displays destination in current window 
+  OnHover display hover state  
 schema: 
   - fieldname: title
     class-name: usa-card__heading
