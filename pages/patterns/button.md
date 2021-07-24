@@ -44,8 +44,8 @@ Note that these buttons, if used as designed, are 508 compliant.
 
 ## Analytics Tracking
 In general, all buttons should have tracking. This allows analytics for user actions on the site. 
-SAMHSA developers need to ensure that there is some identifying feature on the button such as a click ID or click class. 
-Analytics events are set-up by the HHS analytics team once the web page is deployed.##
+Developers need to ensure that there is some identifying feature on the button such as a click ID or click class. 
+Analytics events are set-up by the HHS analytics team once the web page is deployed.
 
 ## Buttons with input boxes
 Input box with single button The button is attached to the end of the input box in large spaces – or stacked on smaller spaces.
