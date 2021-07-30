@@ -1,8 +1,6 @@
+
 <div class="usa-identifier">
-  <section
-    class="usa-identifier__section usa-identifier__section--masthead"
-    aria-label="Agency identifier,,,"
-  >
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,,,">
     <div class="usa-identifier__container">
       <div class="usa-identifier__logos">
         <a href="javascript:void(0);" class="usa-identifier__logo">
@@ -34,7 +32,7 @@
   </section>
   <nav
     class="usa-identifier__section usa-identifier__section--required-links"
-    aria-label="Important links,,,"
+    aria-label="Links to help navigate the policies and procedures for Child Welfare Gateway."
   >
     <div class="usa-identifier__container">
       <ul class="usa-identifier__required-links-list">
