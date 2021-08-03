@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>Icons</h1>
+
+{{ page.description  | markdownify}}
+{% if page.repository-link %}
+    Check out the full icon repository at <a href="{{ page.repository-link }}"> {{ page.repo-name }} </a>
+{% endif %}
+
+<h2> Examples of most commonly used icons</h2>
+{% assign icon_files = site.static_files | where: "icon", true %}
+{% for myicon in icon_files %}
+    <img src="{{ myicon.path }}" class="library-icons">
+{% endfor %}
+
+{{ page.content  | markdownify }}

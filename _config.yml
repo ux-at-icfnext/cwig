@@ -4,7 +4,7 @@ defaults:
   - scope:
       path: "assets/img/icons"
     values: 
-      image: true
+      icon: true
   - scope:
       path: "" # an empty string means all files in the project
       type: "pages"
