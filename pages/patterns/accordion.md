@@ -12,7 +12,7 @@ specification: |
   - On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
   - On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
   This component uses javascript functionality to work. Please see the documentation on USWDS for more information.
-schema: 
+Content Specifications: 
   - fieldname: heading
     class-name: usa-accordion__heading
     required: true
