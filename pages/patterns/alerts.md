@@ -14,9 +14,9 @@ specification: |
 schema: 
   - fieldname: heading
     class-name: usa-alert__heading
-    type: h4
+    type: h3
     required: on standard type only
-    content: 80 characters
+    content: 60` characters
     example: "Watch out for Cat Zombies"
   - fieldname: body
     class-name: usa-alert__text
@@ -37,7 +37,7 @@ schema:
   - fieldname: icon
     type: icon
     class-name: (icons are set in the base uswds-styles )
-    required: 
+    required: true
     content: (icons live in the uswds images folder)
 
 ---
