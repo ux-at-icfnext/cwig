@@ -16,20 +16,20 @@ schema:
   - fieldname: heading
     class-name: usa-accordion__heading
     required: true
-    type: h4
+    type: plain text
     content: 80 characters
     example: "First Amendment"
   - fieldname: body
     class-name: usa-accordion__content
     required: true
-    type: rich text
+    type: plain text
     content: 500 characters
     example: 
   - fieldname: button
     class-name: usa-accordion__button
     required: true
     type: button
-    content: icons are set in the USWDS base styles using "fas fa-plus" and "fas fa-minus".
+    content: "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances."
  
 
 
