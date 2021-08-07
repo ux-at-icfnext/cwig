@@ -11,6 +11,12 @@ description: "The banner identifies official websites of government organization
 usa-link: https://designsystem.digital.gov/components/banner/
 specification: |
   We will be using the default responsive banner.
+Schema:
+  - fieldname: heading
+    class-name: usa-banner
+    required: true
+    type: plain text
+    content: 60 characters
 
 
 
