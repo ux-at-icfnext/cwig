@@ -11,7 +11,13 @@ specification: |
   We will be using the default responsive breadcrumb. 
   - The current page of the breadcrumb is not clickable
   - Parent/Grandparent OnClick, system displays target page in current window.
-
+schema: 
+  - fieldname: heading
+    class-name: usa-breadcrumb
+    type: dynamic
+    required: true
+    content: 115 characters for entire hierarchy including separators
+    
 
 
 last-updated: 5/18/2021
