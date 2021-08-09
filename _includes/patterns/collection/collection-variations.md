@@ -196,7 +196,7 @@
     <h3 class="site-preview-heading">Calendar display</h3>
     <ul class="usa-collection">
   <li class="usa-collection__item">
-    <div class="usa-collection__calendar-date" href="https://www.performance.gov/presidents-winners-press-release/">
+    <div class="usa-collection__calendar-date" >
       <time datetime="2020-09-30T12:00:00+01:00">
         <span class="usa-collection__calendar-date-month">SEP</span>
         <span class="usa-collection__calendar-date-day">30</span>
@@ -210,7 +210,7 @@
     </div>
   </li>
   <li class="usa-collection__item">
-    <div class="usa-collection__calendar-date" href="https://www.performance.gov/sba-wosb-dashboard/">
+    <div class="usa-collection__calendar-date" >
       <time datetime="2020-09-30T12:00:00+01:00">
         <span class="usa-collection__calendar-date-month">SEP</span>
         <span class="usa-collection__calendar-date-day">30</span>
@@ -224,7 +224,7 @@
     </div>
   </li>
   <li class="usa-collection__item">
-    <div class="usa-collection__calendar-date" href="https://www.performance.gov/September-2020-Updates-Show-Progress/">
+    <div class="usa-collection__calendar-date">
       <time datetime="2020-09-17T12:00:00+01:00">
         <span class="usa-collection__calendar-date-month">SEP</span>
         <span class="usa-collection__calendar-date-day">17</span>
