@@ -71,8 +71,6 @@ library:
     href: /identifier/
   - text: Link
     href: /link/
-  - text: List
-    href: /list/
   - text: Modal
     href: /modal/
   - text: Process List
