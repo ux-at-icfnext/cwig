@@ -17,14 +17,14 @@ schema:
   - fieldname: title
     class-name: usa-card__heading
     required: true
-    type: h3
-    content: 80 characters
+    type: customizable heading level 
+    content: 50 characters
     example: "Cats are really cool dudes"
   - fieldname: body
     required: true
     class-name: usa-card__body
     type: text
-    content: 140 characters  
+    content: 120 characters  
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
   - fieldname: media
     type: image 

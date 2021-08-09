@@ -22,20 +22,20 @@ schema:
   - fieldname: title
     class-name: usa-collection__heading
     required: true
-    type: h3
+    type: customizable heading level
     content: 80 characters
     example: "Cats are really cool dudes"
   - fieldname: body
     class-name: usa-collection__description
     type: text
-    character: 140 characters
+    content: 320 characters
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
   - fieldname: meta-item
     class-name: "usa-collection_meta-item"
     content: "Note: there can be mutliples of this field."
     example: "can be used for items such as author or date or related link"
   - fieldname: tags
-    class-name: usa-collection_meta-item usa-tag
+    class-name: usa-collection__meta-item usa-tag
     example: see <a href="/tag">Tag</a> pattern
   - fieldname: date
     class-name: usa-collection__calendar-date
