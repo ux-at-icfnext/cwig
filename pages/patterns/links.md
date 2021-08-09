@@ -17,8 +17,12 @@ usa-link: https://designsystem.digital.gov/components/link/
 <a name="body"></a>
 ## Body Text Links
 
+- TODO: CSS guidance for link & link styling
+
 <a name="header"></a>
 ## Header Links
+
+- TODO: CSS guidance for link & link styling
 
 <a name="acc"></a>
 ## Accessibility
