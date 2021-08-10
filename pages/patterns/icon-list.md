@@ -12,19 +12,19 @@ specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: icon
     required: true
-    type: svg
+    type: image
   - fieldname: icon size
     type: size
     content: to use large icons to class usa-icon-list--size-lg {{ we should set this option in the authoring environment }}
   - fieldname: content
     type: text
     content: 140 characters
-    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
+    example: Wear mask, Wash hands frequently, Keep a minimum of 6 feet distance from others
     required: true
   - fieldname: title
-    type: h3
-    content: 250 characters
-    example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
+    type: hierarchically aligned with other tags on page
+    content: 50-60 characters
+    example: Top Ten Tips to Stay Healthy During Pandemic
   - fieldname: title size
     type: size
     content: larger text can be used in the title {{ this should be set as an option i nthe authoring environment }}
