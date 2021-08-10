@@ -12,7 +12,13 @@ specification: |
   OnClick/OnTap of links displays destination in current window 
 
   OnHover display hover state 
-
+schema: 
+  - fieldname: footer
+    class-name: usa-footer
+    type: plain text
+    required: true
+    content: standard
+    
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
