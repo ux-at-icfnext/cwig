@@ -29,7 +29,13 @@ specification: |
 
   **Error State** is a user uploads a file that does not fit the established parameters... the system displays the error state and the form is not submitted.
 
-
+schema: 
+  - fieldname: file input
+    class-name: file-input-single
+    type: attachment 
+    required: true
+    content: Pre-upload--show accepted file types. Post upload--show attached file name or partial file name
+    example: 
 
 
 last-updated: 5/26/2021
