@@ -9,6 +9,7 @@ description: |
     Scheduling. When users need to schedule or record an event and benefit from the context of a calendar.
     When the day of the week is important. When knowing the day of the week helps users choose a specific date.
 
+
 usa-link: https://designsystem.digital.gov/components/date-picker/
 specification: |
     User can enter the date manually by typing into the input box or they can use the calander to choose the date.
@@ -17,9 +18,16 @@ specification: |
     - The double arrows are used to navigate between years
     - The single arrows are used to navigate between months
     - OnClick/Tap/Focus of a day, that date is entered into the input field.
-    **Date** - The date format is in MM/DD/YYYy
+    **Date** - The date format is in MM/DD/YYYY
 
     **Error state** - The error for incorrect formatting of the date should state, "Please check that you entered the date correctly." -- *Please see the [form](/form-errors) section for more about how errors are displayed.*
+schema: 
+  - fieldname: date
+    class-name: usa-form-group
+    type: selection
+    required: true
+    content: 2-digit month, 2-digit day and 4-digit year
+    example: "January 01, 2022"
 
 last-updated: 5/26/2021
 ---
