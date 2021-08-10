@@ -25,10 +25,10 @@ schema:
     class-name: usa-label
     required: true
     type: label
-    content: 80 characters
+    content: 40 characters
   - fieldname: combo box
     class-name: usa-combo-box
-    type: select menu
+    type: multi-select
     required: true
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
