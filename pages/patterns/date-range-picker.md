@@ -15,7 +15,13 @@ specification: |
     *See [Date Picker](/date-picker) for individual input functionality*
 
     The date range picker works by syncing between two date pickers. On selection of the "to" date, the second picker "from" advances to that date in the calendar so the user can easily pick the date after.
-
+schema: 
+  - fieldname: date range
+    class-name: usa-date-range-picker
+    type: selections
+    required: true
+    content: 2-digit month, 2-digit day and 4-digit year
+    example: "January 01, 2022"
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
