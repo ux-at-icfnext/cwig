@@ -12,7 +12,7 @@ specification: # write up something cool to say here about this pattern |
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: icon
     required: true
-    type: image
+    type: svg
   - fieldname: icon size
     type: size
     content: to use large icons to class usa-icon-list--size-lg {{ we should set this option in the authoring environment }}
