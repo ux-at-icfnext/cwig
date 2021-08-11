@@ -12,7 +12,12 @@ csspath: "patterns/header/header.scss"
 
 specification: |
   The header is responsive and should adjust to fit the four breakpoints.
-
+schema: 
+  - fieldname: header
+    class-name: Dara to confirm
+    type: plain text
+    required: true
+    content: standard
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->

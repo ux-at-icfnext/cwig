@@ -3,7 +3,22 @@ layout: styles
 permalink: "/link"
 title: Links
 usa-link: https://designsystem.digital.gov/components/link/
+
+schema: 
+  - fieldname: link
+    class-name: usa-link
+    type: text
+    required: true
+    content: 
+Identify external links throughout content
+Provide required notification for nonfederal external links
+Use unique meaningful text
+Indicate nonpublic links that require authentication
+Show file type and size in MB or KB for nonHTML content, all uppercase, comma for separator 
+Encode email and phone links
+Identify jump links in body text
 ---
+
 
 ### Contents
 - [Body Text](#body)

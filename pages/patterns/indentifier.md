@@ -39,7 +39,12 @@ specification: |
   4. USA Link
     - Text: Looking for U.S. government information and services? Visit USA.gov
     - Link: "Visit USA.gov" is the link text | https://usa.gov
-
+schema: 
+  - fieldname: identifier
+    class-name: usa-identifier
+    type: banner
+    required: true
+    content: includes a site's parent agency and respective agency links
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->

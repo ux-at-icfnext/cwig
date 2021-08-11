@@ -60,6 +60,13 @@ Each form element has multiple entities that will likely play a role in its cons
 - More Information Tool Tip
 - Accessibility Rules
 
+schema: 
+  - fieldname: forms
+    class-name: @dara-icf
+    type: plain text
+    required: true
+    content: 
+    
 Please be aware of these entities as you review each form element.
 ![image that shows how to arrange form fields](assets/img/formsfields.png)
 

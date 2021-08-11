@@ -19,8 +19,8 @@ schema:
     class-name: usa-button
     required: true
     type: text
-    content: 80 characters
-    example: "Continue"
+    content: 10 characters per button. Be careful not to overwhelm users with number of button choices. Space unlike actions such as "Previous" and "Next" apart on page.
+    examples: Continue, Back, Previous, Cancel, Sign Up, Next
   - fieldname: link
     required: true
     class-name: 
