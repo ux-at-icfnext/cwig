@@ -30,7 +30,7 @@ schema:
 1. Site Name
 2. Site contact
 - Content:
-  - Label: Content Cetner
+  - Label: Content Center
   - Email: 
   - Social Links:
     - Facebook - icon: fab fa-facebook-f | link: (TBD)
