@@ -1,7 +1,7 @@
-<h3 class="site-preview-heading">Default</h3>
+<h3 class="site-preview-heading">How you get a cat to help you rule the world</h3>
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Start a process</h4>
+    <h4 class="usa-process-list__heading">Adopt a Cat</h4>
     <p class="margin-top-05">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
       ipsum sed pharetra gravida, orci magna rhoncus neque.
@@ -20,7 +20,7 @@
     </ul>
   </li>
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Proceed to the second step</h4>
+    <h4 class="usa-process-list__heading">Feed the Cat</h4>
     <p>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
       ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio
@@ -30,7 +30,7 @@
     </p>
   </li>
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Complete the step-by-step process</h4>
+    <h4 class="usa-process-list__heading">Love the Cat</h4>
     <p>
       Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat
       condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla
