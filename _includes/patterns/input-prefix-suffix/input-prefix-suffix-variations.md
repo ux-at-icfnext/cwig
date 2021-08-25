@@ -1,0 +1,44 @@
+<label class="usa-label" for="example-input-prefix">Credit card number (Using an icon font)</label>
+  <div class="usa-input-group">
+    <div class="usa-input-prefix" aria-hidden="true">
+      <i class="far fa-credit-card"></i>
+    </div>
+    <input
+      type="text"
+      id="example-input-prefix"
+      class="usa-input"
+      pattern="[0-9]*"
+      inputmode="numeric"
+    />
+  </div>
+
+  <label class="usa-label" for="example-input-prefix">Credit card number (Using an SVG)</label>
+  <div class="usa-input-group">
+    <div class="usa-input-prefix" aria-hidden="true">
+      <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
+        <use
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xlink:href="/assets/img/sprite.svg#credit_card"
+        ></use>
+      </svg>
+    </div>
+    <input
+      type="text"
+      id="example-input-prefix"
+      class="usa-input"
+      pattern="[0-9]*"
+      inputmode="numeric"
+    />
+  </div>
+
+  <label class="usa-label" for="example-input-suffix">Weight, in pounds</label>
+  <div class="usa-input-group usa-input-group--sm">
+    <input
+      type="text"
+      id="example-input-suffix"
+      class="usa-input"
+      pattern="[0-9]*"
+      inputmode="numeric"
+    />
+    <div class="usa-input-suffix" aria-hidden="true">lbs.</div>
+  </div>

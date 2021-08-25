@@ -32,8 +32,12 @@ Identify jump links in body text
 <a name="body"></a>
 ## Body Text Links
 
+- TODO: CSS guidance for link & link styling
+
 <a name="header"></a>
 ## Header Links
+
+- TODO: CSS guidance for link & link styling
 
 <a name="acc"></a>
 ## Accessibility
