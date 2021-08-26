@@ -1,0 +1,111 @@
+
+h2{
+    text-decoration: underline;
+}
+.column{
+    float: left;
+    width: 25%;
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+
+@media screen and (max-width: 600px){
+.column{
+    width:100%
+}
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.headers{
+    font-weight: bold;
+}
+
+.font__montserrat{
+    font-family: 'Montserrat';
+}
+.font__lora{
+    font-family: 'Lora';
+}
+
+
+.h1lg{
+    font-size: 38px;
+    color: #000;
+    line-height: 48px;
+    letter-spacing: normal;
+}
+.h1sm{
+    font-size: 30px;
+    color: #000;
+    line-height: 40px;
+    letter-spacing: normal;
+}
+
+.h2lg{
+    font-size: 28px;
+    color: #264A64;
+    line-height: 32px;
+    letter-spacing: 0.25px;
+}
+.h2sm{
+    font-size: 24px;
+    color: #264A64;
+    line-height: 28px;
+    letter-spacing: normal;
+}
+
+.h3{
+    font-size: 22px;
+    color:#000;
+    line-height: 23px;
+}
+
+.h4{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+
+.h5{
+    font-size: 14px;
+    color:#000;
+    line-height: 17px;
+}
+
+
+.intro__text{
+    font-family: Lora;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000;
+}
+
+.body__class{
+    font-family: 'Lora';
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+}
+
+.pholder{
+    font-family: 'Montserrat';
+    color: #71767A;
+    font-size: 16px;
+    line-height: 25px;
+}
