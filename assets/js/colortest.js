@@ -47,7 +47,7 @@ function createItem(color, desc){
 
 const paletteContainer = document.querySelector(".palette");
 
-fetch("https://4000-yellow-stork-jq32lmff.ws-us15.gitpod.io/assets/json/colors.json").then(response => {
+fetch("https://4000-yellow-stork-jq32lmff.ws-us16.gitpod.io/assets/json/colors.json").then(response => {
 	return response.json();
 }).then(colorList => {
 	for(const{desc, color} of colorList){

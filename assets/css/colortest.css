@@ -39,3 +39,15 @@ body{
 	border-top: none;
 	outline: none;
 }
+
+.color__aside{
+	float: left;
+	width:25%;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.palette__h2{
+	font-family: 'Montserrat';
+	text-decoration:underline;
+}

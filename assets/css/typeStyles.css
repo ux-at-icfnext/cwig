@@ -1,4 +1,3 @@
-
 h2{
     text-decoration: underline;
 }
@@ -30,6 +29,10 @@ h2{
 
 .right{
     text-align: right;
+}
+
+.size{
+    width: 15%;
 }
 
 .headers{
@@ -112,20 +115,105 @@ h2{
 
 .h3__link{
     text-decoration:underline;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #005DAA;
 }
 
 .link__bold{
     text-decoration:underline;
+    font-family: 18px;
+    line-height: 29px;
+    color:#005DAA;
+    font-weight: bold;
 }
 
 .h3__hover{
     text-decoration: underline;
+    font-size: 23px;
+    line-height: 24px;
+    color: #54278F;
+    font-weight: bold;
 }
 
 .link__reg{
     text-decoration: underline;
+    font-size: 16px;
+    line-height: 25px;
+    color:#005DAA;
 }
 
 .link__hover{
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 25px;
+    color:#54278F;
+}
+
+.btlg{
+    font-size: 22px;
+    line-height: 22px;
+    color: #002552;
+    font-weight: bold;
+}
+
+.btlg__outline{
+    font-size: 22px;
+    line-height: 22px;
+    color: #005DAA;
+    font-weight: bold;
+}
+
+.bt__disabled{
+    font-size: 22px;
+    line-height: 22px;
+    color: #005DAA;
+    font-weight: bold;
+}
+
+.bt__outline{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #005DAA;
+}
+
+.bt__hover{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #1A4480;
+}
+
+.bt__active{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #002552;
+}
+
+.bt__disabled__sm{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #005DAA;
+}
+.featured{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.banner__left{
+    font-style: 12px;
+    color: #000;
+}
+
+.banner__link{
+    font-size: 12px;
+    color: #1C1D1F;
     text-decoration: underline;
 }
