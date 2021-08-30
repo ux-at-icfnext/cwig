@@ -7,7 +7,7 @@ description: |
 usa-link: https://designsystem.digital.gov/components/process-list/
 htmlpath: /patterns/process-list/process-list.md
 csspath: # path to ccs file
-varspath: # path to variations html file
+varspath: /patterns/process-list/process-list-variations.md
 specification: |
   Use process lists to create a clear hierarchy and help users easily differentiate between individual steps or stages in a process.
 schema: # example schema below .. repeat sets for as many fields as you have

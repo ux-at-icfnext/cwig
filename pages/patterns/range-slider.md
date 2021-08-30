@@ -5,7 +5,7 @@ title:  Range Slider
 description: |
   A range slider allows users to choose an approximate number from a range.
 usa-link: https://designsystem.digital.gov/components/range-slider/
-htmlpath: /pattern/range-slider/range-slider.md
+htmlpath: /patterns/range-slider/range-slider.md
 csspath: # path to ccs file
 varspath: # path to variations html file
 specification: |
