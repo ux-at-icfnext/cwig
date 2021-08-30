@@ -1,62 +1,62 @@
 [
 	{
-		"desc": "Midnight Blue",
-		"color": "#002051"
+		"desc": "Navy",
+		"color": "#002552"
 	},
 	{
-		"desc": "Dim Gray",
-		"color": "#6e6e71"
-	},
-	{
-		"desc": "Light Gray",
-		"color": "#d3d4d5"
-	},
-	{
-		"desc": "Khaki",
-		"color": "#fff451"
-	},
-	{
-		"desc": "Chocolate",
-		"color": "#f3741b"
-	},
-	{
-		"desc": "Crimson",
-		"color": "#e60363"
-	},
-	{
-		"desc": "Teal",
-		"color": "#015cab"
-	},
-	{
-		"desc": "Dark Turqoise",
-		"color": "#01b0dc"
-	},
-	{
-		"desc": "Medium Purple",
-		"color": "#7f82bf"
-	},
-	{
-		"desc": "Ghost White",
-		"color": "#fbfcfd"
-	},
-	{
-		"desc": "Ghost White",
-		"color": "#f8f9fa"
-	},
-	{
-		"desc": "White Smoke",
-		"color": "#eeeff0"
+		"desc": "Dark Gray",
+		"color": "#6D6E71"
 	},
 	{
 		"desc": "Light Gray",
-		"color": "#d3d4d5"
+		"color": "#D1D3D4"
 	},
 	{
-		"desc": "Gray",
-		"color": "#71777a"
+		"desc": "Yellow",
+		"color": "#FFF453"
 	},
 	{
-		"desc": "Darkslate Gray",
-		"color": "#292a2b"
+		"desc": "Orange",
+		"color": "#F37322"
+	},
+	{
+		"desc": "Magenta",
+		"color": "#E50E63"
+	},
+	{
+		"desc": "Blue",
+		"color": "#005DAA"
+	},
+	{
+		"desc": "Light Blue",
+		"color": "#00AFDB"
+	},
+	{
+		"desc": "Lilac",
+		"color": "#7E81BE"
+	},
+	{
+		"desc": "Cool-Gray-1",
+		"color": "#FBFCFD"
+	},
+	{
+		"desc": "Cool-Gray-2",
+		"color": "#F7F9FA"
+	},
+	{
+		"desc": "Cool-Gray-5",
+		"color": "#EDEFF0"
+	},
+	{
+		"desc": "Light-Gray-20",
+		"color": "#D1D3D4"
+	},
+	{
+		"desc": "Cool-Gray-50",
+		"color": "#71767A"
+	},
+	{
+		"desc": "Cool-Gray-80",
+		"color": "#2D2E2F"
 	}
 ]
