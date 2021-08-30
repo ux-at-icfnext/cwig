@@ -2,23 +2,18 @@
 layout: patterns
 permalink: /site-alert
 title:  Site alert
-description: A site alert communicates urgent sitewide information.
+description: A site alert prominently displays critical, time-sensitive warnings or directions across every page so that users see it whenever they visit the site. Using the same site alert treatment across agencies helps create a consistent and predictable way for users to find urgent information across all government websites.
 usa-link: https://designsystem.digital.gov/components/site-alert/
 htmlpath: /patterns/site-alert/site-alert.md
 csspath: # path to ccs file
 varspath: /patterns/site-alert/site-alert-variations.md
 specification: |
-  When to use the site alert component
+   Use a site alert to deliver a static system status update, such as notices about unavailable services or content. A site alert should appear by default at full-width and positioned near the top of every page of the site so that it's one of the first things users see. 
+   
+   If there's more than one message, provide a list of links within a single site alert instead of multiple, stacked alerts. 
+   
+   Use the [alerts](/alerts) component for page-level validation messages (like error messages on a form) or to inform a user that a task was completed successfully.
 
-  **Critical system notifications.** Use a site alert to deliver a static system status update, such as notices about unavailable services or content. Site alerts should appear by default and not in response to an action.
-
-  **Messages that should be displayed on every page.** A site alert makes critical information obvious and findable on every page.
-
-  When to consider something else
-
-  **Responding to user actions.** Use the alert component for page-level validation messages (like error messages on a form) or to inform a user that a task was completed successfully.
-
-  **Validating form input.** On most forms, especially longer forms, validation messages should appear inline with error messages at the top of the form.
 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title

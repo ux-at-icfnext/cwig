@@ -9,13 +9,15 @@ htmlpath: /patterns/side-navigation/side-navigation.md
 csspath: # path to ccs file
 varspath: /patterns/side-navigation/side-navigation-variations.md
 specification: |
-  **When to use the side navigation component**
-  - To display a navigational hierarchy with one to three levels.
-  - To display the “sub-navigation” within a section of the website.
+  Side navigation should be default to have the current page link in **"active"** state to show users which page they have navigated to. If it's a child link or grandchild link, the parent link should be expanded to show the navigational hierarchy. 
 
-  **When to consider something else**
-  - **Small site.** If the site has fewer than five pages, consider organizing the page without a navigational hierarchy.
-  - **Existing navigation.** If your page already has a horizontal and vertical navigation bar, consider ways to simplify your navigation system.
+  - On click of a parent link, the parent link changes to **"active"** state and expands open to reveal the child links under it. 
+
+  - On click of a child link, the child link changes to **"active"** state and expands open to reveal the grandchild links under it. Parent link will remain **"active"**. 
+  
+  - On click of a grandchild link, the grandchild link changes to **"active"** state. 
+
+  - On hover, the menu item gets hightlighted. 
 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title

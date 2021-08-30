@@ -9,13 +9,7 @@ htmlpath: /patterns/search/search.md
 csspath: # path to ccs file
 varspath: /patterns/search/search-variations.md
 specification: |
-  **When to use the search component** 
-  
-  **Use site search.** There will always be users who would benefit from being able to search your site.
-  
-  **When to consider something else**
-  
-  **Very small sites.** On single-page or very small sites, you may be able to get away without a search bar.
+  We will be using the default search component. 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname

@@ -9,13 +9,13 @@ htmlpath: /patterns/time-picker/time-picker.md
 csspath: # path to ccs file
 varspath: # path to variations html file
 specification: |
-  When to use the time picker component
+  The time picker allows users to schedule a time from common, consistent increments, such as planning a meeting time in 30-minute blocks.
+
+  - Onclick/Ontap of the checron icon, the dropdown slides down to reveal the available time slots.
+
+  - Hover over any time slots actives hover state, click to make a selection
   
-  **Scheduling.** Use the time picker to schedule a time from common, consistent increments, such as planning a meeting time in 30-minute blocks.
-
-  When to consider something else
-
-  **Exact time.** Plain text input is more appropriate for historical exact times, like time of birth.
+  - Onclick/Ontap of the "x" icon, the selection will be cleared. 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname

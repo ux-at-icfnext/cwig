@@ -9,17 +9,12 @@ htmlpath: /patterns/text-input/text-input.md
 csspath: # path to ccs file
 varspath: /patterns/text-input/text-input-variations.md
 specification: |
-  When to use the text input component
-
-  - **Unpredictable or freeform responses.** If you can’t reasonably predict a user’s answer to a prompt and there might be wide variability in users’ answers.
-
-  - **Input simplicity.** When using another type of input will make answering more difficult. For example, birthdays and other known dates are easier to type in than they are to select from a calendar picker.
-
-  - **Pasted content.** When users want to be able to paste in a response.
+  Use the text input component for unpredictable or freeform responses and allow users to paste in a response. 
   
-  When to consider something else
+  -The length of the text input provides a hint to users as to how much text to write. Do not require users to write paragraphs of text into a single-line input box; use a text area instead.
 
-  **Predetermined input options.** When users are choosing from a specific set of options.
+  - Only show error validation messages or stylings after a user has interacted with a particular field.
+
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname

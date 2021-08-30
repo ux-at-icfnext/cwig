@@ -9,11 +9,14 @@ htmlpath: /patterns/tooltip/tooltip.md
 csspath: # path to ccs file
 varspath: /patterns/tooltip/tooltip-variations.md
 specification: |
-  When to use the tooltip component
-  - **Helpful, non-critical information.** Use tooltips to strengthen an existing message.
-  - **Enhance confidence.** Use tooltips to increase certainty about an interaction.
-  - **Brief descriptions.** Tooltips perform best with succinct helper text.
-  - **Lack of space.** Tooltips are useful as a last resort for space-constrained UI. Explore other options for keeping content visible without a tooltip.
+  Tooltips are generally used to strengthen an existing message or increase certainty about an interaction. Tooltips are useful as a last resort for space-constrained UI. Explore other options for keeping content visible without a tooltip.
+
+  - Tooltips perform best with succinct helper text.
+
+  - Use tooltips only on elements that appear interactive, like buttons or links.
+  
+  - If using tooltips in one context, use in all similar contexts.
+  
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
     class-name: usa-classname

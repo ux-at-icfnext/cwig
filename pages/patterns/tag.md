@@ -9,21 +9,12 @@ htmlpath: /patterns/tag/tag.md
 csspath: # path to ccs file
 varspath: # path to variations html file
 specification: |
-  When to use the tag component
+  - Text on the tag should be short. 
 
-  - **To draw attention to new, important content.** Tags can focus attention on important content on that might otherwise be missed.
+  - If the tags aren’t interactive, disable hover, focus, and active styles.
 
-  - **To filter results with one or more tags.**
+  - Avoid tags if they might appear in the same area of the page as buttons.
 
-  - **To indicate the number of new or unread items within a container.** For example, to indicate the number of unread emails within a person’s inbox.
-
-  When to consider something else
-
-  - **Confusion with buttons.** Avoid tags if they might appear in the same area of the page as buttons.
-
-  - **New or updated content.** To call attention to new or updated content, consider changing the background color of the object itself or experiment with changing the font weight.
-
-  - **When users already expect content to be updated frequently.** For example, on a site dedicated to breaking news. In this case placing the new content at the top may be enough.
 
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
