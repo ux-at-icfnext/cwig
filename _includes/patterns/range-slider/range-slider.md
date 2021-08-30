@@ -1,3 +1,4 @@
+
 <label class="usa-label" for="usa-range">Range slider</label>
 <input
   id="usa-range"
