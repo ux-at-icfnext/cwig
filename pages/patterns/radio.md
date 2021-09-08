@@ -1,6 +1,6 @@
 ---
 layout: patterns
-permalink: /radio-buttons
+permalink: /radio
 title:  Radio Buttons
 description: |
   The radio button component is an input type that allows the user to choose/ select one of many choices.
