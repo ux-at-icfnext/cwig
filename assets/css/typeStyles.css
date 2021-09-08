@@ -1,9 +1,15 @@
 table{
     width: 100%;
 }
-h2{
+
+h3{
     text-decoration: underline;
 }
+
+td{
+    padding-bottom: 15px;
+}
+
 .column{
     float: left;
     width: 25%;
@@ -35,7 +41,7 @@ h2{
 }
 
 .size{
-    width: 15%;
+    padding-right: 25px;
 }
 
 .headers{
