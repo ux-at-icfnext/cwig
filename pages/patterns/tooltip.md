@@ -3,7 +3,7 @@ layout: patterns
 permalink: /tooltip
 title:  Tooltip
 description: |
-  A tooltip is a short descriptive message that appears when a user hovers or focuses on an element.
+  A tooltip is a short descriptive message that appears when a user hovers, focuses, or taps on an element.
 usa-link: https://designsystem.digital.gov/components/tooltip/
 htmlpath: /patterns/tooltip/tooltip.md
 csspath: # path to ccs file
@@ -16,6 +16,8 @@ specification: |
   - Use tooltips only on elements that appear interactive, like buttons or links.
   
   - If using tooltips in one context, use in all similar contexts.
+
+  _When developing, be sure that tooltips can be accessed by keyboard, by tap on touch screens, and by screen readers_
   
 schema: # example schema below .. repeat sets for as many fields as you have
   - fieldname: title
