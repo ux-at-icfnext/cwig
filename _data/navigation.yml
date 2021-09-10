@@ -85,6 +85,8 @@ library:
     href: /step-indicator/
   - text: Summary Box
     href: /summary-box/
+  - text: Table
+    href: /table/
   - text: Tag
     href: /tag/
   - text: Tooltip
