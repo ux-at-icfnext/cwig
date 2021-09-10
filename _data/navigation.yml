@@ -75,6 +75,8 @@ library:
     href: /modal/
   - text: Process List
     href: /process-list
+  - text: Search Widget
+    href: /search-widget
   - text: Side Navigation
     href: /side-navigation/
   - text: Site Alert
@@ -83,6 +85,8 @@ library:
     href: /step-indicator/
   - text: Summary Box
     href: /summary-box/
+  - text: Table
+    href: /table/
   - text: Tag
     href: /tag/
   - text: Tooltip
