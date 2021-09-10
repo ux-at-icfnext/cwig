@@ -75,6 +75,8 @@ library:
     href: /modal/
   - text: Process List
     href: /process-list
+  - text: Search Widget
+    href: /search-widget
   - text: Side Navigation
     href: /side-navigation/
   - text: Site Alert

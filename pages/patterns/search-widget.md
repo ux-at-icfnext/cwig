@@ -1,7 +1,7 @@
 ---
 layout: patterns
-permalink: /search
-title: Search
+permalink: /search-widget
+title: Search Widget
 description: |
   Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 usa-link: https://designsystem.digital.gov/components/search/
