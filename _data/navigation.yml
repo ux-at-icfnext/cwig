@@ -8,6 +8,8 @@ primary:
     href: /start/
   - text: Library
     href: /library/
+  - text: Guidance
+    href: /guidance/
   - text: Docs
     href: /docs/
   - text: Updates
@@ -92,3 +94,6 @@ library:
   - text: Tooltip
     href: /tooltip/
 
+guidance:
+  - text: Printing Guidance
+    href: /printing/
