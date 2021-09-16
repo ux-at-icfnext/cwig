@@ -6,6 +6,10 @@
     box-shadow: 2px 2px #d3d3d3;
 }
 
+.col-1 {
+  max-width: 72ex;
+  margin: auto;
+}
 .col-2 {
     @include grid-row;
 }

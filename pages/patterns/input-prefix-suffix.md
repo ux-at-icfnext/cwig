@@ -12,7 +12,12 @@ specification: |
   - SVG icons can be used in either the prefix or suffix space. Make sure to fit the icon to the space when choosing from the Font Awesome repository.
   - Icon fonts. Font Awesome can also be used in icon format... please see the variations below.
   - Text can also be used in the prefix or suffix space.
-
+schema: 
+  - fieldname: input prefix suffix
+    class-name: usa-input-group
+    type: icon or text
+    required: true
+    content: indicates the expected input for user input, which may include a simple label for the field, format requirements or additional details to prevent an error message
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
