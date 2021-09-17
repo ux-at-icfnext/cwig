@@ -1,0 +1,16 @@
+<ul>
+   {% for item in site.data.navigation.primary %}
+      <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+   {% endfor %}
+</ul>
+
+
+<nav aria-label="Primary navigation" class="usa-nav">
+   <button class="usa-nav__close"><img src="/assets/img/usa-icons/close.svg" role="img" alt="close"></button>
+<ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+{% for item in site.data.navigation.primary %}
+   <li><a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a></li>
+{% endfor %}
+ </li>
+</ul>
+</nav>
