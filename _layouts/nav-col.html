@@ -6,61 +6,16 @@ layout: default
 
 <div class="col-2">
     <div class="left-nav" markdown="1">      
-        <ul>
-            <li><a href="/grids/">Grids &amp; Layouts</a></li>
-         
-            <li><a href="/styles/">Styles</a></li>
-         
-            <li><a href="/accordion/">Accordion</a></li>
-         
-            <li><a href="/alerts/">Alerts</a></li>
-         
-            <li><a href="/banner/">Banner</a></li>
-         
-            <li><a href="/breadcrumb/">Breadcrumb</a></li>
-         
-            <li><a href="/button/">Button</a></li>
-         
-            <li><a href="/button-group/">Button Group</a></li>
-         
-            <li><a href="/card/">Card</a></li>
-         
-            <li><a href="/collection/">Collection</a></li>
-         
-            <li><a href="/footer/">Footer</a></li>
-         
-            <li><a href="/forms/">Forms</a></li>
-         
-            <li><a href="/header/">Header</a></li>
-         
-            <li><a href="/icons/">Icon</a></li>
-         
-            <li><a href="/icon-list/">Icon List</a></li>
-         
-            <li><a href="/identifier/">Indentifier</a></li>
-         
-            <li><a href="/link/">Link</a></li>
-         
-            <li><a href="/modal/">Modal</a></li>
-         
-            <li><a href="/process-list">Process List</a></li>
-         
-            <li><a href="/search-widget">Search Widget</a></li>
-         
-            <li><a href="/side-navigation/">Side Navigation</a></li>
-         
-            <li><a href="/site-alert/">Site Alert</a></li>
-         
-            <li><a href="/step-indicator/">Step Indicator</a></li>
-         
-            <li><a href="/summary-box/">Summary Box</a></li>
-         
-            <li><a href="/table/">Table</a></li>
-         
-            <li><a href="/tag/">Tag</a></li>
-         
-            <li><a href="/tooltip/">Tooltip</a></li>
-      </ul>
+        <aside class="sidenav" id="page-side-navigation">
+            <ul class="site-sidenav usa-sidenav">
+             {% for item in site.data.navigation.library %}
+                <li class="usa-sidenav__item">
+                    <a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a> 
+                </li>
+             {% endfor %}
+          
+            </ul>
+       </aside>
     </div>
-    <div class="article" markdown="1">{{content}}</div>
+    <div class="article" markdown="1" style="padding-left: 20px;">{{content}}</div>
 </div>
