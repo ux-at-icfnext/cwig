@@ -1,3 +1,9 @@
+<style>
+ .active{
+  text-decoration: underline;
+ }
+</style>
+
 <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
 <div class="usa-overlay"></div>
@@ -13,7 +19,13 @@
       <button class="usa-nav__close"><img src="/assets/img/usa-icons/close.svg" role="img" alt="close"></button>
 <ul class="usa-nav__primary usa-accordion">
   {% for item in site.data.navigation.primary %}
-      <li class="usa-nav__primary-item"><a class="usa-nav__link" href="{{ item.href }}"><span>{{ item.text }}</span></a></li>
+    {% if item.href contains page.url %}
+      <li class="usa-nav__primary-item active">
+      {% else %}
+      <li class="usa-nav__primary-item">
+    {% endif %}
+        <a class="usa-nav__link" href="{{ item.href }}"><span>{{ item.text }}</span></a>
+    </li>
   {% endfor %}
 </ul>
 </nav>

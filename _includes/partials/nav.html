@@ -14,3 +14,10 @@
  </li>
 </ul>
 </nav>
+
+
+{% for item in site.data.navigation.library %}
+                    <li class="usa-sidenav__item">
+                        <a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a> 
+                    </li>
+                 {% endfor %}
