@@ -17,81 +17,119 @@ primary:
 
 library:
   - text: Grids & Layouts
+    desc: The grid system uses a series of containers, rows, and columns to lay out and align content.
     href: /grids/
   - text: Styles
+    desc: Here goes a description
     href: /styles/
   - text: Accordion
+    desc: An accordion is a list of headers that hide or reveal additional content when selected.
     href: /accordion/
   - text: Alerts
+    desc: An alert keeps users informed of important and sometimes time-sensitive changes.
     href: /alerts/
   - text: Banner
+    desc: Here goes a description
     href: /banner/
   - text: Breadcrumb
+    desc: Here goes a description
     href: /breadcrumb/
   - text: Button
+    desc: Here goes a description
     href: /button/
   - text: Button Group
+    desc: Here goes a description
     href: /button-group/
   - text: Card
+    desc: Here goes a description
     href: /card/
   - text: Collection
+    desc: Here goes a description
     href: /collection/
   - text: Footer
+    desc: Here goes a description
     href: /footer/
   - text: Forms
+    desc: Here goes a description
     href: /forms/
     subpages:
       - text: Checkbox
+        desc: Here goes a description
         href: /checkbox/
       - text: Combo Box
+        desc: Here goes a description
         href: /combo-box
       - text: Date Picker
+        desc: Here goes a description
         href: /date-picker/
       - text: Date Range Picker
+        desc: Here goes a description
         href: /date-range-picker/
       - text: Dropdown
+        desc: Here goes a description
         href: /dropdown/
       - text: File Input
+        desc: Here goes a description
         href: /file-input/
       - text: Input prefix or suffix
+        desc: Here goes a description
         href: /input-fix/
       - text: Radio Buttons
+        desc: Here goes a description
         href: /radio/
       - text: Range Slider
+        desc: Here goes a description
         href: /range-slider/
       - text: Text input
+        desc: Here goes a description
         href: /text-input/
       - text: Time Picker
+        desc: Here goes a description
         href: /time-picker/
   - text: Header
+    desc: Here goes a description
     href: /header/
   - text: Icon
+    desc: Here goes a description
     href: /icons/
   - text: Icon List
+    desc: Here goes a description
     href: /icon-list/
   - text: Indentifier
+    desc: Here goes a description
     href: /identifier/
   - text: Link
+    desc: Here goes a description
     href: /link/
   - text: Modal
+    desc: Here goes a description
     href: /modal/
   - text: Process List
+    desc: Here goes a description
     href: /process-list
   - text: Search Widget
+    desc: Here goes a description
     href: /search-widget
   - text: Side Navigation
+    desc: Here goes a description
     href: /side-navigation/
   - text: Site Alert
+    desc: Here goes a description
     href: /site-alert/
   - text: Step Indicator
+    desc: Here goes a description
     href: /step-indicator/
   - text: Summary Box
+    desc: Here goes a description
     href: /summary-box/
   - text: Table
+    desc: Here goes a description
     href: /table/
   - text: Tag
+    desc: Here goes a description
     href: /tag/
   - text: Tooltip
+    desc: Here goes a description
     href: /tooltip/
 
 guidance:
