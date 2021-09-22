@@ -1,0 +1,36 @@
+.description{
+    background-color: yellow;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+
+.image_screenshot{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.functionality{
+    float: right;
+    width: 70%;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.content_specs{
+    background-color: brown;
+    padding: 20px;
+}
+.footer{
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}

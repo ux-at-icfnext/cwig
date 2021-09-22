@@ -20,7 +20,8 @@ library:
     desc: The grid system uses a series of containers, rows, and columns to lay out and align content.
     href: /grids/
   - text: Styles
-    desc: Here goes a description
+    desc: USWDS visual design is based on consistent palettes of typography, spacing units, color, 
+          and other discrete elements of style.
     href: /styles/
   - text: Accordion
     desc: An accordion is a list of headers that hide or reveal additional content when selected.
@@ -29,107 +30,119 @@ library:
     desc: An alert keeps users informed of important and sometimes time-sensitive changes.
     href: /alerts/
   - text: Banner
-    desc: Here goes a description
+    desc: The banner identifies official websites of government organizations in the United States. 
+          It also helps visitors understand how to tell that a website is both official and secure.
     href: /banner/
   - text: Breadcrumb
-    desc: Here goes a description
+    desc: Breadcrumbs provide secondary navigation to help users understand where they are
+          in a website.
     href: /breadcrumb/
   - text: Button
-    desc: Here goes a description
+    desc: A button draws attention to important actions with a large selectable surface.
     href: /button/
   - text: Button Group
-    desc: Here goes a description
+    desc: A button group collects similar or related actions.
     href: /button-group/
   - text: Card
-    desc: Here goes a description
+    desc: Cards contain content and actions about a single subject.
     href: /card/
   - text: Collection
-    desc: Here goes a description
+    desc: A collection displays a compact list of multiple related items like articles or
+          events. The list links each item to its original source.
     href: /collection/
   - text: Footer
-    desc: Here goes a description
+    desc: A footer serves site visitors who arrive at the bottom of a page without finding
+          what they want.
     href: /footer/
   - text: Forms
-    desc: Here goes a description
+    desc: A form allows users to enter information into a page.
     href: /forms/
     subpages:
       - text: Checkbox
-        desc: Here goes a description
+        desc: Checkboxes allow users to select one or more options from a list.
         href: /checkbox/
       - text: Combo Box
-        desc: Here goes a description
+        desc: A combo box helps users select an item from a large list of options.
         href: /combo-box
       - text: Date Picker
-        desc: Here goes a description
+        desc: A date picker helps users select a single date.
         href: /date-picker/
       - text: Date Range Picker
-        desc: Here goes a description
+        desc: A date range picker helps users select a range between two dates.
         href: /date-range-picker/
       - text: Dropdown
-        desc: Here goes a description
+        desc: A dropdown allow users to select one option from a temporary modal menu.
         href: /dropdown/
       - text: File Input
-        desc: Here goes a description
+        desc: File input allows users to attach one or multiple files.
         href: /file-input/
       - text: Input prefix or suffix
-        desc: Here goes a description
+        desc: Use input prefixes and suffixes to show symbols or abbreviations that
+              help users enter the right type of information in a form’s text input.
         href: /input-fix/
       - text: Radio Buttons
-        desc: Here goes a description
+        desc: Radio buttons allow users to select exactly one choice from a group.
         href: /radio/
       - text: Range Slider
-        desc: Here goes a description
+        desc: A range slider allows users to choose an approximate number from a range.
         href: /range-slider/
       - text: Text input
-        desc: Here goes a description
+        desc: A text input allows users to enter any combination of letters, numbers,
+              or symbols. Text input boxes can span single or multiple lines.
         href: /text-input/
       - text: Time Picker
-        desc: Here goes a description
+        desc: A time picker helps users select a specific time.
         href: /time-picker/
   - text: Header
-    desc: Here goes a description
+    desc: A header helps users identify where they are and provide a quick, organized 
+          way to reach the main sections of a website.
     href: /header/
   - text: Icon
-    desc: Here goes a description
+    desc: Icons help communicate meaning, actions, status, or feedback.
     href: /icons/
   - text: Icon List
-    desc: Here goes a description
+    desc: An icon list reinforces the meaning and visibility of individual list items 
+          with a leading icon.
     href: /icon-list/
   - text: Indentifier
-    desc: Here goes a description
+    desc: The identifier communicates a site’s parent agency and displays agency links 
+          required by federal laws and policies.
     href: /identifier/
   - text: Link
-    desc: Here goes a description
+    desc: A link connects users to a different page or further information.
     href: /link/
   - text: Modal
-    desc: Here goes a description
+    desc: A modal disables page content and focuses the user’s attention on a single
+          task or message.
     href: /modal/
   - text: Process List
-    desc: Here goes a description
+    desc: A process list displays the steps or stages of important instructions or processes.
     href: /process-list
   - text: Search Widget
-    desc: Here goes a description
+    desc: Search allows users to search for specific content if they know what search terms
+          to use or can’t find desired content in the main navigation
     href: /search-widget
   - text: Side Navigation
-    desc: Here goes a description
+    desc: Hierarchical, vertical navigation to place at the side of a page.
     href: /side-navigation/
   - text: Site Alert
-    desc: Here goes a description
+    desc: A site alert communicates urgent sitewide information.
     href: /site-alert/
   - text: Step Indicator
-    desc: Here goes a description
+    desc: A step indicator updates users on their progress through a multi-step process.
     href: /step-indicator/
   - text: Summary Box
-    desc: Here goes a description
+    desc: A summary box highlights key information from a longer page or displays next steps.
     href: /summary-box/
   - text: Table
-    desc: Here goes a description
+    desc: A table shows information in columns and rows.
     href: /table/
   - text: Tag
-    desc: Here goes a description
+    desc: A tag draws attention to new or categorized content elements.
     href: /tag/
   - text: Tooltip
-    desc: Here goes a description
+    desc: A tooltip is a short descriptive message that appears when a user hovers or focuses 
+          on an element.
     href: /tooltip/
 
 guidance:
