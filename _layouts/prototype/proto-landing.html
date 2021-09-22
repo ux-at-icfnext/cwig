@@ -1,0 +1,17 @@
+---
+layout: prototype/proto-default
+---
+
+<div class="feature">
+    <img src="{{ page.feature-image }}">
+</div>
+
+<div id="main-content" class="grid-container">
+    <h1> {{ page.title }}</h1>
+    <p class="into-text">{{ page.intro | markdowify}}</p>
+    <div class="resources">
+        {% for card in page.cards %}
+            {% include patterns/card/card-wide-jk.md  data=card %}
+        {% endfor %}
+    </div>
+</div>
