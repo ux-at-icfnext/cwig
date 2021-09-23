@@ -16,7 +16,15 @@ collections:
       - {label: "Layout", name: "prototype/proto-landing", widget: "hidden", default: "default"}
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Featured Image", name: "featured-image", widget: "string", required: true}
+      - {label: "Featured Image", name: "feature-image", widget: "image", required: true}
       - {label: "Introduction", name: "intro", widget: "text"}
       - {label: "Card Schema", name: "cards", widget: "text", required: true}
+      - label: "Card Schema"
+        name: "cards"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+          - { label: "Button label", name: "button", widget: "string" }
       
