@@ -10,4 +10,8 @@ cards:
       image: "road-2.jpg"
       body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae. Excepturi nobis dolores molestias! Quas quisquam a officia eos."
       button: "View more"
+    - title: "Card with media"
+      image: "road-2.jpg"
+      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae. Excepturi nobis dolores molestias! Quas quisquam a officia eos."
+      button: "View more"
 ---

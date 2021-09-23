@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: ux-at-icfnext/cwig # Path to your GitHub repository
+  netlify.configure({'site_id': cwig-pattern-library.netlify.app);
+  # optional, defaults to master
+  branch: main
+
+media_folder: "assets/img/prototype"
+
+collections:
+  - label: "Landing Pages"
+    name: "Landing pages"
+    folder: "pages/prototype/landingpages"
+    create: true
+    fields:
+      - {label: "Layout", name: "prototype/proto-landing", widget: "hidden", default: "default"}
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Featured Image", name: "featured-image", widget: "string", required: true}
+      - {label: "Introduction", name: "intro", widget: "text"}
+      - {label: "Card Schema", name: "cards", widget: "markdown", required: true}
+      
