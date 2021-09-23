@@ -2,7 +2,7 @@
 <li class="grid-col-4 usa-card">
     <div class="usa-card__container">
         <header class="usa-card__header">
-            <h2 class="usa-card__heading">{{ include.data.title | default:'USA Card with Media' }}</h2>
+            <h2 class="usa-card__heading">{{ include.data.card-title | default:'USA Card with Media' }}</h2>
         </header>
         <div class="usa-card__media">
             <div class="usa-card__img">
