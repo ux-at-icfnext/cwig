@@ -17,7 +17,7 @@ cards:
       coloration. "
     button: About Pumpkins
   - card-title: Stopping to admire the yellow stripes
-    image: road-2.jpg
+    image: /assets/img/prototype/road-2.jpg
     body: "The journey to the pumpkin patch was filled with wonder. "
     button: On the road
 ---
