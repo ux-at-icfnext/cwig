@@ -18,5 +18,5 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Featured Image", name: "featured-image", widget: "string", required: true}
       - {label: "Introduction", name: "intro", widget: "text"}
-      - {label: "Card Schema", name: "cards", widget: "markdown", required: true}
+      - {label: "Card Schema", name: "cards", widget: "text", required: true}
       
