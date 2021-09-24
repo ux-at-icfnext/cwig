@@ -1,6 +1,6 @@
 ---
 layout: prototype/proto-landing
-title: More Tools & Resources
+title: News & Newsletters
 permalink: /landing
 feature-image: https://via.placeholder.com/2000x300?text=-
 intro: >
