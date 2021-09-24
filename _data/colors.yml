@@ -1,31 +1,31 @@
 colors:
   - desc: Navy
-    color: #002552
+    color: "#002552"
   - desc: Dark Gray
-    color: #6D6E71
+    color: "#6D6E71"
   - desc: Light Gray
-    color: #D1D3D4
+    color: "#D1D3D4"
   - desc: Yellow
-    color: #FFF453
+    color: "#FFF453"
   - desc: Orange
-    color: #F37322
+    color: "#F37322"
   - desc: Magenta
-    color: #E50E63
+    color: "#E50E63"
   - desc: Blue
-    color: #005DAA
+    color: "#005DAA"
   - desc: Light Blue
-    color: #00AFDB
+    color: "#00AFDB"
   - desc: Lilac
-    color: #7E81BE
+    color: "#7E81BE"
   - desc: Cool-Gray-1
-    color: #FBFCFD
+    color: "#FBFCFD"
   - desc: Cool-Gray-2
-    color: #F7F9FA
+    color: "#F7F9FA"
   - desc: Cool-Gray-5
-    color: #EDEFF0
+    color: "#EDEFF0"
   - desc: Light-Gray-20
-    color: #D1D3D4
+    color: "#D1D3D4"
   - desc: Cool-Gray-50
-    color: #71767A
+    color: "#71767A"
   - desc: Cool-Gray-80
-    color: #2D2E2F
+    color: "#2D2E2F"
