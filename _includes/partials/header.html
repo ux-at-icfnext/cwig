@@ -20,7 +20,7 @@
 <ul class="usa-nav__primary usa-accordion">
   {% for item in site.data.navigation.primary %}
     {% if item.href contains page.url %}
-      <li class="usa-nav__primary-item active">
+      <li class="usa-nav__primary-item usa-current">
       {% else %}
       <li class="usa-nav__primary-item">
     {% endif %}
