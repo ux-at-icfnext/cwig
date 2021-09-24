@@ -14,7 +14,7 @@ title: Template
 
 <section>
     <div class="image_screenshot">
-        <img src="https://via.placeholder.com/160" alt="placeholder" class="responsive">
+        <a href="" target="_blank"><img src="https://via.placeholder.com/160" alt="placeholder" class="responsive"></a>
     </div>
     <div class="functionality">
         <h2>Functionality</h2>

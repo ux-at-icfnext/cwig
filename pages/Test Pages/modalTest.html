@@ -1,0 +1,26 @@
+---
+permalink: "/modalTest"
+Title: Modal Test
+---
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/css/modal.css">
+    </head>
+    <body>
+        <script>
+            const open = getElementByID('open')
+            const modal__container = getElementByID('modal__container')
+            const close = getElementByID('close')
+        </script>
+        
+        <button id="open">Full Picture</button>
+        <div class="modal__container" id="modal__container">
+            <div class="modal">
+                <h1>Here's a Modal</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.</p>
+                <button id="close">Close</button>
+            </div>
+        </div>
+    </body>
+</html>
