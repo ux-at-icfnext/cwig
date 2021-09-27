@@ -26,4 +26,19 @@ collections:
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
           - { label: "Button label", name: "button", widget: "string" }
-      
+  - label: "Basic Pages"
+    name: "Baisc Pages"
+    folder: "pages/prototype/basic"
+    create: true
+    fields:
+      - {label: "Layout", name: "prototype/proto-basic", widget: "hidden", default: "default"}
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Body", name: "body", widget: "markdown", modes: "raw"}
+      - label: "Card Schema"
+        name: "cards"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "card-title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+          - { label: "Button label", name: "button", widget: "string" }

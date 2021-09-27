@@ -6,7 +6,7 @@
         </header>
         <div class="usa-card__media">
             <div class="usa-card__img">
-            <img src="{{ include.data.image | default:'road.jpg'}}" alt="">
+            <img src="{{ include.data.image | default:'/assets/img/prototype/road.jpg'}}" alt="">
             </div>
         </div>
         <div class="usa-card__body">
