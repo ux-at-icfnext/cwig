@@ -6,7 +6,7 @@
         <a href="javascript:void(0);" class="usa-identifier__logo">
           <img
             class="usa-identifier__logo-img"
-            src="/assets/img/circle-gray-20.svg"
+            src="/assets/img/cb-logo-grayscale.png"
             alt="&lt;Parent agency&gt; logo"
             role="img"
           />
@@ -14,7 +14,7 @@
         <a href="javascript:void(0);" class="usa-identifier__logo">
           <img
             class="usa-identifier__logo-img"
-            src="/assets/img/circle-gray-20.svg"
+            src="/assets/img/acf-logo-grayscale.png"
             alt="&lt;Other agency&gt; logo"
             role="img"
           />
