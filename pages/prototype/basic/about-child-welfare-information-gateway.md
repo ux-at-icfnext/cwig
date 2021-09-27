@@ -1,5 +1,5 @@
 ---
-prototype/proto-basic: default
+layout: prototype/proto-basic
 title: About Child Welfare Information Gateway
 permalink: /about
 cards:
