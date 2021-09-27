@@ -1,6 +1,7 @@
 ---
 prototype/proto-basic: default
 title: About Child Welfare Information Gateway
+permalink: /about
 cards:
   - card-title: Report Abuse or Neglect
     body: To report child abuse or neglect, please contact Child Help USA at 1.800.4
