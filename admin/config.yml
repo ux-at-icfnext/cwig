@@ -33,7 +33,7 @@ collections:
     fields:
       - {label: "Layout", name: "prototype/proto-basic", widget: "hidden", default: "default"}
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown", modes: "raw"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - label: "Card Schema"
         name: "cards"
         widget: "list"
