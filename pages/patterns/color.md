@@ -40,7 +40,6 @@ Title: Colors
             deserunt mollit anim id est laborum."</p>
     </div>
     <br><br><br>
-    
     <div class="palette">
         {% for item in site.data.colors.colors %}
         <div class="palette__item">

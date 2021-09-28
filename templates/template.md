@@ -5,7 +5,7 @@ title: Template
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/assets/css/basic_temp.css">
+        <link rel="stylesheet" href="/assets/css/temp.css">
     </head>
     <body>
         <div class="description">
