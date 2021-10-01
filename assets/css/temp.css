@@ -19,6 +19,7 @@
   .image_screenshot {
     float: left;
     width: 30%;
+    height: auto;
     padding: 1px;
     position: relative;
   }
@@ -38,7 +39,6 @@
     border-radius: 5px;
   }
   
-  /* Style the list inside the menu */
   .responsive {
     width: 100%;
     height: auto;
@@ -100,10 +100,8 @@
     border-radius: 5px;
     text-align: center;
 }
-  
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
   @media (max-width: 600px) {
-    nav, article {
+    nav, article .image_screenshot{
       width: 100%;
       height: auto;
     }

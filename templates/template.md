@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: "/template"
 title: Template
 ---
@@ -13,7 +14,7 @@ title: Template
         </div>
         <section>
             <div class="image_screenshot">
-                <a href="" target="_blank"><img src="https://via.placeholder.com/160" alt="placeholder" class="responsive"></a>
+                <img src="https://via.placeholder.com/160" alt="placeholder" class="responsive">
                 <button id="open">Full Picture</button>
             </div>
             <div class="functionality">
@@ -31,9 +32,7 @@ title: Template
         </footer>
         <div class="modal__container" id="modal__container">
             <div class="modal">
-                <h1>Here's a Modal</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.</p>
+                <img src="https://via.placeholder.com/160" alt="placeholder" class="responsive">
                 <button id="close">Close</button>
             </div>
         </div>
