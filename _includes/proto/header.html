@@ -1,20 +1,99 @@
 {% include patterns/banner/banner.md %}
 
-<p>TO DO</p>
-<ul>
-    <li>add header</li>
-    <li>finish bread crumb</li>
-</ul>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
-<nav class="usa-breadcrumb" aria-label="Breadcrumbs">
-    <ol class="usa-breadcrumb__list">
-      <li class="usa-breadcrumb__list-item">
-        <a href="#" class="usa-breadcrumb__link">
-          <span>Home</span>
+  <div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text">
+        <a href="javascript:void(0)" title="&lt;Project title&gt;">
+          Child Welfare Information Gateway
         </a>
-      </li>
-      <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-        <span>About</span>
-      </li>
-    </ol>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link usa-current"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-one"
+          >
+            <span>&lt;Current section&gt;</span>
+          </button>
+
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-two"
+          >
+            <span>&lt;Section&gt;</span>
+          </button>
+
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a href="javascript:void(0)" class="usa-nav__link">
+            <span>&lt;Simple link&gt;</span>
+          </a>
+        </li>
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="">&lt;Secondary link&gt;</a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="">&lt;Another secondary link&gt;</a>
+          </li>
+        </ul>
+
+        <form class="usa-search usa-search--small" role="search">
+          <label class="usa-sr-only" for="extended-search-field-en-small">
+            Search
+          </label>
+          <input
+            class="usa-input"
+            id="extended-search-field-en-small"
+            type="search"
+            name="search"
+          />
+          <button class="usa-button" type="submit">
+            <span class="usa-sr-only">Search</span>
+          </button>
+        </form>
+      </div>
+    </div>
   </nav>
+</header>
+
