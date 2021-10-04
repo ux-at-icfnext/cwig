@@ -12,9 +12,9 @@ title: Template
         <div class="description">
         <p>Description</p>
         </div>
-        <section>
+        <section class="section">
             <div class="image_screenshot">
-                <img src="https://via.placeholder.com/160" alt="placeholder" class="responsive">
+                <img src="https://via.placeholder.com/50" alt="placeholder" class="responsive">
                 <button id="open">Full Picture</button>
             </div>
             <div class="functionality">

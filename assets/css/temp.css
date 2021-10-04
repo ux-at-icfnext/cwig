@@ -14,13 +14,18 @@
     font-size: 35px;
     color: white;
   }
+
+  .section{
+    overflow: hidden;
+    min-height: 200px;
+  }
   
   /* Create two columns/boxes that floats next to each other */
   .image_screenshot {
     float: left;
     width: 30%;
     height: auto;
-    padding: 1px;
+    padding: 0px;
     position: relative;
   }
 
@@ -45,7 +50,8 @@
   }
   
   .functionality {
-    float: left;
+    overflow: hidden;
+    min-height: 170px;
     padding: 14px;
     width: 70%;
     background-color: #f1f1f1;
@@ -100,9 +106,16 @@
     border-radius: 5px;
     text-align: center;
 }
-  @media (max-width: 600px) {
-    nav, article .image_screenshot{
-      width: 100%;
-      height: auto;
+  @media (max-width: 990px) {
+    .image_screenshot{
+      float: none;
+      margin-right: 0;
+      width: auto;
+      border: 0;
+    }
+    .functionality{
+      float: none;
+      width: auto;
+      border: 0;
     }
   }
