@@ -42,4 +42,4 @@ collections:
           - { label: "Title", name: "card-title", widget: "string" }
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
-          - { label: "Button label", name: "button", widget: "string" }
+          - { label: "Button label", name: "button", widget: "string", required: false}
