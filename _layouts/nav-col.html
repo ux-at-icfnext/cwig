@@ -3,8 +3,23 @@ layout: default
 # This layout embeds a page inside of the layout to house the left-hand navigation
 # Nav should be assigned by the content page
 ---
+    
 
 <div class="col-2">
-    <div class="left-nav" markdown="1"> Left nav here </div>
-    <div class="article" markdown="1">{{content}}</div>
+    <div class="left-nav" markdown="1">     
+        <aside class="sidenav" id="page-side-navigation">
+            <ul class="site-sidenav usa-sidenav">
+             {% for item in site.data.navigation.library %}
+                {% if item.href contains page.url %}
+                    <li class="usa-sidenav__item usa-current">
+                {% else %}
+                    <li class="usa-sidenav__item"></li>
+                {% endif %}
+                    <a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a> 
+                </li>
+             {% endfor %}
+            </ul>
+       </aside>
+    </div>
+    <div class="article" markdown="1" style="padding-left: 20px;">{{content}}</div>
 </div>

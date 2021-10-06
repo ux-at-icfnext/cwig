@@ -32,9 +32,9 @@ schema:
 <a name="body"></a>
 ## Body Text Links
 
-- TODO: CSS guidance for link & link styling
 
-  <a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; font-weight: bold; color: #005DAA">Link</a>
+
+<a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; font-weight: bold; color: #005DAA">Link</a>
 
       text-decoration: underline;
       font-family: Lora;
@@ -42,7 +42,7 @@ schema:
       line-height: 25px;
       color: #005DAA;
   
-    <a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">Bold Link</a>
+<a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">Bold Link</a>
 
       text-decoration: underline;
       font-family: Montserrat;
@@ -51,7 +51,7 @@ schema:
       color: #005DAA;
       font-weight: bold;
 
-    <a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">Hover Link</a>
+<a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">Hover Link</a>
 
       text-decoration: underline;
       font-family: Lora;
@@ -62,9 +62,8 @@ schema:
 <a name="header"></a>
 ## Header Links
 
-- TODO: CSS guidance for link & link styling
 
-  <a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; font-weight: bold; color: #005DAA">H3 Link</a>
+<a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; font-weight: bold; color: #005DAA">H3 Link</a>
 
       text-decoration: underline;
       font-family: Montserrat
@@ -73,7 +72,7 @@ schema:
       font-weight: bold;
       color: #005DAA;
   
-    <a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">H3 Hover Link</a>
+<a href="" style="text-decoration: underline; font-size: 23px; line-height: 24px; color: #54278F; font-weight: bold;">H3 Hover Link</a>
 
       text-decoration: underline;
       font-family: Montserrat;
