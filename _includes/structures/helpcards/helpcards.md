@@ -1,5 +1,5 @@
 <ul class="usa-card-group icon-card">
-    <li class="grid-col-6 usa-card ">
+    <li class="tablet:grid-col-6 usa-card ">
         <div class="usa-card__container">
             <header class="usa-card__header">
                 <img src="https://cwig-pattern-library.netlify.app/assets/img/prototype/flag.svg" >
@@ -10,7 +10,7 @@
             </div>
         </div>
     </li>
-    <li class="grid-col-6 usa-card">
+    <li class="tablet:grid-col-6 usa-card">
         <div class="usa-card__container">
             <header class="usa-card__header">
                 <img src="https://cwig-pattern-library.netlify.app/assets/img/prototype/info-square.svg" >
