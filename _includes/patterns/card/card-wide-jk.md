@@ -1,5 +1,5 @@
 
-<li class="grid-col-4 usa-card">
+<li class="tablet:grid-col-4 usa-card">
     <div class="usa-card__container">
         <header class="usa-card__header">
             <h2 class="usa-card__heading">{{ include.data.card-title | default:'USA Card with Media' }}</h2>

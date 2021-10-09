@@ -1,0 +1,14 @@
+.spotlight {
+    background-color: #ececec;
+    padding: 10px;
+}
+
+.spotlight header {
+    display: flex;
+    column-gap: 80px;
+}
+.spotlight img{
+    max-height: 25px;
+    max-width: auto;
+    display: block;
+}
