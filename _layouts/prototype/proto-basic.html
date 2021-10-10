@@ -5,11 +5,5 @@ layout: prototype/proto-default
 <div id="main-content" class="grid-container">
     <h1> {{ page.title }}</h1>
     {{ content }}
-    <div class="resources">
-        <ul class="usa-card-group">
-            {% for card in page.cards %}
-                {% include patterns/card/card-wide-jk.md  data=card %}
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+
+    {% include patterns/card/card-wide-jk.md  data=card %}

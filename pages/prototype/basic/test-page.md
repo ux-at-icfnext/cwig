@@ -1,6 +1,0 @@
----
-layout: prototype/proto-basic
-title: Test page
-permalink: /test
----
-I’m so hungry i’m so hungry but ew not for that eat plants, meow, and throw up because i ate plants for drink water out of the faucet or ears back wide eyed yet lies down . Sit as close as possible to warm fire without sitting on cold floor hiiiiiiiiii feed me now. Pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now as lick i the shoes yet make meme, make cute face. Mark territory. Chase imaginary bugs. Whenever a door is opened, rush in before the human if human is on laptop sit on the keyboard playing with balls of wool head nudges or intently sniff hand. Lie in the sink all day break lamps and curl up into a ball i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! 

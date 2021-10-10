@@ -1,0 +1,4 @@
+
+.usa-breadcrumb__list-item:not(:last-child)::after {
+    background: url("../img/usa-icons/navigate_next.svg") no-repeat center / 2ex 2ex;
+}
