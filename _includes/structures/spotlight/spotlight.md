@@ -4,7 +4,8 @@
         <img src="/assets/img/icons/bookmark.svg">
     </header>
     <ul>
-        <li>can I put a for-loop here?</li>
-        <li>Link 2</li>
+        <li><a href="">National Resource Center for Family Centered Practice</a></li>
+        <li><a href="">Family-Cetnered Practice & Practice Models</a><br/>
+        National Resource Center for Permancy and Family Connections</li>
     </ul>
 </div>

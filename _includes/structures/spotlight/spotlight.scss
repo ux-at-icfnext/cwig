@@ -4,11 +4,18 @@
 }
 
 .spotlight header {
-    display: flex;
-    column-gap: 80px;
+
 }
 .spotlight img{
     max-height: 25px;
     max-width: auto;
     display: block;
+    z-index: 10;
+    margin-left: 85%;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.spotlight li {
+    margin-bottom: 15px;
 }
