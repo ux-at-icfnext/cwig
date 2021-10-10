@@ -9,11 +9,7 @@ layout: prototype/proto-default
 <div id="main-content" class="grid-container">
     <h1> {{ page.title }}</h1>
     <p class="into-text">{{ page.intro | markdowify}}</p>
-    <div class="resources">
-        <ul class="usa-card-group">
-            {% for card in page.cards %}
-                {% include patterns/card/card-wide-jk.md  data=card %}
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+    
+    {% include patterns/card/card-wide-jk.md  data=card %}
+            
+
