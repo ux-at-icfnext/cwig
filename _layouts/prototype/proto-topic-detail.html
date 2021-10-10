@@ -1,0 +1,32 @@
+---
+layout: prototype/proto-default
+---
+
+<div class="feature">
+    <img src="{{ page.feature-image }}">
+</div>
+
+<div id="main-content" class="grid-container">
+    <h1> {{ page.title }}</h1>
+    <div class="usa-card-group grid-gap-4">
+        <div class="tablet:grid-col-8">
+            <p class="intro-text">{{ page.intro | markdowify}}</p>
+        </div>
+        {% include structures/spotlight/spotlight.md  data=card %}
+    </div>
+    <div class="topic-cards">
+        {% include patterns/card/card-jk.md  data=card %}
+    </div>
+
+    <div class="page-footer usa-card-group">
+        <div class="tablet:grid-col-6">
+            {% include structures/related/related-list.md  data=links %}
+        </div>
+        <div class="tablet:grid-col-6">
+            {% include structures/related/related-resources.md  data=resources %}
+        </div>
+
+    </div>
+</div>
+            
+
