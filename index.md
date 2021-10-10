@@ -14,7 +14,6 @@ hero:
 ---
 # Hello World
 
-{% include structures/spotlight/spotlight.md %}
 <ul>
    {% for item in site.data.navigation.library %}
       <li><a href="{{ item.href }}">{{ item.text }}</a></li>
