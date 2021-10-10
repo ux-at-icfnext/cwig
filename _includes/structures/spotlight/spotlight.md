@@ -4,8 +4,12 @@
         <img src="/assets/img/icons/bookmark.svg">
     </header>
     <ul>
-        <li><a href="">National Resource Center for Family Centered Practice</a></li>
-        <li><a href="">Family-Cetnered Practice & Practice Models</a><br/>
-        National Resource Center for Permancy and Family Connections</li>
+        {% for spot in page.spotlight %}
+        <li><a href="{{ spot.link }}">{{ spot.link-text }}</a>
+            {% if spot.body %}
+                <br /> {{ spot.body }}
+            {% endif %}
+        </li>
+        {% endfor %}
     </ul>
 </div>
