@@ -8,7 +8,7 @@ title: Test Modal
         <link href="/assets/css/modal.css" rel="stylesheet">
     </head>
     <body>
-        <<button id="open">Modal Test</button>
+        <button id="open">Modal Test</button>
     <div class="modal__container" id="modal__container">
       <div>
         <div>
