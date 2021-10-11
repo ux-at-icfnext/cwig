@@ -74,7 +74,7 @@ collections:
         fields:
           - { label: "Link text", name: "text", widget: "string" }
           - { label: "Url", name: "link", widget: "string"}
-      - { label: "Related Resources Title", name: "resources-label", widget: "string", default: "Related Resources"}
+      - { label: "Related Resources Title", name: "resource-label", widget: "string", default: "Related Resources"}
       - label: "Related Resources"
         name: "resources"
         widget: "list"
