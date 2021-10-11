@@ -44,3 +44,42 @@ collections:
           - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
           - { label: "Button label", name: "button", widget: "string", required: false}
           - { label: "Link", name: "link", widget: "string", required: false}
+  - label: "Topic Detail"
+    name: "Topic Detail"
+    folder: "pages/prototype/topics"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "proto-topic-detail"}
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Body", name: "intro", widget: "markdown"}
+      - label: "Spotlight"
+        name: "spotlight"
+        widget: "list"
+        fields:
+          - { label: "Link text", name: "link-text", widget: "string" }
+          - { label: "Url", name: "link", widget: "string"}
+          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+      - label: "Card Schema"
+        name: "cards"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "card-title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+          - { label: "Button label", name: "button", widget: "string", required: false}
+      - { label: "Related links Title", name: "related-label", widget: "string", default: "Related Links"}
+      - label: "Related Links"
+        name: "links"
+        widget: "list"
+        fields:
+          - { label: "Link text", name: "text", widget: "string" }
+          - { label: "Url", name: "link", widget: "string"}
+      - { label: "Related Resources Title", name: "resources-label", widget: "string", default: "Related Resources"}
+      - label: "Related Resources"
+        name: "resources"
+        widget: "list"
+        fields:
+          - { label: "Link text", name: "text", widget: "string" }
+          - { label: "Url", name: "link", widget: "string"}
+          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+        
