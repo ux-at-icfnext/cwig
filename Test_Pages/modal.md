@@ -9,6 +9,7 @@ title: Test Modal
         <link href="/assets/css/styles.css" rel="stylesheet">
     </head>
     <body>
+    <!--Modal_1-->
     <a href="#modal__container" class="usa-button" aria-controls="example-modal-1" id="open">Open default modal</a>
     <div class="usa-modal modal__container" id="modal__container" aria-labelledby="modal-1-heading" aria-describedby="modal-1-description">
     <div class="usa-modal__content">
@@ -53,6 +54,6 @@ title: Test Modal
         close.addEventListener('click',()=>{
             modal__container.classList.remove('show');
         });
-        </script>>
+        </script>
     </body>
 </html>
