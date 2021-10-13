@@ -1,3 +1,43 @@
+//Updated CSS (10/13)
+/* The Modal Container (background) */
+.modal {
+  @include typeset;
+  @include u-radius($theme-modal-border-radius);
+  background: white;
+  @include set-text-from-bg("white");
+  display: none;
+  margin: units(2.5) auto;
+  max-width: units($theme-modal-default-max-width);
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .usa-js-no-click {
   pointer-events: none;
   user-select: none;
