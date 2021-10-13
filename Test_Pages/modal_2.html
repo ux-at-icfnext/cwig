@@ -6,22 +6,23 @@ title: Modal Test Page
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/assets/css/styles.css" rel="stylesheet">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Modal Container (background) */
 .modal {
-  display: none; /* Hides modal by default */
-  position: fixed; /* Keeps it in place */
-  z-index: 1; /* Sits on top */
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  @include typeset;
+  @include u-radius($theme-modal-border-radius);
+  background: white;
+  @include set-text-from-bg("white");
+  display: none;
+  margin: units(2.5) auto;
+  max-width: units($theme-modal-default-max-width);
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
 }
 
 /* Modal Content */
@@ -54,45 +55,116 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <h2>Modal Example</h2>
 
 <!-- Trigger/Open The Modal -->
-<button id="btn1">Open Modal</button>
+<button id="btn1" class="usa-button">Open Modal</button>
+<br><br><br>
+<button id="btn2" class="usa-button">Open Modal</button>
+<br><br><br>
+<button id="btn3" class="usa-button">Open Modal</button>
+<br><br><br>
 
 <!-- Modal 1 -->
 <div id="modal_1" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+      <h2 class="usa-modal__heading">Are you sure you want to continue?</h2>
+      <div class="usa-prose">
+        <p>You have unsaved changes that will be lost.</p>
+      </div>
+      <div class="usa-modal__footer">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button" id="">
+              Continue without saving?
+            </button>
+          </li>
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button usa-button--unstyled padding-105 text-center">
+              Go back
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="usa-button usa-modal__close" id="close1">
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#close"></use>
+      </svg>
+    </button>
   </div>
-
 </div>
 
 <!-- Modal 2 -->
 <!-- Trigger/Open The Modal -->
-<button id="btn2">Open Modal</button>
+
 
 <div id="modal_2" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <button class="close" id="close2">&times;</button>
-    <p>Some text in the Modal..</p>
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+      <h2 class="usa-modal__heading">Are you sure you want to continue</h2>
+      <div class="usa-prose">
+        <p>You have unsaved changes that will be lost.</p>
+      </div>
+      <div class="usa-modal__footer">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button" id="">
+              Continue without saving?
+            </button>
+          </li>
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button usa-button--unstyled padding-105 text-center">
+              Go back
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="usa-button usa-modal__close" id="close2">
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#close"></use>
+      </svg>
+    </button>
   </div>
-
 </div>
 
 <!-- Modal 3 -->
 <!-- Trigger/Open The Modal -->
-<button id="btn3">Open Modal</button>
+
 
 <div id="modal_3" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <button class="close" id="close3">&times;</button>
-    <p>Some text in the Modal..</p>
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+      <h2 class="usa-modal__heading">Are you sure you want to continue?</h2>
+      <div class="usa-prose">
+        <p>You have unsaved changes that will be lost.</p>
+      </div>
+      <div class="usa-modal__footer">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button" id="">
+              Continue without saving
+            </button>
+          </li>
+          <li class="usa-button-group__item">
+            <button type="button" class="usa-button usa-button--unstyled padding-105 text-center">
+              Go back
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="usa-button usa-modal__close" id="close3">
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#close"></use>
+      </svg>
+    </button>
   </div>
-
 </div>
 
 <script>
@@ -108,7 +180,7 @@ var btn3 = document.getElementById("btn3");
 
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var btn_close1 = document.getElementsByClassName("usa-modal__close")[0];
 var btn_close = document.getElementById("close2");
 var btn_close_3 = document.getElementById("close3");
 
@@ -126,7 +198,7 @@ btn3.onclick = function(){
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+btn_close1.onclick = function() {
   modal_1.style.display = "none";
 }
 btn_close.onclick = function(){
