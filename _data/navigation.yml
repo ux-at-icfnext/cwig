@@ -62,6 +62,9 @@ library:
     desc: A collection displays a compact list of multiple related items like articles or
           events. The list links each item to its original source.
     href: /collection/
+  - text: Colors
+    desc: Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+    href: /colors/
   - text: Footer
     desc: A footer serves site visitors who arrive at the bottom of a page without finding
           what they want.
@@ -123,6 +126,9 @@ library:
   - text: Link
     desc: A link connects users to a different page or further information.
     href: /link/
+  - text: Logos
+    desc: Description
+    href: /logos/
   - text: Modal
     desc: A modal disables page content and focuses the user’s attention on a single
           task or message.
@@ -156,6 +162,11 @@ library:
     desc: A tooltip is a short descriptive message that appears when a user hovers or focuses 
           on an element.
     href: /tooltip/
+  - text: Typography
+    desc: Typography is an essential component of a website’s design. Good typography is not only 
+          imperative for aesthetic appeal, but also improves site usability when text legibility 
+          and readability concepts are applied.
+    href: /typography/
 
 guidance:
   - text: Printing Guidance
