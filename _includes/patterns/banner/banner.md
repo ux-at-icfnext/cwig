@@ -1,5 +1,4 @@
 
-<h3 class="site-preview-heading">.gov domains</h3>
 <section class="usa-banner" aria-label="Official government website">
   <div class="usa-accordion">
     <header class="usa-banner__header">
