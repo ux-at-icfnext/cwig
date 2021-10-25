@@ -1,0 +1,11 @@
+@include typeset;
+@include u-radius($theme-modal-border-radius);
+background: white;
+@include set-text-from-bg("white");
+display: none;
+margin: units(2.5) auto;
+max-width: units($theme-modal-default-max-width);
+position: relative;
+text-align: left;
+vertical-align: middle;
+width: 100%;

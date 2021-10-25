@@ -3,15 +3,42 @@
 .modal {
   @include typeset;
   @include u-radius($theme-modal-border-radius);
-  background: white;
-  @include set-text-from-bg("white");
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
   display: none;
-  margin: units(2.5) auto;
-  max-width: units($theme-modal-default-max-width);
-  position: relative;
-  text-align: left;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.usa-modal--lg {
+  max-width: units($theme-modal-lg-max-width);
   width: 100%;
+
+  .usa-modal__main {
+    padding-bottom: units(8);
+    padding-top: units(2.5);
+    width: 100%;
+    max-width: units($theme-modal-lg-content-max-width);
+  }
+
+  .usa-modal__heading {
+    @include at-media("tablet") {
+      @include u-font("heading", "xl");
+    }
+  }
+}
+
+.usa-modal__content {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: units(4);
+  width: 100%;
+  max-width: units($theme-modal-default-max-width);
+  background-color: white;
 }
 
 /* Modal Content */
@@ -136,12 +163,7 @@
   }
 }
 
-.usa-modal__content {
-  display: flex;
-  flex-direction: column-reverse;
-  padding-top: units(4);
-  width: 100%;
-}
+
 
 .usa-modal__main {
   margin: 0 auto;
