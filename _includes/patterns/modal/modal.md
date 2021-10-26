@@ -34,7 +34,7 @@
 
   <div class="margin-y-3">
     <button id="btn2" class="usa-button">Open Large Modal</button>
-    <div id="modal_2" class="modal usa-modal--lg">
+    <div id="modal_2" class="modal modal__large">
       <!-- Modal content -->
       <div class="usa-modal__content">
         <div class="usa-modal__main">

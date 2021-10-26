@@ -14,19 +14,17 @@
   justify-content: center;
 }
 
-.usa-modal--lg {
-  max-width: units($theme-modal-lg-max-width);
+.modal__large{
   width: 100%;
 
-  .usa-modal__main {
+  .usa-modal__main{
     padding-bottom: units(8);
     padding-top: units(2.5);
     width: 100%;
-    max-width: units($theme-modal-lg-content-max-width);
   }
 
-  .usa-modal__heading {
-    @include at-media("tablet") {
+  .usa-modal__heading{
+    @include at-media("tablet"){
       @include u-font("heading", "xl");
     }
   }
