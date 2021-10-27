@@ -14,8 +14,135 @@ layout: prototype/proto-default
 <div class="main">
     <div class="left-aside">
         <h1 id="page-title">{{ page.title }}</h1>
+        <div class="filter-section">
+            <p>Filter your results</p>
+            <button>Clear Filters</button>
+        </div>
+        <div class="side-nav">
+            <ul>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+                <li>Nav Item</li>
+            </ul>
+        </div>
+        <div class="cards__side">
+            {% include patterns/card/card-jk.md  data=card %}
+            <br>
+            {% include patterns/card/card-jk.md  data=card %}
+        </div>
     </div>
     <div class="center-main">
-
+        <div class="search-area">
+            <h3>Results</h3>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="results-shown">
+            <p class="sort">Results 1-15 of 45</p>
+            <p class="sort">View Results</p>
+            <p class="sort">Sort By</p>
+        </div>
+        <br><br><br><br>
+        <div class="events-list">
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+            <div class="events-list-item">
+                <img class="calendar-icon">
+                <a href="">Event Name</a>
+                <br>
+                <h5 class="event-host">Event Host</h5>
+                <br>
+                <p class="event-detail">Location:</p>
+                <p class="event-detail"> | </p>
+                <p class = "event-detail">Time: </p>
+                <p class="contact">Contact Information:</p>
+                <p>Event Description</p>
+            </div>
+        </div>
+        <div class="next-page-buttons">
+            <a href="" class="next-page">Previous</a>
+            <button class="next-page">1</button>
+            <p class="next-page">...</p>
+            <button class="next-page">9</button>
+            <button class="next-page">10</button>
+            <button class="next-page">11</button>
+            <p class="next-page">...</p>
+            <button class="next-page">24</button>
+            <a href="" class="next-page">Next</a>
+        </div>
     </div>
+    <br><br><br>
 </div>

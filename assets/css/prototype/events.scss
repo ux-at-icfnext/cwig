@@ -1,3 +1,34 @@
-#page-title{
-    padding-left: 20px;
+.left-aside{
+    float: left;
+    width: 30%;
+}
+.center-main{
+    float: right;
+    width: 70%;
+}
+.main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sort{
+    float: left;
+    width: 23.33%;
+}
+.results-show::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.event-detail{
+    display: inline-block;
+    font-weight: bold;
+}
+.contact{
+    font-weight: bold;
+}
+
+.next-page{
+    display: inline-block;
 }
