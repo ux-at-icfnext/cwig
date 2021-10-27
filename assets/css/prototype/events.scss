@@ -1,10 +1,10 @@
 .left-aside{
     float: left;
-    width: 30%;
+    width: 25%;
 }
 .center-main{
     float: right;
-    width: 70%;
+    width: 75%;
 }
 .main::after{
     content: "";
@@ -13,7 +13,7 @@
 }
 .sort{
     float: left;
-    width: 23.33%;
+    width: 25%;
 }
 .results-show::after{
     content: "";
@@ -21,6 +21,26 @@
     clear: both;
 }
 
+#page-title{
+    padding-left: 20px;
+}
+.side-nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.list-item{
+    background-color: lightgray;
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+#filter_heading{
+    margin-right: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
 .event-detail{
     display: inline-block;
     font-weight: bold;
@@ -28,7 +48,23 @@
 .contact{
     font-weight: bold;
 }
+.event-name{
+    padding: 0;
+}
+.cal-icon{
+    float: left;
+}
 
 .next-page{
     display: inline-block;
+}
+
+.inline{
+    display:inline-block;
+}
+
+button{
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
 }
