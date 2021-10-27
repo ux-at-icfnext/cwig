@@ -55,6 +55,10 @@
     float: left;
 }
 
+.event_details{
+    margin-left: 20px;
+}
+
 .next-page{
     display: inline-block;
 }
@@ -67,4 +71,12 @@ button{
     border: 1px solid blue;
     color: blue;
     background-color: white;
+}
+
+.events-list-item{
+    margin-top: 20px;
+}
+
+input{
+    width: 75%;
 }
