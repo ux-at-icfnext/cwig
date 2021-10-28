@@ -15,19 +15,17 @@ layout: prototype/proto-default
     <h1 id="page-title">{{ page.title }}</h1>
     <div class="left-aside">
         <div class="filter-section">
-            <p class="inline" id="filter_heading">Filter your results</p>
+            <h3 class="inline" id="filter_heading">Filter your results</h3>
             <button class="inline" id="filter_button">Clear Filters</button>
         </div>
-        <div class="side-nav">
-            <ul>
-                <li class="list-item">Event Month</li>
-                <li class="list-item">Event Location</li>
-                <li class="list-item">Event Type</li>
-                <li class="list-item">Topic</li>
-                <li class="list-item">Sponsoring Organization</li>
-                <li class="list-item">Event Frequency</li>
-                <li class="list-item">Continuing Education Units</li>
-            </ul>
+        <div class="button-group">
+                <button class="list-item">Event Month</button>
+                <button class="list-item">Event Location</button>
+                <button class="list-item">Event Type</button>
+                <button class="list-item">Topic</button>
+                <button class="list-item">Sponsoring Organization</button>
+                <button class="list-item">Event Frequency</button>
+                <button class="list-item">Continuing Education Units</button>
         </div>
         <div class="cards__side">
             {% include patterns/card/card-jk.md  data=card %}
@@ -39,120 +37,156 @@ layout: prototype/proto-default
         <div class="search-area">
             <h3>Results</h3>
             <input type="text" placeholder="Search">
-            <button>Search</button>
+            <button id="search__button">Search</button>
         </div>
         <div class="results-shown">
-            <p class="sort">Results 1-15 of 45</p>
+            <p class="sort">Displaying</p>
             <p class="sort">View Results</p>
             <p class="sort">Sort By</p>
         </div>
         <br><br><br><br>
-        <div class="events-list">
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
+        <div class="events__list">
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
                 </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
-                </div>
-            </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
-                </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
                 </div>
             </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
                 </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
-                </div>
-            </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
-                </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
                 </div>
             </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
                 </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
-                </div>
-            </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
-                </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
                 </div>
             </div>
-            <div class="events-list-item">
-                <div class="inline" style="vertical-align: top;">
-                    <img class="calendar-icon" src="https://via.placeholder.com/100">
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
                 </div>
-                <div class="inline event_details">
-                    <a href="" class="event-name">Event Name</a>
-                    <br>
-                    <h5 class="event-host">Event Host</h5>
-                    <p class="event-detail">Location:</p>
-                    <p class="event-detail"> | </p>
-                    <p class = "event-detail">Time: </p>
-                    <p class="contact">Contact Information:</p>
-                    <p>Event Description</p>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
                 </div>
             </div>
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
+                </div>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
+                </div>
+            </div>
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
+                </div>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
+                </div>
+            </div>
+            <div class="event-list__item">
+                <div class="calendar__icon">
+                    <img src="https://via.placeholder.com/100"
+                </div>
+                <div class="event__details">
+                    <span><a href="">Event Name</a></span><br>
+                    <span class="event__sponsor">Event Host</span>
+                    <br><br>
+                    <span class="event__info">Location: </span>
+                    <span class="event__info">|</span>
+                    <span class="event__info">Time: </span>
+                    <br><br>
+                    <span class="event__info">Contact Information</span>
+                    <br><br>
+                    <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</span><br>
+                </div>
+            </div>
+
         </div>
         <div class="next-page-buttons">
             <a href="" class="next-page">Previous</a>
