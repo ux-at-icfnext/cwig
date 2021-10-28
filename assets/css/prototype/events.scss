@@ -14,6 +14,7 @@
 .sort{
     float: left;
     width: 25%;
+    font-weight: bold;
 }
 .results-show::after{
     content: "";
@@ -21,13 +22,15 @@
     clear: both;
 }
 
-//side bar
+/*header*/
 
 #page-title{
     padding-left: 20px;
 }
-.side-nav ul{
-    list-style-type: none;
+
+/*side bar*/
+
+.side-nav{
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -36,19 +39,17 @@
     margin-bottom: 5px;
     padding: 20px 10px;
     font-weight: bold;
+    margin-right: 40px;
 }
-
 .filter-section{
     margin-bottom: 30px;
     margin-top: 20px;
 }
-
 #filter_heading{
     margin: 0 auto;
     font-weight: bold;
     padding-left: 20px;
 }
-
 #filter_button{
     padding: 5px;
     width: 130px;
@@ -59,7 +60,45 @@
     float: right;
 }
 
-//main content
+/*nav buttons and cards*/
+
+.cards__side{
+    padding-left: 20px;
+    width: 250%;
+    margin-top: 20px;
+}
+
+.button-group button{
+    background-color: lightgray;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button-group button:hover{
+    background-color: gray;
+}
+
+/*main content*/
+
+/* search */
+
+input{
+    width: 90%;
+    height: 30px;
+}
+
+#search__button{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    width: 8%;
+}
+
+/*event list*/
 
 .event-list__item{
     margin-bottom: 20px;
@@ -98,28 +137,18 @@
     width: 50%;
 }
 
-.event-detail{
-    display: inline-block;
-    font-weight: bold;
+/*next page buttons*/
+
+.search-results__buttons a{
+    margin-top: 30px;
+    margin-left: 10px;
 }
-.contact{
-    font-weight: bold;
-}
-.event-name{
-    padding: 0;
-    display: inline;
-}
-.cal-icon{
-    float: left;
+.search-results__buttons button{
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
-.event_details{
-    margin-left: 20px;
-}
-
-.next-page{
-    display: inline-block;
-}
+/*formatting*/
 
 .inline{
     display:inline-block;
@@ -129,40 +158,4 @@ button{
     border: 1px solid blue;
     color: blue;
     background-color: white;
-}
-
-.events-list-item{
-    margin-top: 20px;
-}
-
-input{
-    width: 90%;
-    height: 30px;
-}
-
-#search__button{
-    height: 30px;
-    background-color: blue;
-    color: white;
-    width: 8%;
-}
-
-.cards__side{
-    padding-left: 20px;
-    width: 250%;
-    margin-top: 20px;
-}
-
-.button-group button{
-    background-color: lightgray;
-    width: 90%;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: black;
-    margin-top: 5px;
-    border: none;
-    cursor: pointer;
-}
-.button-group button:hover{
-    background-color: gray;
 }
