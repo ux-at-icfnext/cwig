@@ -36,6 +36,13 @@
       font-weight:bold;
       display: inline;
       margin-right: 10px;
+      padding-left: 20px;
+  }
+  #clear__filters{
+    padding: 5px;
+    width: 130px;
+    height: 30px;
+    margin: 20px 0px;
   }
   .filter__btns button{
     background-color: lightgray;
@@ -54,12 +61,42 @@
     margin-right: 40px;
   }
 
+  .cards__area{
+    padding-left: 20px;
+    width: 250%;
+    margin-top: 20px;
+  }
+
   /* right col */
 
+  .search__bar{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  #search__btn{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    width: 8%;
+  }
+  .sort{
+    float: left;
+    width: 25%;
+    font-weight: bold;
+  }
   .sort__results__area h5{
       display: inline;
   }
+  .sort__results__area::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .event__results{
+    margin-bottom: 20px;
+  }
   .event__results__item{
     margin-bottom: 20px;
   }
@@ -84,3 +121,13 @@
     margin-top: 20px;
 }
 
+.results__pages button{
+  margin-top: 40px;
+}
+
+/*general formatting*/
+button{
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+}

@@ -16,7 +16,7 @@ layout: prototype/proto-default
     <div class="column left__col">
       <div>
           <h3 id="filter__results">Filter your results</h3>
-          <button>Clear Filters</button>
+          <button id="clear__filters">Clear Filters</button>
       </div>
       <div class="filter__btns">
           <button class="nav__btn">Event Month</button>
@@ -27,17 +27,22 @@ layout: prototype/proto-default
           <button class="nav__btn">Event Month</button>
           <button class="nav__btn">Event Month</button>
       </div>
+      <div class="cards__area">
+        {% include patterns/card/card-jk.md  data=card %}
+        <br>
+        {% include patterns/card/card-jk.md  data=card %}
+      </div>
     </div>
     <div class="column right__col">
       <div>
           <h3>Results</h3>
-          <input type="text" placeholder="Search">
-          <button>Search</button>
+          <input class="search__bar" type="text" placeholder="Search">
+          <button id="search__btn">Search</button>
       </div>
       <div class="sort__results__area">
-        <h5>Displaying</h5>
-        <h5>View Results</h5>
-        <h5>Sort by</h5>
+        <h5 class="sort">Displaying</h5>
+        <h5 class="sort">View Results</h5>
+        <h5 class="sort">Sort by</h5>
       </div>
       <div class="events__results">
           <div class="events__results__item">
@@ -61,22 +66,8 @@ layout: prototype/proto-default
                     consequat.
                 </span>
               </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
               </div>
               <div class="event__details">
                 <a href="">Event Name</a>
@@ -95,22 +86,8 @@ layout: prototype/proto-default
                     consequat.
                 </span>
               </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
               </div>
               <div class="event__details">
                 <a href="">Event Name</a>
@@ -129,6 +106,9 @@ layout: prototype/proto-default
                     consequat.
                 </span>
               </div>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
+              </div>
               <div class="event__details">
                 <a href="">Event Name</a>
                 <br>
@@ -145,6 +125,49 @@ layout: prototype/proto-default
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                     consequat.
                 </span>
+              </div>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
+              </div>
+              <div class="event__details">
+                <a href="">Event Name</a>
+                <br>
+                <span class="event__sponsor">Event Sponsor</span>
+                <br><br>
+                <span class="event__info">Location: </span>
+                <span class="event__info">|</span>
+                <span class="event__info">Time: </span>
+                <br><br>
+                <span class="event__info">Contact Information</span>
+                <br><br>
+                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.
+                </span>
+              </div>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
+              </div>
+              <div class="event__details">
+                <a href="">Event Name</a>
+                <br>
+                <span class="event__sponsor">Event Sponsor</span>
+                <br><br>
+                <span class="event__info">Location: </span>
+                <span class="event__info">|</span>
+                <span class="event__info">Time: </span>
+                <br><br>
+                <span class="event__info">Contact Information</span>
+                <br><br>
+                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.
+                </span>
+              </div>
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
               </div>
               <div class="event__details">
                 <a href="">Event Name</a>
@@ -164,7 +187,7 @@ layout: prototype/proto-default
                 </span>
               </div>
           </div>
-          <div>
+          <div class="results__pages">
               <button>1</button>
               <button>1</button>
               <button>1</button>
