@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column{
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .left__col{
+    width: 25%;
+  }
+  
+  .right__col{
+    width: 75%;
+    margin-bottom: 200px;
+  }
+  
+  /* Clear floats after the columns */
+  .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*main*/
+
+  #page__title{
+    padding-left: 20px;
+  }
+  /*Left Column*/
+
+  #filter__results{
+      font-weight:bold;
+      display: inline;
+      margin-right: 10px;
+  }
+  .filter__btns button{
+    background-color: lightgray;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav__btn{
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+
+  /* right col */
+
+  .sort__results__area h5{
+      display: inline;
+  }
+
+  .event__results__item{
+    margin-bottom: 20px;
+  }
+  .calendar__icon{
+    padding-top: 20px;
+    display: inline-block;
+  }
+  .event__info{
+    font-weight: bold;
+    display: inline;
+    padding-right: 50px;
+}
+  .event__sponsor{
+      color: gray;
+  }
+
+  .event__details{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 85%;
+    margin-top: 20px;
+}
+

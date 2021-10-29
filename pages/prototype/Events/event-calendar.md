@@ -1,6 +1,6 @@
 ---
 permalink: /events-calendar
-layout: prototype/proto-events
+layout: prototype/proto-event
 title: Events Calendar
 feature-image: https://via.placeholder.com/2000x300?text=-
 cards:

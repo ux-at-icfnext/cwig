@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    
+}
 .left-aside{
     float: left;
     width: 25%;
@@ -6,21 +12,13 @@
     float: right;
     width: 75%;
 }
-.main::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .sort{
     float: left;
     width: 25%;
     font-weight: bold;
 }
-.results-show::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 /*header*/
 
@@ -104,10 +102,6 @@ input{
     margin-bottom: 20px;
 }
 
-.calendar__icon{
-    display: inline-block;
-    vertical-align: bottom;
-}
 .calendar__icon img{
     padding-top: 20px;
 }
@@ -158,4 +152,12 @@ button{
     border: 1px solid blue;
     color: blue;
     background-color: white;
+}
+
+/* Clear floats */
+
+.main-content::after{
+    content: "";
+    display: table;
+    clear: both;
 }
