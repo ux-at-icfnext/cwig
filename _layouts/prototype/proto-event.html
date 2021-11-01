@@ -18,14 +18,34 @@ layout: prototype/proto-default
           <h3 id="filter__results">Filter your results</h3>
           <button id="clear__filters">Clear Filters</button>
       </div>
-      <div class="filter__btns">
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
-          <button class="nav__btn">Event Month</button>
+      <div class="filter__dropdown">
+          <button onclick="dropFunction()" class="drop__btn">Event Month
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div id="dropMenu1" class="dropdown-content">
+            <div class="check_option">
+              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
+              <label for="All_Types">All Types</label>
+            </div>
+            <div class="check_option">
+              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
+              <label for="All_Types">All Types</label>
+            </div>
+            <div class="check_option">
+              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
+              <label for="All_Types">All Types</label>
+            </div>
+            <div class="check_option">
+              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
+              <label for="All_Types">All Types</label>
+            </div>
+          </div>
+          <button class="drop__btn">Event Month</button>
+          <button class="drop__btn">Event Month</button>
+          <button class="drop__btn">Event Month</button>
+          <button class="drop__btn">Event Month</button>
+          <button class="drop__btn">Event Month</button>
+          <button class="drop__btn">Event Month</button>
       </div>
       <div class="cards__area">
         {% include patterns/card/card-jk.md  data=card %}
@@ -196,3 +216,19 @@ layout: prototype/proto-default
       </div>
     </div>
   </div>
+  <script>
+    var dropdown=document.getElementsByClassName("drop__btn");
+    var i;
+
+    for (i=0; i<dropdown.length; i++){
+      dropdown[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+        var dropdownContent=this.nextElementSibling;
+        if (dropdownContent.style.display=="block"){
+          dropdownContent.style.display="none";
+        }else{
+          dropdownContent.style.display="block";
+        }
+      });
+    }
+  </script>
