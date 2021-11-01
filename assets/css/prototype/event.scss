@@ -146,12 +146,18 @@
 
 .page__nav table{
   margin: 30px auto 30px;
+  border-collapse: separate;
+  border-spacing: 0px 20px;
+}
+.page__nav td{
+  padding: 5px;
 }
 .page__nav button{
-  border: solid lightgray;
-  color: blue;
-  padding: 10px;
-  margin: 5px;
+  border: solid #D1D3D4;
+  color: #00AFDB;
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
 }
 
 /*general formatting*/
