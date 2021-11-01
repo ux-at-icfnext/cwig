@@ -75,10 +75,13 @@
   .check__option{
     display: block;
   }
-  .show{display: block;}
   .active{
     background-color: blue;
     color: white;
+  }
+  .fa-plus {
+    float: right;
+    padding-right: 8px;
   }
 
   .cards__area{
@@ -141,8 +144,14 @@
     margin-top: 20px;
 }
 
-.results__pages button{
-  margin-top: 40px;
+.page__nav table{
+  margin: 30px auto 30px;
+}
+.page__nav button{
+  border: solid lightgray;
+  color: blue;
+  padding: 10px;
+  margin: 5px;
 }
 
 /*general formatting*/
