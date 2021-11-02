@@ -186,146 +186,22 @@ layout: prototype/proto-default
       </div>
       <div class="events__results">
           <div class="events__results__item">
+              {%for item in page.events%}
               <div class="calendar__icon">
                 <img src="https://via.placeholder.com/100">
               </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
-              <div class="calendar__icon">
-                <img src="https://via.placeholder.com/100">
-              </div>
-              <div class="event__details">
-                <a href="">Event Name</a>
-                <br>
-                <span class="event__sponsor">Event Sponsor</span>
-                <br><br>
-                <span class="event__info">Location: </span>
-                <span class="event__info">|</span>
-                <span class="event__info">Time: </span>
-                <br><br>
-                <span class="event__info">Contact Information</span>
-                <br><br>
-                <span class="event__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat.
-                </span>
-              </div>
+                    <div class="event__details">
+                      <span class="event__info">{{item.date}}</span>
+                      <span class="event__info">|</span>
+                      <span class="event__info">{{item.time}}</span>
+                      <br><br>
+                      <a href="">{{item.event}}</a>
+                      <br>
+                      <span class="event__sponsor">{{item.sponsor}}</span>
+                      <br><br>
+                      <span class="event__desc">{{item.desc}}</span>
+                    </div>
+              {%endfor%}
           </div>
           <div class="page__nav">
             <table>
