@@ -7,11 +7,11 @@ layout: prototype/proto-default
 
 <div id="main-content" class="grid-container">
     <h1> {{ page.title }}</h1>
-    <h5>Date | Length</h5>
+    <h5>{{page.date}} | Length: {{page.video-length}}</h5>
     <p class="intro-text">{{ page.intro | markdowify}}</p>
 
     <video width="50%" height="auto" controls>
-        <source src="movie.mp4" type="video/mp4">
+        <source src="{{page.video}}"" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
       Your browser does not support the video tag.
     </video>

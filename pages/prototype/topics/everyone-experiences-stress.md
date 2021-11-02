@@ -3,6 +3,9 @@ permalink: /stress
 layout: prototype/proto-stress
 title: Everyone Experiences Stress
 feature-image: https://via.placeholder.com/2000x300?text=-
+date: Jan 21, 2019
+video:
+video-length: "6:05"
 intro: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
