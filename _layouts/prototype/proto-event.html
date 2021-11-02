@@ -181,8 +181,21 @@ layout: prototype/proto-default
       </div>
       <div class="sort__results__area">
         <h5 class="sort">Displaying</h5>
-        <h5 class="sort">View Results</h5>
-        <h5 class="sort">Sort by</h5>
+        <div class="sort">        
+          <h5 class="sort">View Results</h5>
+          <form class= "sort number_select" action="/action_page.php">
+            <input type="number" id="quantity" name="quantity" min="1" max="15" value="15">
+          </form>
+        </div>
+        <div class="sort">
+          <h5 class="sort">Sort by</h5>
+          <form class="sort_select" action="/action_page.php">
+            <select name="sort-by" id="sort-by">
+              <option value="date">Date of Event - Soonest First</option>
+              <option value="relevance">Relevance</option>
+            </select>
+          </form>
+        </div>
       </div>
       <div class="events__results">
           <div class="events__results__item">
@@ -207,6 +220,7 @@ layout: prototype/proto-default
             <table>
               <tbody>
                 <tr>
+                  <td><a href=""><i class="fa fa-chevron-left"></i>Previous</a></td>
                   <td><button>1</button></td>
                   <td>...</td>
                   <td><button>9</button></td>
@@ -214,6 +228,7 @@ layout: prototype/proto-default
                   <td><button>11</button></td>
                   <td>...</td>
                   <td><button>24</button></td>
+                  <td><a href="">Next<i class="fa fa-chevron-right"></i></a></td>
                 </tr>
               </tbody>
             </table>

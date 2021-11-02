@@ -105,8 +105,16 @@
   }
   .sort{
     float: left;
-    width: 25%;
+    width: 30%;
     font-weight: bold;
+  }
+  .number_select{
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .sort_select{
+    margin-top: 15px;
+    margin-left: 0px;
   }
   .sort__results__area h5{
       display: inline;
@@ -151,6 +159,7 @@
 }
 .page__nav td{
   padding: 5px;
+  margin: 10px;
 }
 .page__nav button{
   border: solid #D1D3D4;
@@ -159,10 +168,25 @@
   width: 50px;
   border-radius: 4px;
 }
+.page__nav a{
+  text-decoration: none;
+  color: #00AFDB;
+}
 
 /*general formatting*/
 button{
   border: 1px solid blue;
   color: blue;
   background-color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #D1D3D4;
+  color: #00AFDB;
+}
+.fa-chevron-left{
+  margin: 5px;
+}
+.fa-chevron-right{
+  margin: 5px;
 }
