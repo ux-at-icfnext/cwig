@@ -1,0 +1,28 @@
+---
+layout: prototype/proto-default
+---
+<div class="feature">
+    <img src="{{ page.feature-image }}">
+</div>
+
+<div id="main-content" class="grid-container">
+    <h1> {{ page.title }}</h1>
+    <h5>Date | Length</h5>
+    <p class="intro-text">{{ page.intro | markdowify}}</p>
+
+    <video width="50%" height="auto" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+    <br>
+    <a href="">View Transcript: Everyone Experiences Stress</a>
+    <span>[PDF, 4 KB]</span>
+    <a href="">Everyone Experiences Stress (audio description)</a>
+    
+    <p class="body-text">{{ page.body | markdowify}}</p>
+
+    {% include patterns/card/card-jk.md  data=card %}
+    <br>
+    {% include patterns/card/card-jk.md  data=card %}
+</div> 
