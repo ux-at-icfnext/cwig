@@ -46,7 +46,7 @@ collections:
           - { label: "Link", name: "link", widget: "string", required: false}
   - label: "Topic Pages"
     name: "Topic Pages"
-    folder: "pages/prototype/basic"
+    folder: "pages/prototype/topic-pages"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "prototype/proto-topic"}
