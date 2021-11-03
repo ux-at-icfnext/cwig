@@ -132,19 +132,14 @@ layout: prototype/proto-default
       <div class="library__results">
           <div class="library__results__item">
               {%for item in page.resources%}
-              <div class="calendar__icon">
+              <div class="icon">
                 <img src="https://via.placeholder.com/100">
               </div>
-                    <div class="event__details">
-                      <span class="event__info">{{item.date}}</span>
-                      <span class="event__info">|</span>
-                      <span class="event__info">{{item.time}}</span>
+                    <div class="resource__details">
+                      <span class="resource__info">{{item.name}}</span>
+                      <span class="resource_length">{{item.length}}</span>
                       <br><br>
-                      <a href="">{{item.event}}</a>
-                      <br>
-                      <span class="event__sponsor">{{item.sponsor}}</span>
-                      <br><br>
-                      <span class="event__desc">{{item.desc}}</span>
+                      <span class="resource__desc">{{item.desc}}</span>
                     </div>
               {%endfor%}
           </div>
