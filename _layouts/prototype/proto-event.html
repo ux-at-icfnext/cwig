@@ -15,7 +15,7 @@ layout: prototype/proto-default
     <h1 id="page__title">{{page.title}}</h1>
     <div class="column left__col">
       <div>
-          <h3 id="filter__results">Filter your results</h3>
+          <h4 id="filter__results">Filter your results</h4>
           <button id="clear__filters">Clear Filters</button>
       </div>
       <div class="filter__dropdown">
@@ -199,7 +199,7 @@ layout: prototype/proto-default
       </div>
       <div class="events__results">
           <div class="events__results__item">
-              {%for item in page.events%}
+              {%for item in site.data.prototype.events%}
               <div class="calendar__icon">
                 <img src="https://via.placeholder.com/100">
               </div>

@@ -26,97 +26,11 @@ layout: prototype/proto-default
           <h4 id="filter__results">Filter your results</h4>
           <button id="clear__filters">Clear Filters</button>
       </div>
-      <div class="filter__dropdown">
-          <button onclick="dropFunction()" class="drop__btn">Event Month
-            <i class="fa fa-plus"></i>
-          </button>
-          <div id="dropMenu1" class="dropdown-content">
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-          </div>
-          <button onclick="dropFunction()" class="drop__btn">Event Location
-            <i class="fa fa-plus"></i>
-          </button>
-          <div id="dropMenu1" class="dropdown-content">
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-          </div>
-          <button onclick="dropFunction()" class="drop__btn">Event Type
-            <i class="fa fa-plus"></i>
-          </button>
-          <div id="dropMenu1" class="dropdown-content">
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="Virtual" name="Virtual" value="Virtual">
-              <label for="Virtual">Virtual</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="In-Person" name="In-Person" value="In-Person">
-              <label for="In-Person">In-Person</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="Hybrid" name="Hybrid" value="Hybrid">
-              <label for="Hybrid">Hybrid</label>
-            </div>
-          </div>
-          <button onclick="dropFunction()" class="drop__btn">Topic
-            <i class="fa fa-plus"></i>
-          </button>
-          <div id="dropMenu1" class="dropdown-content">
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-            <div class="check_option">
-              <input type="checkbox" id="All_Types" name="All_Types" value="All Types">
-              <label for="All_Types">All Types</label>
-            </div>
-          </div>
-      </div>
+      {% include patterns/accordion/accordion-jk.md data=accordion %}
     </div>
     <div class="column right__col">
       <div>
-          <input class="search__bar" type="text" placeholder="Search">
-          <button id="search__btn">Search</button>
+        {% include patterns/search/search.md %}
       </div>
       <div class="sort__results__area">
         <h5 class="sort">Displaying</h5>
@@ -136,7 +50,7 @@ layout: prototype/proto-default
                 <img src="https://via.placeholder.com/100">
               </div>
                     <div class="resource__details">
-                      <span class="resource__info">{{item.name}}</span>
+                      <a href="" class="resource__info">{{item.name}}</a>
                       <span class="resource_length">{{item.length}}</span>
                       <br><br>
                       <span class="resource__desc">{{item.desc}}</span>

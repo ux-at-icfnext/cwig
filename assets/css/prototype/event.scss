@@ -26,23 +26,27 @@
   }
 
   /*main*/
-
+  .main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   #page__title{
     padding-left: 20px;
   }
   /*Left Column*/
 
   #filter__results{
-      font-weight:bold;
-      display: inline;
-      margin-right: 10px;
-      padding-left: 20px;
+    font-weight:bold;
+    display: inline;
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
   #clear__filters{
     padding: 5px;
-    width: 130px;
+    width: 120px;
     height: 30px;
-    margin: 20px 0px;
+    margin-bottom: 10px;
   }
   .filter__dropdown button{
     background-color: lightgray;
@@ -56,6 +60,7 @@
   }
   .filter__dropdown button:hover{
     background-color: gray;
+    color: white;
   }
   .drop__btn{
     margin-bottom: 5px;
@@ -107,10 +112,6 @@
     float: left;
     width: 30%;
     font-weight: bold;
-  }
-  .number_select{
-    margin-top: 15px;
-    margin-left: 0px;
   }
   .sort_select{
     margin-top: 15px;
