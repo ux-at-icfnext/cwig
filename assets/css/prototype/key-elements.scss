@@ -26,8 +26,13 @@
 }
 
 /*main*/
+.title_intro{
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .cards{
-  background-color: lightgray;
+  background-color: #D1D3D4;
+  padding: 25px 100px;
 }
 
 /*main_content*/
@@ -157,6 +162,13 @@
   margin-top: 20px;
 }
 
+.related__series a{
+  display: block;
+  padding: 15px;
+  color: #00AFDB;
+}
+/*page navigation*/
+
 .page__nav table{
 margin: 30px auto 30px;
 border-collapse: separate;
@@ -180,8 +192,8 @@ color: #00AFDB;
 
 /*general formatting*/
 button{
-border: 1px solid blue;
-color: blue;
+border: 1px solid #00AFDB;
+color: #00AFDB;
 background-color: white;
 cursor: pointer;
 }

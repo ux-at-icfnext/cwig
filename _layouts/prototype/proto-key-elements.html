@@ -12,9 +12,12 @@ layout: prototype/proto-default
     <img src="{{ page.feature-image }}">
 </div>
 <div class="main">
+  <div class="title_intro">
     <h1 id="page__title">{{page.title}}</h1>
     <p class="intro-text">{{ page.intro | markdowify}}</p>
+  </div>
     <div class="cards">
+      <h2>Featured</h2>
       {% include patterns/card/card-jk.md  data=card %}
     </div>
   <div class="main_content">
@@ -112,11 +115,11 @@ layout: prototype/proto-default
     </div>
     <div class="column right__col">
       <div>
-          <h3>Results</h3>
           <input class="search__bar" type="text" placeholder="Search">
           <button id="search__btn">Search</button>
       </div>
       <div class="sort__results__area">
+        <h5 class="sort">Displaying</h5>
         <div class="sort">
           <h5 class="sort">Sort by</h5>
           <form class="sort_select" action="/action_page.php">
@@ -126,9 +129,9 @@ layout: prototype/proto-default
           </form>
         </div>
       </div>
-      <div class="events__results">
-          <div class="events__results__item">
-              {%for item in page.events%}
+      <div class="library__results">
+          <div class="library__results__item">
+              {%for item in page.resources%}
               <div class="calendar__icon">
                 <img src="https://via.placeholder.com/100">
               </div>
