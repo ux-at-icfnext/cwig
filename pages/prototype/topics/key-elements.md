@@ -18,8 +18,9 @@ cards:
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. "
     button: Button
-accordion:
-  -button_1: Event Month
+filter:
+  - name: section 1
+  - name: section 2
 resources:
   - name: "Centering Lived Experience: Methodology of Away From Home"
     length: Think of us
