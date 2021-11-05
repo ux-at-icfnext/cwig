@@ -18,9 +18,11 @@ cards:
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. "
     button: Button
-filter:
+accordion:
   - name: section 1
   - name: section 2
+filter:
+  - label: All Types
 resources:
   - name: "Centering Lived Experience: Methodology of Away From Home"
     length: Think of us
