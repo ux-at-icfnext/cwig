@@ -19,11 +19,17 @@ cards:
                     tempor incididunt ut labore et dolore magna aliqua. "
     button: Button
 accordion:
-  - name: section 1
-  - name: section 2
-  - name: section 3
+  - name: Accordion closed state
+  - name: Accordion closed state
+  - name: Resource Type
+  - name: Accordion closed state
 filter:
-  - label: All Types
+  - label: Infographics
+  - label: Podcasts
+  - label: Publications
+  - label: PDF
+  - label: Webinars
+  - label: Videos
 resources:
   - name: "Centering Lived Experience: Methodology of Away From Home"
     length: Think of us

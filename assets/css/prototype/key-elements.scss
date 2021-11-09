@@ -162,6 +162,19 @@
   margin-top: 20px;
 }
 
+.page__shows{
+  text-align: center;
+  color: lightgray;
+}
+
+.page__shows p{
+  margin-top: 50px;
+}
+
+.related__series fieldset{
+  margin-top: 40px;
+}
+
 .related__series a{
   display: block;
   padding: 15px;
@@ -185,6 +198,10 @@ height: 50px;
 width: 50px;
 border-radius: 4px;
 }
+.page__nav button:hover{
+  background-color:#002552;
+  color: white;
+}
 .page__nav a{
 text-decoration: none;
 color: #00AFDB;
@@ -206,4 +223,8 @@ margin: 5px;
 }
 .fa-chevron-right{
 margin: 5px;
+}
+.active{
+  background-color:#002552;
+  color: white;
 }

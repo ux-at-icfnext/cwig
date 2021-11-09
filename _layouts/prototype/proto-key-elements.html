@@ -45,7 +45,7 @@ layout: prototype/proto-default
       </div>
       <div class="library__results">
           <div class="library__results__item">
-              {%for item in page.resources%}
+              {%for item in site.data.prototype.resources%}
               <div class="icon">
                 <img src="https://via.placeholder.com/100">
               </div>
@@ -56,6 +56,9 @@ layout: prototype/proto-default
                       <span class="resource__desc">{{item.desc}}</span>
                     </div>
               {%endfor%}
+          </div>
+          <div class="page__shows">
+            <p>Page shows 15 results</p>
           </div>
           <div class="related__series">
               <fieldset>
@@ -76,7 +79,7 @@ layout: prototype/proto-default
                   <td><button>10</button></td>
                   <td><button>11</button></td>
                   <td>...</td>
-                  <td><button>24</button></td>
+                  <td><button class="active">24</button></td>
                   <td><a href="">Next<i class="fa fa-chevron-right"></i></a></td>
                 </tr>
               </tbody>
