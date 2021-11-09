@@ -21,12 +21,33 @@
     color: white;
 }
 .accordion__label::after{
-    content:"";
+    content: "";
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
-    width: 12 px;
-    height: 6 px;
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    width: 36px;
+    height: 18px;
+    background-image: url(/assets/img/icons/angle-down_white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.1s;
+}
+
+.accordion__content{
+    background-color: #fff;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after{
+    background-image: url(/assets/img/icons/angle-up_white.svg);
 }

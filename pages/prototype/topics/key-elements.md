@@ -21,6 +21,7 @@ cards:
 accordion:
   - name: section 1
   - name: section 2
+  - name: section 3
 filter:
   - label: All Types
 resources:
