@@ -1,4 +1,8 @@
 <link rel="stylesheet" href="/assets/css/prototype/filter.scss">
+<div class="clear__filters">
+    <h3 id="filter__results">Filter your results</h4>
+    <button id="clear__filters">Clear Filters</button>
+</div>
 <div class="accordion">
     {% for item in page.accordion %}
     <div>

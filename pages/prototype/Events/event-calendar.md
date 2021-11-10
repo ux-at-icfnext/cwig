@@ -10,4 +10,16 @@ cards:
       slightly ribbed skin, and is most often deep yellow to orange in
       coloration. "
     button: About Pumpkins
+accordion:
+  - name: Accordion closed state
+  - name: Accordion closed state
+  - name: Resource Type
+  - name: Accordion closed state
+filter:
+  - label: Infographics
+  - label: Podcasts
+  - label: Publications
+  - label: PDF
+  - label: Webinars
+  - label: Videos
 ---

@@ -1,8 +1,24 @@
+#filter__results{
+    font-weight:bold;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+#clear__filters{
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
 .accordion{
     max-width: 400px;
     border-radius: 5px;
     overflow: hidden;
     background-color: #D1D3D4;
+    padding-right: 20px;
+    margin-top: 20px;
 }
 .accordion__label,
 .accordion__content{

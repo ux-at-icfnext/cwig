@@ -35,60 +35,9 @@
   }
   /*Left Column*/
 
-  #filter__results{
-    font-weight:bold;
-    display: inline;
-    padding-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  .left__col{
+    margin-top: 20px;
   }
-  #clear__filters{
-    padding: 5px;
-    width: 120px;
-    height: 30px;
-    margin-bottom: 10px;
-  }
-  .filter__dropdown button{
-    background-color: lightgray;
-    width: 90%;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: black;
-    margin-top: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  .filter__dropdown button:hover{
-    background-color: gray;
-    color: white;
-  }
-  .drop__btn{
-    margin-bottom: 5px;
-    padding: 20px 10px;
-    font-weight: bold;
-    margin-right: 40px;
-  }
-  .dropdown-content{
-    display: none;
-    padding-left: 30px;
-  }
-  .dropdown-content input{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-  }
-  .check__option{
-    display: block;
-  }
-  .active{
-    background-color: blue;
-    color: white;
-  }
-  .fa-plus {
-    float: right;
-    padding-right: 8px;
-  }
-
   .cards__area{
     padding-left: 20px;
     width: 250%;
@@ -96,30 +45,14 @@
   }
 
   /* right col */
+.display_input{
+  border: 0;
+}
+.sort__results__area span{
+  padding: 5px;
+  margin: 10px;
+}
 
-  .search__bar{
-    width: 90%;
-    height: 30px;
-    margin-bottom: 20px;
-  }
-  #search__btn{
-    height: 30px;
-    background-color: blue;
-    color: white;
-    width: 8%;
-  }
-  .sort{
-    float: left;
-    width: 30%;
-    font-weight: bold;
-  }
-  .sort_select{
-    margin-top: 15px;
-    margin-left: 0px;
-  }
-  .sort__results__area h5{
-      display: inline;
-  }
   .sort__results__area::after{
     content: "";
     clear: both;
