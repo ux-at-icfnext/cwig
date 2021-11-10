@@ -1,16 +1,17 @@
 ---
 layout: prototype/proto-default
 ---
+<link rel="stylesheet" href="/assets/css/prototype/stress.scss">
 <div class="feature">
     <img src="{{ page.feature-image }}">
 </div>
 
 <div id="main-content" class="grid-container">
     <h1> {{ page.title }}</h1>
-    <h5>{{page.date}} | Length: {{page.video-length}}</h5>
+    <h5>Date: {{page.date}} | Length: {{page.video-length}}</h5>
     <p class="intro-text">{{ page.intro | markdowify}}</p>
 
-    <video width="50%" height="auto" controls>
+    <video width="50%" height="auto" controls class="video">
         <source src="{{page.video}}"" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
       Your browser does not support the video tag.
@@ -24,12 +25,14 @@ layout: prototype/proto-default
 
     <fieldset class="extra">
         <h3>Also in this series:</h3>
-        <a href="">Link</a>
-        <a href="">Link</a>
+        <a href="">Everyone Experiences Stress, Part 2</a>
+        <a href="">How to handle stress</a>
     </fieldset>
     <fieldset class="extra">
-        <h3>We also recommend the following Information Gateway Resources</h3>
-        <a href="">Link</a>
-        <a href="">Link</a>
+        <h3>We also recommend the following Information Gateway Resources:</h3>
+        <a href="">Secondary link</a>
+        <a href="">Secondary link</a>
+        <a href="">Secondary link that's a bit longer than most of the others</a>
+        <a href="">Secondary link</a>
     </fieldset>
 </div> 
