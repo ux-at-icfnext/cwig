@@ -29,14 +29,23 @@ layout: prototype/proto-default
         {% include patterns/search/search-jk.md %}
       </div>
       <div class="sort__results__area">
-        <h5 class="sort">Displaying</h5>
-        <div class="sort">
-          <h5 class="sort">Sort by</h5>
-          <form class="sort_select" action="/action_page.php">
-            <select name="sort-by" id="sort-by">
-              <option value="abc">A-Z</option>
-            </select>
-          </form>
+        <div>
+          <table>
+            <tr>
+              <td>
+                <span style="float:left">Displaying
+                  <input type="text" name="first-name" class="display_input" placeholder="1-15 of 45"/></span>
+                <span style="float:left" class="blank_space">View Results
+                    <input type="number" name="view_results" class="view__results__input" placeholder="15" /></span>
+                 <span style="float:right" class="sort__select">Sort by
+                     <select name="last-name">
+                      <option value="ABC">A-Z</option>
+                      <option value="Relevance">Relevance</option>
+                     </select>
+                  </span>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
       <div class="library__results">

@@ -102,38 +102,35 @@
 
 /* right col */
 
-.search__bar{
-  width: 90%;
-  height: 30px;
-  margin-bottom: 20px;
-}
-#search__btn{
-  height: 30px;
-  background-color: blue;
-  color: white;
-  width: 8%;
-}
 .sort{
   float: left;
   width: 30%;
   font-weight: bold;
 }
-.number_select{
+.display_input{
+  border: 0;
+}
+.blank_space{
+  visibility: hidden;
+}
+
+.sort__results__area span{
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+.sort__results__area button{
   margin-top: 15px;
-  margin-left: 0px;
+  background-color: lightgray;
+  color: black;
+  border: 0;
 }
-.sort_select{
-  margin-top: 15px;
-  margin-left: 0px;
-}
-.sort__results__area h5{
-    display: inline;
-}
-.sort__results__area::after{
-  content: "";
-  clear: both;
-  display: table;
-}
+
+  .sort__results__area::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .resource__results{
   margin-bottom: 20px;
