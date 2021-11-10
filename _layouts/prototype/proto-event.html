@@ -12,14 +12,17 @@ layout: prototype/proto-default
     <img src="{{ page.feature-image }}">
 </div>
 <div class="main">
+  <div class="intro">
     <h1 id="page__title">{{page.title}}</h1>
+    <p class="intro-text">{{ page.intro | markdowify}}</p>
+    <div class="submit__papers">
+      <h2>Submit Events and Calls for Papers</h2>
+      <p>Submit information on your events. We will then post your submission to this website.</p>
+      <a href="">Fill in a submission form</a>
+    </div>
+  </div>
     <div class="column left__col">
       {% include partials/prototype/filter.md %}
-      <div class="cards__area">
-        {% include patterns/card/card-jk.md  data=card %}
-        <br>
-        {% include patterns/card/card-jk.md  data=card %}
-      </div>
     </div>
     <div class="column right__col">
       <div>
@@ -31,7 +34,8 @@ layout: prototype/proto-default
           <table>
             <tr>
               <td>
-                <span style="float:left">Displaying<input type="text" name="first-name" class="display_input"/></span>
+                <span style="float:left">Displaying
+                  <input type="text" name="first-name" class="display_input" placeholder="1-15 of 45"/></span>
                 <span style="float:left">View Results
                     <input type="number" name="view_results" class="view__results__input" placeholder="15" /></span>
                  <span style="float:right">Sort by
@@ -40,6 +44,14 @@ layout: prototype/proto-default
                       <option value="saab">Relevance</option>
                      </select>
                   </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span style="float: left">Applied filters:</span>
+                <button>Free <i class="fas fa-times"></i></button>
+                <button>All Day <i class="fas fa-times"></i></button>
+                <button>One-time event <i class="fas fa-times"></i></button>
               </td>
             </tr>
           </table>
@@ -63,6 +75,9 @@ layout: prototype/proto-default
                       <span class="event__desc">{{item.desc}}</span>
                     </div>
               {%endfor%}
+          </div>
+          <div class="page__shows">
+            <p>Page shows 15 results</p>
           </div>
           <div class="page__nav">
             <table>

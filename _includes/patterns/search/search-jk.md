@@ -8,6 +8,7 @@
       id="search-field-search-field"
       type="search"
       name="search"
+      placeholder="{{page.placeholder}}"
     />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Search</span>

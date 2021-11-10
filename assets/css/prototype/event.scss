@@ -30,8 +30,23 @@
     margin-left: 100px;
     margin-right: 100px;
   }
-  #page__title{
-    padding-left: 20px;
+
+
+  .intro-text{
+    float: left;
+    width: 45%;
+    margin-right: 5px;
+  }
+  .submit__papers{
+    float: right;
+    background-color: #EDEFF0;
+    padding: 20px;
+    width: 45%;
+  }
+  .intro::after{
+    content: "";
+    display: table;
+    clear: both;
   }
   /*Left Column*/
 
@@ -50,9 +65,14 @@
 }
 .sort__results__area span{
   padding: 5px;
-  padding-left: 0;
   margin: 10px;
   font-weight: bold;
+}
+.sort__results__area button{
+  margin-top: 15px;
+  background-color: lightgray;
+  color: black;
+  border: 0;
 }
 
   .sort__results__area::after{
@@ -88,6 +108,15 @@
     margin-top: 20px;
 }
 
+.page__shows{
+  text-align: center;
+  color: lightgray;
+}
+
+.page__shows p{
+  margin-top: 50px;
+}
+
 .page__nav table{
   margin: 30px auto 30px;
   border-collapse: separate;
@@ -111,18 +140,21 @@
 
 /*general formatting*/
 button{
-  border: 1px solid blue;
-  color: blue;
+  border: 1px solid #00AFDB;
+  color: #00AFDB;
   background-color: white;
   cursor: pointer;
-}
-button:hover{
+  }
+  button:hover{
   background-color: #D1D3D4;
   color: #00AFDB;
-}
+  }
 .fa-chevron-left{
   margin: 5px;
 }
 .fa-chevron-right{
   margin: 5px;
+}
+a{
+  color: blue;
 }
