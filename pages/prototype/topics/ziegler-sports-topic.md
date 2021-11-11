@@ -16,4 +16,8 @@ links:
   - text: MLB
     link: mlb.com
 resource-label: Related Resources
+resources:
+  - text: How to throw a spiral
+    link: https://www.wikihow.com/Throw-a-Spiral
+    body: Throw a tight spiral every time!
 ---
