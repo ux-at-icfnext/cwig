@@ -10,6 +10,8 @@ Landing pages:
 
 Basic Pages:
 * [About Child Welfare Information Gateway](/about)
+* [Contact Us](/contact)
+* ) 
 
 
 
