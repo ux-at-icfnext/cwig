@@ -7,6 +7,9 @@ spotlight:
   - link-text: 2020 Olympic Games
     link: /olympics
     body: The 2020 Olympics were actually held in 2021!
+cards:
+  - card-title: College Football
+    body: Is it really about the student athlete?
 related-label: Related Links
 links:
   - text: NFL
