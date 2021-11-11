@@ -117,27 +117,6 @@
   margin-top: 50px;
 }
 
-.page__nav table{
-  margin: 30px auto 30px;
-  border-collapse: separate;
-  border-spacing: 0px 20px;
-}
-.page__nav td{
-  padding: 5px;
-  margin: 10px;
-}
-.page__nav button{
-  border: solid #D1D3D4;
-  color: #00AFDB;
-  height: 50px;
-  width: 50px;
-  border-radius: 4px;
-}
-.page__nav a{
-  text-decoration: none;
-  color: #00AFDB;
-}
-
 /*general formatting*/
 button{
   border: 1px solid #00AFDB;
@@ -146,8 +125,8 @@ button{
   cursor: pointer;
   }
   button:hover{
-  background-color: #D1D3D4;
-  color: #00AFDB;
+    background-color: #002552;
+    color: white;
   }
 .fa-chevron-left{
   margin: 5px;

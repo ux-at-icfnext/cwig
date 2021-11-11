@@ -73,23 +73,7 @@ layout: prototype/proto-default
                   <a href="">Secondary Link that's a bit longer than most of the others</a>
               </fieldset>
           </div>
-          <div class="page__nav">
-            <table>
-              <tbody>
-                <tr>
-                  <td><a href=""><i class="fa fa-chevron-left"></i>Previous</a></td>
-                  <td><button>1</button></td>
-                  <td>...</td>
-                  <td><button>9</button></td>
-                  <td><button>10</button></td>
-                  <td><button>11</button></td>
-                  <td>...</td>
-                  <td><button class="active">24</button></td>
-                  <td><a href="">Next<i class="fa fa-chevron-right"></i></a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          {% include partials/prototype/page-nav.md %}
       </div>
     </div>
   </div>
