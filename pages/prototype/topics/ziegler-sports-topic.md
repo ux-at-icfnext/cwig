@@ -10,6 +10,7 @@ spotlight:
 cards:
   - card-title: College Football
     body: Is it really about the student athlete?
+    button: NIL
 related-label: Related Links
 links:
   - text: NFL
