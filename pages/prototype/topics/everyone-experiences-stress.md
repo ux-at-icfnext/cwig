@@ -19,4 +19,24 @@ cards:
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. "
     button: Button
+related-label: "Also in this series:"
+links:
+    - link: ""
+      text: Everyone Experiences Stress, Part 2
+    - link: ""
+      text: "How to handle stress"
+resource-label: "We also recommend the following Information Gateway resources:"
+resources:
+  - link: ""
+    text: "Secondary link"
+    body: ""
+  - link: ""
+    text: "Secondary link"
+    body: ""
+  - link: ""
+    text: "Secondary link that's a bit longer than most others"
+    body: ""
+  - link: ""
+    text: "Secondary link"
+    body: ""
 ---
