@@ -31,22 +31,18 @@ filter:
   - label: PDF
   - label: Webinars
   - label: Videos
+resource-label: Related Series
 resources:
-  - name: "Centering Lived Experience: Methodology of Away From Home"
-    length: Think of us
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - name: "Safe Children Coalition: Annual Conference"
-    length: 12 AM
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - name: "Safe Children Coalition: Annual Conference"
-    length: 12 AM
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - name: "Safe Children Coalition: Annual Conference"
-    length: 12 AM
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - name: "Safe Children Coalition: Annual Conference"
-    length: 12 AM
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - name: "Safe Children Coalition: Annual Conference"
-    desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - link: ""
+    text: "Secondary link"
+    body: ""
+  - link: ""
+    text: "Secondary link"
+    body: ""
+  - link: ""
+    text: "Secondary link that's a bit longer than most others"
+    body: ""
+  - link: ""
+    text: "Secondary link"
+    body: ""
 ---

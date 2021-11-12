@@ -56,41 +56,20 @@ layout: prototype/proto-default
               </div>
                     <div class="resource__details">
                       <a href="" class="resource__info">{{item.name}}</a>
-                      <span class="resource_length">{{item.length}}</span>
+                      <span class="resource__size">{{item.size}}</span>
                       <br><br>
                       <span class="resource__desc">{{item.desc}}</span>
+                      <br>
+                      <span class="resource__type">{{item.type}}</span>
                     </div>
               {%endfor%}
           </div>
           <div class="page__shows">
             <p>Page shows 15 results</p>
           </div>
-          <div class="related__series">
-              <fieldset>
-                  <h3>Related Series</h3>
-                  <a href="">Secondary Link</a>
-                  <a href="">Secondary Link</a>
-                  <a href="">Secondary Link that's a bit longer than most of the others</a>
-              </fieldset>
-          </div>
+          {% include structures/related/related-resources.md  data=resources %}
           {% include partials/prototype/page-nav.md %}
       </div>
     </div>
   </div>
   </div>
-  <script>
-    var dropdown=document.getElementsByClassName("drop__btn");
-    var i;
-
-    for (i=0; i<dropdown.length; i++){
-      dropdown[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-        var dropdownContent=this.nextElementSibling;
-        if (dropdownContent.style.display=="block"){
-          dropdownContent.style.display="none";
-        }else{
-          dropdownContent.style.display="block";
-        }
-      });
-    }
-  </script>

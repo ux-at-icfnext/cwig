@@ -147,10 +147,12 @@
   display: inline;
   padding-right: 50px;
 }
-.resource__length{
-    color: gray;
+.resource__size{
+    color: #71767A;
 }
-
+.resource__type{
+  font-style: italic;
+}
 .resource__details{
   display: inline-block;
   vertical-align: top;
