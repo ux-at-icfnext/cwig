@@ -29,6 +29,7 @@
 .title_intro{
   margin-left: 100px;
   margin-right: 100px;
+  line-height: 1.5;
 }
 .cards{
   background-color: #D1D3D4;
@@ -40,73 +41,9 @@
  margin-left: 100px;
  margin-right: 100px;
 }
-/*Left Column*/
-
-#filter__results{
-    font-weight:bold;
-    display: inline;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-#clear__filters{
-  padding: 5px;
-  width: 120px;
-  height: 30px;
-  margin-left: 20px 0px;
-  margin-bottom: 10px;
-}
-.filter__dropdown button{
-  background-color: lightgray;
-  width: 90%;
-  margin-right: 20px;
-  color: black;
-  margin-top: 5px;
-  border: none;
-  cursor: pointer;
-}
-.filter__dropdown button:hover{
-  background-color: gray;
-}
-.drop__btn{
-  margin-bottom: 5px;
-  padding: 20px 10px;
-  font-weight: bold;
-  margin-right: 40px;
-}
-.dropdown-content{
-  display: none;
-  padding-left: 30px;
-}
-.dropdown-content input{
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-}
-.check__option{
-  display: block;
-}
-.active{
-  background-color: blue;
-  color: white;
-}
-.fa-plus {
-  float: right;
-  padding-right: 8px;
-}
-
-.cards__area{
-  padding-left: 20px;
-  width: 250%;
-  margin-top: 20px;
-}
 
 /* right col */
 
-.sort{
-  float: left;
-  width: 30%;
-  font-weight: bold;
-}
 .display_input{
   border: 0;
 }
@@ -132,12 +69,6 @@
     display: table;
   }
 
-.resource__results{
-  margin-bottom: 20px;
-}
-.resource__results__item{
-  margin-bottom: 20px;
-}
 .icon{
   padding-top: 20px;
   display: inline-block;
@@ -168,16 +99,6 @@
 
 .page__shows p{
   margin-top: 50px;
-}
-
-.related__series fieldset{
-  margin-top: 40px;
-}
-
-.related__series a{
-  display: block;
-  padding: 15px;
-  color: #00AFDB;
 }
 /*page navigation*/
 
