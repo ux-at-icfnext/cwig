@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: styles
 permalink: /typography
 title:  CWIG Typography
 

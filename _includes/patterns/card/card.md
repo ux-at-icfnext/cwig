@@ -1,7 +1,7 @@
 
 
 <ul class="usa-card-group">
-  <li class="tablet:grid-col-4 usa-card">
+  <li class="tablet:grid-col-6 usa-card">
     <div class="usa-card__container">
       <header class="usa-card__header">
         <h2 class="usa-card__heading">Card</h2>
