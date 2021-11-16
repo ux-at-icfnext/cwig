@@ -3,7 +3,7 @@ layout: patterns
 permalink: "/icon-list"
 title:  Icon List
 description: |
-  An icon list reinforces the meaning and visibility of individual list items with a leading icon.
+  An icon list reinforces the meaning and visibility of individual list items with a leading icon. Read more about [Icons](/icons)
 usa-link: "https://designsystem.digital.gov/components/icon-list/"
 htmlpath: "patterns/icon-list/icon-list.md"
 csspath: "patterns/icon-list/icon-list.scss"
