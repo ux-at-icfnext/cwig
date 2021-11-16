@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column{
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .left__col{
+    width: 25%;
+  }
+  
+  .right__col{
+    width: 75%;
+    margin-bottom: 200px;
+  }
+  
+  /* Clear floats after the columns */
+  .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*main*/
+  .main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+  .intro-text{
+    float: left;
+    width: 45%;
+    margin-right: 5px;
+    line-height: 1.5;
+  }
+  .submit__papers{
+    float: right;
+    background-color: #EDEFF0;
+    padding: 20px;
+    width: 45%;
+  }
+  .intro::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*Left Column*/
+
+  .left__col{
+    margin-top: 20px;
+  }
+  .cards__area{
+    padding-left: 20px;
+    width: 250%;
+    margin-top: 20px;
+  }
+
+  /* right col */
+.display_input{
+  border: 0;
+}
+.sort__results__area span{
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+.sort__results__area button{
+  margin-top: 15px;
+  background-color: lightgray;
+  color: black;
+  border: 0;
+}
+
+  .sort__results__area::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .event__results{
+    margin-bottom: 20px;
+  }
+  .event__results__item{
+    margin-bottom: 20px;
+  }
+  .calendar__icon{
+    padding-top: 20px;
+    display: inline-block;
+  }
+  .event__info{
+    font-weight: bold;
+    display: inline;
+    padding-right: 50px;
+}
+  .event__sponsor{
+      color: gray;
+  }
+
+  .event__details{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.page__shows{
+  text-align: center;
+  color: lightgray;
+}
+
+.page__shows p{
+  margin-top: 50px;
+}
+
+/*general formatting*/
+button{
+  border: 1px solid #00AFDB;
+  color: #00AFDB;
+  background-color: white;
+  cursor: pointer;
+  }
+  button:hover{
+    background-color: #002552;
+    color: white;
+  }
+.fa-chevron-left{
+  margin: 5px;
+}
+.fa-chevron-right{
+  margin: 5px;
+}
+a{
+  color: blue;
+}

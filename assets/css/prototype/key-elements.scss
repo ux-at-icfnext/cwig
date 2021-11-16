@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column{
+  float: left;
+  padding: 10px;
+  height: auto;
+}
+
+.left__col{
+  width: 25%;
+}
+
+.right__col{
+  width: 75%;
+  margin-bottom: 200px;
+}
+
+/* Clear floats after the columns */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*main*/
+.title_intro{
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 1.5;
+}
+.cards{
+  background-color: #D1D3D4;
+  padding: 25px 100px;
+}
+
+/*main_content*/
+.main_content{
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+/* right col */
+
+.display_input{
+  border: 0;
+}
+.blank_space{
+  visibility: hidden;
+}
+
+.sort__results__area span{
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+.sort__results__area button{
+  margin-top: 15px;
+  background-color: lightgray;
+  color: black;
+  border: 0;
+}
+
+  .sort__results__area::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.icon{
+  padding-top: 20px;
+  display: inline-block;
+}
+.resource__info{
+  font-weight: bold;
+  display: inline;
+  padding-right: 50px;
+  line-height: 1.5;
+}
+.resource__size{
+    color: #71767A;
+}
+.resource__type{
+  font-style: italic;
+}
+.resource__details{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.page__shows{
+  text-align: center;
+  color: lightgray;
+}
+
+.page__shows p{
+  margin-top: 50px;
+}
+/*page navigation*/
+
+.page__nav table{
+margin: 30px auto 30px;
+border-collapse: separate;
+border-spacing: 0px 20px;
+}
+.page__nav td{
+padding: 5px;
+margin: 10px;
+}
+.page__nav button{
+border: solid #D1D3D4;
+color: #00AFDB;
+height: 50px;
+width: 50px;
+border-radius: 4px;
+}
+.page__nav button:hover{
+  background-color:#002552;
+  color: white;
+}
+.page__nav a{
+text-decoration: none;
+color: #00AFDB;
+}
+
+/*general formatting*/
+button{
+border: 1px solid #00AFDB;
+color: #00AFDB;
+background-color: white;
+cursor: pointer;
+}
+button:hover{
+  background-color: #002552;
+  color: white;
+}
+.fa-chevron-left{
+margin: 5px;
+}
+.fa-chevron-right{
+margin: 5px;
+}
+.active{
+  background-color:#002552;
+  color: white;
+}

@@ -1,0 +1,101 @@
+---
+layout: prototype/proto-default
+---
+<link rel="stylesheet" href="/assets/css/prototype/event.scss">
+<div class="header">
+
+</div>
+<div class="breadcrumbs">
+    
+</div>
+<div class="feature">
+    <img src="{{ page.feature-image }}">
+</div>
+<div class="main">
+  <div class="intro">
+    <h1 id="page__title">{{page.title}}</h1>
+    <p class="intro-text">{{ page.intro | markdowify}}</p>
+    <div class="submit__papers">
+      <h2>Submit Events and Calls for Papers</h2>
+      <p>Submit information on your events. We will then post your submission to this website.</p>
+      <a href="">Fill in a submission form</a>
+    </div>
+  </div>
+    <div class="column left__col">
+      {% include partials/prototype/filter.md %}
+    </div>
+    <div class="column right__col">
+      <div>
+          <h3>Results</h3>
+          {% include patterns/search/search-jk.md %}
+      </div>
+      <div class="sort__results__area">
+        <div>
+          <table>
+            <tr>
+              <td>
+                <span style="float:left">Displaying
+                  <input type="text" name="first-name" class="display_input" placeholder="1-15 of 45"/></span>
+                <span style="float:left">View Results
+                    <input type="number" name="view_results" class="view__results__input" placeholder="15" /></span>
+                 <span style="float:right">Sort by
+                     <select name="last-name" class="form-last-name">
+                      <option value="volvo">Date of Event - Soonest First</option>
+                      <option value="saab">Relevance</option>
+                     </select>
+                  </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span style="float: left">Applied filters:</span>
+                <button>Free <i class="fas fa-times"></i></button>
+                <button>All Day <i class="fas fa-times"></i></button>
+                <button>One-time event <i class="fas fa-times"></i></button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="events__results">
+          <div class="events__results__item">
+              {%for item in site.data.prototype.events%}
+              <div class="calendar__icon">
+                <img src="https://via.placeholder.com/100">
+              </div>
+                    <div class="event__details">
+                      <span class="event__info">{{item.date}}</span>
+                      <span class="event__info">|</span>
+                      <span class="event__info">{{item.time}}</span>
+                      <br><br>
+                      <a href="">{{item.event}}</a>
+                      <br>
+                      <span class="event__sponsor">{{item.sponsor}}</span>
+                      <br><br>
+                      <span class="event__desc">{{item.desc}}</span>
+                    </div>
+              {%endfor%}
+          </div>
+          <div class="page__shows">
+            <p>Page shows 15 results</p>
+          </div>
+        {% include partials/prototype/page-nav.md %}
+      </div>
+    </div>
+  </div>
+  <script>
+    var dropdown=document.getElementsByClassName("drop__btn");
+    var i;
+
+    for (i=0; i<dropdown.length; i++){
+      dropdown[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+        var dropdownContent=this.nextElementSibling;
+        if (dropdownContent.style.display=="block"){
+          dropdownContent.style.display="none";
+        }else{
+          dropdownContent.style.display="block";
+        }
+      });
+    }
+  </script>

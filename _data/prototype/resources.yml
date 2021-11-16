@@ -1,0 +1,24 @@
+- name: "Centering Lived Experience: Methodology of Away From Home"
+  size: (PDF, 210 KB)
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Publication
+- name: "List item title - suggested 150 characters max - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  size: (PDF, 342 KB)
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Publication
+- name: "List item title - suggested 150 characters max - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  size: ""
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Webinar
+- name: "List item title - suggested 150 characters max - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  size: ""
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Webinar
+- name: "List item title - suggested 150 characters max - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  size: ""
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Podcast
+- name: "List item title - suggested 150 characters max - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  size: ""
+  desc: Short Description - suggested 250 character max - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  type: Infographic

@@ -34,6 +34,13 @@ library:
       - text: Logos
         desc: Description
         href: /logos/
+      - text: Icons
+        desc: Icons are a simple, easily graspable way to add visual emphasis or interest, signal an action,
+              or indicate a feedback state — all while reducing a user’s cognitive load.
+        href: /icons/
+      - text: Icon List
+        desc: An icon list reinforces the meaning and visibility of individual list items with a leading icon.
+        href: /icon-list/
     href: /styles/
   - text: Accordion
     desc: An accordion is a list of headers that hide or reveal additional content when selected.

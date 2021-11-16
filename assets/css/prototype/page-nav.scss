@@ -1,0 +1,29 @@
+.page__nav table{
+    margin: 30px auto 30px;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+  }
+  .page__nav td{
+    padding: 5px;
+    margin: 10px;
+  }
+  .page__nav button{
+    border: solid #D1D3D4;
+    color: #00AFDB;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+  }
+  .page__nav button:hover{
+    background-color: #002552;
+    color: white;
+  }
+  .page__nav a{
+    text-decoration: none;
+    color: #00AFDB;
+  }
+  .active{
+    background-color:#002552;
+    color: white;
+  }  

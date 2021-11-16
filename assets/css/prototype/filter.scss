@@ -1,0 +1,67 @@
+#filter__results{
+    font-weight:bold;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+#clear__filters{
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+.accordion{
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #EDEFF0;;
+    margin-top: 20px;
+}
+.accordion__label,
+.accordion__content{
+    padding: 14px 20px;
+}
+.accordion__label{
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+}
+.accordion__label:hover{
+    background: rgba(0, 0, 0.1);
+    color: white;
+}
+.accordion__label::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 36px;
+    height: 18px;
+    background-image: url(/assets/img/icons/plus.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.1s;
+}
+
+.accordion__content{
+    background-color: #fff;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after{
+    background-image: url(/assets/img/icons/minus.svg);
+}
