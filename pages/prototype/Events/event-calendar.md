@@ -2,6 +2,7 @@
 permalink: /events-search
 layout: prototype/proto-event
 title: Events Search
+categories: prototype
 feature-image: https://via.placeholder.com/2000x300?text=-
 placeholder: Search by keyword
 intro: >

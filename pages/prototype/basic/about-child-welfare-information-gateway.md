@@ -2,6 +2,7 @@
 layout: prototype/proto-basic
 title: About Child Welfare Information Gateway
 permalink: /about
+categories: prototype
 ---
 Child Welfare Information Gateway promotes the safety, permanency, and well-being of children, youth, and families by connecting child welfare, adoption, and related professionals as well as the public to information, resources, and tools covering topics on child welfare, child abuse and neglect, out-of-home care, adoption, and more.
 
