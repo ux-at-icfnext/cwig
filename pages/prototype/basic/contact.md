@@ -2,6 +2,7 @@
 layout: prototype/proto-basic
 title: Contact Us
 permalink: /contact
+categories: prototype
 ---
 Short Description text ~ reccommended no more than 500 characters. ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in mass
 

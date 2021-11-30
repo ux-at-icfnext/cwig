@@ -4,14 +4,12 @@
 #   links: primary
 #
 primary:
-  - text: Start
-    href: /start/
-  - text: Library
+  - text: Patterns
     href: /library/
-  - text: Guidance
-    href: /guidance/
-  - text: Docs
-    href: /docs/
+  - text: Templates
+    href: /templates/
+  - text: Prototype
+    href: /prototype/
   - text: Updates
     href: /releases/
 
@@ -131,6 +129,9 @@ library:
     desc: A modal disables page content and focuses the user’s attention on a single
           task or message.
     href: /modal/
+  - text: Printing Guidance
+    desc: Make pages printer friendly by following this guide.
+    href: /printing/
   - text: Process List
     desc: A process list displays the steps or stages of important instructions or processes.
     href: /process-list
@@ -161,6 +162,3 @@ library:
           on an element.
     href: /tooltip/
 
-guidance:
-  - text: Printing Guidance
-    href: /printing/
