@@ -13,7 +13,7 @@ layout: default
                 {% if item.href contains page.url %}
                     <li class="usa-sidenav__item usa-current">
                 {% else %}
-                    <li class="usa-sidenav__item"></li>
+                    <li class="usa-sidenav__item">
                 {% endif %}
                     <a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a> 
                 </li>

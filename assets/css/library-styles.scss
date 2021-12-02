@@ -59,3 +59,40 @@
   max-width: 20px;
   height: auto;
 }
+
+
+.designcomps {
+  @include grid-row;
+}
+
+.designcomp-layout {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(4);
+    @include u-order(last)
+  }
+}
+
+.designcomp-image {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(4);
+  }
+  img { 
+    width: 80%;
+    height: auto;
+  }
+}
+.designcomp-image-sm {
+  @include u-width(full);
+
+  @include at-media(tablet) {
+    @include grid-col(2);
+  }
+  img { 
+    width: auto;
+    max-height: 350px;
+  }
+}
