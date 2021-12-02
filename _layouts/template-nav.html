@@ -1,0 +1,39 @@
+---
+layout: default
+# This layout embeds a page inside of the layout to house the left-hand navigation
+# Nav should be assigned by the content page
+---
+
+
+
+
+<div class="col-2">
+    <div class="left-nav" markdown="1">     
+        <aside class="sidenav" id="page-side-navigation">
+            <ul class="site-sidenav usa-sidenav">
+                {% for page in site.pages %}
+                    {% if page.categories == "template" %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+       </aside>
+    </div>
+    <div class="article" markdown="1" style="padding-left: 20px;">
+        <div class="designcomps">
+            <div class="designcomp-layout">
+                <h4>Layout: {{ page.layout-type }}</h4>
+                <img src="{{ page.layout-type-screenshot }}">
+                <p><a class="usa-button" href="{{ page.prototype-link }}">View Prototype Example </a></p>
+            </div>
+            <div class="designcomp-image">
+                <img src="{{ page.screenshot-lg }}">
+            </div>
+            <div class="designcomp-image-sm">
+                <img src="{{ page.screenshot-sm }}">
+            </div>
+        </div>
+        
+        {{content}}
+    </div>
+</div>
