@@ -7,7 +7,7 @@ permalink: /templates
 View specifications for the page templates.
 
 <ul>
-<li><a href="events-landing.md">Events Landing</a></li>
+<a href="events-landing.md">Events Landing</a>
 {% for page in site.pages %}
     {% if page.categories == "template" %}
         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
