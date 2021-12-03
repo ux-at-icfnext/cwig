@@ -2,6 +2,7 @@
 layout: prototype/proto-landing
 title: News & Newsletters
 permalink: /landing
+categories: prototype
 feature-image: https://via.placeholder.com/2000x300?text=-
 intro: >
   This section includes an array of resources that provide training, assistance

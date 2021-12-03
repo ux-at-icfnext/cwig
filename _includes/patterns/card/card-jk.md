@@ -11,7 +11,7 @@
             <p>{{ card.body }}</p>
           </div>
           <div class="usa-card__footer">
-            <button class="usa-button">{{ card.button | default:'click me'}}</button>
+            <a href="{{ card.link }}" class="usa-button">{{ card.button | default:'click me'}}</a>
           </div>
         </div>
       </li>

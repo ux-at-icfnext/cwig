@@ -2,6 +2,7 @@
 layout: prototype/proto-topic-detail
 title: Family-Centered Practice
 permalink: /family-centered
+categories: prototype
 feature-image: https://via.placeholder.com/2000x300?text=-
 intro: | 
     Family-centered practice is a way of working with families, both formally and informally, across service systems to enhance their capacity to care for and protect their children. It focuses on children's safety and needs within the context of their families and communities and builds on families' strengths to achieve optimal outcomes. Families are defined broadly to include birth, blended, kinship, and foster and adoptive families.
