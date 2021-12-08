@@ -1,5 +1,5 @@
 ---
-layout: palette
+layout: style
 permalink: "/colors"
 Title: Colors
 ---
