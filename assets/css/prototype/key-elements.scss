@@ -149,3 +149,16 @@ margin: 5px;
   background-color:#002552;
   color: white;
 }
+
+/*responsive*/
+@media only screen and (max-width: 992px){
+  [class*="column"]{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .float{
+    float: left;
+  }
+}

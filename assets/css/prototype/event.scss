@@ -54,12 +54,6 @@
   .left__col{
     margin-top: 20px;
   }
-  .cards__area{
-    padding-left: 20px;
-    width: 250%;
-    margin-top: 20px;
-  }
-
   /* right col */
 .display_input{
   border: 0;
@@ -137,4 +131,18 @@ button{
 }
 a{
   color: blue;
+}
+
+/*responsive*/
+@media only screen and (max-width: 992px){
+  [class*="column"]{
+    width: 100%;
+  }
+  .sort__results__area span{
+    display: block;
+    margin-left: 0%;
+  }
+  .event__details{
+    margin-left: 0%;
+  }
 }

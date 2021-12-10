@@ -34,11 +34,11 @@ layout: prototype/proto-default
           <table>
             <tr>
               <td>
-                <span style="float:left">Displaying
+                <span>Displaying
                   <input type="text" name="first-name" class="display_input" placeholder="1-15 of 45"/></span>
-                <span style="float:left">View Results
+                <span>View Results
                     <input type="number" name="view_results" class="view__results__input" placeholder="15" /></span>
-                 <span style="float:right">Sort by
+                 <span>Sort by
                      <select name="last-name" class="form-last-name">
                       <option value="volvo">Date of Event - Soonest First</option>
                       <option value="saab">Relevance</option>
@@ -83,19 +83,3 @@ layout: prototype/proto-default
       </div>
     </div>
   </div>
-  <script>
-    var dropdown=document.getElementsByClassName("drop__btn");
-    var i;
-
-    for (i=0; i<dropdown.length; i++){
-      dropdown[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-        var dropdownContent=this.nextElementSibling;
-        if (dropdownContent.style.display=="block"){
-          dropdownContent.style.display="none";
-        }else{
-          dropdownContent.style.display="block";
-        }
-      });
-    }
-  </script>
