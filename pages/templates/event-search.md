@@ -31,6 +31,8 @@ An accordion acting as a filter to filter through the generated search results. 
 of the page in desktop view. For smaller screens it is located above the search results area.
 
 Filter includes:
+ - Filter your results | h3
+ - Clear Filters | Button
  - Accordion
  - Input | Type Select
 
