@@ -4,13 +4,13 @@
         <tbody>
         <tr>
             <td><a href=""><i class="fa fa-chevron-left"></i>Previous</a></td>
-            <td><button>1</button></td>
-            <td>...</td>
-            <td><button>9</button></td>
-            <td><button class="active">10</button></td>
-            <td><button>11</button></td>
-            <td>...</td>
-            <td><button>24</button></td>
+            <td class="page__button"><button>1</button></td>
+            <td class="page__button">...</td>
+            <td class="page__button"><button>9</button></td>
+            <td class="page__button"><button class="active">10</button></td>
+            <td class="page__button"><button>11</button></td>
+            <td class="page__button">...</td>
+            <td class="page__button"><button>24</button></td>
             <td><a href="">Next<i class="fa fa-chevron-right"></i></a></td>
         </tr>
         </tbody>
