@@ -59,9 +59,12 @@ The icon is determined by the type of event.
 The date, time, event title, event sponsor, and event description come from data submited into said related page.
 
 Each individual search result includes:
- - An image
- - Five span elements
- - A hyperlink
+ - Image
+ - Event Date | Span
+ - Event Time | Span
+ - Event title | Hyperlink
+ - Event Sponsor | Span
+ - Event Description | Span
 
 
 Uses [page navigation partial]().
