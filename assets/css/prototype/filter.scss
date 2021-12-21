@@ -65,3 +65,11 @@
 .accordion__input:checked ~ .accordion__label::after{
     background-image: url(/assets/img/icons/minus.svg);
 }
+
+@media only screen and (max-width: 992px){
+    #clear__filters{
+        display: block;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+}
