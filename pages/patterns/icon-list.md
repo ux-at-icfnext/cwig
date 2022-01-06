@@ -1,5 +1,5 @@
 ---
-layout: patterns
+layout: patterns_style_side_nav
 permalink: "/icon-list"
 title:  Icon List
 description: |

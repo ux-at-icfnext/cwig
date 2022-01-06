@@ -1,5 +1,5 @@
 ---
-layout: col-1
+layout: nav-col
 permalink: "/printing"
 title:  Print Guidance
 ---
