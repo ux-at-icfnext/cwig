@@ -3,7 +3,7 @@ layout: prototype/proto-landing
 title: News & Newsletters
 permalink: /landing
 categories: prototype
-feature-image: https://via.placeholder.com/2000x300?text=-
+feature-image: https://via.placeholder.com/500x500?text=-
 intro: >
   This section includes an array of resources that provide training, assistance
   with evaluation, tools to help with workforce recruitment, and a searchable
@@ -12,13 +12,51 @@ intro: >
   they provide, including program funding and CB grantee reports.
 cards:
   - card-title: Pumpkins are cool
-    image: /assets/img/prototype/pumpkins.jpg
     body: "A pumpkin is a cultivar of winter squash that is round with smooth,
       slightly ribbed skin, and is most often deep yellow to orange in
       coloration. "
     button: About Pumpkins
   - card-title: Stopping to admire the yellow stripes
-    image: /assets/img/prototype/road-2.jpg
     body: "The journey to the pumpkin patch was filled with wonder. "
     button: On the road
+  - card-title: Pumpkins are cool
+    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
+      slightly ribbed skin, and is most often deep yellow to orange in
+      coloration. "
+    button: About Pumpkins
+  - card-title: Stopping to admire the yellow stripes
+    body: "The journey to the pumpkin patch was filled with wonder. "
+    button: On the road
+  - card-title: Pumpkins are cool
+    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
+      slightly ribbed skin, and is most often deep yellow to orange in
+      coloration. "
+    button: About Pumpkins
+  - card-title: Stopping to admire the yellow stripes
+    body: "The journey to the pumpkin patch was filled with wonder. "
+    button: On the road
+  - card-title: Pumpkins are cool
+    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
+      slightly ribbed skin, and is most often deep yellow to orange in
+      coloration. "
+    button: About Pumpkins
+  - card-title: Stopping to admire the yellow stripes
+    body: "The journey to the pumpkin patch was filled with wonder. "
+    button: On the road
+  - card-title: Pumpkins are cool
+    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
+      slightly ribbed skin, and is most often deep yellow to orange in
+      coloration. "
+    button: About Pumpkins
+  - card-title: Stopping to admire the yellow stripes
+    body: "The journey to the pumpkin patch was filled with wonder. "
+    button: On the road
+  - card-title: Pumpkins are cool
+    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
+      slightly ribbed skin, and is most often deep yellow to orange in
+      coloration. "
+    button: About Pumpkins
+  - card-title: Stopping to admire the yellow stripes
+    body: "The journey to the pumpkin patch was filled with wonder. "
+    button: On the road    
 ---

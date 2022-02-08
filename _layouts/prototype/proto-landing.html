@@ -1,15 +1,303 @@
 ---
-layout: prototype/proto-default
+layout: prototype/colorVers/proto-default-color
 ---
+<link rel="stylesheet" href="/assets/css/prototype/approved/topics-landing-wide.scss">
 
-<div class="feature">
-    <img src="{{ page.feature-image }}">
+<div class="page__header">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text">
+        <a href="javascript:void(0)" title="&lt;Project title&gt;">
+          Child Welfare Information Gateway
+        </a>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link usa-current"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-one"
+          >
+            <span>&lt;Current section&gt;</span>
+          </button>
+
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-two"
+          >
+            <span>&lt;Section&gt;</span>
+          </button>
+
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="#"> &lt;Navigation link&gt; </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a href="javascript:void(0)" class="usa-nav__link">
+            <span>&lt;Simple link&gt;</span>
+          </a>
+        </li>
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="">&lt;Secondary link&gt;</a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="">&lt;Another secondary link&gt;</a>
+          </li>
+        </ul>
+
+        <form class="usa-search usa-search--small" role="search">
+          <label class="usa-sr-only" for="extended-search-field-en-small">
+            Search
+          </label>
+          <input
+            class="usa-input"
+            id="extended-search-field-en-small"
+            type="search"
+            name="search"
+          />
+          <button class="usa-button" type="submit">
+            <span class="usa-sr-only">Search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="grid-container">
+<nav class="usa-breadcrumb" id="breadcrumb__section" aria-label="Breadcrumbs,,">
+  <ol class="usa-breadcrumb__list">
+    <li class="usa-breadcrumb__list-item">
+      <a href="javascript:void(0);" class="usa-breadcrumb__link">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="javascript:void(0);" class="usa-breadcrumb__link">
+        <span>Grand Parent</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="javascript:void(0);" class="usa-breadcrumb__link">
+        <span>Parent</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+      <span>Current page</span>
+    </li>
+  </ol>
+</nav>
+</div>
+    <div class="grid-container page__intro">
+        <div>
+            <h1> {{ page.title }}</h1>
+            <p class="intro-text">{{ page.intro | markdowify}}</p>
+        </div>
+        <div>
+            <img src="{{page.feature-image}}">
+        </div>
+    </div>
 </div>
 
-<div id="main-content" class="grid-container">
-    <h1> {{ page.title }}</h1>
-    <p class="intro-text">{{ page.intro | markdowify}}</p>
-    
-    {% include patterns/card/card-wide-jk.md  data=card %}
-</div>        
+<div class="content__section">
+    <div id="main-content" class="grid-container">
+        {% include patterns/card/card-topics-landing.md  data=card %}
+    </div>
+</div>
+
+<footer class="usa-footer">
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+    <div class="usa-footer__primary-section page__footer">
+      <nav class="usa-footer__nav" aria-label="Footer navigation">
+        <ul class="grid-row grid-gap">
+          <li
+            class="
+              mobile-lg:grid-col-4
+              desktop:grid-col-auto
+              usa-footer__primary-content
+            "
+          >
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+  
+          <li
+            class="
+              mobile-lg:grid-col-4
+              desktop:grid-col-auto
+              usa-footer__primary-content
+            "
+          >
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+  
+          <li
+            class="
+              mobile-lg:grid-col-4
+              desktop:grid-col-auto
+              usa-footer__primary-content
+            "
+          >
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+  
+          <li
+            class="
+              mobile-lg:grid-col-4
+              desktop:grid-col-auto
+              usa-footer__primary-content
+            "
+          >
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+  
+          <li
+            class="
+              mobile-lg:grid-col-4
+              desktop:grid-col-auto
+              usa-footer__primary-content
+            "
+          >
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  
+    <div class="usa-footer__secondary-section page__footer">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div
+            class="
+              usa-footer__logo
+              grid-row
+              mobile-lg:grid-col-6 mobile-lg:grid-gap-2
+            "
+          >
+            <div class="mobile-lg:grid-col-auto">
+              <img
+                class="usa-footer__logo-img"
+                src="/assets/img/logo-img.png"
+                alt=""
+              />
+            </div>
+            <div class="mobile-lg:grid-col-auto">
+              <p class="usa-footer__logo-heading">Child Welfare Information Gateway</p>
+            </div>
+          </div>
+          <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                <a
+                  class="usa-social-link usa-social-link--facebook"
+                  href="javascript:void(0);"
+                >
+                  <span>Facebook</span>
+                </a>
+              </div>
+  
+              <div class="grid-col-auto">
+                <a
+                  class="usa-social-link usa-social-link--twitter"
+                  href="javascript:void(0);"
+                >
+                  <span>Twitter</span>
+                </a>
+              </div>
+  
+              <div class="grid-col-auto">
+                <a
+                  class="usa-social-link usa-social-link--youtube"
+                  href="javascript:void(0);"
+                >
+                  <span>YouTube</span>
+                </a>
+              </div>
+  
+              <div class="grid-col-auto">
+                <a
+                  class="usa-social-link usa-social-link--instagram"
+                  href="javascript:void(0);"
+                >
+                  <span>Instagram</span>
+                </a>
+              </div>
+  
+              <div class="grid-col-auto">
+                <a
+                  class="usa-social-link usa-social-link--rss"
+                  href="javascript:void(0);"
+                >
+                  <span>RSS</span>
+                </a>
+              </div>
+            </div>
+            <address class="usa-footer__address">
+              <div class="usa-footer__contact-info grid-row grid-gap">
+                <div class="grid-col-auto">
+                  <a href="tel:1-800-555-5555"> (800) 555-GOVT </a>
+                </div>
+                <div class="grid-col-auto">
+                  <a href="mailto:&lt;info@agency.gov&gt;">
+                    info@agency.gov
+                  </a>
+                </div>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<div class="identifier__section">
+    {% include patterns/identifier/identifier.md %}
+</div>
 

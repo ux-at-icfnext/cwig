@@ -1,0 +1,40 @@
+.page__header{
+    background-color: #002552;
+    color: white;
+    border-bottom: 10px solid #E50E63;
+}
+.page__header a{
+    color: white;
+}
+.page__header span{
+    color: white;
+}
+#breadcrumb__section{
+    background-color: #002552;
+}
+#breadcrumb__section a{
+    color: white;
+}
+#breadcrumb__section span{
+    color: white;
+}
+.page__intro{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #002552;
+    color: white;
+}
+.content__section{
+    background-color: #D1D3D4;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.page__footer{
+    background-color: white;
+}
+.identifier__section{
+    background-color: #002552;
+}
+.identifier__section a{
+    color: white;
+}
