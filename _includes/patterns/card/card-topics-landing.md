@@ -9,9 +9,6 @@
                 <div class="usa-card__body">
                     <p> {{ card.body | default:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}}</p>
                 </div>
-                <div class="usa-card__footer">
-                    <a href="{{ card.link }}" class="usa-button">{{ card.button | default:'click me'}}</a>
-                </div>
             </div>
         </li>
         {% endfor %}

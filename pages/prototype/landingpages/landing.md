@@ -1,62 +1,35 @@
 ---
 layout: prototype/proto-landing
-title: News & Newsletters
+title: Topics
 permalink: /landing
 categories: prototype
-feature-image: https://via.placeholder.com/500x500?text=-
+feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
-  This section includes an array of resources that provide training, assistance
-  with evaluation, tools to help with workforce recruitment, and a searchable
-  database of organizations that work in child welfare and related fields. You
-  will also find information about the Children’s Bureau (CB) and key resources
-  they provide, including program funding and CB grantee reports.
+  Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
+  covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
 cards:
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road
-  - card-title: Pumpkins are cool
-    body: "A pumpkin is a cultivar of winter squash that is round with smooth,
-      slightly ribbed skin, and is most often deep yellow to orange in
-      coloration. "
-    button: About Pumpkins
-  - card-title: Stopping to admire the yellow stripes
-    body: "The journey to the pumpkin patch was filled with wonder. "
-    button: On the road    
+  - card-title: Family-Center Practice
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Child Abuse & Neglect
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Family Center Practice
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Card for subpage
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 ---
