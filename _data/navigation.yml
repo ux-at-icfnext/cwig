@@ -154,6 +154,10 @@ library:
   - text: Table
     desc: A table shows information in columns and rows.
     href: /table/
+  - text: Tabs
+    desc: A tab is a clickable area at the top of a window that shows another page or area. 
+          When a tab is clicked, the tab’s contents are shown, and any other open tab is hidden.
+    href: /tabs/
   - text: Tag
     desc: A tag draws attention to new or categorized content elements.
     href: /tag/

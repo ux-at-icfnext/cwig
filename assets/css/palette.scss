@@ -1,6 +1,7 @@
 body{
     margin: 15px;
 }
+
 .palette,
 .palette *{
     box-sizing: border-box;
@@ -45,4 +46,9 @@ body{
 .palette__h2{
 	font-family: 'Montserrat';
 	text-decoration:underline;
+}
+.color__aside::after{
+    content: "";
+    display: table;
+    clear: both;
 }

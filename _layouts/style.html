@@ -1,0 +1,28 @@
+<html>
+    {% include partials/head.html %}
+    <body>
+        {% include partials/header.html %}
+        {% assign hero = page.hero %}
+        {% include partials/hero.html %}
+        <div id="main-content" class="">
+            <div class="col-2">
+    <div class="left-nav" markdown="1">     
+        <aside class="sidenav" id="page-side-navigation" style="margin-top: 5%;">
+            <ul class="site-sidenav usa-sidenav">
+             {% for item in site.data.style_navigation.styles %}
+                {% if item.href contains page.url %}
+                    <li class="usa-sidenav__item usa-current">
+                {% else %}
+                    <li class="usa-sidenav__item">
+                {% endif %}
+                    <a class="usa-nav__link" href="{{ item.href }}">{{ item.text }}</a> 
+                </li>
+             {% endfor %}
+            </ul>
+       </aside>
+    </div>
+    <div class="article" markdown="1" style="padding-left: 20px;">{{content}}</div>
+</div>
+</div>
+</body>
+</html>
