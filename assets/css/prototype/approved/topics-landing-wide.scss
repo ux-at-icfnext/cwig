@@ -43,6 +43,10 @@
 .page__footer{
     background-color: white;
 }
+.footer__list-item{
+    margin-right: 3%;
+    margin-top: 5%;
+}
 .secondary__link{
     list-style-type: none;
     padding-left: 0%;
@@ -51,16 +55,20 @@
  padding-top: 5%;
  padding-bottom: 5%;
 }
-.dont-break-out {
-    /* These are technically the same, but use both */
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  
-    word-break: break-word;
-  
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
-    hyphens: auto;
-  }
+.search__container__footer{
+    float: right;
+    margin-top: 5%;
+}
+.search__container__footer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 600px) {
+    .search__container__footer {
+      float: none;
+    }
+}
 .identifier__section{
     background-color: #002552;
 }
