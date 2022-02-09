@@ -3,8 +3,17 @@
     color: white;
     border-bottom: 10px solid #E50E63;
 }
-.usa-nav__primary-item button{
-    
+.topnav button.active{
+    border-bottom: 3px solid #E50E63;
+}
+.topnav button:hover{
+    border-bottom: 3px solid #E50E63;
+}
+.simple__link:hover{
+    border-bottom: 3px solid #E50E63;
+}
+hr{
+    color: white;
 }
 .page__header a{
     color: white;
