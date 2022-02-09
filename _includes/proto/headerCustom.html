@@ -14,51 +14,60 @@
     </div>
     <button class="usa-menu-btn">Menu</button>
   </div>
-  <ul class="usa-nav__primary usa-accordion">
-    <div class="topnav">
-      <li class="usa-nav__primary-item">
-        <button 
-        class="active usa-accordion__button"
-        aria-expanded="false"
-        aria-controls="extended-nav-section-one"
-        >
-          <span>&lt;Current Section&gt;</span>
-        </button>
-        <ul>
-          <li>
-            <a href="">Navigation Link</a>
+
+  <nav aria-label="Primary navigation" class="topnav">
+    <div class="usa-nav__inner">
+      <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <button 
+            class="active usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-one"
+            >
+              <span>&lt;Current Section&gt;</span>
+            </button>
+            <ul id="extended-nav-section-one" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="">Navigation Link</a>
+          <li class="usa-nav__primary-item">
+            <button 
+            class="usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-two"
+            >
+              <span>&lt;Section&gt;</span>
+            </button>
+            <ul id="extended-nav-section-two" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="">Navigation Link</a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="">Navigation Link</a>
+          <li class="usa-nav__primary-item">
+            <a href="javascript:void(0)"><span>&lt;Simple link&gt;</span></a>
           </li>
-        </ul>
-      </li>
-      <li>
-        <button><span>&lt;Section&gt;</span></button>
-        <ul>
-          <li>
-            <a href="">Navigation Link</a>
-          </li>
-          <li>
-            <a href="">Navigation Link</a>
-          </li>
-          <li>
-            <a href="">Navigation Link</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <button><span>&lt;Simple link&gt;</span></button>
-      </li>
+      </ul>
     </div>
-  </ul>
-
-
+  </nav>
 </header>
+
 <hr>
+
 <div class="grid-container">
 <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
