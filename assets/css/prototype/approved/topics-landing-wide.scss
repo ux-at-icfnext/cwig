@@ -43,6 +43,24 @@
 .page__footer{
     background-color: white;
 }
+.secondary__link{
+    list-style-type: none;
+    padding-left: 0%;
+}
+.secondary__link-item{
+ padding-top: 5%;
+ padding-bottom: 5%;
+}
+.dont-break-out {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    hyphens: auto;
+  }
 .identifier__section{
     background-color: #002552;
 }
