@@ -11,9 +11,16 @@ layout: prototype/colorVers/proto-default-color
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <em class="usa-logo__text">
-        <a href="javascript:void(0)" title="&lt;Project title&gt;">
-          Child Welfare Information Gateway
-        </a>
+        <div class="mobile-lg:grid-col-auto">
+          <img
+            class="usa-footer__logo-img"
+            src="/assets/img/logo-img.png"
+            alt=""
+          />
+          <a href="javascript:void(0)" style="font-size:large;" title="&lt;Project title&gt;">
+            Child Welfare Information Gateway
+          </a>
+        </div>
       </em>
     </div>
     <button class="usa-menu-btn">Menu</button>
@@ -71,12 +78,12 @@ layout: prototype/colorVers/proto-default-color
     </ul>
     <hr>
       <div class="usa-nav__secondary">
-        <ul class="usa-nav__secondary-links">
+        <ul class="usa-nav__secondary-links search__links">
           <li class="usa-nav__secondary-item">
-            <a href="">&lt;Secondary link&gt;</a>
+            <a href="">How to Report Abuse or Neglect</a>
           </li>
           <li class="usa-nav__secondary-item">
-            <a href="">&lt;Another secondary link&gt;</a>
+            <a href="">Find Help With a Personal Situation</a>
           </li>
         </ul>
 
@@ -90,7 +97,7 @@ layout: prototype/colorVers/proto-default-color
             type="search"
             name="search"
           />
-          <button class="usa-button" type="submit">
+          <button class="search__button" type="submit">
             <span class="usa-sr-only">Search</span>
           </button>
         </form>
@@ -279,25 +286,8 @@ layout: prototype/colorVers/proto-default-color
                   <span>YouTube</span>
                 </a>
               </div>
-  
-              <div class="grid-col-auto">
-                <a
-                  class="usa-social-link usa-social-link--instagram"
-                  href="javascript:void(0);"
-                >
-                  <span>Instagram</span>
-                </a>
-              </div>
-  
-              <div class="grid-col-auto">
-                <a
-                  class="usa-social-link usa-social-link--rss"
-                  href="javascript:void(0);"
-                >
-                  <span>RSS</span>
-                </a>
-              </div>
             </div>
+            <p>Agency Contact Center</p>
             <address class="usa-footer__address">
               <div class="usa-footer__contact-info grid-row grid-gap">
                 <div class="grid-col-auto">
@@ -315,7 +305,102 @@ layout: prototype/colorVers/proto-default-color
       </div>
     </div>
   </footer>
+  
 <div class="identifier__section">
-    {% include patterns/identifier/identifier.md %}
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,,,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="javascript:void(0);" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img"
+          src="/assets/img/cb-logo-white.svg"
+          alt="&lt;Parent agency&gt; logo"
+          role="img"
+          />
+        </a>
+        <a href="javascript:void(0);" class="usa-identifier__logo">
+          <img
+            class="usa-identifier__logo-img"
+            src="/assets/img/acf-logo-white.svg"
+            alt="&lt;Other agency&gt; logo"
+            role="img"
+          />
+        </a>
+      </div>
+      <div class="usa-identifier__identity" aria-label="Agency description">
+        <a href="https://www.childwelfare.gov/" id="childwelfareLink">childwelfare.gov</a>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="https://www.acf.hhs.gov/">Administration for Children & Families</a>
+          and the           
+          <a href="https://www.acf.hhs.gov/cb/">Children's Bureau</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <nav
+    class="usa-identifier__section usa-identifier__section--required-links"
+    aria-label="Links to help navigate the policies and procedures for Child Welfare Gateway."
+  >
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.acf.hhs.gov/cb/" class="usa-identifier__required-link">About the Children's Bureau</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.childwelfare.gov/accessibility/" class="usa-identifier__required-link"
+            >Accessibility support</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a
+            href="https://www.acf.hhs.gov/foia"
+            class="usa-identifier__required-link usa-link"
+            >FOIA requests</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a
+            href="https://www.acf.hhs.gov/no-fear-act"
+            class="usa-identifier__required-link usa-link"
+            >No FEAR Act data</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a
+            href="https://oig.hhs.gov/"
+            class="usa-identifier__required-link usa-link"
+            >Office of the Inspector General</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a
+            href="https://www.childwelfare.gov/performancereports/"
+            class="usa-identifier__required-link usa-link"
+            >Performance reports</a
+          >
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a
+            href="https://www.childwelfare.gov/privacypolicy/"
+            class="usa-identifier__required-link usa-link"
+            >Privacy policy</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section
+    class="usa-identifier__section usa-identifier__section--usagov"
+    aria-label="U.S. government information and services,,,"
+  >
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">
+        Looking for U.S. government information and services?
+      </div>
+      <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+    </div>
+  </section>
+</div>
 </div>
 
