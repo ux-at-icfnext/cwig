@@ -2,23 +2,6 @@
 <footer class="usa-footer">
     <div class="usa-footer__primary-section page__footer">
       <nav class="usa-footer__nav" aria-label="Footer navigation">
-        <div class="search__container__footer">
-          <h3 class="site-preview-heading">Sign up</h3>
-          <section aria-label="Default search component">
-            <form class="usa-search" role="search">
-              <label class="usa-sr-only" for="search-field-search-field"> Your email address </label>
-              <input
-                class="usa-input"
-                id="search-field-search-field"
-                type="search"
-                name="search"
-              />
-              <button class="usa-button" type="submit">
-                <span class="usa-search__submit-text">Sign up</span>
-              </button>
-            </form>
-          </section>
-        </div>
         <ul class="grid-row grid-gap">
           <li
             class="
@@ -93,6 +76,23 @@
               <li class="secondary__link-item"><a href="">Secondary link</a></li>
             </ul>
           </li>
+          <div class="search__container__footer">
+          <h3 class="site-preview-heading">Sign up</h3>
+          <section aria-label="Default search component">
+            <form class="usa-search" role="search">
+              <label class="usa-sr-only" for="search-field-search-field"> Your email address </label>
+              <input
+                class="usa-input"
+                id="search-field-search-field"
+                type="search"
+                name="search"
+              />
+              <button class="usa-button" type="submit">
+                <span class="usa-search__submit-text">Sign up</span>
+              </button>
+            </form>
+          </section>
+        </div>
         </ul>
       </nav>
     </div>
