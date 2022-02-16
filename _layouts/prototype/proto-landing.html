@@ -7,90 +7,85 @@ layout: prototype/colorVers/proto-default-color
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
   <div class="usa-overlay"></div>
-<header class="usa-header usa-header--extended">
-  <div class="usa-navbar">
-    <div class="usa-logo" id="extended-logo">
-      <em class="usa-logo__text">
-        <div class="mobile-lg:grid-col-auto">
-          <img
-            class="usa-footer__logo-img"
-            src="/assets/img/logo-img.png"
-            alt=""
-          />
-          <a href="javascript:void(0)" style="font-size:large;" title="&lt;Project title&gt;">
+  <header class="usa-header usa-header--extended">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text">
+          <a href="javascript:void(0)" title="&lt;Project title&gt;">
             Child Welfare Information Gateway
           </a>
-        </div>
-      </em>
+        </em>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
     </div>
-    <button class="usa-menu-btn">Menu</button>
-  </div>
+    <nav aria-label="Primary navigation" class="usa-nav topnav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
+          <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-one"
+            >
+              <span>&lt;Current section&gt;</span>
+            </button>
   
-  <nav aria-label="Primary navigation" class="topnav">
-    <div class="usa-nav__inner">
-      <button class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
-      </button>
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <button 
-          class="active usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="extended-nav-section-one"
-          >
-            <span>&lt;Current Section&gt;</span>
-          </button>
-          <ul id="extended-nav-section-one" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <button 
-          class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="extended-nav-section-two"
-          >
-            <span>&lt;Section&gt;</span>
-          </button>
-          <ul id="extended-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="">Navigation Link</a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item simple__link">
-          <a href="javascript:void(0)"><span>&lt;Simple link&gt;</span></a>
-        </li>
-    </ul>
-    <hr>
-      <div class="usa-nav__secondary">
-        <ul class="usa-nav__secondary-links search__links">
-          <li class="usa-nav__secondary-item">
-            <a href="">How to Report Abuse or Neglect</a>
+            <ul id="extended-nav-section-one" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
           </li>
-          <li class="usa-nav__secondary-item">
-            <a href="">Find Help With a Personal Situation</a>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-two"
+            >
+              <span>&lt;Section&gt;</span>
+            </button>
+  
+            <ul id="extended-nav-section-two" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a href="javascript:void(0)" class="simple__link">
+              <span>&lt;Simple link&gt;</span>
+            </a>
           </li>
         </ul>
-        {% include patterns/search/search-styled.md %}
+        <div class="usa-nav__secondary">
+          <ul class="usa-nav__secondary-links">
+            <li class="usa-nav__secondary-item">
+              <a href="">&lt;Secondary link&gt;</a>
+            </li>
+            <li class="usa-nav__secondary-item">
+              <a href="">&lt;Another secondary link&gt;</a>
+            </li>
+          </ul>
+          {% include patterns/search/search-styled.md %}
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 <div class="grid-container">
 <nav class="usa-breadcrumb" id="breadcrumb__section" aria-label="Breadcrumbs,,">
