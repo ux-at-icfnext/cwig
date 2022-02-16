@@ -1,3 +1,6 @@
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href="assets/css/prototype/approved/card-styled.scss" rel="stylesheet">
+
 <div class="resources">
     <ul class="usa-card-group">
         {% for card in page.cards %}

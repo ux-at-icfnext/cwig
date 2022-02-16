@@ -24,24 +24,7 @@ hr{
 .search__links a{
     text-decoration: underline;
 }
-.search__button{
-    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-    font-size: 1.06rem;
-    line-height: 0.9;
-    color: white;
-    background-color: #E50E63;
-    appearance: none;
-    border: 0;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    margin-right: 0.5rem;
-    padding: 0.75rem 1.25rem;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-}
+
 #breadcrumb__section{
     background-color: #002552;
 }
@@ -64,49 +47,4 @@ hr{
     background-color: #D1D3D4;
     padding-top: 10%;
     padding-bottom: 10%;
-}
-.usa-card__container:hover{
-    background-color: #002552;
-    color: white;
-    cursor: pointer;
-}
-.page__footer{
-    background-color: white;
-}
-.footer__list-item{
-    margin-right: 3%;
-    margin-top: 5%;
-}
-.secondary__link{
-    list-style-type: none;
-    padding-left: 0%;
-}
-.secondary__link-item{
- padding-top: 5%;
- padding-bottom: 5%;
-}
-.search__container__footer{
-    float: right;
-    margin-top: 5%;
-}
-.search__container__footer::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-@media screen and (max-width: 600px) {
-    .search__container__footer {
-      float: none;
-    }
-}
-.identifier__section{
-    background-color: #002552;
-    color: white;
-}
-.identifier__section a{
-    color: white;
-}
-#childwelfareLink{
-    text-decoration: none;
-    padding-bottom: 5%;
 }

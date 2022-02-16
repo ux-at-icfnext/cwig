@@ -1,14 +1,8 @@
+<link href="/assets/css/prototype/approved/identifier-styled.scss" rel="stylesheet">
 <div class="identifier__section">
   <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,,,">
     <div class="usa-identifier__container">
       <div class="usa-identifier__logos">
-        <a href="javascript:void(0);" class="usa-identifier__logo">
-          <img class="usa-identifier__logo-img"
-          src="/assets/img/cb-logo-white.svg"
-          alt="&lt;Parent agency&gt; logo"
-          role="img"
-          />
-        </a>
         <a href="javascript:void(0);" class="usa-identifier__logo">
           <img
             class="usa-identifier__logo-img"
@@ -16,6 +10,13 @@
             alt="&lt;Other agency&gt; logo"
             role="img"
           />
+        <a href="javascript:void(0);" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img"
+          src="/assets/img/cb-logo-white.svg"
+          alt="&lt;Parent agency&gt; logo"
+          role="img"
+          />
+        </a>
         </a>
       </div>
       <div class="usa-identifier__identity" aria-label="Agency description">

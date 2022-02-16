@@ -1,0 +1,29 @@
+.page__footer{
+    background-color: white;
+}
+.footer__list-item{
+    margin-right: 3%;
+    margin-top: 5%;
+}
+.secondary__link{
+    list-style-type: none;
+    padding-left: 0%;
+}
+.secondary__link-item{
+ padding-top: 5%;
+ padding-bottom: 5%;
+}
+.search__container__footer{
+    float: right;
+    margin-top: 5%;
+}
+.search__container__footer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 600px) {
+    .search__container__footer {
+      float: none;
+    }
+}
