@@ -1,0 +1,83 @@
+.page__header{
+    background-color: #002552;
+    color: white;
+    border-bottom: 10px solid #E50E63;
+}
+.menu__btn{
+    background-color: #E50E63;
+    color: white;
+    -webkit-font-smoothing: inherit;
+    text-decoration: underline;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex: 0 1 auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.87rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.topnav button.active{
+    border-bottom: 3px solid #E50E63;
+}
+.topnav button:hover{
+    border-bottom: 3px solid #E50E63;
+    color:#002552;
+}
+.simple__link:hover{
+    border-bottom: 3px solid #E50E63;
+}
+hr{
+    padding-top: 1px;
+}
+.nav__link[aria-expanded="true"]::after,
+.nav__link[aria-expanded="true"]:hover::after{
+    display: none;
+}
+.nav__submenu a{
+    color: white;
+}
+.logo__section{
+    padding-bottom: 2%;
+}
+#page__title{
+    font-size: large;
+}
+hr{
+    color: white;
+}
+.page__header a{
+    color: white;
+}
+.page__header span{
+    color: white;
+}
+.search__links a{
+    text-decoration: underline;
+}
+
+#breadcrumb__section{
+    background-color: #002552;
+}
+#breadcrumb__section a{
+    color: white;
+}
+#breadcrumb__section span{
+    color: white;
+}
+.page__intro{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #002552;
+    color: white;
+}
+.intro-text{
+    padding-right: 10%;
+}

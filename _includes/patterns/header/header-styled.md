@@ -1,0 +1,169 @@
+<link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
+<div class="page__header">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <div class="usa-overlay"></div>
+  <header class="usa-header usa-header--extended">
+    <div class="usa-navbar">
+      <div class="usa-logo logo__section" id="extended-logo">
+        <em class="usa-logo__text">
+          <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
+          <a href="javascript:void(0)" title="&lt;Project title&gt;"id="page__title">
+            Child Welfare Information Gateway
+          </a>
+        </em>
+      </div>
+    <button class="usa-menu-btn menu__btn">Menu</button>
+    </div>
+    <nav aria-label="Primary navigation" class="usa-nav topnav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
+          <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-one"
+            >
+              <span>Topics</span>
+            </button>
+  
+            <ul id="extended-nav-section-one" class="usa-nav__submenu nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-two"
+            >
+              <span>Resources</span>
+            </button>
+  
+            <ul id="extended-nav-section-two" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-three"
+            >
+              <span>Stay Connected</span>
+            </button>
+  
+            <ul id="extended-nav-section-three" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-four"
+            >
+              <span>Directory</span>
+            </button>
+  
+            <ul id="extended-nav-section-four" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-five"
+            >
+              <span>About</span>
+            </button>
+  
+            <ul id="extended-nav-section-five" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="#"> &lt;Navigation link&gt; </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="usa-nav__secondary">
+          <ul class="usa-nav__secondary-links search__links">
+            <li class="usa-nav__secondary-item">
+              <a href="">How to Report Abuse or Neglect</a>
+            </li>
+            <li class="usa-nav__secondary-item">
+              <a href="">Find Help With a Personal Situation</a>
+            </li>
+          </ul>
+          {% include patterns/search/search-styled.md %}
+        </div>
+      </div>
+    </nav>
+  </header>
+  <hr>
+
+<div class="grid-container">
+<nav class="usa-breadcrumb" id="breadcrumb__section" aria-label="Breadcrumbs,,">
+  <ol class="usa-breadcrumb__list">
+    <li class="usa-breadcrumb__list-item">
+      <a href="javascript:void(0);" class="usa-breadcrumb__link">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+      <span>Topic</span>
+    </li>
+  </ol>
+</nav>
+</div>
+    <div class="grid-container page__intro">
+        <div>
+            <h1> {{ page.title }}</h1>
+            <p class="intro-text">{{ page.intro | markdowify}}</p>
+        </div>
+        <div>
+            <img src="{{page.feature-image}}">
+        </div>
+    </div>
+</div>

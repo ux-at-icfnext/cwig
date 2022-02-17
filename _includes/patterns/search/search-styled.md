@@ -8,6 +8,7 @@
     id="extended-search-field-en-small"
     type="search"
     name="search"
+    placeholder="Search this site"
     />
     <button class="search__button" type="submit">
     <span class="usa-sr-only">Search</span>
