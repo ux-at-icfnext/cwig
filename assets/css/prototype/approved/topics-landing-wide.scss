@@ -3,6 +3,11 @@
     color: white;
     border-bottom: 10px solid #E50E63;
 }
+.menu__btn{
+    background-color: #E50E63;
+    color: white;
+    padding-bottom: 0%;
+}
 .topnav button.active{
     border-bottom: 3px solid #E50E63;
 }
@@ -12,9 +17,15 @@
 .simple__link:hover{
     border-bottom: 3px solid #E50E63;
 }
+hr{
+    padding-top: 1px;
+}
 .nav__link[aria-expanded="true"]::after,
 .nav__link[aria-expanded="true"]:hover::after{
     display: none;
+}
+.logo__section{
+    padding-bottom: 2%;
 }
 #page__title{
     font-size: large;
