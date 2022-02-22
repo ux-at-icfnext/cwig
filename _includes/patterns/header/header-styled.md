@@ -29,7 +29,6 @@
             >
               <span>Topics</span>
             </button>
-  
             <ul id="extended-nav-section-one" class="usa-nav__submenu nav__submenu">
               <li class="usa-nav__submenu-item">
                 <a href="#"> &lt;Navigation link&gt; </a>
@@ -50,7 +49,6 @@
             >
               <span>Resources</span>
             </button>
-  
             <ul id="extended-nav-section-two" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
                 <a href="#"> &lt;Navigation link&gt; </a>
@@ -71,7 +69,6 @@
             >
               <span>Stay Connected</span>
             </button>
-  
             <ul id="extended-nav-section-three" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
                 <a href="#"> &lt;Navigation link&gt; </a>
@@ -92,7 +89,6 @@
             >
               <span>Directory</span>
             </button>
-  
             <ul id="extended-nav-section-four" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
                 <a href="#"> &lt;Navigation link&gt; </a>
@@ -113,7 +109,6 @@
             >
               <span>About</span>
             </button>
-  
             <ul id="extended-nav-section-five" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
                 <a href="#"> &lt;Navigation link&gt; </a>
@@ -144,18 +139,7 @@
   <hr>
 
 <div class="grid-container">
-<nav class="usa-breadcrumb" id="breadcrumb__section" aria-label="Breadcrumbs,,">
-  <ol class="usa-breadcrumb__list">
-    <li class="usa-breadcrumb__list-item">
-      <a href="javascript:void(0);" class="usa-breadcrumb__link">
-        <span>Home</span>
-      </a>
-    </li>
-    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-      <span>Topic</span>
-    </li>
-  </ol>
-</nav>
+{% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
     <div class="grid-container page__intro">
         <div>
