@@ -1,4 +1,5 @@
 <link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <div class="page__header">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
@@ -143,7 +144,7 @@
 </div>
     <div class="grid-container page__intro">
         <div>
-            <h1> {{ page.title }}</h1>
+            <h1 class="page__title"> {{ page.title }}</h1>
             <p class="intro-text">{{ page.intro | markdowify}}</p>
         </div>
         <div>

@@ -7,7 +7,7 @@ title:  CWIG Typography
 ---
 
 <head>
-    <link rel="stylesheet" href="/assets/css/typography.css">
+    <link rel="stylesheet" href="/assets/css/typography.scss">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 </head>
