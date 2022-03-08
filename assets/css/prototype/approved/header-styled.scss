@@ -34,6 +34,9 @@
 .simple__link:hover{
     border-bottom: 3px solid #E50E63;
 }
+.nav__item{
+    margin-right: 2%;
+}
 hr{
     padding-top: 1px;
 }
@@ -54,6 +57,7 @@ hr{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
+    margin-bottom: 10%;
 }
 hr{
     color: white;
@@ -63,6 +67,10 @@ hr{
 }
 .page__header span{
     color: white;
+}
+.nav__secondary{
+    margin-left: auto;
+    margin-right: 0;
 }
 .search__links a{
     text-decoration: underline;
@@ -83,16 +91,18 @@ hr{
     background-color: #002552;
     color: white;
     font-family: "Lora";
+    margin-left: 25%;
 }
 .intro-text{
-    padding-right: 10%;
     font-family: 'Lora';
+    font-weight: 400;
     font-size: 19px;
 }
 #feature__img{
     margin-top: 2rem;
     margin-bottom: -15rem;
-    margin-left: 15%;
-    width: 600px;
+    margin-left: 10%;
+    margin-right: 15%;
+    width: 550px;
     height: auto;
 }

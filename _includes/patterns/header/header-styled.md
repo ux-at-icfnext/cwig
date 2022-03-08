@@ -1,6 +1,6 @@
 <link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400' rel='stylesheet'>
 <div class="page__header">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
@@ -23,7 +23,7 @@
           <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
         </button>
         <ul class="usa-nav__primary usa-accordion">
-          <li class="usa-nav__primary-item">
+          <li class="usa-nav__primary-item nav__item">
             <button
               class="usa-accordion__button"
               aria-expanded="false"
@@ -43,7 +43,7 @@
               </li>
             </ul>
           </li>
-          <li class="usa-nav__primary-item">
+          <li class="usa-nav__primary-item nav__item">
             <button
               class="usa-accordion__button"
               aria-expanded="false"
@@ -63,7 +63,7 @@
               </li>
             </ul>
           </li>
-          <li class="usa-nav__primary-item">
+          <li class="usa-nav__primary-item nav__item">
             <button
               class="usa-accordion__button"
               aria-expanded="false"
@@ -83,7 +83,7 @@
               </li>
             </ul>
           </li>
-          <li class="usa-nav__primary-item">
+          <li class="usa-nav__primary-item nav__item">
             <button
               class="usa-accordion__button"
               aria-expanded="false"
@@ -103,7 +103,7 @@
               </li>
             </ul>
           </li>
-          <li class="usa-nav__primary-item">
+          <li class="usa-nav__primary-item nav__item">
             <button
               class="usa-accordion__button"
               aria-expanded="false"
@@ -124,6 +124,7 @@
             </ul>
           </li>
         </ul>
+      </div>
         <div class="usa-nav__secondary">
           <ul class="usa-nav__secondary-links search__links">
             <li class="usa-nav__secondary-item">
@@ -135,7 +136,6 @@
           </ul>
           {% include patterns/search/search-styled.md %}
         </div>
-      </div>
     </nav>
   </header>
   <hr>
