@@ -1,5 +1,6 @@
 <link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 <div class="page__header">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
@@ -147,8 +148,8 @@
             <h1 class="page__title"> {{ page.title }}</h1>
             <p class="intro-text">{{ page.intro | markdowify}}</p>
         </div>
-        <div>
-            <img src="{{page.feature-image}}">
+        <div id="feature__img">
+            <img src="assets/img/prototype/CWIG-landing-page.jpg">
         </div>
     </div>
 </div>

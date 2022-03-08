@@ -53,6 +53,7 @@ hr{
 .page__title{
     font-family: 'Montserrat';
     font-weight: 700;
+    font-size: 38px;
 }
 hr{
     color: white;
@@ -85,5 +86,10 @@ hr{
 }
 .intro-text{
     padding-right: 10%;
-    font-family: "Lora";
+    font-family: 'Lora';
+    font-size: 19px;
+}
+#feature__img{
+    margin-top: 2rem;
+    margin-bottom: -5rem;
 }
