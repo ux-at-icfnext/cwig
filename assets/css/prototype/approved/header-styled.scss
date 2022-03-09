@@ -24,12 +24,17 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-.topnav button.active{
-    border-bottom: 3px solid #E50E63;
+.topnav span.active{
+    text-decoration: 3px #E50E63;
 }
 .topnav button:hover{
-    border-bottom: 3px solid #E50E63;
     color:#002552;
+}
+.topnav span:hover{
+    border-bottom: solid #E50E63 3px;
+}
+.topnav svg:hover{
+    text-decoration: underline #E50E63 3px;
 }
 .simple__link:hover{
     border-bottom: 3px solid #E50E63;

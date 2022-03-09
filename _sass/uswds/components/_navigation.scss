@@ -136,7 +136,7 @@ $nav-link-arrow-icon-size: 2;
 
     &:hover {
       color: #002552;
-      background-color: color("base-lightest");
+      background-color: #E50E63;
       text-decoration: none;
 
       @include at-media($theme-header-min-width) {
