@@ -24,20 +24,8 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-.topnav span.active{
-    text-decoration: 3px #E50E63;
-}
-.topnav button:hover{
-    color:#002552;
-}
 .topnav span:hover{
     border-bottom: solid #E50E63 3px;
-}
-.topnav svg:hover{
-    text-decoration: underline #E50E63 3px;
-}
-.simple__link:hover{
-    border-bottom: 3px solid #E50E63;
 }
 .nav__item{
     margin-right: 2%;
@@ -45,18 +33,17 @@
 hr{
     padding-top: 1px;
 }
-.nav__link[aria-expanded="true"]::after,
-.nav__link[aria-expanded="true"]:hover::after{
-    display: none;
-}
+
 .nav__submenu a{
     color: white;
 }
 .logo__section{
     padding-bottom: 2%;
 }
-#page__title{
-    font-size: large;
+.cwig__logo{
+    width: 70%;
+    height:auto;
+    margin-bottom: 0%;
 }
 .page__title{
     font-family: 'Montserrat';
@@ -79,6 +66,7 @@ hr{
 }
 .search__links a{
     text-decoration: underline;
+    margin-bottom: 3%;
 }
 
 #breadcrumb__section{

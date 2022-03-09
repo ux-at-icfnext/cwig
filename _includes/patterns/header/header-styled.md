@@ -9,10 +9,7 @@
     <div class="usa-navbar">
       <div class="usa-logo logo__section" id="extended-logo">
         <em class="usa-logo__text">
-          <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
-          <a href="javascript:void(0)" title="&lt;Project title&gt;"id="page__title">
-            Child Welfare Information Gateway
-          </a>
+          <img class="cwig__logo" src="/assets/img/prototype/cwig-logo-inverse.svg" alt="">
         </em>
       </div>
     <button class="usa-menu-btn menu__btn">Menu</button>
