@@ -45,12 +45,6 @@ hr{
     height:auto;
     margin-bottom: 0%;
 }
-.page__title{
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 38px;
-    margin-bottom: 10%;
-}
 hr{
     color: white;
 }
@@ -77,25 +71,4 @@ hr{
 }
 #breadcrumb__section span{
     color: white;
-}
-.page__intro{
-    display: grid;
-    grid-template-columns: auto max-content;
-    background-color: #002552;
-    color: white;
-    font-family: "Lora";
-    margin-left: 25%;
-}
-.intro-text{
-    font-family: 'Lora';
-    font-weight: 400;
-    font-size: 19px;
-}
-#feature__img{
-    margin-top: 2rem;
-    margin-bottom: -15rem;
-    margin-left: 10%;
-    margin-right: 15%;
-    width: 550px;
-    height: auto;
 }

@@ -136,17 +136,3 @@
     </nav>
   </header>
   <hr>
-
-<div class="grid-container">
-{% include patterns/breadcrumb/breadcrumb-styled.md%}
-</div>
-    <div class="grid-container page__intro">
-        <div>
-            <h1 class="page__title"> {{ page.title }}</h1>
-            <p class="intro-text">{{ page.intro | markdowify}}</p>
-        </div>
-        <div id="feature__img">
-            <img src="assets/img/prototype/CWIG-landing-page.jpg">
-        </div>
-    </div>
-</div>
