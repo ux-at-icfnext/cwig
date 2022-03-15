@@ -235,7 +235,6 @@ $z-index-overlay: 400;
 
   .usa-navbar {
     @include at-media($theme-header-min-width) {
-      @include grid-container($theme-header-max-width);
       display: block;
       height: auto;
       overflow: auto;
@@ -252,7 +251,6 @@ $z-index-overlay: 400;
 
   .usa-nav__inner {
     @include at-media($theme-header-min-width) {
-      @include grid-container($theme-header-max-width);
       position: relative;
     }
   }

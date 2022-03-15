@@ -200,7 +200,7 @@ $nav-link-arrow-icon-size: 2;
 
   @include at-media($theme-header-min-width) {
     @include u-flex("column", "align-end");
-    bottom: units(8); // XXX magic number
+    bottom: 2rem; // XXX magic number
     display: flex;
     font-size: font-size($theme-navigation-font-family, "2xs");
     margin-top: units(1);

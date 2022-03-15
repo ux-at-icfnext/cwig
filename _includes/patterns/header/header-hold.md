@@ -15,7 +15,7 @@
     <button class="usa-menu-btn menu__btn">Menu</button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav topnav">
-      <div class="usa-nav__inner nav__inner">
+      <div class="usa-nav__inner">
         <button class="usa-nav__close">
           <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
         </button>

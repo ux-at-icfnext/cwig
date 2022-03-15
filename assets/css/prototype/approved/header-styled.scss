@@ -7,7 +7,7 @@
     width: 100%;
     max-width: 300px;
     height: auto !important;
-    margin-bottom: 2%;
+    padding-left: 2%;
 }
 .menu__btn{
     background-color: #E50E63;
@@ -30,6 +30,9 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+.nav__inner{
+    padding-left: 2%;
+}
 .topnav span:hover{
     border-bottom: solid #E50E63 3px;
 }
@@ -40,17 +43,7 @@
 .nav__submenu a{
     color: white;
 }
-.logo__section{
-    padding-bottom: 2%;
-}
-.cwig__logo{
-    width: 70%;
-    height:auto;
-    margin-bottom: 2%;
-}
-hr{
-    color: white;
-}
+
 .page__header a{
     color: white;
 }
