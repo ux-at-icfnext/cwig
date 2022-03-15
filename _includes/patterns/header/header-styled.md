@@ -133,6 +133,4 @@
           </ul>
           {% include patterns/search/search-styled.md %}
         </div>
-    </nav>
   </header>
-  <hr>

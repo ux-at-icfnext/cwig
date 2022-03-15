@@ -3,6 +3,12 @@
     color: white;
     border-bottom: 10px solid #E50E63;
 }
+.cwig__logo{
+    width: 100%;
+    max-width: 300px;
+    height: auto !important;
+    margin-bottom: 2%;
+}
 .menu__btn{
     background-color: #E50E63;
     color: white;
@@ -30,9 +36,6 @@
 .nav__item{
     margin-right: 2%;
 }
-hr{
-    padding-top: 1px;
-}
 
 .nav__submenu a{
     color: white;
@@ -43,7 +46,7 @@ hr{
 .cwig__logo{
     width: 70%;
     height:auto;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
 }
 hr{
     color: white;
@@ -63,12 +66,18 @@ hr{
     margin-bottom: 3%;
 }
 
-#breadcrumb__section{
-    background-color: #002552;
-}
-#breadcrumb__section a{
-    color: white;
-}
-#breadcrumb__section span{
-    color: white;
-}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    header{
+        margin-bottom: 5%;
+        border-bottom: white solid 1px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    header{
+        margin-bottom: 5%;
+        border-bottom: white solid 1px;
+    }
+  }
