@@ -55,6 +55,17 @@
     color:#005DAA;
 }
 
+
+  /* For mobile phones: */
+    .mobile__banner{
+        background-color: #F7F9FA;
+        width: 100%;
+        color: black;
+        display: inline;
+        }  
+    .cwig__logo {
+        max-width: 200px;
+    }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     header{
@@ -66,8 +77,10 @@
         height: auto !important;
         padding-bottom: 2%;
     }
+    .mobile__banner{
+        display: none;
+    }
   }
-
   @media only screen and (min-width: 880px) {
     /* For desktop: */
     header{
@@ -79,5 +92,8 @@
         max-width: 300px;
         height: auto !important;
         padding-left: 2%;
+    }
+    .mobile__banner{
+        display: none;
     }
   }

@@ -6,6 +6,10 @@
 
   <div class="usa-overlay"></div>
   <header class="usa-header usa-header--extended">
+    <div class="mobile__banner">
+      <img src="assets/img/usa-icons/us_flag_small.png">
+      <span>Government</span>
+    </div>
     <div class="usa-navbar">
       <div class="usa-logo logo__section" id="extended-logo">
         <em class="usa-logo__text">
