@@ -3,12 +3,7 @@
     color: white;
     border-bottom: 10px solid #E50E63;
 }
-.cwig__logo{
-    width: 100%;
-    max-width: 300px;
-    height: auto !important;
-    padding-left: 2%;
-}
+
 .menu__btn{
     background-color: #E50E63;
     color: white;
@@ -56,8 +51,8 @@
     text-decoration: underline;
     margin-bottom: 3%;
 }
-.spansih__link{
-    float: right;
+.spanish__link a:hover{
+    color:#005DAA;
 }
 
 @media only screen and (min-width: 600px) {
@@ -66,12 +61,23 @@
         margin-bottom: 5%;
         border-bottom: white solid 1px;
     }
+    .cwig__logo{
+        max-width: 200px;
+        height: auto !important;
+        padding-bottom: 2%;
+    }
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 880px) {
     /* For desktop: */
     header{
         margin-bottom: 5%;
         border-bottom: white solid 1px;
+    }
+    .cwig__logo{
+        width: 100%;
+        max-width: 300px;
+        height: auto !important;
+        padding-left: 2%;
     }
   }
