@@ -123,6 +123,10 @@
         </ul>
       </div>
         <div class="usa-nav__secondary">
+          <div class="spanish__link">
+            <a href="">Español</a>
+          </div>
+          <br><br>
           <ul class="usa-nav__secondary-links search__links">
             <li class="usa-nav__secondary-item">
               <a href="">How to Report Abuse or Neglect</a>

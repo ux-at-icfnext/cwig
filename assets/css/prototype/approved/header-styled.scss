@@ -32,6 +32,7 @@
 }
 .nav__inner{
     padding-left: 2%;
+    padding-bottom: 2%;
 }
 .topnav span:hover{
     border-bottom: solid #E50E63 3px;
@@ -50,13 +51,13 @@
 .page__header span{
     color: white;
 }
-.nav__secondary{
-    margin-left: auto;
-    margin-right: 0;
-}
+
 .search__links a{
     text-decoration: underline;
     margin-bottom: 3%;
+}
+.spansih__link{
+    float: right;
 }
 
 @media only screen and (min-width: 600px) {

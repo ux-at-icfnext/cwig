@@ -240,7 +240,7 @@ $nav-link-arrow-icon-size: 2;
       padding-left: units(0.5);
 
       & + .usa-nav__secondary-item::before {
-        color: color("base-lighter");
+        color: #E50E63;
         content: "|";
         padding-right: units(0.5);
       }
