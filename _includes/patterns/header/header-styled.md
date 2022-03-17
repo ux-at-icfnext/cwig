@@ -7,9 +7,8 @@
   </div>
   <div class="banner-text">
     <span>An official website of the United States government.</span>
-    <a href="">Here's how you know.  
-      <img src="assets/img/usa-icons-bg/expand_more--blue-warm-70v.svg" class="banner-svg">
-    </a>
+    <a href="">Here's how you know.</a>
+    <img src="assets/img/usa-icons-bg/expand_more--blue-warm-70v.svg" class="banner-svg">
   </div>
 </div>
 <div class="page__header">
@@ -23,7 +22,11 @@
           <img class="cwig__logo" src="/assets/img/prototype/cwig-logo-inverse.svg" alt="">
         </em>
       </div>
-    <button class="usa-menu-btn menu__btn">Menu</button>
+    <button class="usa-menu-btn menu__btn">
+    <img src="assets/img/usa-icons/menu.svg" class="filter__white">
+    <br>
+    Menu
+    </button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav topnav">
       <div class="usa-nav__inner nav__inner">
