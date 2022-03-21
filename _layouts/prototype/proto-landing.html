@@ -11,12 +11,12 @@ layout: prototype/colorVers/proto-default-color
 
 <div class="grid-container">
     </div>
-        <div class="grid-container page__intro">
-            <div>
-                <h1 class="page__title"> {{ page.title }}</h1>
-                <p class="intro-text">{{ page.intro | markdowify}}</p>
+        <div class="page__intro">
+            <div class="intro__text">
+                <h1 id="page__title"> {{ page.title }}</h1>
+                <p>{{ page.intro | markdowify}}</p>
             </div>
-            <div id="feature__img">
+            <div class="feature__img">
                 <img src="assets/img/prototype/CWIG-landing-page.jpg">
             </div>
         </div>

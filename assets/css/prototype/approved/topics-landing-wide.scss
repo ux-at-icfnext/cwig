@@ -1,29 +1,31 @@
-.page__title{
+#page__title{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
     margin-bottom: 10%;
 }
 .page__intro{
-    display: grid;
-    grid-template-columns: auto max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 15%;
     background-color: #002552;
     color: white;
-    font-family: "Lora";
-    
+    font-family: "Lora"; 
 }
-.intro-text{
+.intro__text{
+    flex: 1;
+    padding-right: 50px;
+    margin-right: 90px;
+}
+.intro__text p{
     font-family: 'Lora';
     font-weight: 400;
     font-size: 19px;
 }
-#feature__img{
-    margin-top: 2rem;
-    margin-bottom: -15rem;
-    margin-left: 10%;
-    margin-right: 15%;
-    width: 550px;
-    height: auto;
+.feature__img{
+    flex: 2;
+    margin-bottom: -70px;
 }
 .breadcrumbs{
     padding-left: 2%;
