@@ -1,15 +1,36 @@
 ---
-layout: prototype/proto-default
+layout: prototype/colorVers/proto-default-color
 ---
+<link rel="stylesheet" href="/assets/css/prototype/approved/topics-landing-wide.scss">
 
-<div class="feature">
-    <img src="{{ page.feature-image }}">
+{% include patterns/header/header-styled.md %}
+
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
 
-<div id="main-content" class="grid-container">
-    <h1> {{ page.title }}</h1>
-    <p class="intro-text">{{ page.intro | markdowify}}</p>
-    
-    {% include patterns/card/card-wide-jk.md  data=card %}
-</div>        
+<div class="grid-container">
+    </div>
+        <div class="page__intro">
+            <div class="intro__text">
+                <h1 id="page__title"> {{ page.title }}</h1>
+                <p>{{ page.intro | markdowify}}</p>
+            </div>
+            <div class="feature__img">
+                <img src="assets/img/prototype/CWIG-landing-page.jpg">
+            </div>
+        </div>
+    </div>
+
+<div class="content__section">
+    <div id="main-content" class="grid-container">
+        <div class="cards">
+            {% include patterns/card/card-styled.md  data=card %}
+        </div>
+    </div>
+</div>
+
+{% include patterns/footer/footer-styled.md %}
+  
+{% include patterns/identifier/identifier-styled.md %}
 

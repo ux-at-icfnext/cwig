@@ -1,0 +1,228 @@
+table{
+    width: 100%;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+td{
+    padding-bottom: 15px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+
+@media screen and (max-width: 600px){
+.column{
+    width:100%
+}
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.size{
+    padding-right: 25px;
+}
+
+.headers{
+    font-weight: bold;
+}
+
+.font__montserrat{
+    font-family: 'Montserrat';
+}
+.font__lora{
+    font-family: 'Lora';
+}
+
+
+.h1lg{
+    font-size: 38px;
+    color: #000;
+    line-height: 48px;
+    letter-spacing: normal;
+}
+.h1sm{
+    font-size: 30px;
+    color: #000;
+    line-height: 40px;
+    letter-spacing: normal;
+}
+
+.h2lg{
+    font-size: 28px;
+    color: #264A64;
+    line-height: 32px;
+    letter-spacing: 0.25px;
+}
+.h2sm{
+    font-size: 24px;
+    color: #264A64;
+    line-height: 28px;
+    letter-spacing: normal;
+}
+
+.h3{
+    font-size: 22px;
+    color:#000;
+    line-height: 23px;
+}
+
+.h4{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+
+.h5{
+    font-size: 14px;
+    color:#000;
+    line-height: 17px;
+}
+
+
+.intro__text{
+    font-family: Lora;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000;
+}
+
+.body__class{
+    font-family: 'Lora';
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+}
+
+.pholder{
+    font-family: 'Montserrat';
+    color: #71767A;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.h3__link{
+    text-decoration:underline;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #005DAA;
+}
+
+.link__bold{
+    text-decoration:underline;
+    font-family: 18px;
+    line-height: 29px;
+    color:#005DAA;
+    font-weight: bold;
+}
+
+.h3__hover{
+    text-decoration: underline;
+    font-size: 23px;
+    line-height: 24px;
+    color: #54278F;
+    font-weight: bold;
+}
+
+.link__reg{
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 25px;
+    color:#005DAA;
+}
+
+.link__hover{
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 25px;
+    color:#54278F;
+}
+
+.btlg{
+    font-size: 22px;
+    line-height: 22px;
+    color: #002552;
+    font-weight: bold;
+}
+
+.btlg__outline{
+    font-size: 22px;
+    line-height: 22px;
+    color: #005DAA;
+    font-weight: bold;
+}
+
+.bt__disabled{
+    font-size: 22px;
+    line-height: 22px;
+    color: #005DAA;
+    font-weight: bold;
+}
+
+.bt__outline{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #005DAA;
+}
+
+.bt__hover{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #1A4480;
+}
+
+.bt__active{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #002552;
+}
+
+.bt__disabled__sm{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #005DAA;
+}
+.featured{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.banner__left{
+    font-style: 12px;
+    color: #000;
+}
+
+.banner__link{
+    font-size: 12px;
+    color: #1C1D1F;
+    text-decoration: underline;
+}

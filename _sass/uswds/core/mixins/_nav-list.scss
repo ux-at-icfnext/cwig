@@ -30,10 +30,10 @@ $sidenav-level-4-inset: 8;
   }
 
   a:not(.usa-button):not(.usa-current) {
-    color: color("base-dark");
+    color: white;
 
     &:hover {
-      color: color($theme-link-color);
+      color: #002552;
     }
 
     &:focus {

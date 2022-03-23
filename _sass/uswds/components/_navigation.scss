@@ -30,7 +30,7 @@ $nav-link-arrow-icon-size: 2;
     @include u-pin("right");
     @include u-pin("y");
     position: fixed;
-    background: color("white");
+    background-color: #002552;
     border-right: 0;
     display: none;
     flex-direction: column;
@@ -135,8 +135,8 @@ $nav-link-arrow-icon-size: 2;
     }
 
     &:hover {
-      color: color("primary");
-      background-color: color("base-lightest");
+      color: #002552;
+      background-color: #E50E63;
       text-decoration: none;
 
       @include at-media($theme-header-min-width) {
@@ -151,7 +151,7 @@ $nav-link-arrow-icon-size: 2;
       background-size: units($nav-link-accordion-icon-size);
 
       @include at-media($theme-header-min-width) {
-        @include add-background-svg("usa-icons/expand_more");
+        @include add-background-svg("usa-icons/angle-arrow-down-white");
         background-size: units($nav-link-arrow-icon-size);
         background-position: right units(1.5) top $button-vertical-offset;
       }
@@ -159,7 +159,7 @@ $nav-link-arrow-icon-size: 2;
       &:hover {
         @include at-media($theme-header-min-width) {
           @include add-background-svg(
-            "usa-icons-bg/expand_more--blue-warm-70v"
+            "usa-icons-bg/expand_more--white"
           );
         }
       }
@@ -200,7 +200,7 @@ $nav-link-arrow-icon-size: 2;
 
   @include at-media($theme-header-min-width) {
     @include u-flex("column", "align-end");
-    bottom: units(8); // XXX magic number
+    bottom: 2rem; // XXX magic number
     display: flex;
     font-size: font-size($theme-navigation-font-family, "2xs");
     margin-top: units(1);
@@ -240,7 +240,7 @@ $nav-link-arrow-icon-size: 2;
       padding-left: units(0.5);
 
       & + .usa-nav__secondary-item::before {
-        color: color("base-lighter");
+        color: #E50E63;
         content: "|";
         padding-right: units(0.5);
       }
