@@ -1,0 +1,191 @@
+.page__header{
+    background-color: #002552;
+    color: white;
+    border-bottom: 10px solid #E50E63;
+}
+.filter__white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(106%);
+}
+.menu__btn{
+    background-color: #E50E63;
+    color: white;
+    -webkit-font-smoothing: inherit;
+    text-decoration: underline;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex: 0 1 auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.87rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__inner{
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.topnav span:hover{
+    border-bottom: solid #E50E63 3px;
+}
+.nav__item{
+    margin-right: 3%;
+}
+
+.nav__submenu a{
+    color: white;
+}
+
+.page__header a{
+    color: white;
+}
+.page__header span{
+    color: white;
+}
+
+.search__links a{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.spanish__link a:hover{
+    color:#005DAA;
+}
+.search__links{
+    bottom: 10px;
+}
+
+
+  /* For mobile phones: */
+    .mobile__banner{
+        background-color: #F7F9FA;
+        width: 100%;
+        color: black;
+        display: inline;
+        }
+        .banner-icon{
+            float:left;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-right: 5px;
+        }
+        .banner-text{ 
+            margin-left: 20px;
+            padding-top: 3px;
+            font-style: 'Lora';
+            font-size: 14px;
+        }
+        .mobile__banner span{
+            color: black;
+        }
+        .mobile__banner a{
+            color:#005DAA;
+        }
+        .banner-svg{
+            max-width: 20px;
+            height: auto;
+            position: absolute;
+        }
+    .mobile__banner::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .cwig__logo {
+        max-width: 170px;
+        padding-top: 10px;
+    }
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    header{
+        margin-bottom: 10px;
+        border-bottom: white solid 1px;
+    }
+    .cwig__logo{
+        max-width: 200px;
+        height: auto !important;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .mobile__banner{
+        background-color: #F7F9FA;
+        width: 100%;
+        color: black;
+        display: inline;
+        }
+        .banner-icon{
+            padding-left: 25px;
+            padding-top: 5px;
+        }
+        .banner-text{
+            margin-left: 15px;
+            font-style: 'Lora';
+            font-size: 14px;
+        }
+        .mobile__banner span{
+            color: black;
+        }
+        .mobile__banner a{
+            color:#005DAA;
+        }
+        .banner-svg{
+
+            max-width: 20px;
+            height: auto;
+        }
+    .mobile__banner::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+  }
+  @media only screen and (min-width: 880px) {
+    /* For desktop: */
+    header{
+        margin-bottom: 10px;
+        border-bottom: white solid 1px;
+    }
+    .cwig__logo{
+        max-width: 250px;
+        height: auto !important;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .mobile__banner{
+        background-color: #F7F9FA;
+        width: 100%;
+        color: black;
+        display: inline;
+        }
+        .banner-icon{
+            padding-top: 5px;
+            padding-left: 20px;
+        }
+        .banner-text{
+            margin-left: 25px;
+            font-style: 'Lora';
+            font-size: 14px;
+        }
+        .mobile__banner span{
+            color: black;
+        }
+        .mobile__banner a{
+            color:#005DAA;
+        }
+        .banner-svg{
+
+            max-width: 20px;
+            height: auto;
+        }
+    .mobile__banner::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+  }
