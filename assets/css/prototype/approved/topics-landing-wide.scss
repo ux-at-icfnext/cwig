@@ -3,7 +3,7 @@
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
-    margin-bottom: 10%;
+    margin-left: 35px;
 }
 .content__section{
     background-color: #D1D3D4;
@@ -19,7 +19,20 @@ ul.breadcrumb li:before {
     color: white;
     content: "\2190";
   }
-@media only screen and (min-width: 600px) {
+.page__title{
+    order: 1;
+}
+.page__intro{
+    display: flex;
+    flex-direction: column;
+}
+.feature__img{
+    order: 2;
+}
+.intro__text{
+    order: 3
+}
+  @media only screen and (min-width: 600px) {
     /* For tablets: */
 }
 @media only screen and (min-width: 880px) {
