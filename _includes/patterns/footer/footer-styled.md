@@ -3,8 +3,7 @@
     <div class="usa-footer__primary-section page__footer">
       <nav class="usa-footer__nav" aria-label="Footer navigation">
         <ul class="grid-row grid-gap">
-          <li
-            class="
+          <li class="
               mobile-lg:grid-col-4
               desktop:grid-col-auto
               usa-footer__primary-content
