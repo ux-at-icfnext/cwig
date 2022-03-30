@@ -3,7 +3,7 @@
     <div class="usa-navbar">
       <div class="usa-logo logo__section" id="extended-logo">
         <em class="usa-logo__text">
-          <img class="cwig__logo" src="/ass/prototype/cwig-logo-inverse.svg" alt="">
+          <img class="cwig__logo" src="/assets/prototype/cwig-logo-inverse.svg" alt="">
         </em>
       </div>
     <button class="usa-menu-btn menu__btn">

@@ -1,35 +1,26 @@
-.page__footer{
+.footer__section{
     background-color: white;
 }
-.footer__list-item{
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
+.footer__secondary{
+    background-color: white;
 }
-.usa-footer__primary-link{
-    margin-right: auto;
-    margin-left: auto;
+.signup__label{
+    font-weight: bold;
 }
-.secondary__link{
-    list-style-type: none;
-    margin-right: auto;
-    margin-left: auto;
-}
-.secondary__link-item{
- padding-top: 5%;
- padding-bottom: 5%;
-}
-.search__container__footer{
-    float: right;
-    margin-top: 5%;
-}
-.search__container__footer::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-@media screen and (max-width: 600px) {
-    .search__container__footer {
-      float: none;
-    }
+.search__button{
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 0.9;
+    color: white;
+    background-color: #005ea2;
+    appearance: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    text-decoration: none;
 }
