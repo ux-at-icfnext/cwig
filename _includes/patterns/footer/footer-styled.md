@@ -81,7 +81,7 @@
       <div class="grid-row grid-gap">
         <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
           <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
+            <img class="usa-footer__logo-img cwig__logo" src="/assets/img/logo-img.png" alt="">
           </div>
           <div class="mobile-lg:grid-col-auto">
             <p class="usa-footer__logo-heading">Name of Agency</p>
@@ -102,16 +102,6 @@
             <div class="grid-col-auto">
               <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
                 <span>YouTube</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--instagram" href="javascript:void(0);">
-                <span>Instagram</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
-                <span>RSS</span>
               </a>
             </div>
           </div>
