@@ -25,6 +25,7 @@ ul.breadcrumb li:before {
 .page__intro{
     display: flex;
     flex-direction: column;
+    border-bottom: 10px solid #E50E63;
 }
 .feature__img{
     order: 2;
