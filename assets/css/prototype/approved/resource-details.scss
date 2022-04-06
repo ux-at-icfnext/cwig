@@ -21,6 +21,10 @@ ul.breadcrumb li a{
 }
 @media only screen and (min-width: 880px) {
     /* For desktop: */
+    #page__title{
+        font-family: 'Montserrat';
+        font-weight: 700;
+    }
     ul.breadcrumb li a{
         color:blue;
     }
@@ -41,5 +45,12 @@ ul.breadcrumb li a{
         margin-left: 10px;
         border-left: 1px solid #E50E63;
         padding-left: 10px;
+    }
+    #speaker{
+        color:#E50E63;
+    }
+    .main__text p{
+        font-family: 'Lora';
+        font-size: 21px;
     }
 }
