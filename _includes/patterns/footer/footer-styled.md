@@ -66,7 +66,7 @@
                   name="search"
                   placeholder="Your email address"
                 />
-                <button class="usa-button" type="submit">
+                <button class="usa-button footer__search__button" type="submit">
                   <span class="usa-search__submit-text">Search</span>
                 </button>
               </form>

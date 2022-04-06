@@ -1,7 +1,7 @@
 ---
 layout: prototype/proto-landing
-title: Resource Details
-permalink: /resource-details
+title: About
+permalink: /about-page
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >

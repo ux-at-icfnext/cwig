@@ -1,7 +1,7 @@
 ---
 layout: prototype/proto-landing
-title: Resource Details
-permalink: /resource-details
+title: Events Details
+permalink: /events-details
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
