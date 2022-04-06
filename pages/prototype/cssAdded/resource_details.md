@@ -1,5 +1,5 @@
 ---
-layout: prototype/proto-landing
+layout: prototype/resource-details
 title: Resource Details
 permalink: /resource-details
 categories: prototype
