@@ -1,5 +1,5 @@
 ---
-layout: prototype/proto-landing
+layout: prototype/events-landing
 title: Events Landing
 permalink: /events-landing
 categories: prototype
