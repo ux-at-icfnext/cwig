@@ -1,35 +1,12 @@
 ---
-layout: prototype/proto-landing
+layout: prototype/events-search
 title: Events Search
 permalink: /events-search-page
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
-  Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
-  covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
-cards:
-  - card-title: Family-Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Child Abuse & Neglect
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Family Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
+callout_heading: Submit Events and Calls for Papers
+callout_text: Submit information on your events. We will then post your submission to this website.
+callout_link: Fill in a submission form
 ---

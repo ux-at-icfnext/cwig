@@ -1,6 +1,6 @@
 ---
 layout: prototype/events-landing
-title: Events Landing
+title: Events
 permalink: /events-landing
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
