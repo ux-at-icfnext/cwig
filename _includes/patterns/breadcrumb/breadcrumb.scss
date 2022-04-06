@@ -1,4 +1,113 @@
 
-.usa-breadcrumb__list-item:not(:last-child)::after {
-    background: url("../img/usa-icons/navigate_next.svg") no-repeat center / 2ex 2ex;
+ /* For mobile phones: */
+ ul.breadcrumb li:before {
+    padding: 8px;
+    margin-left: 30px;
+    color: white;
+    content: "\2190";
+  }
+  #current__page{
+    display: none;
+}
+ul.breadcrumb {
+    list-style: none;
+    }
+.breadcrumb{
+    padding-left: 0%;
+}
+ @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    ul.breadcrumb li:before {
+        padding: 8px;
+        margin-left: 30px;
+        color: white;
+        content: "";
+      }
+      .breadcrumb{
+        padding-left: 0%;
+    }
+    ul.breadcrumb {
+        list-style: none;
+      }
+      
+      /* Display list items side by side */
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+      }
+      
+      /* Add a slash symbol (/) before/behind each list item */
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: white;
+        content: "/\00a0";
+      }
+      
+      /* Add a color to all links inside the list */
+      ul.breadcrumb li a {
+        color: white;
+        text-decoration: underline;
+        font-family: 'Montserrat';
+        font-weight: 200;
+      }
+    
+      #current__page{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        display: contents;
+      }
+      
+      /* Add a color on mouse-over */
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    ul.breadcrumb li:before {
+        padding: 8px;
+        margin-left: 30px;
+        color: white;
+        content: "";
+      }
+      .breadcrumb{
+        padding-left: 0%;
+    }
+    ul.breadcrumb {
+        list-style: none;
+      }
+      
+      /* Display list items side by side */
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+      }
+      
+      /* Add a slash symbol (/) before/behind each list item */
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: white;
+        content: "/\00a0";
+      }
+      
+      /* Add a color to all links inside the list */
+      ul.breadcrumb li a {
+        color: white;
+        text-decoration: underline;
+        font-family: 'Montserrat';
+        font-weight: 200;
+      }
+    
+      #current__page{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        display: contents;
+      }
+      
+      /* Add a color on mouse-over */
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
 }
