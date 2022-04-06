@@ -5,8 +5,10 @@ permalink: /events-landing
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
-  Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
-  covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
+  View conferences and calls for papers related to child abuse and neglect, child welfare, and adoption by month and/or state, or submit your conference. Child Welfare Information Gateway exhibit at many conferences throughout the country to provide free materials to the field.
+callout_heading: Submit Events and Calls for Papers
+callout_text: Submit information on your events. We will then post your submission to this website.
+callout_link: Fill in a submission form
 cards:
   - card-title: Family-Center Practice
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

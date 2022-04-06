@@ -10,20 +10,28 @@ layout: prototype/colorVers/proto-default-color
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section">
+<div class="intro__section grid-container">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
+        <p>{{ page.intro | markdowify}}</p>
     </div>
     <div class="callout__box">
-
+        <h2>{{ page.callout_heading | markdowify}}</h2>
+        <p>{{ page.callout_text | markdowify}}</p>
+        <a href="">{{ page.callout_link | markdowify}}</a>
     </div>
 </div>
 <div class="event__search">
+    <p>Find your next event</p>
+    {% include patterns/search/search-styled.md %}
+    <a href="">See all the events</a>
+</div>
+<div class="main__content">
+    <div class="featured__events grid-container">
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
+</div>
 
-</div>
-<div class="featured__events">
-    {% include patterns/card/card-styled.md  data=card %}
-</div>
 <div class="footer">
     {% include patterns/footer/footer-styled.md %}
 </div>
