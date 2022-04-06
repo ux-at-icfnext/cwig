@@ -1,6 +1,6 @@
 ---
 layout: prototype/resource-details
-title: Resource Details
+title: The Power of the Parents' Voice
 permalink: /resource-details
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
@@ -13,23 +13,5 @@ cards:
   - card-title: Child Abuse & Neglect
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Family Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Card for subpage
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 ---

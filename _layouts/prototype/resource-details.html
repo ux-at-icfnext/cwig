@@ -1,4 +1,52 @@
 ---
 layout: prototype/colorVers/proto-default-color
 ---
-{% include patterns/header/header-styled.md %}
+<link rel="stylesheet" href="/assets/css/prototype/approved/resource-details.scss">
+<div class="header">
+    {% include patterns/header/header-styled.md %}
+</div>
+
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+
+<div class="content">
+    <div class="share">
+
+    </div>
+    <div class="main">
+        <div class="title">
+            <h1 id="page__title"> {{ page.title }}</h1>
+        </div>
+        <div class="content__info">
+            
+        </div>
+        <div class="upper__text">
+            
+        </div>
+        <div class="audio">
+            
+        </div>
+        <div class="lower__text">
+            
+        </div>
+        <div class="quote">
+            
+        </div>
+        <div class="end__text">
+            
+        </div>
+        <div class="also__in__this__series">
+            
+        </div>
+    </div>
+</div>
+<div class="related__resources">
+    {% include patterns/card/card-styled.md  data=card %}
+</div>
+<div class="footer">
+    {% include patterns/footer/footer-styled.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>
