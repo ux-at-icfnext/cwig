@@ -1,0 +1,64 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/events-details.scss">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<div class="header">
+    {% include patterns/header/header-styled.md %}
+</div>
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+<div class="intro__section grid-container">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+    </div>
+</div>
+<div class="left__col">
+    <button>Clear Filters</button>
+    <h3>Sponsor</h3>
+    <span clas="sponsor__name"></span>
+    <h3>Date and Time</h3>
+    <span class="date"></span>
+    <h3>Location</h3>
+    <span class="format"></span>
+    <span class="address_line_1"></span>
+    <span class="address_line_1"></span>
+    <span class="address_line_1"></span>
+    <span class="address_line_1"></span>
+    <h3>Cost</h3>
+    <span class="cost"></span>
+    <h3>Continuing Education Units</h3>
+    <span class="CEU"></span>
+</div>
+<div class="main__col">
+    <h2>About this Event</h2>
+    <p>{{ page.about | markdowify}}</p>
+    <h3>Additional Details</h3>
+    <p>{{ page.details | markdowify}}</p>
+    <h3>Who Should Attend this Conference</h3>
+    <p>{{ page.attendee | markdowify}}</p>
+    <h3>Topic Tags</h3>
+    <div class="more__info">
+        <h2>More from this Sponsor</h2>
+        <a href="">See all events from this sponsor</a>
+        <div class="other__events">
+
+        </div>
+        <div class="other__events">
+            
+        </div>
+    </div>
+    <div class="callout__box">
+        <h2>{{ page.callout_heading | markdowify}}</h2>
+        <p>{{ page.callout_text | markdowify}}</p>
+        <a href="">{{ page.callout_link | markdowify}}</a>
+    </div>
+</div>
+<div class="footer">
+    {% include patterns/footer/footer-styled.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>
