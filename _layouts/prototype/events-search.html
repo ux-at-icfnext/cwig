@@ -1,0 +1,56 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/events-search.scss">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<div class="header">
+    {% include patterns/header/header-styled.md %}
+</div>
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+<div class="intro__section grid-container">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+        <p>{{ page.intro | markdowify}}</p>
+    </div>
+    <div class="callout__box">
+        <h2>{{ page.callout_heading | markdowify}}</h2>
+        <p>{{ page.callout_text | markdowify}}</p>
+        <a href="">{{ page.callout_link | markdowify}}</a>
+    </div>
+</div>
+<div class="left__col">
+    <h3>Filters</h3>
+    <button>Clear Filters</button>
+    {% include patterns/accordion/accordion-jk.md %}
+</div>
+<div class="main__col">
+    {% include patterns/search/search-styled.md %}
+    <h4>Filters</h4>
+    <h4>Filters</h4>
+    <div class="search__results">
+        {%for item in site.data.prototype.events%}
+            <div class="event__details">
+                <p>{{item.format}}</p>
+                <p>{{item.date}}</p>
+                <p>|</p>
+                <p>{{item.time}}</p>
+                <br><br>
+                <a href="">{{item.event}}</a>
+                <br>
+                <p>{{item.sponsor}}</p>
+                <br><br>
+                <p>{{item.desc}}</p>
+            </div>
+          {%endfor%}
+    </div>
+    <div class="page__nav"></div>
+</div>
+<div class="footer">
+    {% include patterns/footer/footer-styled.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>

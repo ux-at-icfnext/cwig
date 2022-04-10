@@ -1,0 +1,56 @@
+ /* For mobile phones: */
+ ul.breadcrumb li a{
+    color:blue;
+}
+.related__resources{
+    background-color: #D1D3D4;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+      }
+    .related__resources{
+        background-color: #D1D3D4;
+    }
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    #page__title{
+        font-family: 'Montserrat';
+        font-weight: 700;
+    }
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+    }
+    .related__resources{
+        background-color: #D1D3D4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .usa-card-group{
+        margin: auto;
+    }
+    .quote{
+        margin-left: 10px;
+        border-left: 1px solid #E50E63;
+        padding-left: 10px;
+    }
+    #speaker{
+        color:#E50E63;
+    }
+    .main__text p{
+        font-family: 'Lora';
+        font-size: 21px;
+    }
+}
