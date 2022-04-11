@@ -1,0 +1,38 @@
+  /* For mobile phones: */
+.footer__section{
+    background-color: white;
+}
+.footer__secondary{
+    background-color: white;
+}
+.signup__label{
+    font-weight: bold;
+}
+.footer__search__button{
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 0.9;
+    color: white;
+    background-color: #005ea2;
+    appearance: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    text-decoration: none;
+}
+.cwig__logo__footer{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+}
