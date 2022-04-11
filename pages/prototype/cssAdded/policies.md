@@ -1,5 +1,5 @@
 ---
-layout: prototype/proto-landing
+layout: prototype/policies
 title: Policies
 permalink: /policies
 categories: prototype
