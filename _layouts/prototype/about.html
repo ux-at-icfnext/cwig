@@ -1,0 +1,55 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/about.scss">
+
+{% include patterns/header/header-styled.md %}
+
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+
+<div class="grid-container">
+    </div>
+        <div class="page__intro">
+            <div class="page__title">
+                <h1 id="page__title"> {{ page.title }}</h1>
+            </div>
+            <div class="intro__text">
+                <p>{{ page.intro | markdowify}}</p>
+            </div>
+            <div class="feature__img">
+                <img src="assets/img/prototype/CWIG-landing-page.jpg">
+            </div>
+        </div>
+    </div>
+
+<div class="content__section">
+    <div id="main-content" class="grid-container">
+        <div class="cards">
+            {% include patterns/card/card-styled.md  data=card %}
+        </div>
+        <div class="sidebar">
+            {% include patterns/accordion/accordion-jk.md %}
+        </div>
+        <div class="overview__section">
+            <div class="para__1">
+                <h3>{{ page.first_subhead | markdowify}}</h3>
+                <p>{{ page.first_para | markdowify}}</p>
+            </div>
+            <div class="para__2">
+                <h3>{{ page.second_subhead | markdowify}}</h3>
+                <p>{{ page.second_para | markdowify}}</p>
+            </div>
+            <div class="para__3">
+                <h3>{{ page.third_subhead | markdowify}}</h3>
+                <p>{{ page.third_para | markdowify}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include patterns/footer/footer-styled.md %}
+  
+{% include patterns/identifier/identifier-styled.md %}
+
