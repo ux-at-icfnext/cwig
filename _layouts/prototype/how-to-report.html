@@ -1,0 +1,57 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/how-to-report.scss">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<div class="header">
+    {% include patterns/header/header-styled.md %}
+</div>
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+<div class="intro__section grid-container">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+        <p>{{ page.intro | markdowify}}</p>
+    </div>
+    <div class="change__lang">
+        <button>Espanol</button>
+    </div>
+</div>
+<div class="card__section">
+    {% include patterns/card/card-styled.md  data=card %}
+</div>
+<div class="main__content">
+    <div class="featured__events grid-container">
+        <div class="para__1">
+            <h3>{{ page.first_subhead | markdowify}}</h3>
+            <p>{{ page.first_para | markdowify}}</p>
+        </div>
+        <div class="para__2">
+            <h3>{{ page.second_subhead | markdowify}}</h3>
+            <p>{{ page.second_para | markdowify}}</p>
+        </div>
+        <div class="para__3">
+            <h3>{{ page.third_subhead | markdowify}}</h3>
+            <p>{{ page.third_para | markdowify}}</p>
+        </div>
+        <div class="para__4">
+            <h3>{{ page.fourth_subhead | markdowify}}</h3>
+            <p>{{ page.fourth_para | markdowify}}</p>
+        </div>
+        <div class="find__help__with">
+
+        </div>
+        <div class="quick__exit">
+            
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    {% include patterns/footer/footer-styled.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>
