@@ -4,6 +4,7 @@
 }
 .footer__secondary{
     background-color: white;
+    border-top: 1px solid lightgray;
 }
 .signup__label{
     font-weight: bold;
@@ -29,6 +30,14 @@
     width: 400px;
     height: auto;
     margin-left: 100px;
+    margin-bottom: 20px;
+}
+.social__media__icons__footer{
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.agency__contact__center{
+    margin-left: 120px;
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
