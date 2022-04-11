@@ -1,0 +1,87 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/cta-find-help.scss">
+
+{% include patterns/header/header-styled.md %}
+
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+
+<div class="grid-container">
+    </div>
+    <div class="page__intro">
+        <div class="right__col">
+            <div class="page__title">
+                <h1 id="page__title"> {{ page.title }}</h1>
+            </div>
+            <div class="intro__text">
+                <p>{{ page.intro | markdowify}}</p>
+            </div>
+        </div>
+        <div class="left__col">
+            <div class="lang__btn">
+                <button>Espanol</button>
+            </div>
+            <div class="socials">
+                
+            </div>
+        </div>
+        <div class="cards">
+            {% include patterns/card/card-styled.md  data=card %}
+        </div>
+    </div>
+    </div>
+
+<div class="content__section">
+    <div id="main-content" class="grid-container">
+        <h2>Learn more about our offerings</h2>
+        <div class="news__digest">
+            <h3>News Digest</h3>
+            <p></p>
+        </div>
+        <div class="news__entry">
+            <div class="entry__img">
+
+            </div>
+            <div class="entry__desc">
+                <h3></h3>
+                <p></p>
+                <a></a>
+            </div>
+        </div>
+        <div class="library__services">
+            <div class="entry__img">
+
+            </div>
+            <div class="entry__desc">
+                <h3></h3>
+                <p></p>
+                <a></a>
+            </div>
+        </div>
+        <div class="national__initiatives">
+            <div class="entry__img">
+
+            </div>
+            <div class="entry__desc">
+                <h3></h3>
+                <p></p>
+                <a></a>
+            </div>
+        </div>
+        <div class="manage__subscriptions">
+            <h2></h2>
+            <button></button>
+            <a></a>
+        </div>
+    </div>
+    <div class="quick__exit">
+        
+    </div>
+</div>
+
+{% include patterns/footer/footer-styled.md %}
+  
+{% include patterns/identifier/identifier-styled.md %}
