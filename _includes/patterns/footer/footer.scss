@@ -36,8 +36,20 @@
     margin-left: 120px;
     margin-bottom: 20px;
 }
+.social__media__icons__footer span{
+    padding-right: 20px;
+}
 .agency__contact__center{
     margin-left: 120px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+.agency__contact__center a{
+    padding: 10px;
+    color: black;
+}
+#agency__tele{
+    padding-left: 0px;
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
