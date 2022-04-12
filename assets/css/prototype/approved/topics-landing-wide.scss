@@ -1,5 +1,5 @@
   /* For mobile phones: */
-  #page__title{
+  #page__title-mobile{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
@@ -12,6 +12,9 @@
 }
 .page__title{
     order: 1;
+}
+#page__title{
+    display: none;
 }
 .page__intro{
     display: flex;
@@ -30,6 +33,39 @@
 }
   @media only screen and (min-width: 600px) {
     /* For tablets: */
+    .page__intro{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        align-content: flex-end;
+        border-bottom: 10px solid #E50E63;
+    }
+    .feature__img{
+        order: 2;
+        flex: 1.5;
+        margin-bottom: -30px;
+        padding-top: 0;
+        width: 100%;
+        height: auto;
+    }
+    .intro__text{
+        order: 1;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 29px;
+        flex: 1;
+    }
+    #page__title-mobile{
+        display: none;
+    }
+    #page__title{
+        display: block;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 38px;
+        margin-left: 0px;
+    }
 }
 @media only screen and (min-width: 880px) {
     /* For desktop: */
