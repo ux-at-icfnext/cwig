@@ -1,41 +1,40 @@
 ---
 layout: prototype/colorVers/proto-default-color
 ---
-<html>
-    <head>
-        <link rel="stylesheet" href="/assets/css/prototype/approved/topics-landing-wide.scss">
-    </head>
-    <body>
-        <div class="header">
-            {% include patterns/header/header-styled.md %}
+<link rel="stylesheet" href="/assets/css/prototype/approved/topics-landing-wide.scss">
+
+{% include patterns/header/header-styled.md %}
+
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+
+<div class="page__intro">
+    <div class="page__title">
+        <h1 id="page__title-mobile"> {{ page.title }}</h1>
+    </div>
+    <div class="intro__text">
+        <h1 id="page__title"> {{ page.title }}</h1>
+        <p>{{ page.intro | markdowify}}</p>
+    </div>
+    <div class="feature__img">
+        <img src="assets/img/prototype/CWIG-landing-page.jpg" height="" width="" />
+    </div>
+</div>
+
+
+<div class="content__section">
+    <div id="main-content" class="grid-container">
+        <div class="cards">
+            {% include patterns/card/card-styled.md  data=card %}
         </div>
-        <div class="page__intro">
-            <div class="breadcrumbs">
-                {% include patterns/breadcrumb/breadcrumb-styled.md%}
-            </div>
-            <div class="page__title">
-                <h1 id="page__title-mobile"> {{ page.title }}</h1>
-            </div>
-            <div class="intro__text">
-                <h1 id="page__title"> {{ page.title }}</h1>
-                <p>{{ page.intro | markdowify}}</p>
-            </div>
-            <div class="feature__img">
-                <img src="assets/img/prototype/CWIG-landing-page.jpg" height="" width="" />
-            </div>
-        </div>
-        <div class="content__section">
-            <div id="main-content" class="grid-container">
-                <div class="cards">
-                    {% include patterns/card/card-styled.md  data=card %}
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            {% include patterns/footer/footer-styled.md %}
-        </div>
-        <div class="identifier">
-            {% include patterns/identifier/identifier-styled.md %}
-        </div>
-    </body>
-</html>
+    </div>
+</div>
+
+<div class="footer">
+    {% include patterns/footer/footer-styled.md %}
+</div>
+
+  
+{% include patterns/identifier/identifier-styled.md %}
+

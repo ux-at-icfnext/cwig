@@ -1,10 +1,4 @@
   /* For mobile phones: */
-  .breadcrumbs{
-    /* border-top: solid 1px white; */
-  }
-  .breadcrumbs a{
-      color: white;
-  }
   #page__title-mobile{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -26,8 +20,6 @@
     display: grid;
     grid-template-columns: 1fr;
     border-bottom: 10px solid #E50E63;
-    background-color: #002552;
-    color: white;
 }
 .feature__img{
     order: 2;
@@ -39,6 +31,9 @@
     padding-left: 50px;
     padding-right: 50px;
     line-height: 29px; */
+}
+.footer a{
+    color: #005DAA
 }
   @media only screen and (min-width: 601px) {
     /* For tablets: */
@@ -69,9 +64,6 @@
     }
     #page__title{
         display: block;
-    }
-    .footer a{
-        color
     }
 }
 @media only screen and (min-width: 1280px) {
