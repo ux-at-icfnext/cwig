@@ -32,7 +32,7 @@
     padding-right: 50px;
     line-height: 29px; */
 }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 601px) {
     /* For tablets: */
     .page__intro{
         display: grid;
@@ -63,7 +63,7 @@
         display: block;
     }
 }
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 1280px) {
     /* For desktop: */
     .page__intro{
         display: flex;
