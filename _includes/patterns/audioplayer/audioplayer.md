@@ -1,3 +1,7 @@
-<div class="audio__player__container">
-    <button id="play__button">
+<div class="podcast__container">
+    <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
 </div>

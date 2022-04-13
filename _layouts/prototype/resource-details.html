@@ -4,6 +4,7 @@ layout: prototype/colorVers/proto-default-color
 <link rel="stylesheet" href="/assets/css/prototype/approved/resource-details.scss">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+
 <div class="header">
     {% include patterns/header/header-styled.md %}
 </div>
@@ -27,7 +28,7 @@ layout: prototype/colorVers/proto-default-color
             <p>{{ page.first_para | markdowify}}</p>
         </div>
         <div class="audio">
-            <img src="{{ page.feature-image }}">
+            {% include patterns/audioplayer/audioplayer.md %}
         </div>
         <div class="second__para main__text">
             <p>{{ page.second_para | markdowify}}</p>
