@@ -60,7 +60,9 @@
   height: auto;
 }
 
-
+.text-icon {
+  max-height: 16px; width: auto; padding-left: 2px;
+}
 .designcomps {
   @include grid-row;
 }
