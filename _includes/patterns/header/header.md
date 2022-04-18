@@ -1,9 +1,18 @@
-<div class="usa-overlay"></div>
+<link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora:400' rel='stylesheet'>
+<div class="page__header">
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <div class="usa-overlay"></div>
   <header class="usa-header usa-header--extended">
+    <div class="banner">
+      {% include/patterns/banner/banner.md %}
+    </div>
     <div class="usa-navbar">
       <div class="usa-logo logo__section" id="extended-logo">
         <em class="usa-logo__text">
-          <img class="cwig__logo" src="/assets/prototype/cwig-logo-inverse.svg" alt="">
+          <img class="cwig__logo" src="/assets/img/prototype/cwig-logo-inverse.svg" alt="">
         </em>
       </div>
     <button class="usa-menu-btn menu__btn">
