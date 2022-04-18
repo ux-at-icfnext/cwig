@@ -1,14 +1,23 @@
-<link href="assets/css/prototype/approved/header-styled.scss" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400' rel='stylesheet'>
+<div class="mobile__banner">
+  <div class="banner-icon">
+    <img src="assets/img/usa-icons/us_flag_small.png" align="left">
+  </div>
+  <div class="banner-text">
+    <span>An official website of the United States government.</span>
+    <a href="">Here's how you know.</a>
+    <img src="assets/img/usa-icons-bg/expand_more--blue-warm-70v.svg" class="banner-svg">
+  </div>
+</div>
+<div class="banner">
+  {% include/patterns/banner/banner.md %}
+</div>
 <div class="page__header">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
   <div class="usa-overlay"></div>
   <header class="usa-header usa-header--extended">
-    <div class="banner">
-      {% include/patterns/banner/banner.md %}
-    </div>
     <div class="usa-navbar">
       <div class="usa-logo logo__section" id="extended-logo">
         <em class="usa-logo__text">
