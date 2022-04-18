@@ -108,7 +108,7 @@ Example 1: If the link decribes the destination, then simply link the text.
 <div class="quote"  markdown="1">
 [CDC recommends using sunscreen when you’re outside](https://www.cdc.gov/cancer/skin/basic_info/sun-safety.htm) to reduce your risk of skin damage and skin cancer.
 
-To ensure food safety during an emergency, [the Red Cross recommends you do not open the refrigerator or freezer](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/food-safety.html).
+To ensure food safety during an emergency, [the Red Cross recommends you do not open the refrigerator or freezer](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/food-safety.html)![external](/assets/img/usa-icons/external-link.svg){: .text-icon }.
 </div>
 
 Example 2: Add the domain name of the site to the link
@@ -116,7 +116,7 @@ Example 2: Add the domain name of the site to the link
 <div class="quote"  markdown="1">
 [Sun safety guidance [cdc.gov].](https://www.cdc.gov/cancer/skin/basic_info/sun-safety.htm)
 
-[Food safety during an emergency [redcross.org]](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/food-safety.html)
+[Food safety during an emergency [redcross.org]](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/food-safety.html)![external](/assets/img/usa-icons/external-link.svg){: .text-icon }
 </div>
 
 <a name="files"></a>
