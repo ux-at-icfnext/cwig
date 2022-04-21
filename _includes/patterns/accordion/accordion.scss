@@ -2,12 +2,14 @@
     max-width: 100%;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #EDEFF0;
     margin-top: 20px;
 }
 .accordion__label,
 .accordion__content{
     padding: 14px 20px;
+}
+.accordion__section{
+    margin-bottom: 10px;
 }
 .accordion__label{
     display: block;
@@ -15,9 +17,14 @@
     cursor: pointer;
     position: relative;
     transition: background 0.1s;
+    background-color: #C7CFE9;
 }
 .accordion__label:hover{
-    color: white;
+    color: #005DAA;
+    background: rgba(161, 178, 216, 1);
+}
+.accordion__input:checked ~ .accordion__label:hover{
+    color:#005DAA;
 }
 .accordion__label::after{
     content: "";
@@ -37,6 +44,9 @@
     background-color: #fff;
     font-size: 0.85em;
     display: none;
+}
+.accordion__content p{
+    font-family: 'Lora';
 }
 
 .accordion__input{
