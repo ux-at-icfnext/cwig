@@ -1,29 +1,52 @@
-/* For mobile phones: */
-.accordion button{
-    background-color: #C7CFE9;
-    background-image: url(../img/usa-icons/add.svg), linear-gradient(transparent, transparent);
-    background-repeat: no-repeat;
-    background-size: 1.5rem;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
-    text-align: left;
-    background-position: right 1.25rem center;
-    background-size: 1.5rem;
-    color: #1b1b1b;
+.accordion{
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #EDEFF0;
+    margin-top: 20px;
+}
+.accordion__label,
+.accordion__content{
+    padding: 14px 20px;
+}
+.accordion__label{
+    display: block;
+    font-weight: bold;
     cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    margin: 0;
-    padding: 1rem 3.5rem 1rem 1.25rem;
-    text-decoration: none;
-    width: 100%;
+    position: relative;
+    transition: background 0.1s;
 }
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
+.accordion__label:hover{
+    color: white;
+}
+.accordion__label::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 36px;
+    height: 18px;
+    background-image: url(/assets/img/icons/plus.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.1s;
+}
 
+.accordion__content{
+    background-color: #fff;
+    font-size: 0.85em;
+    display: none;
 }
-@media only screen and (min-width: 880px) {
-    /* For desktop: */
-   
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after{
+    background-image: url(/assets/img/icons/minus.svg);
 }
