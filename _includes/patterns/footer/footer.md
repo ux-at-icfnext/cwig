@@ -78,7 +78,7 @@
   </div>
   <div class="footer__secondary">
     <div class="cwig__logo__section">
-      <img src="/assets/img/prototype/cwig-logo-inverse.svg" alt="" class="cwig__logo__footer">
+      <img src="/assets/img/prototype/cwig-logo-inverse-blue.png" alt="" class="cwig__logo__footer">
     </div>
     <div class="social__media__icons__footer">
       <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
