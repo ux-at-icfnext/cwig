@@ -5,8 +5,8 @@ title: Search Widget
 description: |
   Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 usa-link: https://designsystem.digital.gov/components/search/
-htmlpath: /patterns/search/search.md
-csspath: # path to ccs file
+htmlpath: /patterns/search/search-styled.md
+csspath: /patterns/search/search.scss
 varspath: /patterns/search/search-variations.md
 specification: |
   We will be using the default search component. 
