@@ -1,9 +1,31 @@
  /* For mobile phones: */
-ul.breadcrumb li a{
+.content{
+    display: grid;
+}
+.main{
+    margin: auto;
+}
+.main p{
+    font-family: 'Lora';
+    font-size: 21px;
+    line-height: 31px;
+}
+.title{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+ ul.breadcrumb li a{
     color:blue;
 }
 .related__resources{
     background-color: #D1D3D4;
+    padding-top: 20px;
+}
+.quote{
+    border-left: #E50E63 solid 3px;
+}
+#speaker{
+    color:#E50E63;
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
