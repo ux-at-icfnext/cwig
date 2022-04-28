@@ -16,7 +16,7 @@ __Table Contents:__
 
 ## Feature Section
 
-Uses [hero pattern]().
+Uses [hero pattern](/hero).
 - Page Title | h1
 - Page description | text | 250 character max (ask @christine if this is right)
 - Featured uses [card pattern](/card)
