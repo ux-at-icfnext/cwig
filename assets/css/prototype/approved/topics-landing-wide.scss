@@ -27,10 +27,13 @@
 }
 .intro__text{
     order: 3;
-    /* padding: 10px;
+    padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    line-height: 29px; */
+    line-height: 29px;
+}
+.intro__text p{
+    font-family: 'Lora', serif;
 }
 .footer a{
     color: #005DAA
@@ -43,7 +46,7 @@
         gap: 1rem;
         grid-auto-rows: 250px;
         align-items: center;
-        max-width: 800px;
+        max-width: 100%;
         margin: 0 auto;
     }
     .feature__img{
@@ -58,6 +61,8 @@
         grid-row: 1/2;
         padding-bottom: 20px;
         position: relative;
+        max-width: 100%;
+        max-height: 100%;
     }
     .page__title{
         display: none;
