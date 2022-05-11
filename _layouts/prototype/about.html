@@ -23,13 +23,15 @@ layout: prototype/colorVers/proto-default-color
         </div>
     </div>
 </div>
+
 <div class="content__section">
-    <div id="main-content" class="grid-container">
-        <div class="cards">
-            {% include patterns/card/card-styled.md  data=card %}
-        </div>
-        <div class="sidebar">
-            {% include patterns/accordion/accordion-jk.md %}
+    <div class="cards grid-container">
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
+    <div id="main-content">
+        <div class="tabs">
+            {% include patterns/tabs/vertical-tabs.md %}
+            <p>Tabs Go Here</p>
         </div>
         <div class="overview__section">
             <div class="para__1">
@@ -46,9 +48,7 @@ layout: prototype/colorVers/proto-default-color
             </div>
         </div>
     </div>
-</div>
-
 {% include patterns/footer/footer.md %}
-  
 {% include patterns/identifier/identifier-styled.md %}
+</div>
 

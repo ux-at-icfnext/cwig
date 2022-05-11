@@ -31,4 +31,17 @@
     .content__section{
         background-color: white;
     }
+    .cards{
+        margin: auto;
+    }
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .tabs{
+        order: 1;
+    }
+    .overview__section{
+        order: 2;
+    }
 }
