@@ -46,5 +46,27 @@
     }
     .main__col{
         order: 2;
+        margin-top: 100px;
+    }
+    .results__filters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .search__results{
+        margin-top: 20px;
+    }
+    .date__time{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pagination{
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .pagination button{
+        width: 25%;
     }
 }

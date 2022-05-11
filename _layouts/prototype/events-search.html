@@ -29,25 +29,37 @@ layout: prototype/colorVers/proto-default-color
     </div>
     <div class="main__col">
         {% include patterns/search/search-styled.md %}
-        <h4>Filters</h4>
-        <h4>Filters</h4>
+        <div class="results__filters">
+            <span>Displaying</span>
+            <span>Displaying</span>
+            <span>Displaying</span>
+            <span>Displaying</span>
+            <span>Displaying</span>
+        </div>
         <div class="search__results">
             {%for item in site.data.prototype.events%}
                 <div class="event__details">
-                    <p>{{item.format}}</p>
-                    <p>{{item.date}}</p>
-                    <p>|</p>
-                    <p>{{item.time}}</p>
-                    <br><br>
+                    <button>{{item.format}}</button>
+                    <div class="date__time">
+                        <p>{{item.date}}</p>
+                        <p>|</p>
+                        <p>{{item.time}}</p>
+                    </div>
                     <a href="">{{item.event}}</a>
-                    <br>
                     <p>{{item.sponsor}}</p>
-                    <br><br>
                     <p>{{item.desc}}</p>
                 </div>
               {%endfor%}
         </div>
-        <div class="page__nav"></div>
+        <div class="pagination">
+            <a href="">Previous</a>
+            <button>1</button>
+            <button>1</button>
+            <button>1</button>
+            <button>1</button>
+            <button>1</button>
+            <a href="">Next</a>
+        </div>
     </div>
 </div>
 <div class="footer">
