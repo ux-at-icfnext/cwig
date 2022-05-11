@@ -5,36 +5,24 @@ layout: prototype/colorVers/proto-default-color
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 
-{% include patterns/header/header.md %}
-
+<div class="header">
+    {% include patterns/header/header.md %}
+</div>
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-
-<div class="grid-container">
+<div class="intro__section">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+        <p>{{ page.intro | markdowify}}</p>
     </div>
-    <div class="page__intro">
-        <div class="right__col">
-            <div class="page__title">
-                <h1 id="page__title"> {{ page.title }}</h1>
-            </div>
-            <div class="intro__text">
-                <p>{{ page.intro | markdowify}}</p>
-            </div>
-        </div>
-        <div class="left__col">
-            <div class="lang__btn">
-                <button>Espanol</button>
-            </div>
-            <div class="socials">
-                
-            </div>
-        </div>
+    <div class="socials__spanish">
+        <button>Espanol</button>
         <div class="cards">
             {% include patterns/card/card-styled.md  data=card %}
         </div>
     </div>
-    </div>
+</div>
 
 <div class="content__section">
     <div id="main-content" class="grid-container">
