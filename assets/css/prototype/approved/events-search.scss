@@ -23,4 +23,28 @@
         color: #E50E63;
         content: "/\00a0";
     }
+    .intro__section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .page__title{
+        order: 1;
+        margin-left: 100px;
+    }
+    .callout__box{
+        order: 2;
+        margin-right: 100px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+    .left__col{
+        order: 1;
+        margin-left: 100px;
+    }
+    .main__col{
+        order: 2;
+    }
 }

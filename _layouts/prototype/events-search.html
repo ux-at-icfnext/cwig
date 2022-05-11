@@ -10,7 +10,7 @@ layout: prototype/colorVers/proto-default-color
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section grid-container">
+<div class="intro__section ">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
         <p>{{ page.intro | markdowify}}</p>
@@ -21,32 +21,34 @@ layout: prototype/colorVers/proto-default-color
         <a href="">{{ page.callout_link | markdowify}}</a>
     </div>
 </div>
-<div class="left__col">
-    <h3>Filters</h3>
-    <button>Clear Filters</button>
-    {% include patterns/accordion/accordion-jk.md %}
-</div>
-<div class="main__col">
-    {% include patterns/search/search-styled.md %}
-    <h4>Filters</h4>
-    <h4>Filters</h4>
-    <div class="search__results">
-        {%for item in site.data.prototype.events%}
-            <div class="event__details">
-                <p>{{item.format}}</p>
-                <p>{{item.date}}</p>
-                <p>|</p>
-                <p>{{item.time}}</p>
-                <br><br>
-                <a href="">{{item.event}}</a>
-                <br>
-                <p>{{item.sponsor}}</p>
-                <br><br>
-                <p>{{item.desc}}</p>
-            </div>
-          {%endfor%}
+<div class="content">
+    <div class="left__col">
+        <h3>Filters</h3>
+        <button>Clear Filters</button>
+        {% include patterns/accordion/accordion.md %}
     </div>
-    <div class="page__nav"></div>
+    <div class="main__col">
+        {% include patterns/search/search-styled.md %}
+        <h4>Filters</h4>
+        <h4>Filters</h4>
+        <div class="search__results">
+            {%for item in site.data.prototype.events%}
+                <div class="event__details">
+                    <p>{{item.format}}</p>
+                    <p>{{item.date}}</p>
+                    <p>|</p>
+                    <p>{{item.time}}</p>
+                    <br><br>
+                    <a href="">{{item.event}}</a>
+                    <br>
+                    <p>{{item.sponsor}}</p>
+                    <br><br>
+                    <p>{{item.desc}}</p>
+                </div>
+              {%endfor%}
+        </div>
+        <div class="page__nav"></div>
+    </div>
 </div>
 <div class="footer">
     {% include patterns/footer/footer.md %}

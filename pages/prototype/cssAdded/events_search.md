@@ -9,4 +9,19 @@ intro: >
 callout_heading: Submit Events and Calls for Papers
 callout_text: Submit information on your events. We will then post your submission to this website.
 callout_link: Fill in a submission form
+accordion:
+  - name: Event Type
+    content: Section Content Goes Here
+  - name: Location
+    content: Section Content Goes Here
+  - name: Frequency
+    content: Section Content Goes Here
+  - name: Sponsor
+    content: Section Content Goes Here
+  - name: Cost
+    content: Section Content Goes Here
+  - name: Continuing Education Units
+    content: Section Content Goes Here
+  - name: Topic
+    content: Section Content Goes Here
 ---
