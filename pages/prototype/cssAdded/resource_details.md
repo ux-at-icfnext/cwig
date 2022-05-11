@@ -20,6 +20,8 @@ third_para: >
     - Sam Blue, Region 7 (Missouri) <br>
     - Bruce Bynum, Region 6 (Texas) <br>
     - Jessica Diel, Region 7 (Missouri) <br>
+series_link_1: The Power of the Parents' Voice, Part 2
+series_link_2: The Power of the Parents' Voice, Part 3
 cards:
   - card-title: Family-Center Practice
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

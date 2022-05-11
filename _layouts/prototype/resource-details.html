@@ -46,12 +46,17 @@ layout: prototype/colorVers/proto-default-color
             <p>{{ page.third_para | markdowify}}</p>
         </div>
         <div class="also__in__this__series">
-            
+            <h2>Also in this Series</h2>
+            <a href="">{{ page.series_link_1 | markdowify }}</a>
+            <br>
+            <a href="">{{ page.series_link_2 | markdowify }}</a>
         </div>
     </div>
 </div>
 <div class="related__resources">
-    {% include patterns/card/card-styled.md  data=card %}
+    <div class="cards grid-container">
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
 </div>
 <div class="footer">
     {% include patterns/footer/footer.md %}

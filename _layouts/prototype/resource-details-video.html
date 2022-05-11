@@ -29,23 +29,28 @@ layout: prototype/colorVers/proto-default-color
         <div class="audio">
             <img src="{{ page.feature-image }}">
         </div>
+        <div class="video__links">
+            <a href="">View Transcript: {{ page.transcript_link | markdowify }}</a><span>[PDF, 4 KB]</span>
+            <a href="">{{ page.audio_desc_link | markdowify }} (audio description)</a>
+        </div>
         <div class="second__para main__text">
             <p>{{ page.second_para | markdowify}}</p>
-        </div>
-        <div class="quote main__text">
-            <p>{{ page.quote | markdowify}}</p>
-            <p id="speaker">{{ page.speaker | markdowify}}</p>
         </div>
         <div class="third__para main__text">
             <p>{{ page.third_para | markdowify}}</p>
         </div>
         <div class="also__in__this__series">
-            
+            <h2>Also in this Series</h2>
+            <a href="">{{ page.series_link_1 | markdowify }}</a>
+            <br>
+            <a href="">{{ page.series_link_2 | markdowify }}</a>
         </div>
     </div>
 </div>
 <div class="related__resources">
-    {% include patterns/card/card-styled.md  data=card %}
+    <div class="cards grid-container">
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
 </div>
 <div class="footer">
     {% include patterns/footer/footer.md %}
