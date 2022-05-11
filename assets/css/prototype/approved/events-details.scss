@@ -23,6 +23,9 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
+    .intro__section{
+        margin-left: 100px;
+    }
     .content__container{
         display: grid;
         grid-template-columns: 0.5fr 1fr;
