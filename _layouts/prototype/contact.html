@@ -2,71 +2,48 @@
 layout: prototype/colorVers/proto-default-color
 ---
 <link rel="stylesheet" href="/assets/css/prototype/approved/contact.scss">
-
-{% include patterns/header/header.md %}
-
+<div class="header">
+    {% include patterns/header/header.md %}
+</div>
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-
-<div class="grid-container">
+<div class="intro__section">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+        <div class="spanish__button">
+            <button>Espanol</button>
+        </div>
+        <p id="page__intro">{{ page.intro | markdowify}}</p>
     </div>
-    <div class="page__intro">
-        <div class="right__col">
-            <div class="page__title">
-                <h1 id="page__title"> {{ page.title }}</h1>
-            </div>
-            <div class="intro__text">
-                <p>{{ page.intro | markdowify}}</p>
-            </div>
-        </div>
-        <div class="left__col">
-            <div class="lang__btn">
-                <button>Espanol</button>
-            </div>
-            <div class="socials">
-                
-            </div>
-        </div>
-        <div class="cards">
-            {% include patterns/card/card-styled.md  data=card %}
-        </div>
-    </div>
-    </div>
-
-<div class="content__section">
-    <div id="main-content" class="grid-container">
-        <div class="sidebar">
-            {% include patterns/accordion/accordion-jk.md %}
-        </div>
-        <div class="main__content__section">
-            <div class="para__1">
-                <h3>{{ page.first_subhead | markdowify}}</h3>
-                <p>{{ page.first_para | markdowify}}</p>
-            </div>
-            <div class="para__2">
-                <h3>{{ page.second_subhead | markdowify}}</h3>
-                <p>{{ page.second_para | markdowify}}</p>
-            </div>
-            <div class="para__3">
-                <h3>{{ page.third_subhead | markdowify}}</h3>
-                <p>{{ page.third_para | markdowify}}</p>
-            </div>
-            <div class="para__4">
-                <h3>{{ page.fourth_subhead | markdowify}}</h3>
-                <p>{{ page.fourth_para | markdowify}}</p>
-            </div>
-            <div class="para__5">
-                <h3>{{ page.fifth_subhead | markdowify}}</h3>
-                <p>{{ page.fifth_para | markdowify}}</p>
-            </div>
-            <div class="social__section">
-                <h3>Social Media</h3>
-            </div>
-        </div>
+    <div class="cards">
+        {% include patterns/card/card-styled.md  data=card %}
     </div>
 </div>
 
+<div class="content__section">
+<div class="overview__section">
+    <div class="para__1">
+        <h3>{{ page.first_subhead | markdowify}}</h3>
+        <p>{{ page.first_para | markdowify}}</p>
+    </div>
+    <div class="para__2">
+        <h3>{{ page.second_subhead | markdowify}}</h3>
+        <p>{{ page.second_para | markdowify}}</p>
+    </div>
+    <div class="para__3">
+        <h3>{{ page.third_subhead | markdowify}}</h3>
+        <p>{{ page.third_para | markdowify}}</p>
+    </div>
+    <div class="para__4">
+        <h3>{{ page.fourth_subhead | markdowify}}</h3>
+        <p>{{ page.fourth_para | markdowify}}</p>
+    </div>
+    <div class="para__5">
+        <h3>{{ page.fifth_subhead | markdowify}}</h3>
+        <p>{{ page.fifth_para | markdowify}}</p>
+    </div>
+</div>
 {% include patterns/footer/footer.md %}
-  
 {% include patterns/identifier/identifier-styled.md %}
+</div>
