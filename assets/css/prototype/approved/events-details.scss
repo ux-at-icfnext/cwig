@@ -23,4 +23,36 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
+    .content__container{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .left__col{
+        order: 1;
+    }
+    .main__col{
+        order: 2;
+        margin-bottom: 20px;
+    }
+    .more__info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .more_from_this_sponsor{
+        order: 1;
+    }
+    .see_all_events{
+        order: 2;
+    }
+    .cards{
+        order: 3;
+    }
+    .card_2{
+        order: 4;
+    }
+    .callout__box{
+        order: 5;
+        background-color: lightgray;
+        width: 100%;
+    }
 }
