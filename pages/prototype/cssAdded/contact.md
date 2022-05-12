@@ -7,6 +7,8 @@ feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
   covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
+button: Español
+callout-text: How to Report Child Neglect or Abuse
 first_subhead: Live Chat/Live Online Support
 first_para: >
   Use Live Chat, an instant messaging service, to contact an information support specialist between 10 a.m. and 5 p.m. (ET). We recommend turning off your pop-up blocker to maximize this service.
