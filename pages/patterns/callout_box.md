@@ -2,8 +2,8 @@
 layout: patterns
 permalink: "/callout-box"
 title:  Callout Box
-htmlpath: "patterns/callout-box/callout-box.md"
-csspath: "patterns/callout-box/callout-box.scss"
+htmlpath: "patterns/callout-box/callout-button.md"
+csspath: "patterns/callout-box/callout-button.scss"
 varspath:
 description: |
     A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.

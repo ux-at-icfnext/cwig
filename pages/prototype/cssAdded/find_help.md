@@ -5,8 +5,11 @@ permalink: /find-help
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
-  Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
-  covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
+  Families face difficult challenges and may need specific resources, information, or assistance to deal with problematic personal situations. The following questions address common child welfare issues that families face.Inclusion on this list is for information purposes and does not constitute an endorsement by Child Welfare Information Gateway or the Children's Bureau.
+  Child Welfare Information Gateway is not equipped to offer crisis counseling or intervene in and/or advise in personal situations.  
+  You may find answers to frequently asked questions about child welfare issues in the Children’s Bureau’s Questions and Answers Support Page. Information on available benefits may be accessed on the Benefits.gov website.  
+button: Español
+callout-text: How to Report Child Neglect or Abuse
 accordion:
   - name: Whom can I call for suicide prevention and crisis assistance?
     content: Section Content Goes Here
