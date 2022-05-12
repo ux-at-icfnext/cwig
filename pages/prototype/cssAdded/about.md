@@ -7,6 +7,8 @@ feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
   covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
+button: Español
+callout-text: How to Report Child Neglect or Abuse
 first_subhead: What Is Child Welfare Information Gateway?
 first_para: >
   Child Welfare Information Gateway promotes the safety, permanency, and well-being of children and families by connecting child welfare professionals, including those working in adoption and other related fields, to essential information and resources to help them address the needs of children and families in their communities.
