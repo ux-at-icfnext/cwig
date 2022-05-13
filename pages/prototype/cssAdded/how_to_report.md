@@ -24,8 +24,9 @@ fourth_para: >
   Provides children and youth with information about what child abuse and neglect is and what to do if they are concerned about the safety and well-being of another child. See more resources on this topic. 
 fifth_subhead: M
 cards:
-  - card-title: Family-Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Childhelp National Child Abuse Hotline
+    body: "Call or text 24/7, in over 170 languages, to report child abuse or neglect."
+    card_button: 1.800.4.A.CHILD <br> (1.800.422.4453)
   - card-title: Child Abuse & Neglect
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Family Center Practice

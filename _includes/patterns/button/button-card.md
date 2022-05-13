@@ -1,0 +1,1 @@
+<button class="usa-button inverted__button">{{card.card_button}}</button>
