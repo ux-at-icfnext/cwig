@@ -11,15 +11,15 @@ button: Español
 callout-text: How to Report Child Neglect or Abuse
 first_subhead: Live Chat/Live Online Support
 first_para: >
-  Use Live Chat, an instant messaging service, to contact an information support specialist between 10 a.m. and 5 p.m. (ET). We recommend turning off your pop-up blocker to maximize this service.
+  Use <a href="">Live Chat</a>, an instant messaging service, to contact an information support specialist between 10 a.m. and 5 p.m. (ET). We recommend turning off your pop-up blocker to maximize this service.
 second_subhead: Email
 second_para: >
   Our information support specialists or librarian will review your question and provide a response via email within 2 business days. <br>
-  · For questions regarding our services, website, or website  content, contact info@childwelfare.gov. <br>
-  · For help with our library or journal articles, contact library@childwelfare.gov.
+  · For questions regarding our services, website, or website  content, contact <a href="">info@childwelfare.gov</a>. <br>
+  · For help with our library or journal articles, contact <a href="">library@childwelfare.gov</a>.
 third_subhead: Call
 third_para: >
-  To speak to an information support specialist, please contact us at 1.800.394.3366 between 9:30 a.m. and 5:30 p.m. (ET).
+  To speak to an information support specialist, please contact us at <a href="">1.800.394.3366</a> between 9:30 a.m. and 5:30 p.m. (ET).
 fourth_subhead: Subscriptions
 fourth_para: >
   Stay abreast of current news, research, and resources in the child welfare field by subscribing to one or all of our free subscriptions. 

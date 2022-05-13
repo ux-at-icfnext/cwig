@@ -12,9 +12,7 @@
     }
     .intro__section{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-left: 100px;
-        gap: 5rem;
+        grid-template-columns: auto auto;
         background-color: #002552;
         color: white;
         border-bottom: 5px solid #E50E63;
@@ -23,19 +21,14 @@
     .page__title{
         order: 1;
     }
-    .right__col{
-        order: 2;
-        justify-self: end;
-        margin-right: 100px;
-    }
     .spanish__button{
-        margin-left: 200px;
-        margin-bottom: 60px;
-        margin-top: 20px;
+        order: 2;
     }
-    .socials{
-        text-align: center;
-        margin-left: 125px;
+    .page__intro{
+        order: 3;
+    }
+    .placeholder__div{
+        order: 4;
     }
     .content__section{
         background-color: white;
@@ -43,13 +36,28 @@
     .callouts{
         display: grid;
         grid-template-columns: auto auto;
-        gap: 0;
+        gap: 2rem;
         margin-top: 20px;
+        order: 5;
     }
     .main-content{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: 100px;
+    }
+    h2{
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-weight: 700;
+        color: #002552;
+    }
+    p{
+        line-height: 29px;
+        font-family: 'Lora';
+        font-size: 18px;
+    }
+    a{
+        color: #005DAA;
     }
     .tabs{
         order: 1;
