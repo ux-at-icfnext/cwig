@@ -27,8 +27,10 @@ cards:
   - card-title: Childhelp National Child Abuse Hotline
     body: "Call or text 24/7, in over 170 languages, to report child abuse or neglect."
     card_button: 1.800.4.A.CHILD <br> (1.800.422.4453)
-  - card-title: Child Abuse & Neglect
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Family Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: State Child Abuse and Neglect Reporting Numbers
+    body: "State toll-free numbers and websites for reporting child abuse and neglect."
+    card_button: Find your State's <br> reporting information
+  - card-title: National Center for Missing and Exploited Children’s Cyber Tipline
+    body: "National centralized system for reporting online exploitation of children."
+    card_button: Make a report
 ---

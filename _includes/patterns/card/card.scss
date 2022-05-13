@@ -74,4 +74,11 @@ p{
         margin: auto;
         margin-bottom: 10px;
     }
+    .cta-card-container{
+        border-top: solid 5px #E50E63;
+    }
+    .cta-card-container:hover{
+        background-color: white;
+        color: black;
+    }
 }
