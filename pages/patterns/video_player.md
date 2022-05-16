@@ -1,17 +1,19 @@
 ---
 layout: patterns
 permalink: "/video-player"
-title:  Audio Player
+title:  Video Player
 htmlpath: "patterns/videoplayer/videoplayer.md"
 csspath: "patterns/videoplayer/videoplayer.scss"
 description:  |
-    An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
-usa-link: https://designsystem.digital.gov/components/accordion/
+    A video player is a component used to embed video content in certain pages. It is housed within a rectangular card, and offers controls to allow the user to control video playback, including a play/pause button, volume slider to increase/decrease volume, a download button, a button to watch the video on full-page, and a progress bar the user can interact with to watch any part of the video they would like.
 specification: |
-  In general, all accordions are closed on default. In some cases it maybe aventagious to have the first accordion in open state on load, but this technique should be used sparingly.
-  - On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
-  - On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
-  This component uses javascript functionality to work. Please see the documentation on USWDS for more information.
+  In general, the video player will not be running on default.
+  - On click/on tap of the play button, the play button will change into a pause button, and the video will begin playing at a mid to low volume.  
+  - On click/on tap of the thin volume slider line, the user may increase or decrease the volume while holding their click or tap.
+  - On click/on tap of the progress bar, the user may hold their click or tap to drag the progress bar to wherever they would like to play their video.
+  - On click/on tap of the download button, the user will be able to download the video file to their device, so that they may watch even while offline.
+  - On click/on tap of the rectangular full-page button, the video will occupy the full-screen of the user's device and they will be able to watch at this size. If they are watching on a mobile device or tablet, the video will rotate so it will occupy the full-screen in horizontal (landscape) mode.
+  
 schema: 
   - fieldname: heading
     class-name: usa-accordion__heading

@@ -1,13 +1,13 @@
 ---
 layout: template-nav
-title: "Resource Details Podcast"
+title: "Resource Details Video"
 categories: template
-permalink: "/resource-details-podcast"
-screenshot-lg: "/assets/img/specs/templates/resource-details-podcast-lg.png"
-screenshot-sm: "/assets/img/specs/templates/resource-details-podcast-sm.png"
+permalink: "/resource-details-video-template"
+screenshot-lg: "/assets/img/specs/templates/resource-details-video-lg.png"
+screenshot-sm: "/assets/img/specs/templates/resource-details-video-sm.png"
 layout-type: "Full with Feature"
 layout-type-screenshot: "/assets/img/specs/full-feature.png"
-prototype-link: "/resource-details"
+prototype-link: "/resource-details-video"
 ---
 
 __Table Contents:__
@@ -23,20 +23,19 @@ Uses [hero pattern]().
 ## Body section
 - Body | text
 
-Uses [audio player pattern](/audio-player).
+Uses [video player pattern](/video-player).
 
 Uses [link pattern](/link).
 
-Body text continues after audio player and link.
+Body text continues after video player and link.
 
-Uses [pullquote pattern]().
-
-Pullquotes draw attention to key points in the text and entice readers to continue reading by highlighting short passages of text.
 
 ## Below the divider section
 
 - Section Title | h2
 - Uses [link pattern](/link) for body text.
+
+Links are authored content
 
 ## Bottom section
 
@@ -49,8 +48,3 @@ Each card:
 - Card Tag | tag 
 - Card Title | h3-center 
 - Card link | url of target page 
-
-
-
-
-

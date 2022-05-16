@@ -168,4 +168,7 @@ library:
     desc: A tooltip is a short descriptive message that appears when a user hovers or focuses 
           on an element.
     href: /tooltip/
+  - text: Video Player
+    desc: A video player is a component used to embed video content in certain pages.
+    href: /video-player/
 
