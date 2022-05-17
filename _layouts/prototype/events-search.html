@@ -30,11 +30,18 @@ layout: prototype/colorVers/proto-default-color
     <div class="main__col">
         {% include patterns/search/search-styled.md %}
         <div class="results__filters">
-            <span>Displaying</span>
-            <span>Displaying</span>
-            <span>Displaying</span>
-            <span>Displaying</span>
-            <span>Displaying</span>
+            <div class="displaying">
+                <span>Displaying 1-15 of 45</span>
+            </div>
+            <div class="view__results">
+                {% include patterns/number-input/number-input.md %}
+            </div>
+            <div class="sort__by">
+                {% include patterns/select-input/select-input.md %}
+            </div>
+            <div class="applied__filters">
+                <span>Applied Filters</span>
+            </div>
         </div>
         <div class="search__results">
             {%for item in site.data.prototype.events%}

@@ -24,4 +24,11 @@ accordion:
     content: Section Content Goes Here
   - name: Topic
     content: Section Content Goes Here
+label: View Results
+min: 1
+max: 15
+select-label: Sort By
+select:
+  - select-value: Date of Event - Soonest First
+  - select-value: Relevance
 ---
