@@ -2,13 +2,20 @@
   sponsor: Think of us
   date: Wed, Dec 8, 2021
   time: 8 AM EST
-  format: video
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+  format: Virtual Event
+  desc: >
+    "Learn how the team centered lived experience in the methodology of the project from beginning to the end: 
+    from the formation of the research team and the participant recruiting to the creation of a lived expert peer 
+    review board and the design of the project launch. Get inspiration for how to center lived experience in your 
+    projects and in everything that child welfare touches."
 - event: "Safe Children Coalition: Annual Conference"
   sponsor: The Safe Children Coalition
   date: Sun, Dec 19, 2021
   time: 12 AM
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  desc: >
+    "Optional short description -Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via 
+    procedat oratio quaerimus igitur."
+  format: Calls for Papers
 - event: "Event Title"
   sponsor: Sponsor
   date: Date

@@ -47,26 +47,20 @@ layout: prototype/colorVers/proto-default-color
         <div class="search__results">
             {%for item in site.data.prototype.events%}
                 <div class="event__details">
-                    <button>{{item.format}}</button>
+                    <span class="event__format">{{item.format}}</span>
                     <div class="date__time">
                         <p>{{item.date}}</p>
                         <p>|</p>
                         <p>{{item.time}}</p>
                     </div>
                     <a href="">{{item.event}}</a>
-                    <p>{{item.sponsor}}</p>
+                    <p class="event__sponsor">{{item.sponsor}}</p>
                     <p>{{item.desc}}</p>
                 </div>
               {%endfor%}
         </div>
         <div class="pagination">
-            <a href="">Previous</a>
-            <button>1</button>
-            <button>1</button>
-            <button>1</button>
-            <button>1</button>
-            <button>1</button>
-            <a href="">Next</a>
+            {% include patterns/pagination/pagination-unbounded.md %}
         </div>
     </div>
 </div>
