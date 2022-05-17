@@ -31,4 +31,8 @@ select-label: Sort By
 select:
   - select-value: Date of Event - Soonest First
   - select-value: Relevance
+tag:
+  - tag-label: Free
+  - tag-label: All Types
+  - tag-label: One-Time Event
 ---

@@ -39,9 +39,10 @@ layout: prototype/colorVers/proto-default-color
             <div class="sort__by">
                 {% include patterns/select-input/select-input.md %}
             </div>
-            <div class="applied__filters">
-                <span>Applied Filters</span>
-            </div>
+        </div>
+        <div class="applied__filters">
+            <span id="applied-filters">Applied Filters</span>
+            {% include patterns/tag/tag.md %}
         </div>
         <div class="search__results">
             {%for item in site.data.prototype.events%}
