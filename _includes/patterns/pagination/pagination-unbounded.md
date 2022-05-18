@@ -1,4 +1,3 @@
-<h3 class="site-preview-heading">unbounded</h3>
 <nav aria-label="Pagination," class="usa-pagination">
   <ul class="usa-pagination__list">
     <li class="usa-pagination__item usa-pagination__arrow">
@@ -40,7 +39,7 @@
     <li class="usa-pagination__item usa-pagination__page-no">
       <a
         href="javascript:void(0);"
-        class="usa-pagination__button usa-current"
+        class="usa-pagination__button current"
         aria-label="Page 10"
         aria-current="page"
       >
