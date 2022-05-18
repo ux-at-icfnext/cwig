@@ -5,8 +5,8 @@ permalink: "/number-input"
 title:  Number Input
 description: |
   Number input allows users to enter a number within a certain range by typing it manually or by clicking/tapping arrows that either increase or decrease the number. This allows the user to control how much content they see in a page. For instance, how many search results.
-htmlpath: ""
-csspath: ""
+htmlpath: 
+csspath:
 varspath: # path to variations html file
 specification: |
   On default, the number input will vary according to the context. 

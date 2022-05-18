@@ -121,7 +121,7 @@ library:
     desc: An icon list reinforces the meaning and visibility of individual list items 
           with a leading icon.
     href: /icon-list/
-  - text: Indentifier
+  - text: Identifier
     desc: The identifier communicates a site’s parent agency and displays agency links 
           required by federal laws and policies.
     href: /identifier/
