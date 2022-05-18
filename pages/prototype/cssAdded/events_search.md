@@ -24,6 +24,10 @@ accordion:
     content: Section Content Goes Here
   - name: Topic
     content: Section Content Goes Here
+filter-input:
+  - name: check
+  - name: check
+  - name: check
 label: View Results
 min: 1
 max: 15
