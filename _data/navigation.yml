@@ -128,6 +128,9 @@ library:
   - text: Link
     desc: A link connects users to a different page or further information.
     href: /link/
+  - text: Number Input
+    desc: Number Input allows users to llows users to enter a number within a certain range.
+    href: /number-input/
   - text: Modal
     desc: A modal disables page content and focuses the user’s attention on a single
           task or message.
@@ -138,10 +141,16 @@ library:
   - text: Process List
     desc: A process list displays the steps or stages of important instructions or processes.
     href: /process-list
+  - text: Pullquote
+    desc: A pullquote is a quotation set off from the main text, distinguished visually using indentation and a different typeface.
+    href: /pullquote 
   - text: Search Widget
     desc: Search allows users to search for specific content if they know what search terms
           to use or can’t find desired content in the main navigation
     href: /search-widget
+  - text: Select Input
+    desc: Select input allows users to choose any option from a drop-down menu. 
+    href: /select-input/
   - text: Side Navigation
     desc: Hierarchical, vertical navigation to place at the side of a page.
     href: /side-navigation/

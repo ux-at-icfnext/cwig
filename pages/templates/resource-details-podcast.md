@@ -29,7 +29,7 @@ Uses [link pattern](/link).
 
 Body text continues after audio player and link.
 
-Uses [pullquote pattern]().
+Uses [pullquote pattern](/pullquote).
 
 Pullquotes draw attention to key points in the text and entice readers to continue reading by highlighting short passages of text.
 
