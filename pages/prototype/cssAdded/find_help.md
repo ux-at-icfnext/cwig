@@ -1,7 +1,7 @@
 ---
 layout: prototype/proto-landing
 title: Find Help with a Personal Situation
-permalink: /find-help
+permalink: /find-help-prototype
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >

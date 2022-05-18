@@ -2,7 +2,7 @@
 layout: template-nav
 title: "Event Details"
 categories: template
-permalink: "/landing-template"
+permalink: "/event-details"
 screenshot-lg: "/assets/img/specs/templates/eventdetails-lg.png"
 screenshot-sm: "/assets/img/specs/templates/eventdetails-sm.png"
 layout-type: "Left Rail"
