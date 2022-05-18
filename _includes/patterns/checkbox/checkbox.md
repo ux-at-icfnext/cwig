@@ -1,10 +1,22 @@
-{% for item in page.filter-input %}
+
 <form class="usa-form">
   <fieldset class="usa-fieldset">
+    <legend class="usa-legend">Select any historical figure</legend>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="{{item.name}}" type="checkbox" name="{{item.name}}" value="{{item.name}}" checked>
-      <label class="usa-checkbox__label" for="{{item.name}}">{{item.name}}</label>
+      <input class="usa-checkbox__input" id="check-historical-truth" type="checkbox" name="historical-figures" value="sojourner-truth" checked>
+      <label class="usa-checkbox__label" for="check-historical-truth">Sojourner Truth</label>
+    </div>
+    <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="check-historical-douglass" type="checkbox" name="historical-figures" value="frederick-douglass">
+      <label class="usa-checkbox__label" for="check-historical-douglass">Frederick Douglass</label>
+    </div>
+    <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="check-historical-washington" type="checkbox" name="historical-figures" value="booker-t-washington">
+      <label class="usa-checkbox__label" for="check-historical-washington">Booker T. Washington</label>
+    </div>
+    <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="check-historical-carver" type="checkbox" name="historical-figures" value="george-washington-carver" disabled>
+      <label class="usa-checkbox__label" for="check-historical-carver">George Washington Carver</label>
     </div>
   </fieldset>
 </form>
-{%endfor%}

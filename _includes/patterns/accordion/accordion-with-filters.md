@@ -5,13 +5,13 @@
     <div class="accordion__section">
         <input type="checkbox" name="filter_accordion" id="{{item.name}}" class="accordion__input">
         <label for="{{item.name}}" class="accordion__label">{{item.name}}</label>
+        {% for entry in item.filteritems %}
         <div class="accordion__content">
-        {% for item in page.filter-input %}
             <div class="checkbox">
                 {% include patterns/checkbox/checkbox.md %}
             </div>
-        {% endfor %}
         </div>
+        {%endfor%}
     </div>
-    {% endfor %}
+    {%endfor%}
 </div>

@@ -11,7 +11,13 @@ callout_text: Submit information on your events. We will then post your submissi
 callout_link: Fill in a submission form
 accordion:
   - name: Event Type
-    content: Section Content Goes Here
+    filteritems:
+      - page: Thing 1
+        url: /thing1.html
+      - page: Thing 2
+        url: /thing2.html
+      - page: Thing 3
+        url: /thing3.html
   - name: Location
     content: Section Content Goes Here
   - name: Frequency
