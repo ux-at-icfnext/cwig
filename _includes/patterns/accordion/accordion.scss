@@ -1,3 +1,15 @@
+.clear__filters{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#filter__results{
+    order: 1;
+    font-weight: semibold;
+    font-size: 19px;
+}
+#clear__filters{
+    order: 2;
+}
 .accordion{
     max-width: 100%;
     border-radius: 5px;

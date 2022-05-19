@@ -1,5 +1,11 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<div class="clear__filters">
+    <h3 id="filter__results">Filter your results</h4>
+    <div id="clear__filters">
+        {% include patterns/button/button-inverted.md %}
+    </div>
+</div>
 <div class="accordion">
     {% for item in page.accordion %}
     <div class="accordion__section">

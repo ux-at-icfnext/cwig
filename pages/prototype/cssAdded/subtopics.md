@@ -1,6 +1,6 @@
 ---
 layout: prototype/subtopics
-title: Philosophy and Key Elements of Family-Centered Practice (Subtopics)
+title: Subtopics Title (e.g., Intercountry Adoption)
 permalink: /subtopics
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
@@ -10,12 +10,13 @@ callout_heading: Submit Events and Calls for Papers
 callout_text: Submit information on your events. We will then post your submission to this website.
 callout_link: Fill in a submission form
 cards:
-  - card-title: Family-Center Practice
+  - card-title: Resource title
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Child Abuse & Neglect
+  - card-title: Resource title
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Family Center Practice
+  - card-title: Resource title
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+button: Clear Filters
 accordion:
   - name: Accordion Closed State
     filteritems:
@@ -25,13 +26,13 @@ accordion:
         url: /thing2.html
       - page: Thing 3
         url: /thing3.html
-  - name: Accordion Closed State
-    content: Section Content Goes Here
-  - name: Accordion Closed State
+  - name: Accordion Closed
     content: Section Content Goes Here
   - name: Accordion Open State
     content: Section Content Goes Here
-  - name: Accordion Closed State
+  - name: Closed Accordion
+    content: Section Content Goes Here
+  - name: Closed State Accordion
     content: Section Content Goes Here
 content-list:
   - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.

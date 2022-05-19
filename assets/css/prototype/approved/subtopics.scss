@@ -23,12 +23,6 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
-    .intro__section{
-        margin-right: 100px;
-    }
-    .page__title{
-        margin-left: 100px;
-    }
     .feature__section{
         background-color: #D1D3D4;
     }
@@ -39,6 +33,7 @@ ul.breadcrumb li a{
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 2rem;
+        margin-top: 20px;
     }
     .left__col{
         order: 1;
@@ -46,7 +41,6 @@ ul.breadcrumb li a{
     }
     .main__col{
         order: 2;
-        margin-top: 100px;
     }
     .results__filters{
         display: grid;

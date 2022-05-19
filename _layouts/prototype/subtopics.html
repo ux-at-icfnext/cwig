@@ -10,7 +10,7 @@ layout: prototype/colorVers/proto-default-color
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section ">
+<div class="intro__section grid-container">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
         <p>{{ page.intro | markdowify}}</p>
@@ -23,15 +23,13 @@ layout: prototype/colorVers/proto-default-color
 </div>
 <div class="content">
     <div class="left__col">
-        <h3>Filters</h3>
-        <button>Clear Filters</button>
-        {% include patterns/accordion/accordion.md %}
+        {% include patterns/accordion/accordion-with-filters.md %}
     </div>
     <div class="main__col">
         {% include patterns/search/search-styled.md %}
         <div class="results__filters">
             <div class="displaying">
-                <span>Displaying 1-15 of 45</span>
+                <span>Displaying 1-15 of 100</span>
             </div>
             <div class="sort__by">
                 {% include patterns/select-input/select-input.md %}
@@ -58,6 +56,7 @@ layout: prototype/colorVers/proto-default-color
                 </div>
               {%endfor%}
         </div>
+        <div class="related__series"></div>
         <div class="pagination">
             {% include patterns/pagination/pagination-unbounded.md %}
         </div>
