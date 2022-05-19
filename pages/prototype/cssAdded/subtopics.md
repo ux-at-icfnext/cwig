@@ -17,7 +17,7 @@ cards:
   - card-title: Family Center Practice
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 accordion:
-  - name: Accordion Label
+  - name: Accordion Closed State
     filteritems:
       - page: Thing 1
         url: /thing1.html
@@ -25,17 +25,13 @@ accordion:
         url: /thing2.html
       - page: Thing 3
         url: /thing3.html
-  - name: Location
+  - name: Accordion Closed State
     content: Section Content Goes Here
-  - name: Frequency
+  - name: Accordion Closed State
     content: Section Content Goes Here
-  - name: Sponsor
+  - name: Accordion Open State
     content: Section Content Goes Here
-  - name: Cost
-    content: Section Content Goes Here
-  - name: Continuing Education Units
-    content: Section Content Goes Here
-  - name: Topic
+  - name: Accordion Closed State
     content: Section Content Goes Here
 content-list:
   - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
@@ -61,13 +57,10 @@ content-list:
     size:
     desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
     type: Infographic
-label: View Results
-min: 1
-max: 15
 select-label: Sort By
 select:
-  - select-value: Date of Event - Soonest First
-  - select-value: Relevance
+  - select-value: A
+  - select-value: Z
 tag:
   - tag-label: Free
   - tag-label: All Types
