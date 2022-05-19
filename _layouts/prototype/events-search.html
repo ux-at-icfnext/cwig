@@ -5,12 +5,12 @@ layout: prototype/colorVers/proto-default-color
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 <div class="header">
-    {% include patterns/header/header-styled.md %}
+    {% include patterns/header/header.md %}
 </div>
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section grid-container">
+<div class="intro__section ">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
         <p>{{ page.intro | markdowify}}</p>
@@ -21,35 +21,49 @@ layout: prototype/colorVers/proto-default-color
         <a href="">{{ page.callout_link | markdowify}}</a>
     </div>
 </div>
-<div class="left__col">
-    <h3>Filters</h3>
-    <button>Clear Filters</button>
-    {% include patterns/accordion/accordion-jk.md %}
-</div>
-<div class="main__col">
-    {% include patterns/search/search-styled.md %}
-    <h4>Filters</h4>
-    <h4>Filters</h4>
-    <div class="search__results">
-        {%for item in site.data.prototype.events%}
-            <div class="event__details">
-                <p>{{item.format}}</p>
-                <p>{{item.date}}</p>
-                <p>|</p>
-                <p>{{item.time}}</p>
-                <br><br>
-                <a href="">{{item.event}}</a>
-                <br>
-                <p>{{item.sponsor}}</p>
-                <br><br>
-                <p>{{item.desc}}</p>
-            </div>
-          {%endfor%}
+<div class="content">
+    <div class="left__col">
+        {% include patterns/accordion/accordion-with-filters.md %}
     </div>
-    <div class="page__nav"></div>
+    <div class="main__col">
+        {% include patterns/search/search-styled.md %}
+        <div class="results__filters">
+            <div class="displaying">
+                <span>Displaying 1-15 of 45</span>
+            </div>
+            <div class="view__results">
+                {% include patterns/number-input/number-input.md %}
+            </div>
+            <div class="sort__by">
+                {% include patterns/select-input/select-input.md %}
+            </div>
+        </div>
+        <div class="applied__filters">
+            <span id="applied-filters">Applied Filters</span>
+            {% include patterns/tag/tag.md %}
+        </div>
+        <div class="search__results">
+            {%for item in site.data.prototype.events%}
+                <div class="event__details">
+                    <span class="event__format">{{item.format}}</span>
+                    <div class="date__time">
+                        <p>{{item.date}}</p>
+                        <p>|</p>
+                        <p>{{item.time}}</p>
+                    </div>
+                    <a href="">{{item.event}}</a>
+                    <p class="event__sponsor">{{item.sponsor}}</p>
+                    <p>{{item.desc}}</p>
+                </div>
+              {%endfor%}
+        </div>
+        <div class="pagination">
+            {% include patterns/pagination/pagination-unbounded.md %}
+        </div>
+    </div>
 </div>
 <div class="footer">
-    {% include patterns/footer/footer-styled.md %}
+    {% include patterns/footer/footer.md %}
 </div>
 <div class="identifier">
     {% include patterns/identifier/identifier-styled.md %}

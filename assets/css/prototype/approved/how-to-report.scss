@@ -1,0 +1,63 @@
+ /* For mobile phones: */
+ ul.breadcrumb li a{
+    color:blue;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+      }
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+    }
+    .intro__section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .page__title{
+        order: 1;
+    }
+    .spanish__button{
+        order: 2;
+    }
+    .page__intro{
+        order: 3;
+    }
+    .card__section{
+        background-color: #C7CFE9;
+    }
+    .cards{
+        padding-top: 30px;
+    }
+    h2{
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-weight: 700;
+        color: #002552;
+    }
+    p{
+        line-height: 29px;
+        font-family: 'Lora';
+        font-size: 18px;
+    }
+    a{
+        color: #005DAA;
+    }
+    .callout-button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

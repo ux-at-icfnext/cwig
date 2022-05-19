@@ -1,9 +1,5 @@
-<h3 class="site-preview-heading" id="big-footer">Big footer</h3>
-
-<footer class="usa-footer usa-footer--big">
-  <div class="grid-container usa-footer__return-to-top">
-    <a href="#">Return to top</a>
-  </div>
+<link href="/assets/css/prototype/approved/footer-styled.scss" rel="stylesheet">
+<footer class="usa-footer usa-footer--big footer__section">
   <div class="usa-footer__primary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
@@ -59,211 +55,46 @@
         </div>
         <div class="tablet:grid-col-4">
           <div class="usa-sign-up">
-            <h3 class="usa-sign-up__heading">Sign up</h3>
-            <form class="usa-form">
-              <label class="usa-label" for="email" id="">Your email address</label>
-              <input class="usa-input" id="email" name="email" type="email">
-              <button class="usa-button" type="submit">Sign up</button>
-            </form>
+            <h3 class="site-preview-heading">Sign up</h3>
+            <section aria-label="Default search component">
+              <form class="usa-search" role="search">
+                <label class="usa-sr-only" for="search-field-search-field"> Search </label>
+                <input
+                  class="usa-input"
+                  id="search-field-search-field"
+                  type="search"
+                  name="search"
+                  placeholder="Your email address"
+                />
+                <button class="usa-button footer__search__button" type="submit">
+                  <span class="usa-search__submit-text">Search</span>
+                </button>
+              </form>
+            </section>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="usa-footer__secondary-section">
-    <div class="grid-container">
-      <div class="grid-row grid-gap">
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-          <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">Name of Agency</p>
-          </div>
-        </div>
-        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-          <div class="usa-footer__social-links grid-row grid-gap-1">
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
-                <span>Facebook</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
-                <span>Twitter</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
-                <span>YouTube</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--instagram" href="javascript:void(0);">
-                <span>Instagram</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
-                <span>RSS</span>
-              </a>
-            </div>
-          </div>
-          <h3 class="usa-footer__contact-heading">Agency Contact Center</h3>
-          <address class="usa-footer__address">
-            <div class="usa-footer__contact-info grid-row grid-gap">
-              <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
-              </div>
-              <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">info@agency.gov</a>
-              </div>
-            </div>
-          </address>
-        </div>
-      </div>
+  <div class="footer__secondary">
+    <div class="cwig__logo__section">
+      <img src="/assets/img/prototype/cwig-logo-inverse-blue.png" alt="" class="cwig__logo__footer">
     </div>
-  </div>
-</footer>
-
-<h3 class="site-preview-heading" id="medium-footer">Medium footer</h3>
-
-<footer class="usa-footer">
-  <div class="grid-container usa-footer__return-to-top">
-    <a href="#">Return to top</a>
-  </div>
-  <div class="usa-footer__primary-section">
-    <nav class="usa-footer__nav" aria-label="Footer navigation">
-      <ul class="grid-row grid-gap">
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-        </li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-        </li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-        </li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-        </li>
-        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="usa-footer__secondary-section">
-    <div class="grid-container">
-      <div class="grid-row grid-gap">
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-          <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">Name of Agency</p>
-          </div>
-        </div>
-        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-          <div class="usa-footer__social-links grid-row grid-gap-1">
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
-                <span>Facebook</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
-                <span>Twitter</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
-                <span>YouTube</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--instagram" href="javascript:void(0);">
-                <span>Instagram</span>
-              </a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
-                <span>RSS</span>
-              </a>
-            </div>
-          </div>
-          <h3 class="usa-footer__contact-heading">Agency Contact Center</h3>
-          <address class="usa-footer__address">
-            <div class="usa-footer__contact-info grid-row grid-gap">
-              <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
-              </div>
-              <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">info@agency.gov</a>
-              </div>
-            </div>
-          </address>
-        </div>
-      </div>
+    <div class="social__media__icons__footer">
+      <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+        <span>Facebook</span>
+      </a>
+      <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+        <span>Twitter</span>
+      </a>
+      <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+        <span>YouTube</span>
+      </a>
     </div>
-  </div>
-</footer>
-
-<h3 class="site-preview-heading" id="slim-footer">Slim footer</h3>
-
-<footer class="usa-footer usa-footer--slim">
-  <div class="grid-container usa-footer__return-to-top">
-    <a href="#">Return to top</a>
-  </div>
-  <div class="usa-footer__primary-section">
-    <div class="usa-footer__primary-container grid-row">
-      <div class="mobile-lg:grid-col-8">
-        <nav class="usa-footer__nav" aria-label="Footer navigation">
-          <ul class="grid-row grid-gap">
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-            </li>
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-            </li>
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-            </li>
-            <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-              <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="mobile-lg:grid-col-4">
-        <address class="usa-footer__address">
-          <div class="grid-row grid-gap">
-            <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
-              <div class="usa-footer__contact-info">
-                <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
-              </div>
-            </div>
-            <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
-              <div class="usa-footer__contact-info">
-                <a href="mailto:info@agency.gov">info@agency.gov</a>
-              </div>
-            </div>
-          </div>
-        </address>
-      </div>
-    </div>
-  </div>
-  <div class="usa-footer__secondary-section">
-    <div class="grid-container">
-      <div class="usa-footer__logo grid-row grid-gap-2">
-        <div class="grid-col-auto">
-          <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
-        </div>
-        <div class="grid-col-auto">
-          <p class="usa-footer__logo-heading">Name of Agency</p>
-        </div>
-      </div>
+    <div class="agency__contact__center">
+      <h3 class="usa-footer__contact-heading">Agency Contact Center</h3>
+      <a href="tel:1-800-555-5555" id="agency__tele">(800) CALL-GOVT</a>
+      <a href="mailto:info@agency.gov">info@agency.gov</a>
     </div>
   </div>
 </footer>

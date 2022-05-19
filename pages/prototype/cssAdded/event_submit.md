@@ -1,5 +1,5 @@
 ---
-layout: prototype/proto-landing
+layout: prototype/event-submit
 title: Event Submit Form
 permalink: /events-submit
 categories: prototype

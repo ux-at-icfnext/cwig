@@ -2,5 +2,5 @@
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 <ul class="breadcrumb">
   <li><a href="#">Home</a></li>
-  <li id="current__page">Topics</li>
+  <li id="current__page">{{page.title}}</li>
 </ul>

@@ -4,6 +4,7 @@ title: Living the Protective Factors
 permalink: /events-details
 categories: prototype
 feature-image: https://via.placeholder.com/300x300?text=-
+button: Visit Event Website
 about: >
   This workshop gives participants the opportunity to “test-drive” the five research-based Strengthening Families™ Protective Factors that are proven to keep children safe and families strong. Highly interactive, fun, and informative- the workshop begins with understanding the impact of adverse childhood experiences (ACES) and presents the protective factors as a concrete way to mitigate the long-term impact of trauma.
 details: >

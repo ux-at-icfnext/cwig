@@ -4,8 +4,9 @@ layout: prototype/colorVers/proto-default-color
 <link rel="stylesheet" href="/assets/css/prototype/approved/resource-details.scss">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+
 <div class="header">
-    {% include patterns/header/header-styled.md %}
+    {% include patterns/header/header.md %}
 </div>
 
 <div class="breadcrumbs">
@@ -13,13 +14,18 @@ layout: prototype/colorVers/proto-default-color
 </div>
 
 <div class="content grid-container">
+    <div class="title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+    </div>
     <div class="share">
+        <div class="date">
+            <span>Date</span>
+        </div>
+        <div class="social__media__icons">
 
+        </div>
     </div>
     <div class="main">
-        <div class="title">
-            <h1 id="page__title"> {{ page.title }}</h1>
-        </div>
         <div class="content__info">
             
         </div>
@@ -27,7 +33,7 @@ layout: prototype/colorVers/proto-default-color
             <p>{{ page.first_para | markdowify}}</p>
         </div>
         <div class="audio">
-            <img src="{{ page.feature-image }}">
+            {% include patterns/audioplayer/audioplayer.md %}
         </div>
         <div class="second__para main__text">
             <p>{{ page.second_para | markdowify}}</p>
@@ -40,15 +46,20 @@ layout: prototype/colorVers/proto-default-color
             <p>{{ page.third_para | markdowify}}</p>
         </div>
         <div class="also__in__this__series">
-            
+            <h2>Also in this Series</h2>
+            <a href="">{{ page.series_link_1 | markdowify }}</a>
+            <br>
+            <a href="">{{ page.series_link_2 | markdowify }}</a>
         </div>
     </div>
 </div>
 <div class="related__resources">
-    {% include patterns/card/card-styled.md  data=card %}
+    <div class="cards grid-container">
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
 </div>
 <div class="footer">
-    {% include patterns/footer/footer-styled.md %}
+    {% include patterns/footer/footer.md %}
 </div>
 <div class="identifier">
     {% include patterns/identifier/identifier-styled.md %}

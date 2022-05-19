@@ -5,7 +5,7 @@ layout: prototype/colorVers/proto-default-color
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 <div class="header">
-    {% include patterns/header/header-styled.md %}
+    {% include patterns/header/header.md %}
 </div>
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
@@ -22,18 +22,33 @@ layout: prototype/colorVers/proto-default-color
     </div>
 </div>
 <div class="event__search">
-    <p>Find your next event</p>
-    {% include patterns/search/search-styled.md %}
-    <a href="">See all the events</a>
+    <div class="grid-container">
+        <p>Find your next event</p>
+        {% include patterns/search/search-styled.md %}
+        <a href="">See all the events</a>
+    </div>
 </div>
 <div class="main__content">
     <div class="featured__events grid-container">
+        <h2 class="section__h2">Featured Events</h2>
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
+    <div class="upcoming grid-container">
+        <h2 class="section__h2">Upcoming</h2>
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
+    <div class="information_gateway__events grid-container">
+        <h2 class="section__h2">Information Gateway Events</h2>
+        {% include patterns/card/card-styled.md  data=card %}
+    </div>
+    <div class="come_see_us_at grid-container">
+        <h2 class="section__h2">Come see us at...</h2>
         {% include patterns/card/card-styled.md  data=card %}
     </div>
 </div>
 
 <div class="footer">
-    {% include patterns/footer/footer-styled.md %}
+    {% include patterns/footer/footer.md %}
 </div>
 <div class="identifier">
     {% include patterns/identifier/identifier-styled.md %}

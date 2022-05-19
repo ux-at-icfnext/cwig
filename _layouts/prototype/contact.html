@@ -1,0 +1,61 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/contact.scss">
+
+{% include patterns/header/header.md %}
+{% include patterns/breadcrumb/breadcrumb-styled.md%}
+
+<div class="intro__section grid-container">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+    </div>
+    <div class="spanish__button">
+        {% include patterns/button/button-inverted.md %}
+    </div>
+    <div class="page__intro">
+        <p>{{ page.intro | markdowify}}</p>
+    </div>
+    <div class="placeholder__div"></div>
+        <div class="callouts grid-container">
+        <div class="left">
+            {% include patterns/callout-box/callout-button-inverted.md %}
+        </div>
+        <div class="right">
+            {% include patterns/callout-box/callout-button-inverted.md %}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="content__section grid-container">
+    <div id="main-content">
+        <div class="overview__section">
+            <div class="para__1">
+                <h2>{{ page.first_subhead | markdowify}}</h2>
+                <p>{{ page.first_para | markdowify}}</p>
+            </div>
+            <div class="para__2">
+                <h2>{{ page.second_subhead | markdowify}}</h2>
+                <p>{{ page.second_para | markdowify}}</p>
+            </div>
+            <div class="para__3">
+                <h2>{{ page.third_subhead | markdowify}}</h2>
+                <p>{{ page.third_para | markdowify}}</p>
+            </div>
+            <div class="para__4">
+                <h2>{{ page.fourth_subhead | markdowify}}</h2>
+                <p>{{ page.fourth_para | markdowify}}</p>
+            </div>
+            <div class="para__5">
+                <h2>{{ page.fifth_subhead | markdowify}}</h2>
+                <p>{{ page.fifth_para | markdowify}}</p>
+            </div>
+            <div class="para__6">
+                <h2>Social Media</h2>
+            </div>
+        </div>
+    </div>
+{% include patterns/footer/footer.md %}
+{% include patterns/identifier/identifier-styled.md %}
+</div>

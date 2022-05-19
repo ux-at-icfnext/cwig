@@ -279,7 +279,7 @@
   .usa-footer__nav {
     @include u-margin-x($theme-site-margins-mobile-width * -1);
     @include at-media("mobile-lg") {
-      border-bottom: 1px solid color("base-light");
+      /* border-bottom: 1px solid color("base-light"); */
       padding-top: units(4);
     }
     @include at-media("tablet") {

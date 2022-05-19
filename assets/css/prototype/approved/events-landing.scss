@@ -34,10 +34,33 @@
         color: #E50E63;
         content: "/\00a0";
     }
+    .intro__section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .page__title{
+        order: 1;
+        gap: 1rem;
+    }
+    .callout__box{
+        order: 2;
+    }
+    .event__search{
+        background-color: blue;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .event__search a{
+        color: white;
+    }
     .main__content{
         background-color: #D1D3D4;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .main__content .section__h2{
+        color: blue;
     }
     .usa-card-group{
         margin: auto;
