@@ -56,7 +56,10 @@ layout: prototype/colorVers/proto-default-color
                 </div>
               {%endfor%}
         </div>
-        <div class="related__series"></div>
+        <div class="related__series grid-container">
+            <p>Page shows 15 results</p>
+            {% include patterns/callout-box/callout-box-secondary.md %}
+        </div>
         <div class="pagination">
             {% include patterns/pagination/pagination-unbounded.md %}
         </div>

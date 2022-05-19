@@ -23,6 +23,9 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
+    .intro__section{
+        margin-bottom: 30px;
+    }
     .feature__section{
         background-color: #D1D3D4;
     }
@@ -84,8 +87,13 @@ ul.breadcrumb li a{
     .content__desc p{
         font-size: 16px;
     }
-    .content__type span{
-        
+    .related__series{
+        margin-top: 20px;
+    }
+    .related__series p{
+        text-align: center;
+        color: #757575;
+        font-size: 15px;
     }
     .pagination{
         display: grid;
