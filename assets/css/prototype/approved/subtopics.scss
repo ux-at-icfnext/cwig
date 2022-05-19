@@ -81,10 +81,17 @@ ul.breadcrumb li a{
         padding-right: 10px;
         padding-left: 5px;
     }
-    .date__time{
-        display: grid;
-        grid-template-columns: 0.5fr 0.3fr 1fr;
-        font-weight: bold;
+    .subtopic__details{
+        margin-top: 20px;
+    }
+    .content__title a{
+        color:#005DAA;
+    }
+    .content__desc p{
+        font-size: 16px;
+    }
+    .content__type span{
+        
     }
     .pagination{
         display: grid;

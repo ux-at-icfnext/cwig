@@ -42,12 +42,23 @@ layout: prototype/colorVers/proto-default-color
             {% include patterns/tag/tag.md %}
         </div>
         <div class="search__results">
-            {%for item in site.data.prototype.events%}
-                <div class="event__details">
-                    <span class="event__format">{{item.format}}</span>
-                    <a href="">{{item.event}}</a>
-                    <p class="event__sponsor">{{item.sponsor}}</p>
-                    <p>{{item.desc}}</p>
+            {% for item in page.content-list%}
+                <div class="subtopic__details">
+                    <div class="content__icon">
+                        <img>{{item.icon}}
+                    </div>
+                    <div class="content__title">
+                        <a href="">{{item.title}}</a>
+                    </div>
+                    <div class="pdf__size">
+                        <span class="pdf-size">{{item.size}}</span>
+                    </div>
+                    <div class="content__desc">
+                        <p>{{item.desc}}</p>
+                    </div>
+                    <div class="content__type">
+                        <span>{{item.type}}</span>
+                    </div>
                 </div>
               {%endfor%}
         </div>
