@@ -31,36 +31,36 @@ accordion:
       - filter: Thing 3
   - name: Accordion Closed
     filteritems:
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
   - name: Accordion Open State
     filteritems:
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
+      - filter: Infographics
+      - filter: Podcasts
+      - filter: Publications
+      - filter: PDF
+      - filter: Webinars
+      - filter: Videos
   - name: Closed Accordion
     filteritems:
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
   - name: Closed State Accordion
     filteritems:
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
+      - filter: Thing 1
+      - filter: Thing 2
+      - filter: Thing 3
 content-list:
   - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
     size: PDF, 210 KB
