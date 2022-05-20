@@ -22,4 +22,10 @@ dropdown:
     value: 3
   - option: Call for Papers
     value: 4
+text-inputs:
+  - label: Title
+  - label: Sponsor
+  - label: Website
+fieldset-text-inputs:
+  - label: Street Address
 ---
