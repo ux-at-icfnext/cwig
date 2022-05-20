@@ -1,0 +1,37 @@
+/* For mobile phones: */
+ul.breadcrumb li a{
+    color:blue;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+      }
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    ul.breadcrumb li a{
+        color:blue;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #E50E63;
+        content: "/\00a0";
+    }
+    .main__content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+    .left_col{
+        order: 1;
+    }
+    .main__col{
+        order: 2;
+    }
+}

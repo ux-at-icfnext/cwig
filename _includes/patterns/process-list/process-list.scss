@@ -1,0 +1,15 @@
+/* For mobile phones: */
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    .current__step h4{
+        color: #005DAA;
+    }
+    .usa-process-list__item::before{
+        border-color:#005DAA;
+        color:#005DAA;
+    }
+}
