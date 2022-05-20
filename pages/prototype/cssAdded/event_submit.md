@@ -12,4 +12,14 @@ process-list:
   - heading: Details
   - heading: Contact Information
   - heading: Submit
+dropdown-label: Event Type
+dropdown:
+  - option: Virtual
+    value: 1
+  - option: In-Person
+    value: 2
+  - option: Hybrid
+    value: 3
+  - option: Call for Papers
+    value: 4
 ---
