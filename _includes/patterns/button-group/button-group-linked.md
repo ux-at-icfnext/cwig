@@ -1,6 +1,6 @@
 <ul class="usa-button-group">
   <li class="usa-button-group__item">
-    <a href="#" class="usa-button usa-button--outline">{{page.outlined-btn}}</a>
+    <a href="#" class="link__btn">{{page.link-btn}}</a>
   </li>
   <li class="usa-button-group__item">
     <button class="usa-button">{{page.filled-btn}}</button>

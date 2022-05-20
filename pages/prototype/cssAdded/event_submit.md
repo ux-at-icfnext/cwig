@@ -26,4 +26,6 @@ text-inputs:
   - label: Title
   - label: Sponsor
   - label: Website
+link-btn: Back
+filled-btn: Next
 ---
