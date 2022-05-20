@@ -28,7 +28,44 @@ layout: prototype/colorVers/proto-default-color
             {% include patterns/text-input/text-input-required.md%}
         </div>
         <div class="street__address">
-                {% include patterns/fieldset/fieldset.md%}
+                <fieldset>
+                    <label class="usa-label" for="input-type-text">Street Address<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="options">Unit Type</label>
+                    <select class="usa-select" name="options" id="options">
+                        <option value="1">Unit Type}</option>
+                    </select>
+                    <label class="usa-label" for="input-type-text">Unit Number</label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="input-type-text">City<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="options">Timezone<span class="asterisk">*</span></label>
+                    <select class="usa-select" name="options" id="options">
+                        <option value="1">Unit Type}</option>
+                    </select>
+                    <label class="usa-label" for="input-type-text">Zipcode<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                </fieldset>
         </div>
         <div class="date__time">
             {% include patterns/date-picker/date-picker.md%}

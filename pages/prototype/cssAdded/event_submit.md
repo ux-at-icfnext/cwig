@@ -26,6 +26,4 @@ text-inputs:
   - label: Title
   - label: Sponsor
   - label: Website
-fieldset-text-inputs:
-  - label: Street Address
 ---
