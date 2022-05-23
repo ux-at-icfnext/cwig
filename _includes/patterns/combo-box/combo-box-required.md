@@ -1,5 +1,4 @@
-
-<label class="usa-label" for="{{page.combo-box-label}}">{{page.combo-box-label}}</label>
+<label class="usa-label" for="{{page.combo-box-label}}">{{page.combo-box-label}}<span class="asterisk">*</span></label>
 <div class="usa-combo-box">
   <select
     class="usa-select"

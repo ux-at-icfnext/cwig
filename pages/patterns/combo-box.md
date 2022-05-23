@@ -1,35 +1,23 @@
 ---
 layout: patterns
 permalink: "/combo-box"
+title:  Combo Box
 htmlpath: "patterns/combo-box/combo-box.md"
-csspath: "patterns/combo-box/combo-box.scss"
-title:  Combo Box #this was mislabeled here and above as data visualizations.  I changed it to combo box.
-description: |
-    A combo box helps users select an item from a large list of options.
-
-    When to use the combo box component:   
+description: "    When to use the combo box component:   
     More than 15 options. When there are more than 15 choices in a drop-down list it can be hard to navigate with scrolling only.
-    Limited space. Use a combo box for presenting options over radio or checkboxes when screen real estate is limited.
-
-usa-link: https://designsystem.digital.gov/components/combo-box/
-
+    Limited space. Use a combo box for presenting options over radio or checkboxes when screen real estate is limited."
+usa-link: https://designsystem.digital.gov/components/dropdown/
 specification: |
-    - OnClick / OnTap of box, list opens to reveal options list.
-    - OnTextEntry, list is filtered, like a type ahead, to reveal the matchin content inside
-    - OnClick/OnTap of list item, the list item become the select item.
-        - the selected item shows in the input box and a close "X" appears to the right
-        - OnClick/OnTap of "x" - the selected item is removed.
-
+  - OnClick/OnTap of dropdown, element opens to reveal the options inside. 
+  - OnClick/OnTap of option, the item is selected and the desired action is preformed byt the system.
+  In most cases this will be to have data to provide to a form for submission. In rare cases it may be used as navigation to another page.
 schema: 
-  - fieldname: label
-    class-name: usa-label
-    required: true
-    type: label
-    content: 40 characters
-  - fieldname: combo box
-    class-name: usa-combo-box
+  - fieldname: dropdown
+    class-name: usa-select
     type: multi-select
     required: true
+    content: alphanumeric order
+    example: Option A, Option B, Option C, etc.
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->

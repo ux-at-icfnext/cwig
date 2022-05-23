@@ -12,8 +12,8 @@ process-list:
   - heading: Details
   - heading: Contact Information
   - heading: Submit
-dropdown-label: Event Type
-dropdown:
+combo-box-label: Event Type
+combo-box:
   - option: Virtual
     value: 1
   - option: In-Person
@@ -22,10 +22,12 @@ dropdown:
     value: 3
   - option: Call for Papers
     value: 4
-text-inputs:
-  - label: Title
-  - label: Sponsor
-  - label: Website
+text-input-1: Title
+text-input-2: Sponsor
+text-input-3: Website
+radio-button-1: One-time Event
+radio-button-2: Recurring Event
+date-picker-label: Start date
 link-btn: Back
 filled-btn: Next
 ---

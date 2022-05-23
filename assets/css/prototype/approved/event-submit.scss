@@ -40,6 +40,10 @@ ul.breadcrumb li a{
     .text__inputs{
         margin-bottom: 20px;
     }
+    fieldset{
+        border: 1px dashed #555555;
+        padding: 20px;
+    }
     .radio__btns{
         display: grid;
         grid-template-columns: 0.5fr 1fr;
