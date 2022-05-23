@@ -5,6 +5,14 @@
 }
 @media only screen and (min-width: 880px) {
     /* For desktop: */
+    .usa-process-list__item.previous__step::before{
+        border-color:#005DAA;
+        background-color:#005DAA;
+        color: white;
+    }
+    .previous__step h4{
+        color: #005DAA;
+    }
     .current__step h4{
         color: #005DAA;
     }
