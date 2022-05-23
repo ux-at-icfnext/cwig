@@ -41,21 +41,11 @@ layout: prototype/colorVers/proto-default-color
         <h3>Who Should Attend this Conference</h3>
         <p>{{ page.attendee | markdowify}}</p>
         <h3>Topic Tags</h3>
-        <button>tag</button>
-        <button>tag</button>
-        <div class="more__info">
-            <h2 class="more_from_this_sponsor">More from this Sponsor</h2>
-            <a href="" class="see_all_events">See all events from this sponsor</a>
+        {% include patterns/tag/tag.md %}
+        <div class="more_from_this_sponsor">
             <div class="cards">
-                {% include patterns/card/card.md %}
-            </div>
-            <div class="card_2">
-                {% include patterns/card/card.md %}
             </div>
             <div class="callout__box">
-                <h2>{{ page.callout_heading | markdowify}}</h2>
-                <p>{{ page.callout_text | markdowify}}</p>
-                <a href="">{{ page.callout_link | markdowify}}</a>
             </div>
         </div>
     </div>
