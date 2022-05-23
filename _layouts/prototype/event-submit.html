@@ -73,7 +73,34 @@ layout: prototype/colorVers/proto-default-color
             {% include patterns/date-picker/date-picker.md%}
         </div>
         <div class="radio__btns">
-            {% include patterns/radio-buttons/radio-buttons.md%}
+            <legend class="usa-legend usa-legend">Event Frequency</legend>
+            <div class="placeholder"></div>
+            <div class="usa-radio" id="one__time__event">
+                <input
+                  class="usa-radio__input"
+                  id="historical-truth"
+                  type="radio"
+                  name="historical-figures"
+                  value="sojourner-truth"
+                  checked
+                />
+                <label class="usa-radio__label" for="historical-truth"
+                  >Sojourner Truth</label
+                >
+              </div>
+              <div class="usa-radio" id="recurring__event">
+                <input
+                  class="usa-radio__input"
+                  id="historical-truth"
+                  type="radio"
+                  name="historical-figures"
+                  value="sojourner-truth"
+                  checked
+                />
+                <label class="usa-radio__label" for="historical-truth"
+                  >Sojourner Truth</label
+                >
+              </div>
         </div>
         <div class="nav__btns">
             {% include patterns/button-group/button-group-linked.md%}

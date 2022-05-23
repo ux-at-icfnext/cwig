@@ -40,4 +40,13 @@ ul.breadcrumb li a{
     .text__inputs{
         margin-bottom: 20px;
     }
+    .radio__btns{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .nav__btns{
+        margin-top: 20px;
+    }
 }
