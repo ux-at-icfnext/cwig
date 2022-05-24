@@ -1,13 +1,15 @@
 ---
 layout: prototype/basic
 title: Hello, I'm a Basic Page
-intro: |
-    I like to hang out in places around our site, housing evergreen content, usually at the end of a path, where vistors can reach a final goal. In this case, to read about bacon!
+intro: >
+  I like to hang out in places around our site, housing evergreen content,
+  usually at the end of a path, where vistors can reach a final goal. In this
+  case, to read about bacon!
 permalink: /basic
-header: true
-spanish: true
+header: false
+help: false
+spanish: false
 button: Español
-help: true
 categories: prototype
 ---
 
