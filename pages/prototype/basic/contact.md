@@ -1,5 +1,5 @@
 ---
-layout: prototype/proto-basic
+layout: prototype/basic
 title: Contact Us
 intro: Child Welfare Information Gateway provides information and resources on a
   wide range of child welfare topics, covering the continuum from preventing
