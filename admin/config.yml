@@ -41,6 +41,7 @@ collections:
       - {label: "Show Header?", name: "header", widget: "boolean", default: false}
       - {label: "Show Get Help", name: "help", widget: "boolean", default: false}
       - {label: "Show Spanish CTA?", name: "spanish", widget: "boolean", default: false}
+      - {label: "button text", name: "button", widget: "hidden", default: "Español"}
   - label: "Topic Pages"
     name: "Topic Pages"
     folder: "pages/prototype/topic-pages"

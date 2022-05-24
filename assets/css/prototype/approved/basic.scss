@@ -1,0 +1,51 @@
+.bodybar {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bodybar-white {
+    background-color: white;
+}
+
+
+.page-header {
+}
+
+.page-header .default__button {
+    color: #005ea2;
+    background-color: white;
+    border: solid #005ea2;
+    
+}
+
+.header-full {
+    width: 100%;
+    padding-bottom: 2rem;
+    background-color: #002552;
+    color: white;
+    margin: 0;
+    
+}
+
+.header-full .default__button {
+    color: white;
+    background-color: transparent;
+    border: solid white;
+    
+}
+
+@media only screen and (min-width: 800px) {
+    .page-header .default__button {
+        display: block;
+        position: relative;
+        left: 90%;
+        top: 55px;
+    }
+}
+
+.page-header .intro {
+    font-size: 1.25rem;
+    width: 72ex;
+}
+
