@@ -35,3 +35,12 @@ Children's Bureau/ACYF
 Washington, DC 20201
 
 ## Social Media
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#facebook"></use>
+</svg>
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#twitter"></use>
+</svg>
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#youtube"></use>
+</svg>
