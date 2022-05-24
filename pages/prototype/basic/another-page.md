@@ -1,7 +1,7 @@
 ---
 layout: prototype/basic
 category: prototype
-title: Another Page
+title: "Another Basic Page "
 intro: This time about Star Trek!!!
 permalink: /trek
 header: false
