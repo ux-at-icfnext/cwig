@@ -19,19 +19,16 @@ layout: prototype/colorVers/proto-default-color
     <div class="left__col">
         {% include patterns/button/button-inverted.md %}
         <h3>Sponsor</h3>
-        <span clas="sponsor__name"></span>
+        <p class="sponsor__name">{{page.sponsor}}</p>
         <h3>Date and Time</h3>
-        <span class="date"></span>
+        <p class="date">{{page.dates}}</p>
         <h3>Location</h3>
-        <span class="format"></span>
-        <span class="address_line_1"></span>
-        <span class="address_line_1"></span>
-        <span class="address_line_1"></span>
-        <span class="address_line_1"></span>
+        <span class="format">{{page.format}}</span>
+        <p class="address_line_1">{{page.address}}</p>
         <h3>Cost</h3>
-        <span class="cost"></span>
+        <p class="cost">{{page.cost}}</p>
         <h3>Continuing Education Units</h3>
-        <span class="CEU"></span>
+        <p class="CEU">{{page.continuing-education-units}}</p>
     </div>
     <div class="main__col">
         <h2>About this Event</h2>
