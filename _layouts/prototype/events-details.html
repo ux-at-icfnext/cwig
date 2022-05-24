@@ -10,12 +10,12 @@ layout: prototype/colorVers/proto-default-color
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section">
+<div class="intro__section grid-container">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
     </div>
 </div>
-<div class="content__container">
+<div class="content__container grid-container">
     <div class="left__col">
         {% include patterns/button/button-inverted.md %}
         <h3>Sponsor</h3>
@@ -30,7 +30,7 @@ layout: prototype/colorVers/proto-default-color
         <h3>Continuing Education Units</h3>
         <p class="CEU">{{page.continuing-education-units}}</p>
     </div>
-    <div class="main__col">
+    <div class="main__col grid-container">
         <h2>About this Event</h2>
         <p>{{ page.about | markdowify}}</p>
         <h3>Additional Details</h3>
@@ -40,8 +40,20 @@ layout: prototype/colorVers/proto-default-color
         <h3>Topic Tags</h3>
         {% include patterns/tag/tag.md %}
         <div class="more_from_this_sponsor">
-            <div class="cards">
-            </div>
+            <h2>More from this sponsor</h2>
+            <a href="">See all events from this sponsor</a>
+            <fieldset class="event_card_1">
+                <span class="event__format">Virtual</span>
+                <h3>Living the Protective Factors</h3>
+                <p>Thu, Nov 18, 2021 | 11 AM EST</p>
+                <p>Be Strong Families</p>
+            </fieldset>
+            <fieldset class="event_card_1">
+                <span class="event__format">Virtual</span>
+                <h3>Living the Protective Factors</h3>
+                <p>Thu, Nov 18, 2021 | 11 AM EST</p>
+                <p>Be Strong Families</p>
+            </fieldset>
             <div class="callout__box">
             </div>
         </div>

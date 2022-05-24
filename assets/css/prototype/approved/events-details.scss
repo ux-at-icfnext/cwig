@@ -23,9 +23,6 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
-    .intro__section{
-        margin-left: 100px;
-    }
     .content__container{
         display: grid;
         grid-template-columns: 0.5fr 1fr;
@@ -34,30 +31,15 @@ ul.breadcrumb li a{
     }
     .left__col{
         order: 1;
-        margin-left: 100px;
     }
     .main__col{
         order: 2;
     }
-    .more__info{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
     .more_from_this_sponsor{
-        order: 1;
+        display: grid;
+        grid-template-columns: auto auto;
     }
-    .see_all_events{
-        order: 2;
-    }
-    .cards{
-        order: 3;
-    }
-    .card_2{
-        order: 4;
-    }
-    .callout__box{
-        order: 5;
-        background-color: lightgray;
-        width: 100%;
+    .event__card__1 div{
+        border: 1px solid;
     }
 }
