@@ -1,0 +1,37 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+
+
+{% include patterns/header/header.md %}
+{% include patterns/breadcrumb/breadcrumb-styled.md%}
+
+{% if page.header %}
+    <div class="page-header header-full">
+{% else %}
+    <div class="page-header">
+{% endif %}
+        <h1> {{ page.title }} </h1>
+        <p class="intro">{{ page.intro }}</p>
+        {% if page.help %}
+            {% include structures/helpcards/helpcards.md %}
+        {% endif %}
+        {% if page.spanish %}
+        <div class="spanish__button">
+            {% include patterns/button/button-default.md %}
+        </div>
+        {% endif %}
+</div>
+
+<div class="article">
+    {{ page.content | markdownify }}
+</div>
+
+
+
+
+
+
+{% include patterns/footer/footer.md %}
+{% include patterns/identifier/identifier-styled.md %}
+</div>

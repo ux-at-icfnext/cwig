@@ -32,20 +32,15 @@ collections:
     folder: "pages/prototype/basic"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "prototype/proto-basic"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "prototype/basic"}
       - {label: "category", name: "category", widget: "hidden", default: "prototype"}
       - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Intro Text", name: "intro", widget: "string", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Card Schema"
-        name: "cards"
-        widget: "list"
-        fields:
-          - { label: "Title", name: "card-title", widget: "string" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
-          - { label: "Button label", name: "button", widget: "string", required: false}
-          - { label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Show Header?", name: "header", widget: "boolean", default: false}
+      - {label: "Show Get Help", name: "help", widget: "boolean", default: false}
+      - {label: "Show Spanish CTA?", name: "spanish", widget: "boolean", default: false}
   - label: "Topic Pages"
     name: "Topic Pages"
     folder: "pages/prototype/topic-pages"
