@@ -14,6 +14,6 @@ __NOTE:__ As this is just a prototype, some items are not functional. Also, beca
 
 {% for page in site.pages %}
 {% if page.categories == "prototype" %}
-<a href="{{ page.url }}">{{ page.title }}</a>
+<a href="{{ page.url }}">{{ page.layout }}: {{ page.title }}</a>
 {% endif %}
 {% endfor %}
