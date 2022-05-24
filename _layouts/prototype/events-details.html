@@ -42,18 +42,12 @@ layout: prototype/colorVers/proto-default-color
         <div class="more_from_this_sponsor">
             <h2>More from this sponsor</h2>
             <a href="">See all events from this sponsor</a>
-            <fieldset class="event_card_1">
-                <span class="event__format">Virtual</span>
-                <h3>Living the Protective Factors</h3>
-                <p>Thu, Nov 18, 2021 | 11 AM EST</p>
-                <p>Be Strong Families</p>
-            </fieldset>
-            <fieldset class="event_card_1">
-                <span class="event__format">Virtual</span>
-                <h3>Living the Protective Factors</h3>
-                <p>Thu, Nov 18, 2021 | 11 AM EST</p>
-                <p>Be Strong Families</p>
-            </fieldset>
+            <div class="event_card_1">
+                {% include patterns/card/card-upcoming-events.md %}
+            </div>
+            <div class="event_card_2">
+                {% include patterns/card/card-upcoming-events.md %}
+            </div>
         </div>
         <div class="callout__box">
             {% include patterns/callout-box/callout-box.md %}
