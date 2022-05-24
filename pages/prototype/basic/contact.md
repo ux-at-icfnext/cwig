@@ -11,6 +11,7 @@ permalink: /contact
 header: true
 help: true
 spanish: true
+button: Español
 categories: prototype
 ---
 ## Live Chat/Live Online Support
