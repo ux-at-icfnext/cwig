@@ -17,9 +17,9 @@ details: >
   Event poster can put more details here. This is optional. If it’s empty, then this won’t show. This should help keep the description brief so that the Event search page doesn’t get crowded. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.
 attendee: >
   Enter attendee eligibility here- Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.
-callout_heading: Submit Events and Calls for Papers
-callout_text: Submit information on your events. We will then post your submission to this website.
-callout_link: Fill in a submission form
+callout-header: Submit Events and Calls for Papers
+callout-body: Submit information on your events. We will then post your submission to this website.
+callout-link: Fill in a submission form
 tag:
   - tag-label: Tag
   - tag-label: Another Topic Tag
