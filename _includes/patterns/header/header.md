@@ -143,4 +143,5 @@
           </ul>
           {% include patterns/search/search-styled.md %}
         </div>
+    </div>
   </header>

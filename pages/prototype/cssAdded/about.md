@@ -1,5 +1,5 @@
 ---
-layout: prototype/about
+layout: prototype/basic-tabs
 title: About
 permalink: /about-page
 categories: prototype
