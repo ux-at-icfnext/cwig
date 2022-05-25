@@ -7,10 +7,11 @@ cards:
   - card-title: Putting Lessons Into Practice
     body: Check out this three-part episode from the Podcast for Engaging Fathers,
       Episode 71.
-  - card-title: "A Seat at the Table: Piloting Continuous Learning to Engage Fathers
-      and Paternal Relatives in Child Welfare"
-    body: "Explore this report, which shares findings from a pilot study exploring
-      the implementation of a Breakthrough Series Collaborative (BSC) "
+  - card-title: Piloting Continuous Learning to Engage Fathers and Paternal
+      Relatives in Child Welfare
+    body: 'Explore this report, which shares findings from a pilot study exploring
+      the implementation of a Breakthrough Series Collaborative (BSC), "A Seat
+      at the Table". '
   - card-title: National Responsible Fatherhood Clearinghouse
     body: U.S. Department of Health and Human Services, Administration for Children
       and Families, Office of Family Assistance
