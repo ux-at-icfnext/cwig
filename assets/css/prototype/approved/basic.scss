@@ -4,8 +4,16 @@
     padding-bottom: 2rem;
 }
 
-.bodybar-white {
+.body-white {
     background-color: white;
+}
+
+.body-blue-20 {
+    background-color: #C7CFE9;
+}
+
+.featured .card__container {
+    border-top: #E50E63 5px solid;
 }
 
 
@@ -47,5 +55,18 @@
 .page-header .intro {
     font-size: 1.25rem;
     max-width: 80ex;
+}
+
+.page-footer {
+}
+
+.page-footer-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-footer-card a:hover{
+    color: white;
+    background-color: #002552;
 }
 

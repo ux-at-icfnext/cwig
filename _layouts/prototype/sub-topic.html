@@ -1,0 +1,76 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/basic.scss">
+<link rel="stylesheet" href="/assets/css/prototype/approved/subtopics.scss">
+
+<div class="header">
+    {% include patterns/header/header.md %}
+</div>
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+
+<div class="page-header"> 
+    <div class="grid-container">
+        <h1>{{ page.title }}</h1>
+        {{ page.content | markdownify }}
+    </div>
+</div>
+
+<div class="featured bodybar body-blue-20">
+    <div class="cards grid-container">
+        {% include patterns/card/card-styled.md %}
+    </div>
+</div>
+
+<div class="content">
+    <div class="left__col">
+        {% include patterns/accordion/accordion-with-filters-data.md %}
+    </div>
+    <div class="main__col">
+        {% include patterns/search/search-styled.md %}
+        <div class="results__filters">
+            <div class="displaying">
+                <span>Displaying 1-15 of 100</span>
+            </div>
+            <div class="sort__by">
+                {% include patterns/select-input/select-input.md %}
+            </div>
+        </div>
+        <div class="search__results">
+            {% for item in site.data.prototype.subtopics.content-list %}
+                <div class="subtopic__details">
+                    <div class="content__icon">
+                        <img>{{item.icon}}
+                    </div>
+                    <div class="content__title">
+                        <a href="">{{item.title}}</a>
+                    </div>
+                    <div class="pdf__size">
+                        <span class="pdf-size">{{item.size}}</span>
+                    </div>
+                    <div class="content__desc">
+                        <p>{{item.desc}}</p>
+                    </div>
+                    <div class="content__type">
+                        <span>{{item.type}}</span>
+                    </div>
+                </div>
+              {%endfor%}
+        </div>
+        <div class="pagination">
+            {% include patterns/pagination/pagination-unbounded.md %}
+        </div>
+    </div>
+</div>
+
+
+{% include structures/pagefooter/pagefooter.md %}
+
+<div class="footer">
+    {% include patterns/footer/footer.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>

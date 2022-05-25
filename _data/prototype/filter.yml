@@ -1,0 +1,40 @@
+- name: Accordion Closed State
+  filteritems:
+    - filter: All Types
+    - filter: Thing 2
+    - filter: Thing 3
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+- name: Accordion Closed
+  filteritems:
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+- name: Accordion Open State
+  filteritems:
+    - filter: Infographics
+    - filter: Podcasts
+    - filter: Publications
+    - filter: PDF
+    - filter: Webinars
+    - filter: Videos
+- name: Closed Accordion
+  filteritems:
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+- name: Closed State Accordion
+  filteritems:
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3
+    - filter: Thing 1
+    - filter: Thing 2
+    - filter: Thing 3

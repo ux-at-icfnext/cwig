@@ -8,25 +8,6 @@ backend:
 media_folder: "assets/img/prototype"
 
 collections:
-  - label: "Landing Pages"
-    name: "Landing pages"
-    folder: "pages/prototype/landingpages"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "prototype/proto-landing"}
-      - {label: "category", name: "category", widget: "hidden", default: "prototype"}
-      - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Featured Image", name: "feature-image", widget: "image", required: true}
-      - {label: "Introduction", name: "intro", widget: "text"}
-      - label: "Card Schema"
-        name: "cards"
-        widget: "list"
-        fields:
-          - { label: "Title", name: "card-title", widget: "string" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
-          - { label: "Button label", name: "button", widget: "string" }
   - label: "Basic Pages"
     name: "Baisc Pages"
     folder: "pages/prototype/basic"
@@ -61,43 +42,33 @@ collections:
           - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
           - { label: "Button label", name: "button", widget: "string", required: false}
           - { label: "Link", name: "link", widget: "string", required: false}
-  - label: "Topic Detail"
-    name: "Topic Detail"
-    folder: "pages/prototype/topics"
+  - label: "Sub Topic"
+    name: "Sub Topic"
+    folder: "pages/prototype/sub-topics"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "proto-topic-detail"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "prototype/sub-topic"}
       - {label: "category", name: "category", widget: "hidden", default: "prototype"}
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Body", name: "intro", widget: "markdown"}
-      - label: "Spotlight"
-        name: "spotlight"
-        widget: "list"
-        fields:
-          - { label: "Link text", name: "link-text", widget: "string" }
-          - { label: "Url", name: "link", widget: "string"}
-          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
-      - label: "Card Schema"
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Featured Items"
         name: "cards"
         widget: "list"
         fields:
           - { label: "Title", name: "card-title", widget: "string" }
           - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
-          - { label: "Button label", name: "button", widget: "string", required: false}
-      - { label: "Related links Title", name: "related-label", widget: "string", default: "Related Links"}
+      - {label: "Show related links in accordion?", name: "footer-accordion", widget: "boolean", default: false}
       - label: "Related Links"
         name: "links"
         widget: "list"
         fields:
-          - { label: "Link text", name: "text", widget: "string" }
-          - { label: "Url", name: "link", widget: "string"}
-      - { label: "Related Resources Title", name: "resource-label", widget: "string", default: "Related Resources"}
-      - label: "Related Resources"
-        name: "resources"
+          - { label: "Link text", name: "title", widget: "string" }
+          - { label: "Card Body", name: "body", widget: "string", hint: "This is only needed for accordion option"}
+      - label: "You may also like links"
+        name: "ymal"
         widget: "list"
         fields:
-          - { label: "Link text", name: "text", widget: "string" }
-          - { label: "Url", name: "link", widget: "string"}
-          - { label: "Body", name: "body", widget: "text", hint: "140 characters max" }
+          - { label: "Link text", name: "title", widget: "string" }
+          - { label: "Card Body", name: "body", widget: "string", hint: "This is only needed for accordion option"}
         

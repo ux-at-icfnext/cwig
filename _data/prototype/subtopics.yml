@@ -1,0 +1,41 @@
+cards:
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+button: Clear Filters
+
+content-list:
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size: PDF, 210 KB
+    desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
+    type: Publication
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size: PDF, 210 KB
+    desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
+    type: Publication
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size:
+    type: Webinar
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size:
+    desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
+    type: Podcast
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size: PDF, 210 KB
+    desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
+    type: Publication
+  - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
+    size:
+    desc: Short description - suggested 250 characters max - Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare, tantum satis esse expetendam.
+    type: Infographic
+select-label: Sort By
+select:
+  - select-value: A
+  - select-value: Z
+tag:
+  - tag-label: Free
+  - tag-label: All Types
+  - tag-label: One-Time Event
