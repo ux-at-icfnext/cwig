@@ -10,10 +10,13 @@ callout_heading: Submit Events and Calls for Papers
 callout_text: Submit information on your events. We will then post your submission to this website.
 callout_link: Fill in a submission form
 cards:
-  - card-title: Family-Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Child Abuse & Neglect
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Family Center Practice
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - event-heading: Family-Center Practice
+    event-body: "Card Body "
+    event-sponsor:
+  - event-heading: Family-Center Practice
+    event-body: "Card Body "
+    event-sponsor:
+  - event-heading: Family-Center Practice
+    event-body: "Card Body "
+    event-sponsor:
 ---
