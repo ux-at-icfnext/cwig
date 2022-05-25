@@ -15,7 +15,7 @@ cards:
   - card-title: National Responsible Fatherhood Clearinghouse
     body: U.S. Department of Health and Human Services, Administration for Children
       and Families, Office of Family Assistance
-footer-accordion: false
+footer-accordion: true
 links:
   - title: Fatherhood Resources to Promote Family Well-Being
     body: Fathers and paternal family members play a crucial role in children’s
