@@ -10,7 +10,7 @@ cards:
     body: esfsfdsd
   - card-title: test 3
     body: aawewae
-footer-accordion: true
+footer-accordion: false
 links:
   - title: link 1
     body: dsfsdfsdfds
