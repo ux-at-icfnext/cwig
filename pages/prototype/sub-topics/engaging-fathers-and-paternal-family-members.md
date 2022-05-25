@@ -4,7 +4,7 @@ category: prototype
 title: Engaging Fathers and Paternal Family Members
 permalink: /engaging-fathers
 cards:
-  - card-title: Putting Lessons Into Practice
+  - card-title: "Podcast: Putting Lessons Into Practice"
     body: Check out this three-part episode from the Podcast for Engaging Fathers,
       Episode 71.
   - card-title: Piloting Continuous Learning to Engage Fathers and Paternal
