@@ -1,6 +1,10 @@
 /* Global */
 p{
     max-width: 72ex;
+    line-height: 25px;
+}
+a{
+    line-height: 25px;
 }
 
 /* For mobile phones: */
@@ -48,7 +52,7 @@ ul.breadcrumb li a{
     }
     .subtopic__details{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 0.1fr 1fr;
     }
     .content__icon{
         order:1;
@@ -105,6 +109,12 @@ ul.breadcrumb li a{
     }
     .content__desc p{
         font-size: 16px;
+    }
+    .pdf__size{
+        padding-left: 10px;
+    }
+    .content__type{
+        padding-left: 10px;
     }
     .related__series{
         margin-top: 20px;
