@@ -15,23 +15,116 @@ layout: prototype/colorVers/proto-default-color
         <h1 id="page__title"> {{ page.title }}</h1>
     </div>
 </div>
-<div class="main__content">
+<div class="main__content grid-container">
     <div class="left__col">
-        
+        {% include patterns/process-list/process-list.md%}
     </div>
     <div class="main__col">
         <h2>Basic Info</h2>
         <div class="dropdown">
-
+            {% include patterns/combo-box/combo-box-required.md%}
         </div>
-        <div class="event__form">
-
+        <div class="text__inputs">
+            <label class="usa-label" for="input-type-text">{{page.text-input-1}}<span class="asterisk">*</span></label>
+            <input
+            class="usa-input"
+            id="input-type-text"
+            name="input-type-text"
+            type="text"
+            />
+            <label class="usa-label" for="input-type-text">{{page.text-input-2}}<span class="asterisk">*</span></label>
+            <input
+            class="usa-input"
+            id="input-type-text"
+            name="input-type-text"
+            type="text"
+            />
+            <label class="usa-label" for="input-type-text">{{page.text-input-3}}<span class="asterisk">*</span></label>
+            <input
+            class="usa-input"
+            id="input-type-text"
+            name="input-type-text"
+            type="text"
+            />
+        </div>
+        <div class="street__address">
+                <fieldset>
+                    <label class="usa-label" for="input-type-text">Street Address<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="options">Unit Type</label>
+                    <select class="usa-select" name="options" id="options">
+                        <option value="1">Unit Type}</option>
+                    </select>
+                    <label class="usa-label" for="input-type-text">Unit Number</label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="input-type-text">City<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                    <label class="usa-label" for="options">Timezone<span class="asterisk">*</span></label>
+                    <select class="usa-select" name="options" id="options">
+                        <option value="1">Unit Type}</option>
+                    </select>
+                    <label class="usa-label" for="input-type-text">Zipcode<span class="asterisk">*</span></label>
+                    <input
+                    class="usa-input"
+                    id="input-type-text"
+                    name="input-type-text"
+                    type="text"
+                    />
+                </fieldset>
+        </div>
+        <div class="date__time">
+            {% include patterns/date-picker/date-picker-required.md%}
+            {% include patterns/combo-box/combo-box.md%}
+            {% include patterns/date-picker/date-picker.md%}
+            {% include patterns/combo-box/combo-box.md%}
         </div>
         <div class="radio__btns">
-
+            <legend class="usa-legend usa-legend">Event Frequency</legend>
+            <div class="placeholder"></div>
+            <div class="usa-radio" id="one__time__event">
+                <input
+                  class="usa-radio__input"
+                  id="{{page.radio-button-1}}"
+                  type="radio"
+                  name="event-frequency"
+                  value="{{page.radio-button-1}}"
+                  checked
+                />
+                <label class="usa-radio__label" for="{{page.radio-button-1}}"
+                  >{{page.radio-button-1}}</label
+                >
+              </div>
+              <div class="usa-radio" id="recurring__event">
+                <input
+                  class="usa-radio__input"
+                  id="{{page.radio-button-2}}"
+                  type="radio"
+                  name="event-frequency"
+                  value="{{page.radio-button-2}}"
+                  checked
+                />
+                <label class="usa-radio__label" for="{{page.radio-button-2}}"
+                  >{{page.radio-button-2}}</label
+                >
+              </div>
         </div>
         <div class="nav__btns">
-            
+            {% include patterns/button-group/button-group-linked.md%}
         </div>
     </div>
 </div>

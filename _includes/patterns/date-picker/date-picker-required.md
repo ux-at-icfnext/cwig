@@ -1,6 +1,5 @@
-
 <div class="usa-form-group">
-  <label class="usa-label" id="appointment-date-label" for="appointment-date">{{page.date-picker-label}}</label>
+  <label class="usa-label" id="appointment-date-label" for="appointment-date">{{page.date-picker-label}}<span class="asterisk">*</span></label>
   <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
   <div class="usa-date-picker">
     <input

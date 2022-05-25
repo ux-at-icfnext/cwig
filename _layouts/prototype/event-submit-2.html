@@ -1,0 +1,66 @@
+---
+layout: prototype/colorVers/proto-default-color
+---
+<link rel="stylesheet" href="/assets/css/prototype/approved/event-submit.scss">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<div class="header">
+    {% include patterns/header/header.md %}
+</div>
+<div class="breadcrumbs">
+    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+</div>
+<div class="intro__section grid-container">
+    <div class="page__title">
+        <h1 id="page__title"> {{ page.title }}</h1>
+    </div>
+</div>
+<div class="main__content grid-container">
+    <div class="left__col">
+        {% include patterns/process-list/process-list.md%}
+    </div>
+    <div class="main__col">
+        <h2>Basic Info</h2>
+        <div class="dropdown">
+            {% include patterns/combo-box/combo-box-required.md%}
+            {% include patterns/combo-box/combo-box-required.md%}
+        </div>
+        <div class="text__inputs">
+            <label class="usa-label" for="input-type-text">{{page.text-input-1}}<span class="asterisk">*</span></label>
+            <input
+            class="usa-input"
+            id="input-type-text"
+            name="input-type-text"
+            type="text"
+            />
+            <label class="usa-label" for="input-type-text">{{page.text-input-2}}<span class="asterisk">*</span></label>
+            <input
+            class="usa-input"
+            id="input-type-text"
+            name="input-type-text"
+            type="text"
+            />
+        </div>
+        <div class="short__summary">
+            {% include patterns/text-input/textarea.md %}
+        </div>
+        <div class="additional__details">
+            <label for="summary">Additional Details</label>
+            <textarea class="textarea" id="summary" name="summary" rows="4" cols="50">
+            </textarea>
+        </div>
+        <div class="file__input">
+            {% include patterns/file-input/file-input.md %}
+        </div>
+        <div class="nav__btns">
+            {% include patterns/button-group/button-group-linked.md%}
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    {% include patterns/footer/footer.md %}
+</div>
+<div class="identifier">
+    {% include patterns/identifier/identifier-styled.md %}
+</div>

@@ -23,33 +23,34 @@ ul.breadcrumb li a{
         color: #E50E63;
         content: "/\00a0";
     }
-    .content__container{
+    .main__content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        margin-top: 50px;
-        margin-bottom: 20px;
+        gap: 2rem;
     }
-    .left__col{
+    .left_col{
         order: 1;
     }
     .main__col{
         order: 2;
     }
     .main__col h2{
-        font-size: 28px;
-        font-weight: bold;
         color: #002552;
-
     }
-    .more_from_this_sponsor{
-        display: grid;
-        grid-template-columns: auto auto;
-        margin-top: 20px;
-    }
-    .more_from_this_sponsor a{
-        margin-top: 30px;
-    }
-    .callout__box{
+    .text__inputs{
         margin-bottom: 20px;
+    }
+    fieldset{
+        border: 1px dashed #555555;
+        padding: 20px;
+    }
+    .radio__btns{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .nav__btns{
+        margin-top: 20px;
     }
 }

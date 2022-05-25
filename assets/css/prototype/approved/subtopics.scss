@@ -1,3 +1,8 @@
+/* Global */
+p{
+    max-width: 72ex;
+}
+
 /* For mobile phones: */
 ul.breadcrumb li a{
     color:blue;
@@ -26,6 +31,9 @@ ul.breadcrumb li a{
     .intro__section{
         margin-bottom: 30px;
     }
+    .intro__section p{
+        line-height: 25px;
+    }
     .feature__section{
         background-color: #D1D3D4;
     }
@@ -37,6 +45,17 @@ ul.breadcrumb li a{
         grid-template-columns: 1fr 2fr;
         gap: 2rem;
         margin-top: 20px;
+    }
+    .subtopic__details{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .content__icon{
+        order:1;
+        margin-right: 10px;
+    }
+    .content__information{
+        order: 2;
     }
     .left__col{
         order: 1;
