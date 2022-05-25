@@ -1,9 +1,19 @@
 
-.icon-card img{
+.icon-card .usa-icon {
     height: 30px; width: auto; display: block; margin: auto;
 }
 
 .icon-card h2 {
-    padding-top: 20px;
-    text-align: center;
+    text-align: center; 
+    padding-top: 10px; 
+}
+
+.icon-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-card a:hover{
+    color: white;
+    background-color: #002552;
 }
