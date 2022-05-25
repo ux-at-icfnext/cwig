@@ -6,9 +6,9 @@ intro: >
   usually at the end of a path, where vistors can reach a final goal. In this
   case, to read about bacon!
 permalink: /basic
-header: true
+header: false
 help: false
-spanish: false
+spanish: true
 button: Español
 categories: prototype
 ---
