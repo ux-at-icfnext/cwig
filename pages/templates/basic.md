@@ -7,7 +7,7 @@ screenshot-lg: "/assets/img/specs/templates/basic-lg.png"
 screenshot-sm: "/assets/img/specs/templates/basic-sm.png"
 layout-type: "Full with Feature"
 layout-type-screenshot: "/assets/img/specs/full-feature.png"
-prototype-link: "/contact-us"
+prototype-link: "/basic"
 ---
 
 __Table Contents:__
@@ -18,7 +18,7 @@ __Table Contents:__
 - Page Title - h1
 - Intro - text - 250 character max 
 - CTA - button - Content = "Español" - optional
-- Help Cards - uses [help card]() pattern - optional 
+- Help Cards - uses [help card](/help-cards) pattern - optional 
     - _see more details in the pattern for link information_
 
 ### Design Notes
