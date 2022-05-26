@@ -10,13 +10,16 @@ callout_heading: Submit Events and Calls for Papers
 callout_text: Submit information on your events. We will then post your submission to this website.
 callout_link: Fill in a submission form
 cards:
-  - event-heading: Family-Center Practice
+  - event-format: Format
+    event-heading: Family-Center Practice
     event-body: "Card Body"
-    event-sponsor:
-  - event-heading: Family-Center Practice
+    event-sponsor: Sponsor
+  - event-format: Format
+    event-heading: Family-Center Practice
     event-body: "Card Body "
-    event-sponsor:
-  - event-heading: Family-Center Practice
+    event-sponsor: Sponsor
+  - event-format: Format
+    event-heading: Family-Center Practice
     event-body: "Card Body "
-    event-sponsor:
+    event-sponsor: Sponsor
 ---
