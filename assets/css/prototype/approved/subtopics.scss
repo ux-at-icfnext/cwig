@@ -48,7 +48,7 @@ ul.breadcrumb li a{
     }
     .subtopic__details{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 0.1fr 1fr;
     }
     .content__icon{
         order:1;

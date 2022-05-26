@@ -11,7 +11,7 @@ callout_text: Submit information on your events. We will then post your submissi
 callout_link: Fill in a submission form
 cards:
   - event-heading: Family-Center Practice
-    event-body: "Card Body "
+    event-body: "Card Body"
     event-sponsor:
   - event-heading: Family-Center Practice
     event-body: "Card Body "
