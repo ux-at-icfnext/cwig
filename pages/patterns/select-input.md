@@ -8,7 +8,7 @@ usa-link: https://designsystem.digital.gov/components/select/
 htmlpath: 
 csspath:
 specification: |
-  On click/tap of the drop-down menu, the options will immediately show, and the user will be able to click on only one at a time. Once the user clicks on an option, the dropdown menu will show only the option chosen. On click/tap of the menu again, the user will see all the options again, with a check-mark next to the one they chose. The user may change their choice however many times they want before clicking/tapping the submit button.
+  On click/tap of the drop-down menu, the options will immediately show, and the user will be able to click on only one at a time. Once the user clicks on an option, the dropdown menu will show only the option chosen. On click/tap of the menu again, the user will see all the options again, with a check-mark next to the one they chose. The user may change their choice however many times they want before clicking/tapping a submit button.
   
   **Use sparingly**. Use the select component only when a user needs to choose from about seven to 15 possible options and you have limited space to display the options.
 
