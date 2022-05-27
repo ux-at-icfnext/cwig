@@ -46,6 +46,9 @@ library:
   - text: Alerts
     desc: An alert keeps users informed of important and sometimes time-sensitive changes.
     href: /alerts/
+  - text: Audio player
+    desc: An audio player is a component used to embed sound content in certain pages.
+    href: /audio-player/
   - text: Banner
     desc: The banner identifies official websites of government organizations in the United States. 
           It also helps visitors understand how to tell that a website is both official and secure.
@@ -118,13 +121,16 @@ library:
     desc: An icon list reinforces the meaning and visibility of individual list items 
           with a leading icon.
     href: /icon-list/
-  - text: Indentifier
+  - text: Identifier
     desc: The identifier communicates a site’s parent agency and displays agency links 
           required by federal laws and policies.
     href: /identifier/
   - text: Link
     desc: A link connects users to a different page or further information.
     href: /link/
+  - text: Number Input
+    desc: Number Input allows users to llows users to enter a number within a certain range.
+    href: /number-input/
   - text: Modal
     desc: A modal disables page content and focuses the user’s attention on a single
           task or message.
@@ -135,10 +141,16 @@ library:
   - text: Process List
     desc: A process list displays the steps or stages of important instructions or processes.
     href: /process-list
+  - text: Pullquote
+    desc: A pullquote is a quotation set off from the main text, distinguished visually using indentation and a different typeface.
+    href: /pullquote 
   - text: Search Widget
     desc: Search allows users to search for specific content if they know what search terms
           to use or can’t find desired content in the main navigation
     href: /search-widget
+  - text: Select Input
+    desc: Select input allows users to choose any option from a drop-down menu. 
+    href: /select-input/
   - text: Side Navigation
     desc: Hierarchical, vertical navigation to place at the side of a page.
     href: /side-navigation/
@@ -165,4 +177,7 @@ library:
     desc: A tooltip is a short descriptive message that appears when a user hovers or focuses 
           on an element.
     href: /tooltip/
+  - text: Video Player
+    desc: A video player is a component used to embed video content in certain pages.
+    href: /video-player/
 

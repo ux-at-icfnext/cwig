@@ -1,5 +1,5 @@
 ---
-layout: proto-topic-detail
+layout: prototype/proto-topic-detail
 title: Ziegler Sports Topic
 permalink: ziegler_sports
 intro: Here is info on sports!

@@ -5,16 +5,18 @@ title:  Audio Player
 htmlpath: "patterns/audioplayer/audioplayer.md"
 csspath: "patterns/audioplayer/audioplayer.scss"
 description:  |
-    An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
-usa-link: https://designsystem.digital.gov/components/accordion/
+    An audio player is a component used to embed sound content in certain pages. It is housed within a rectangular card, and offers controls to allow the user to control audio playback, including a play/pause button, volume slider to increase/decrease volume, skip forward and skip back buttons to skip 10 seconds forward or back, a download button, and a progress bar the user can interact with to listen to any part of the audio they would like.
 specification: |
-  In general, all accordions are closed on default. In some cases it maybe aventagious to have the first accordion in open state on load, but this technique should be used sparingly.
-  - On click of a closed accordion bar, the accordion slides open to reveal the content inside, and the fa-plus icon switches to fa-minus. Any other open accordion will close.
-  - On click of an open accordion bar, the accordion slides shut and the fa-minus icon is switched to the fa-plus.
-  This component uses javascript functionality to work. Please see the documentation on USWDS for more information.
+  In general, the audio player will not be running on default.
+  - On click/on tap of the play button, the play button will change into a pause button, and the audio will begin playing at a mid to low volume.  
+  - On click/on tap of the thin volume slider line, the user may increase or decrease the volume while holding their click or tap.
+  - On click/on tap of the skip forward or skip back buttons that look like clocks, the user can skip 10 seconds forward or rewind 10 seconds back on the audio.
+  - On click/on tap of the progress bar, the user may hold their click or tap to drag the progress bar to wherever they would like to play their audio.
+  - On click/on tap of the download button, the user will be able to download the audio file to their device.
+  
 schema: 
   - fieldname: heading
-    class-name: usa-accordion__heading
+    class-name:
     required: true
     type: plain text
     content: 80 characters
@@ -37,5 +39,3 @@ schema:
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
 
-### Accessibility:
-When implementing an accordion on a page, the trigger's heading level may need to change. The heading level for the trigger is based on the heading level of the section of the page that the accordion is resides in. If the accordion is added to a section that has a heading level 3 then the trigger for the accordion would be a heading level 4 (as in this example). But if the accordion is implemented in a section with a heading level 2 then the accordion trigger would need to be a heading level 3 to maintain a logical heading order hirearchy.
