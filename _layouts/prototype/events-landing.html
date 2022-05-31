@@ -16,9 +16,7 @@ layout: prototype/colorVers/proto-default-color
         <p>{{ page.intro | markdowify}}</p>
     </div>
     <div class="callout__box">
-        <h2>{{ page.callout_heading | markdowify}}</h2>
-        <p>{{ page.callout_text | markdowify}}</p>
-        <a href="">{{ page.callout_link | markdowify}}</a>
+        {% include patterns/callout-box/callout-box-blue.md %}
     </div>
 </div>
 <div class="event__search">

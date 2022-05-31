@@ -37,6 +37,7 @@
     .intro__section{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
     .page__title{
         order: 1;
