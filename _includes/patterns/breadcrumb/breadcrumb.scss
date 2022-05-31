@@ -93,6 +93,9 @@ ul.breadcrumb__white{
     ul.breadcrumb__white{
       list-style: none;
     }
+    ul.breadcrumb__white a{
+      color: #005DAA;
+    }
       
       /* Display list items side by side */
       ul.breadcrumb li {
@@ -134,10 +137,13 @@ ul.breadcrumb__white{
 
 /* breadcrumb on white */
 ul.breadcrumb__white li a{
-  color:blue;
+  color: #005DAA;
 }
 ul.breadcrumb__white li+li:before {
   padding: 8px;
   color: #E50E63;
   content: "/\00a0";
+}
+ul.breadcrumb__white{
+  padding-left: 25px;
 }
