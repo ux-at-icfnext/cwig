@@ -47,10 +47,14 @@
         order: 2;
     }
     .event__search{
-        background-color: #71767A;
+        background-image: 
+            linear-gradient(black, black),
+            url('/assets/img/prototype/audience-applauding-speaker-after-conference-600w-479633347.webp');
         color: white;
         padding-top: 30px;
         padding-bottom: 30px;
+        background-size: cover;
+        background-blend-mode: saturation;
     }
     .event__search a{
         color: white;
