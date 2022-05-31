@@ -129,7 +129,7 @@ library:
     desc: A link connects users to a different page or further information.
     href: /link/
   - text: Number Input
-    desc: Number Input allows users to llows users to enter a number within a certain range.
+    desc: Number Input allows users to enter a number within a certain range.
     href: /number-input/
   - text: Modal
     desc: A modal disables page content and focuses the user’s attention on a single

@@ -12,14 +12,19 @@ specification: |
   On default, the number input will vary according to the context. 
   
   In the case of search results, the default input will be 15. (ask Christine)
-  On click/tap of the input field, the user will be able to type a number within the range specified before the input field. 
-  Use the following attributes to specify restrictions:
-  - max | specifies the maximum value allowed
-  - min | specifies the minimum value allowed
-  - step | specifies the legal number intervals
-  - value | Specifies the default value
+  On click/tap of the input field, the user will be able to type a number within the range specified before the input field.
 
-  - Only show error validation messages or stylings after a user has interacted with the field, and entered a number outside of the specified range.
+  Use the following attributes to specify restrictions:
+
+  -**max** | specifies the maximum value allowed
+
+  -**min** | specifies the minimum value allowed
+
+  -**step** | specifies the legal number intervals
+
+  -**value** | specifies the default value
+
+  Only show error validation messages or stylings after a user has interacted with the field, and entered a number outside of the specified range.
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
@@ -27,12 +32,12 @@ specification: |
 
 ## Accessibility
 
-The <label> element defines a label for several form elements.
+The "label" element defines a label for several form elements.
 
-The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+The "label" element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
 
-The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+The "label" element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the "label" element, it toggles the radio button/checkbox.
 
-The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+The for attribute of the "label" tag should be equal to the id attribute of the "input" element to bind them together.
 
 
