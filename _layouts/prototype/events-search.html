@@ -10,18 +10,16 @@ layout: prototype/colorVers/proto-default-color
 <div class="breadcrumbs">
     {% include patterns/breadcrumb/breadcrumb-styled.md%}
 </div>
-<div class="intro__section ">
+<div class="intro__section grid-container">
     <div class="page__title">
         <h1 id="page__title"> {{ page.title }}</h1>
         <p>{{ page.intro | markdowify}}</p>
     </div>
     <div class="callout__box">
-        <h2>{{ page.callout_heading | markdowify}}</h2>
-        <p>{{ page.callout_text | markdowify}}</p>
-        <a href="">{{ page.callout_link | markdowify}}</a>
+        {% include patterns/callout-box/callout-box-blue.md%}
     </div>
 </div>
-<div class="content">
+<div class="content grid-container">
     <div class="left__col">
         {% include patterns/accordion/accordion-with-filters.md %}
     </div>
