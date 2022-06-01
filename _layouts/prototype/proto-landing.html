@@ -4,24 +4,23 @@ layout: prototype/colorVers/proto-default-color
 <link rel="stylesheet" href="/assets/css/prototype/approved/topics-landing-wide.scss">
 
 {% include patterns/header/header.md %}
-
-<div class="breadcrumbs">
-    {% include patterns/breadcrumb/breadcrumb-styled.md%}
+<div class="page__top">
+    <div class="breadcrumbs">
+        {% include patterns/breadcrumb/breadcrumb-styled.md%}
+    </div>
+    <div class="page__intro">
+        <div class="page__title">
+            <h1 id="page__title-mobile"> {{ page.title }}</h1>
+        </div>
+        <div class="intro__text">
+            <h1 id="page__title"> {{ page.title }}</h1>
+            <p>{{ page.intro | markdowify}}</p>
+        </div>
+        <div class="feature__img">
+            <img src="assets/img/prototype/CWIG-landing-page.jpg" height="" width="" />
+        </div>
+    </div>
 </div>
-
-<div class="page__intro">
-    <div class="page__title">
-        <h1 id="page__title-mobile"> {{ page.title }}</h1>
-    </div>
-    <div class="intro__text">
-        <h1 id="page__title"> {{ page.title }}</h1>
-        <p>{{ page.intro | markdowify}}</p>
-    </div>
-    <div class="feature__img">
-        <img src="assets/img/prototype/CWIG-landing-page.jpg" height="" width="" />
-    </div>
-</div>
-
 
 <div class="content__section">
     <div id="main-content" class="grid-container">

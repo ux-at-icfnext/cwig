@@ -16,6 +16,12 @@
 .page__title{
     order: 1;
 }
+.page__top{
+    background-color: #002552;
+}
+.breadcrumbs{
+    color: white;
+}
 .page__intro{
     display: grid;
     grid-template-columns: 1fr;
