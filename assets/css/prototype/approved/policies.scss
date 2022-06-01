@@ -6,6 +6,10 @@
 }
 @media only screen and (min-width: 880px) {
     /* For desktop: */
+    .page__top{
+        background-color: #002552;
+        border-bottom: 5px solid #E50E63;
+    }
     .breadcrumbs{
         background-color: #002552;
         color: white;
@@ -13,7 +17,6 @@
     .intro__section{
         background-color: #002552;
         color: white;
-        border-bottom: 5px solid #E50E63;
         padding-bottom: 30px;
     }
     .page__title{
