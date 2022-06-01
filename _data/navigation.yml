@@ -144,6 +144,9 @@ library:
   - text: Pullquote
     desc: A pullquote is a quotation set off from the main text, distinguished visually using indentation and a different typeface.
     href: /pullquote 
+  - text: reCaptcha
+    desc: reCAPTCHA "I'm not a robot" checkbox is a Google API widget that helps protect websites from spam and abuse.
+    href: /recaptcha
   - text: Search Widget
     desc: Search allows users to search for specific content if they know what search terms
           to use or can’t find desired content in the main navigation
