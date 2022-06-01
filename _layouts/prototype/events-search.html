@@ -4,21 +4,25 @@ layout: prototype/colorVers/proto-default-color
 <link rel="stylesheet" href="/assets/css/prototype/approved/events-search.scss">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
-<div class="header">
-    {% include patterns/header/header.md %}
-</div>
-<div class="breadcrumbs">
-    {% include patterns/breadcrumb/breadcrumb-styled.md%}
-</div>
-<div class="intro__section grid-container">
-    <div class="page__title">
-        <h1 id="page__title"> {{ page.title }}</h1>
-        <p>{{ page.intro | markdowify}}</p>
+
+<div class="header__intro">
+    <div class="header">
+        {% include patterns/header/header.md %}
     </div>
-    <div class="callout__box">
-        {% include patterns/callout-box/callout-box-blue.md%}
+    <div class="breadcrumbs">
+        {% include patterns/breadcrumb/breadcrumb-white-bg.md%}
+    </div>
+    <div class="intro__section grid-container">
+        <div class="page__title">
+            <h1 id="page__title"> {{ page.title }}</h1>
+            <p>{{ page.intro | markdowify}}</p>
+        </div>
+        <div class="callout__box">
+            {% include patterns/callout-box/callout-box-blue.md%}
+        </div>
     </div>
 </div>
+
 <div class="content grid-container">
     <div class="left__col">
         {% include patterns/accordion/accordion-with-filters.md %}

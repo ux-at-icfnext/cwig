@@ -1,20 +1,11 @@
  /* For mobile phones: */
- ul.breadcrumb li a{
-    color:blue;
-}
+
 .related__resources{
     background-color: #D1D3D4;
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-    ul.breadcrumb li a{
-        color:blue;
-    }
-    ul.breadcrumb li+li:before {
-        padding: 8px;
-        color: #E50E63;
-        content: "/\00a0";
-      }
+
     .related__resources{
         background-color: #D1D3D4;
     }
@@ -25,14 +16,7 @@
         font-family: 'Montserrat';
         font-weight: 700;
     }
-    ul.breadcrumb li a{
-        color:blue;
-    }
-    ul.breadcrumb li+li:before {
-        padding: 8px;
-        color: #E50E63;
-        content: "/\00a0";
-    }
+
     .related__resources{
         background-color: #D1D3D4;
         padding-top: 10px;
