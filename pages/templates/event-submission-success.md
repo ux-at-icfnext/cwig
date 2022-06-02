@@ -1,13 +1,13 @@
 ---
 layout: template-nav
-title: "Event Submission Step 4"
+title: "Event Submission Success"
 categories: template
-permalink: "/event-submission-step-4"
-screenshot-lg: "/assets/img/specs/templates/eventsubmission4-lg.png"
+permalink: "/event-submission-success-template"
+screenshot-lg: "/assets/img/specs/templates/eventsubmission-success-lg.png"
 screenshot-sm: 
-layout-type: "Left Rail"
-layout-type-screenshot: "/assets/img/specs/left-rail.png"
-prototype-link: "/event-submission4"
+layout-type: "Full"
+layout-type-screenshot: "/assets/img/specs/full.png"
+prototype-link: "/event-submission-success"
 ---
 
 __Table Contents:__
@@ -35,5 +35,3 @@ Uses [select input pattern](/select-input).
 
 Uses [button group pattern](/button-group) for the user to navigate to the next or previous step in the "Event Submission" form.
 ---
-
-
