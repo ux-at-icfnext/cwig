@@ -2,7 +2,7 @@
 
 .vertical_tabs {
     position: relative;   
-    min-height: 360px; /* This part sucks */
+    min-height: 350px; /* This part sucks */
     clear: both;
     margin: 25px 0;
   }
@@ -35,7 +35,7 @@
     right: 0;
     bottom: 0;
     padding: 20px;
-    border: 1px solid #ccc;
+    overflow-y: scroll;
    }
   .tab_content span {
     animation: 0.5s ease-out 0s 1 slideInFromTop; 
