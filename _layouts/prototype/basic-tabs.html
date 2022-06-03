@@ -37,22 +37,8 @@ layout: prototype/colorVers/proto-default-color
         </div>
     </div>
     <div id="main-content">
-        <div class="tabs">
+        <div class="tabs grid-container">
             {% include patterns/tabs/vertical-tabs.md %}
-        </div>
-        <div class="overview__section">
-            <div class="para__1">
-                <h3>{{ page.first_subhead | markdowify}}</h3>
-                <p>{{ page.first_para | markdowify}}</p>
-            </div>
-            <div class="para__2">
-                <h3>{{ page.second_subhead | markdowify}}</h3>
-                <p>{{ page.second_para | markdowify}}</p>
-            </div>
-            <div class="para__3">
-                <h3>{{ page.third_subhead | markdowify}}</h3>
-                <p>{{ page.third_para | markdowify}}</p>
-            </div>
         </div>
     </div>
 {% include patterns/footer/footer.md %}

@@ -1,4 +1,13 @@
-
+ h2{
+     color:#002552;
+     font-family: 'Montserrat';
+ }
+ p{
+     font-family: 'Lora';
+ }
+ h3{
+     font-weight: bold;
+ }
  /* For mobile phones: */
 
 @media only screen and (min-width: 600px) {
@@ -30,6 +39,9 @@
         order: 2;
         justify-self: end;
         margin-right: 100px;
+    }
+    .tabs{
+        margin-top: 50px;
     }
     .spanish__button{
         margin-left: 200px;
