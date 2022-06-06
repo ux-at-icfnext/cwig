@@ -1,13 +1,13 @@
 ---
 layout: template-nav
-title: "Event Submission Step 2"
+title: "Event Submission Call for Papers Step 2"
 categories: template
-permalink: "/event-submission-step-2"
-screenshot-lg: "/assets/img/specs/templates/eventsubmission2-lg.png"
-screenshot-sm: "/assets/img/specs/templates/eventsubmission2-sm.png"
+permalink: "/event-submission-call-for-papers-step-2"
+screenshot-lg: "/assets/img/specs/templates/callforpapers2-lg.png"
+screenshot-sm: "/assets/img/specs/templates/callforpapers2-sm.png"
 layout-type: "Left Rail"
 layout-type-screenshot: "/assets/img/specs/left-rail.png"
-prototype-link: "/event-submission2"
+prototype-link: "/callforpapers-2"
 ---
 
 __Table Contents:__
@@ -34,6 +34,4 @@ Uses [text input pattern](/text-input).
 Uses [file input pattern](/file-input) set to accept image uploads only.
 
 Uses [button group pattern](/button-group) for the user to navigate to the next or previous step in the "Event Submission" form.
----
-
 
