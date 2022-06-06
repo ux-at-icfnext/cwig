@@ -2,24 +2,31 @@
  /* For mobile phones: */
  ul.breadcrumb li:before {
     padding: 8px;
-    
     color: white;
     content: "\2190";
   }
+  ul.breadcrumb__white li a{
+    color:blue;
+}
   #current__page{
     display: none;
 }
 ul.breadcrumb {
     list-style: none;
     }
+ul.breadcrumb__white{
+  list-style: none;
+}
 .breadcrumb{
     padding-left: 0%;
+}
+.breadcrumb__white{
+  padding-left: 0%;
 }
  @media only screen and (min-width: 600px) {
     /* For tablets: */
     ul.breadcrumb li:before {
         padding: 8px;
-        
         color: white;
         content: "";
       }
@@ -71,19 +78,31 @@ ul.breadcrumb {
     /* For desktop: */
     ul.breadcrumb li:before {
         padding: 8px;
-        
         color: white;
         content: "";
       }
       .breadcrumb{
         padding-left: 0%;
     }
+    .breadcrumb__white{
+      padding-left: 0%;
+    }
     ul.breadcrumb {
         list-style: none;
       }
+    ul.breadcrumb__white{
+      list-style: none;
+    }
+    ul.breadcrumb__white a{
+      color: #005DAA;
+    }
       
       /* Display list items side by side */
       ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+      }
+      ul.breadcrumb__white li{
         display: inline;
         font-size: 14px;
       }
@@ -114,4 +133,17 @@ ul.breadcrumb {
         color: #01447e;
         text-decoration: underline;
       }
+}
+
+/* breadcrumb on white */
+ul.breadcrumb__white li a{
+  color: #005DAA;
+}
+ul.breadcrumb__white li+li:before {
+  padding: 8px;
+  color: #E50E63;
+  content: "/\00a0";
+}
+ul.breadcrumb__white{
+  padding-left: 25px;
 }

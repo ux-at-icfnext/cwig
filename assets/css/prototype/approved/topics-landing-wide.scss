@@ -16,10 +16,18 @@
 .page__title{
     order: 1;
 }
+.dark__bg{
+    background-color: #002552;
+}
+.breadcrumbs{
+    color: white;
+}
 .page__intro{
     display: grid;
     grid-template-columns: 1fr;
     border-bottom: 10px solid #E50E63;
+    background-color: #002552;
+    color: white;
 }
 .feature__img{
     order: 2;

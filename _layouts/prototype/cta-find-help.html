@@ -5,24 +5,29 @@ layout: prototype/colorVers/proto-default-color
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
 
+<div class="dark__bg">
+    <div class="header__section">
+        {% include patterns/header/header.md %}
+    </div>
+    <div class="breadcrumbs">
+        {% include patterns/breadcrumb/breadcrumb-dark-bg.md%}
+    </div>
+    <div class="intro__section">
+        <div class="page__title">
+            <h1 id="page__title"> {{ page.title }}</h1>
+            <p>{{ page.intro | markdowify}}</p>
+        </div>
+        <div class="right__col">
+            <div class="spanish__button">
+                {% include patterns/button/button-transparent.md %}
+            </div>
+            <div class="cta">
+                {% include patterns/callout-box/callout-button.md %}
+            </div>
+        </div>
+    </div>
+</div>
 
-{% include patterns/header/header.md %}
-{% include patterns/breadcrumb/breadcrumb-styled.md%}
-<div class="intro__section">
-    <div class="page__title">
-        <h1 id="page__title"> {{ page.title }}</h1>
-        <p>{{ page.intro | markdowify}}</p>
-    </div>
-    <div class="right__col">
-        <div class="spanish__button">
-            {% include patterns/button/button-transparent.md %}
-        </div>
-        <div class="cta">
-            {% include patterns/callout-box/callout-button.md %}
-        </div>
-    </div>
-</div>
-</div>
 <div class="content__section">
     <div id="main-content" class="grid-container">
         {% include patterns/accordion/accordion.md %}

@@ -1,20 +1,10 @@
  /* For mobile phones: */
- ul.breadcrumb li a{
-    color:blue;
-}
+
 .main__content{
     background-color: #D1D3D4;
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-    ul.breadcrumb li a{
-        color:blue;
-    }
-    ul.breadcrumb li+li:before {
-        padding: 8px;
-        color: #E50E63;
-        content: "/\00a0";
-      }
       .main__content{
         background-color: #D1D3D4;
         padding-top: 10px;
@@ -26,17 +16,10 @@
 }
 @media only screen and (min-width: 880px) {
     /* For desktop: */
-    ul.breadcrumb li a{
-        color:blue;
-    }
-    ul.breadcrumb li+li:before {
-        padding: 8px;
-        color: #E50E63;
-        content: "/\00a0";
-    }
     .intro__section{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
     .page__title{
         order: 1;
@@ -46,10 +29,14 @@
         order: 2;
     }
     .event__search{
-        background-color: #71767A;
+        background-image: 
+            linear-gradient(black, black),
+            url('/assets/img/prototype/audience-applauding-speaker-after-conference-600w-479633347.webp');
         color: white;
         padding-top: 30px;
         padding-bottom: 30px;
+        background-size: cover;
+        background-blend-mode: saturation;
     }
     .event__search a{
         color: white;

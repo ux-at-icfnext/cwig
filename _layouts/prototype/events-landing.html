@@ -4,23 +4,24 @@ layout: prototype/colorVers/proto-default-color
 <link rel="stylesheet" href="/assets/css/prototype/approved/events-landing.scss">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
-<div class="header">
-    {% include patterns/header/header.md %}
-</div>
-<div class="breadcrumbs">
-    {% include patterns/breadcrumb/breadcrumb-styled.md%}
-</div>
-<div class="intro__section grid-container">
-    <div class="page__title">
-        <h1 id="page__title"> {{ page.title }}</h1>
-        <p>{{ page.intro | markdowify}}</p>
+<div class="header__intro">
+    <div class="header">
+        {% include patterns/header/header.md %}
     </div>
-    <div class="callout__box">
-        <h2>{{ page.callout_heading | markdowify}}</h2>
-        <p>{{ page.callout_text | markdowify}}</p>
-        <a href="">{{ page.callout_link | markdowify}}</a>
+    <div class="breadcrumbs">
+        {% include patterns/breadcrumb/breadcrumb-white-bg.md%}
+    </div>
+    <div class="intro__section grid-container">
+        <div class="page__title">
+            <h1 id="page__title"> {{ page.title }}</h1>
+            <p>{{ page.intro | markdowify}}</p>
+        </div>
+        <div class="callout__box">
+            {% include patterns/callout-box/callout-box-blue.md %}
+        </div>
     </div>
 </div>
+
 <div class="event__search">
     <div class="grid-container">
         <p>Find your next event</p>
@@ -31,19 +32,19 @@ layout: prototype/colorVers/proto-default-color
 <div class="main__content">
     <div class="featured__events grid-container">
         <h2 class="section__h2">Featured Events</h2>
-        {% include patterns/card/card-upcoming-events.md data=card%}
+        {% include patterns/card/card-upcoming-events.md %}
     </div>
     <div class="upcoming grid-container">
         <h2 class="section__h2">Upcoming</h2>
-        {% include patterns/card/card-styled.md  data=card %}
+        {% include patterns/card/card-upcoming-events.md %}
     </div>
     <div class="information_gateway__events grid-container">
         <h2 class="section__h2">Information Gateway Events</h2>
-        {% include patterns/card/card-styled.md  data=card %}
+        {% include patterns/card/card-upcoming-events.md %}
     </div>
     <div class="come_see_us_at grid-container">
         <h2 class="section__h2">Come see us at...</h2>
-        {% include patterns/card/card-styled.md  data=card %}
+        {% include patterns/card/card-upcoming-events.md %}
     </div>
 </div>
 
