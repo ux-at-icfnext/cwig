@@ -4,7 +4,7 @@ title: "Event Submission Step 3"
 categories: template
 permalink: "/event-submission-step-3"
 screenshot-lg: "/assets/img/specs/templates/eventsubmission3-lg.png"
-screenshot-sm: 
+screenshot-sm: "/assets/img/specs/templates/eventsubmission3-sm.png"
 layout-type: "Left Rail"
 layout-type-screenshot: "/assets/img/specs/left-rail.png"
 prototype-link: "/event-submission3"
