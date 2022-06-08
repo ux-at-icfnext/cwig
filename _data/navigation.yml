@@ -66,6 +66,9 @@ library:
   - text: Card
     desc: Cards contain content and actions about a single subject.
     href: /card/
+  - text: Chatbox
+    desc: A chatbox allow users to type questions to a chat agent to help them solve a problem or complete a task in the website. 
+    href: /chatbox/
   - text: Collection
     desc: A collection displays a compact list of multiple related items like articles or
           events. The list links each item to its original source.

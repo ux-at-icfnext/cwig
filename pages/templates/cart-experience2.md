@@ -36,7 +36,7 @@ Body text | body
 
 Uses [button group pattern](/button-group) for the user to verify shipping details by clicking/tapping "Verify Shipping Address" or to edit it if not entered correctly by clicking/tapping "Edit Address."
 
-Uses chatbot pattern (/chatbot)
+Uses [chatbox pattern](/chatbox).
 
 ---
 

@@ -34,6 +34,7 @@ Uses [text input pattern](/text-input).
 Uses [file input pattern](/file-input) set to accept image uploads only.
 
 Uses [button group pattern](/button-group) for the user to navigate to the next or previous step in the "Event Submission" form.
+
 ---
 
 

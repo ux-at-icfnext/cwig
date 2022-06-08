@@ -37,6 +37,6 @@ Body text | body
 
 
 
-Uses chatbot pattern [chatbot] (/) . If the user clicks on the chat icon on a large screen, the chatbot pops up, but the user still remains on the same page. If the user taps on the chat icon on a smaller screen, the chatbot box opens, and it takes up the entire screen.
+Uses [chatbox pattern](/chatbox).
 
 ---
