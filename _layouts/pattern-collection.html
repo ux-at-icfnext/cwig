@@ -1,0 +1,15 @@
+---
+layout: nav-col
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+{% for p in site.pages %}
+    {% if p.group == page.collection %}
+        <div class="design-preview">
+            <h2>{{ p.title }}</h2>
+            <p><a href="{{ p.permalink }}">View specification details</a></p>
+            {% include {{ p.htmlpath }} %}
+        </div>
+    {% endif %}
+{% endfor %}
