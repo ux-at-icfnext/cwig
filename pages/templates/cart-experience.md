@@ -51,7 +51,7 @@ Uses [link pattern](/link).
 
 Uses [button group pattern](/button-group) for the user to place order by clicking "Place order" or to go back to the previous page.
 
-Uses [chatbot pattern](/)
+Uses [chatbox pattern](/chatbox).
 
 ---
 

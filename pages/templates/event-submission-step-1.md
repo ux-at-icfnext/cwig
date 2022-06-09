@@ -41,3 +41,5 @@ Uses [time picker pattern](/time-picker).
 Uses [radio button pattern](/radio).
 
 Uses [button group pattern](/button-group) for the user to navigate to the next or previous step in the "Event Submission" form.
+
+---

@@ -34,6 +34,7 @@ Uses [recaptcha pattern](/).
 Uses [select input pattern](/select-input).
 
 Uses [button group pattern](/button-group) for the user to navigate to the next or previous step in the "Event Submission" form.
+
 ---
 
 
