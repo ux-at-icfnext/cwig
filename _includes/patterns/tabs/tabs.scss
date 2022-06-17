@@ -2,7 +2,7 @@
 
 .vertical_tabs {
     position: relative;   
-    min-height: 350px; /* This part sucks */
+    min-height: 1200px; /* Not dynamic */
     clear: both;
     margin: 25px 0;
   }
@@ -35,7 +35,6 @@
     right: 0;
     bottom: 0;
     padding: 20px;
-    overflow-y: scroll;
     line-height: 25px;
     font-family: 'Lora';
    }
