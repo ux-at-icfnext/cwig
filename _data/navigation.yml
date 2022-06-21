@@ -94,9 +94,6 @@ library:
       - text: Date Range Picker
         desc: A date range picker helps users select a range between two dates.
         href: /date-range-picker/
-      - text: Dropdown
-        desc: A dropdown allow users to select one option from a temporary modal menu.
-        href: /dropdown/
       - text: File Input
         desc: File input allows users to attach one or multiple files.
         href: /file-input/
@@ -155,9 +152,6 @@ library:
     desc: Search allows users to search for specific content if they know what search terms
           to use or can’t find desired content in the main navigation
     href: /search-widget
-  - text: Select Input
-    desc: Select input allows users to choose any option from a drop-down menu. 
-    href: /select-input/
   - text: Side Navigation
     desc: Hierarchical, vertical navigation to place at the side of a page.
     href: /side-navigation/
