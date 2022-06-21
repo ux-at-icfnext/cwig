@@ -2,7 +2,7 @@
 layout: patterns
 permalink: "/button-group"
 title:  Button Group
-htmlpath: "patterns/button-group/button-group.md"
+htmlpath: "patterns/button-group/button-group-default.md"
 csspath: "patterns/button-group/button-group.scss"
 
 description: |

@@ -5,7 +5,7 @@ title:  Tag
 description: |
   A tag draws attention to new or categorized content elements.
 usa-link: https://designsystem.digital.gov/components/tag/
-htmlpath: /patterns/tag/tag.md
+htmlpath: /patterns/tag/tag-default.md
 csspath: # path to ccs file
 varspath: # path to variations html file
 specification: |

@@ -7,8 +7,6 @@ description: |
 
   At a minimum, it should include Site Logo & Title, main menu, and search (if site search exist).
 usa-link: https://designsystem.digital.gov/components/header/
-htmlpath: "patterns/header/header.md"
-csspath: "patterns/header/header.scss"
 
 specification: |
   The header is responsive and should adjust to fit the four breakpoints.

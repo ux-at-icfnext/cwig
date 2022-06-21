@@ -1,5 +1,5 @@
   <div class="margin-y-3">
-  <button id="btn1" class="usa-button">Open Default Button</button>
+  <button id="btn1" class="usa-button">Open Default Modal</button>
   <div id="modal_1" class="modal">
     <!-- Modal content -->
     <div class="usa-modal__content">
