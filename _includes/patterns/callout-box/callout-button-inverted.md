@@ -3,7 +3,7 @@
     <div class="callout__heading">
         <img src="/assets/img/usa-icons/flag.svg">
     </div>
-    <div class="callout__body">
+    <div class="callout__inv__body">
         <h3>{{page.callout-text}}</h3>
     </div>
 </div>
