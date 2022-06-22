@@ -11,6 +11,7 @@ help: false
 spanish: true
 button: Español
 categories: prototype
+type: Basic 
 ---
 
 ## Spicy jalapeno

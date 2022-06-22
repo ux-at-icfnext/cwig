@@ -3,6 +3,7 @@ layout: prototype/basic-tabs
 title: About
 permalink: /about-page
 categories: prototype
+type: Basic with Tabs
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
