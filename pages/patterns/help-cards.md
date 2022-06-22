@@ -2,6 +2,7 @@
 layout: patterns
 permalink: "/help-cards"
 title:  Get Help Cards
+group: "cards"
 htmlpath: "structures/helpcards/helpcards.md"
 csspath: "structures/helpcards/helpcards.scss"
 description: |
