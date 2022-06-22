@@ -41,6 +41,7 @@
           <a class="usa-summary-box__link" href="javascript:void(0);">car</a>.
         </li>
       </ul>
+      <a href="" class="summary-box__link">Summary Box Link</a>
     </div>
   </div>
 </div>
