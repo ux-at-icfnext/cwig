@@ -2,7 +2,7 @@
 layout: patterns
 permalink: "/recaptcha"
 title: reCAPTCHA
-htmlpath:
+htmlpath: /patterns/recaptcha/recaptcha.md
 csspath: 
 description:  |
     reCAPTCHA "I'm not a robt" checkbox is a Google API that helps protect websites from spam and abuse. It uses advanced risk analysis techniques to tell humans and bots apart. Use reCAPTCHA anytime you feel the page is at risk for fraud or abuse.

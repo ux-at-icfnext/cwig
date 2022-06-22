@@ -2,8 +2,8 @@
 layout: patterns
 permalink: "/chatbox"
 title:  Chatbox
-htmlpath: 
-csspath: 
+htmlpath: "patterns/chatbox/chatbox.md"
+csspath: "patterns/chatbox/chatbox.scss"
 varspath: 
 description: |
     A chatbox is a small rectangular box that a user can click/tap to find a space to enter questions for a chat agent to help them solve a problem or complete a task in the website. 

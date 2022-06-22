@@ -2,7 +2,7 @@
 layout: patterns
 permalink: "/pullquote"
 title:  Pullquote
-htmlpath:
+htmlpath: /patterns/pullquote/pullquote.md
 csspath:
 description:  |
     > A pullquote (also known as a block quotation, a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface.

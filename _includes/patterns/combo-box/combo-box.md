@@ -1,13 +1,8 @@
-
-<label class="usa-label" for="{{page.combo-box-label}}">{{page.combo-box-label}}</label>
+<label class="usa-label" for="combo">Select an Option</label>
 <div class="usa-combo-box">
-  <select
-    class="usa-select"
-    name="{{page.combo-box-label}}"
-    id="{{page.combo-box-label}}"
-    >
-    {% for item in page.combo-box %}
-      <option value="{{item.value}}">{{item.option}}</option>
-    {%endfor%}
+  <select class="usa-select" name="combo" id="combo">
+    <option value="one">Option 1</option>
+    <option value="two">Option 2</option>
+    <option value="three">Option 3</option>
   </select>
 </div>

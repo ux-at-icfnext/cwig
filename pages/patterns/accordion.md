@@ -2,7 +2,7 @@
 layout: patterns
 permalink: "/accordion"
 title:  Accordion
-htmlpath: "patterns/accordion/accordion.md"
+htmlpath: "patterns/accordion/accordion-default.md"
 csspath: "patterns/accordion/accordion.scss"
 description:  |
     An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.

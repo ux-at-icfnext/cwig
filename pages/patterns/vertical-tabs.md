@@ -1,19 +1,13 @@
 ---
 layout: patterns
-permalink: /tag
-title:  Tag
+permalink: "/vertical-tabs"
+title:  "Vertical Tabs"
 description: |
-  A tag draws attention to new or categorized content elements.
-usa-link: https://designsystem.digital.gov/components/tag/
-htmlpath: /patterns/tag/tag-default.md
-csspath: # path to ccs file
-varspath: # path to variations html file
+  A tab is a clickable area at the top of a window that shows another page or area. When a tab is clicked, the tab's contents are shown, and any other open tab is hidden.
+usa-link:
+htmlpath: /patterns/tabs/vertical-tabs-default.md
+csspath: /patterns/tabs/tabs.scss
 specification: |
-  - Text on the tag should be short. 
-
-  - If the tags aren’t interactive, disable hover, focus, and active styles.
-
-  - Avoid tags if they might appear in the same area of the page as buttons.
 
 
 schema: # example schema below .. repeat sets for as many fields as you have
@@ -28,10 +22,8 @@ schema: # example schema below .. repeat sets for as many fields as you have
     type: text
     character: 140 characters
     example: "Run off table persian cat jump eat fish hack. Paw at beetle and eat it before it gets away demand"
-
+# TODO: Complete schema included button actions
 
 ---
 <!--- if extra information is needed for this pattern, write here in Markdown. -->
 <!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-
-

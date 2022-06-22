@@ -38,7 +38,7 @@
     }
     .callouts{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 2fr 0.5fr;
         gap: 0;
         margin-top: 20px;
     }

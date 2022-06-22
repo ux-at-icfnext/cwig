@@ -39,9 +39,8 @@ layout: prototype/colorVers/proto-default-color
         <div class="second__para main__text">
             <p>{{ page.second_para | markdowify}}</p>
         </div>
-        <div class="quote main__text">
-            <p>{{ page.quote | markdowify}}</p>
-            <p id="speaker">{{ page.speaker | markdowify}}</p>
+        <div class="main__text">
+            {% include patterns/pullquote/pullquote.md %}
         </div>
         <div class="third__para main__text">
             <p>{{ page.third_para | markdowify}}</p>

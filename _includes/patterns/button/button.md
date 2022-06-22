@@ -1,8 +1,9 @@
 
 <h3 class="site-preview-heading">Default</h6>
-<button class="usa-button ">Default</button>
-<button class="usa-button  usa-button--hover">Hover</button>
-<button class="usa-button  usa-button--active">Active</button>
-<button class="usa-button  usa-focus">Focus</button>
-<button class="usa-button " disabled>Disabled</button>
-<button class="usa-button  usa-button--unstyled">Unstyled button</button>
+<button class="default__button">Default</button>
+<button class="hover__button">Hover</button>
+<button class="active__button">Active</button>
+<button class="focused__button">Focus</button>
+<button class="disabled__button" disabled>Disabled</button>
+<button class="inverted__button">Inverted</button>
+<button class="transparent__button">Transparent</button>

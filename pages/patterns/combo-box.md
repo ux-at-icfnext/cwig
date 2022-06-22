@@ -3,7 +3,7 @@ layout: patterns
 permalink: "/combo-box"
 title:  Combo Box
 htmlpath: "patterns/combo-box/combo-box.md"
-description: "    When to use the combo box component:   
+description: "When to use the combo box component: <br> 
     More than 15 options. When there are more than 15 choices in a drop-down list it can be hard to navigate with scrolling only.
     Limited space. Use a combo box for presenting options over radio or checkboxes when screen real estate is limited."
 usa-link: https://designsystem.digital.gov/components/dropdown/

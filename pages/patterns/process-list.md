@@ -5,7 +5,7 @@ title:  Process list
 description: |
   A process list displays the steps or stages of important instructions or processes.
 usa-link: https://designsystem.digital.gov/components/process-list/
-htmlpath: /patterns/process-list/process-list.md
+htmlpath: /patterns/process-list/process-list-default.md
 csspath: # path to ccs file
 varspath: /patterns/process-list/process-list-variations.md
 specification: |

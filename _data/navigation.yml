@@ -94,9 +94,6 @@ library:
       - text: Date Range Picker
         desc: A date range picker helps users select a range between two dates.
         href: /date-range-picker/
-      - text: Dropdown
-        desc: A dropdown allow users to select one option from a temporary modal menu.
-        href: /dropdown/
       - text: File Input
         desc: File input allows users to attach one or multiple files.
         href: /file-input/
@@ -132,13 +129,13 @@ library:
   - text: Link
     desc: A link connects users to a different page or further information.
     href: /link/
-  - text: Number Input
-    desc: Number Input allows users to enter a number within a certain range.
-    href: /number-input/
   - text: Modal
     desc: A modal disables page content and focuses the user’s attention on a single
           task or message.
     href: /modal/
+  - text: Number Input
+    desc: Number Input allows users to enter a number within a certain range.
+    href: /number-input/
   - text: Printing Guidance
     desc: Make pages printer friendly by following this guide.
     href: /printing/
@@ -155,9 +152,6 @@ library:
     desc: Search allows users to search for specific content if they know what search terms
           to use or can’t find desired content in the main navigation
     href: /search-widget
-  - text: Select Input
-    desc: Select input allows users to choose any option from a drop-down menu. 
-    href: /select-input/
   - text: Side Navigation
     desc: Hierarchical, vertical navigation to place at the side of a page.
     href: /side-navigation/
@@ -184,6 +178,10 @@ library:
     desc: A tooltip is a short descriptive message that appears when a user hovers or focuses 
           on an element.
     href: /tooltip/
+  - text: Vertical Tabs
+    desc: A tab is a clickable area at the top of a window that shows another page or area. 
+          When a tab is clicked, the tab’s contents are shown, and any other open tab is hidden.
+    href: /vertical-tabs/
   - text: Video Player
     desc: A video player is a component used to embed video content in certain pages.
     href: /video-player/

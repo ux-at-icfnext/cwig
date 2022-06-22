@@ -1,0 +1,6 @@
+.usa-checkbox__input:checked + [class$="__label"]::before{
+    background-color: #002552;
+}
+.usa-checkbox__label{
+    font-family: 'Montserrat';
+}
