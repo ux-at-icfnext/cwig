@@ -13,6 +13,7 @@ help: true
 spanish: true
 button: Español
 categories: prototype
+type: Basic 
 ---
 ## Live Chat/Live Online Support
 Use [Live Chat](), an instant messaging service, to contact an information support specialist between 10 a.m. and 5 p.m. (ET). We recommend turning off your pop-up blocker to maximize this service.

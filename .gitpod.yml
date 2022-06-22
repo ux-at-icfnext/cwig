@@ -4,5 +4,12 @@
 
 tasks:
   - init: bundle install
+    command: |
+      bundle install
+      jekyll serve
+
+ports:
+  - port: 4000
+    onOpen: open-browser
 
 
