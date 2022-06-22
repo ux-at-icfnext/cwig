@@ -1,3 +1,6 @@
 .usa-banner{
     background-color: #F7F9FA;
 }
+.usa-banner__button::after{
+    background-image: url(/assets/img/usa-icons/expand_more.svg);
+}
