@@ -1,8 +1,9 @@
 ---
 layout: prototype/subtopics
-title: Subtopics Title (e.g., Intercountry Adoption)
+title: Hi I'm a Subtopics Example
 permalink: /subtopics
 categories: prototype
+type: Subtopics
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Body copy-Hanc ego cum memoriter, tum etiam erga nos amice et dolorem eum iure reprehenderit, qui haec putat, ut perspiciatis, unde omnis dolor sit, a natura incorrupte atque haec subtilius velint tradere et via procedat oratio quaerimus igitur, inquit, modo. Hanc ego cum memoriter, tum etiam ac ratione voluptatem accusantium dolor multavit si sine causa, nollem me tamen laudandis maioribus meis corrupisti nec me tamen.
