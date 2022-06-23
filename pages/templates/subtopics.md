@@ -23,7 +23,7 @@ Uses [hero pattern]().
 ## Feature Section
 Section Title | h2 | 140 characters max
 
-Uses the [card media pattern](/card-media)
+- Uses [card mosaic pattern](/card-mosaic) | 
 
 Functionality: 
 - Title clickable
@@ -47,7 +47,7 @@ Uses the [accordion](accordion) pattern.
 
 Accordion Title - h2 - content: "Related Series"
 
-The [card](/card) is dynamically created from tags that are applied to series pages. Page title, short description, and url are used from the target page to create the links.
+The [card mosaic pattern](/card-mosaic) - minimum of 3 maximum of 9 is dynamically created from tags that are applied to series pages. Page title, short description, and url are used from the target page to create the links.
 
 ## Related Topics
 Uses the [accordion](accordion) pattern.
@@ -55,4 +55,4 @@ Uses the [accordion](accordion) pattern.
 Accordion Title
 Section Title - h2 - content: "Related Topics"
 
-The link [card](/card) is dynamically created from tags that are applied to topcs pages. Page title, short description, and url are used from the target page to create the links.
+The [card mosaic pattern](/card-mosaic) - minimum of 3 maximum of 9 is dynamically created from tags that are applied to topcs pages. Page title, short description, and url are used from the target page to create the links.
