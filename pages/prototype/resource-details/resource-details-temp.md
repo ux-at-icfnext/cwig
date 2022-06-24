@@ -3,6 +3,7 @@ layout: prototype/resource-details-temp
 title: Resource Details Template
 permalink: /resource-details-temp
 categories: prototype
+type: Resource Details
 feature-image: https://via.placeholder.com/300x300?text=-
 first_para: >
   Parents with a history of lived child welfare, adoption and foster care experience can be valuable resources for agencies and practitioners when developing or reviewing systems and programs. The parent experience also can help communicate the importance and impact of services when approaching legislators and policy makers.

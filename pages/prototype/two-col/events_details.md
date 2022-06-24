@@ -3,6 +3,7 @@ layout: prototype/events-details
 title: Living the Protective Factors
 permalink: /events-details
 categories: prototype
+type: Two Column
 feature-image: https://via.placeholder.com/300x300?text=-
 button: Visit Event Website
 sponsor: Be Strong Families

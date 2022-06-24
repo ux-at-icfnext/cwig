@@ -3,6 +3,7 @@ layout: prototype/resource-details-video
 title: The Power of the Parents' Voice
 permalink: /resource-details-video
 categories: prototype
+type: Resource Details
 feature-image: https://via.placeholder.com/300x300?text=-
 first_para: >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Amet volutpat consequat mauris nunc congue. Duis ut diam quam nulla porttitor massa id neque aliquam. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Vulputate dignissim suspendisse in est ante. Consectetur a erat nam at lectus. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Feugiat vivamus at augue eget arcu dictum varius duis at.

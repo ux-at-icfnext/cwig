@@ -3,6 +3,7 @@ layout: prototype/events-search
 title: Events Search
 permalink: /events-search-page
 categories: prototype
+type: Two Column
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
