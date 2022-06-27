@@ -17,12 +17,14 @@ __Table Contents:__
 ## Overview
 
 
-## Feature Section
+## Page Header
 
 - Page Title - h1
 - CTA - button - Content = "Español" - optional
 - Page description - text - 500 character max - optional
 - CTA (see special use below)
+
+Just like the [Basic Template](/basic-templage) The page header section can have a blue background.
 
 
 
@@ -33,7 +35,7 @@ __Table Contents:__
 
 
 ## Special Use
-The "Find Help with a Personal Situation" page uses this template. That page uses the CTA for abuse in the feature section and the quick exit in the body.
+The "[Find Help with a Personal Situation](/find-help-prototype)" page uses this template. That page uses the CTA for abuse in the feature section and the quick exit in the body.
 - uses [CTA card](/cta-abuse-full)
 - uses [Quick Exit](/quick-exit)
 
