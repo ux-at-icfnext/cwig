@@ -36,3 +36,8 @@ Rich Text - allows:
 - Contact
     - The contact page uses the basic page template. In this instance it is using the blue background with both the Spanish link and the help cards.
     - See an example of this page with approved content in the [prototype](/contact)
+- How to Report Abuse & Neglect
+    - This page adds a feature set of cards between the page header and the body - maximum 3 cards
+    - It also uses the [Quick Exit](/quick-exit) pattern
+    - Below the body, it uses [Help CTA](//cta-help-full) box.
+    - see an example of this page in the [prototype](/find-help-prototype)
