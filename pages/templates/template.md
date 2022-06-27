@@ -36,7 +36,7 @@ View specifications for the page templates.
 - Campaign
 
 ## Subscriptions
-- [Subscription](subscriptions-template)
+- [Subscription](/subscriptions-template)
 
 ## Timeline
 - Timeline - simple

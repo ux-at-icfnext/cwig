@@ -2,17 +2,50 @@
 layout: template-nav
 title: "Subscriptions Page"
 categories: template
+type: Subscriptions
 permalink: "/subscriptions-template"
-screenshot-lg: "/assets/img/specs/templates/subscriptions-lg.png"
+screenshot-lg: "/assets/img/specs/templates/subscriptions.png"
 screenshot-sm: "/assets/img/specs/templates/subscriptions-sm.png"
 layout-type: "Full with Feature"
 layout-type-screenshot: "/assets/img/specs/full-feature.png"
-prototype-link: "/landing"
+prototype-link: "/subscriptions"
 ---
 
 __Table Contents:__
 * TOC
 {:toc}
+
+## Page Header
+- page Title - h1 - content: "Subscriptions"
+- intro - text (class "intro-text-left") - 250 maximum words
+
+## Subscription Banner
+- header - h2 - content: "Stay connected with the latest news and events."
+- button - content: "Subscribe" - links to gov delivery
+- link - content: "Manage your subscriptions" - links to gov delivery
+- image - background image - full width
+
+## Body
+Header - h2 - content: "Learn more about our offerings..."
+
+Each section of subscriptions
+- title - h3 - 80 maximum characters
+- description - text - 250 maximum characters
+- subscription item - uses [card flag](/card-flag)
+    - image - max width 205 - max height 310
+    - title - h4 - 80 maximum characters
+    - tag - styled in blue (#005DAA) - states how often item is published
+    - body - text - 140 maximum characters
+    - publication link - links to publication - content: "View current issue" - aria label: "view {publication name}"
+
+## Secondary subscription banner
+- header - h2 - content: "Sign up now for news and events."
+- button - content: "Subscribe" - links to gov delivery
+- link - content: "Manage your subscriptions" - links to gov delivery
+
+
+
+
 
 ## Feature Section
 
