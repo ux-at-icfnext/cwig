@@ -16,8 +16,8 @@ __Table Contents:__
 
 ## Feature Section
 
-- Page Title | h1
-- Page description | text | 250 character max
+- Page Title - h1
+- Page description - text - 250 character max
 - uses [subscription box pattern](/subscription-box)
 
 
