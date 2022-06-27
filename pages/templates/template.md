@@ -13,7 +13,7 @@ View specifications for the page templates.
 - [Basic](/basic)
 - [Basic with Tabs](/basic-tabs)
 - Basic with Feature
-- FAQ
+- [FAQ](/faq)
 
 ## Resource Pages
 - [Topics](/topics-template)
