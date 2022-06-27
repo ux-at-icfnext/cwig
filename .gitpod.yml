@@ -5,6 +5,7 @@
 tasks:
   - init: bundle install
     command: |
+      bundle install
       jekyll serve
 
 ports:
