@@ -17,14 +17,20 @@ layout: prototype/colorVers/proto-default-color
             <h1 id="page__title"> {{ page.title }}</h1>
             <p>{{ page.intro | markdowify}}</p>
         </div>
+        {%if page.summary-box %}
+            <div class="callout__box">
+                {% include patterns/callout-box/callout-box-blue.md%}
+            </div>
+        {%endif%}
     </div>
 </div>
-
-<div class="feature__section">
-    <div class="cards grid-container">
-        {% include patterns/card/card-styled.md  data=card %}
+{%if page.feature-section%}
+    <div class="feature__section">
+        <div class="cards grid-container">
+            {% include patterns/card/card-styled.md  data=card %}
+        </div>
     </div>
-</div>
+{%endif%}
 <div class="content">
     <div class="left__col">
         {% include patterns/accordion/accordion-with-filters.md %}
@@ -33,39 +39,65 @@ layout: prototype/colorVers/proto-default-color
         {% include patterns/search/search-styled.md %}
         <div class="results__filters">
             <div class="displaying">
-                <span>Displaying 1-15 of 100</span>
+                <span>Displaying 1-15 of 45</span>
             </div>
+            {%if page.view-results%}
+                <div class="view__results">
+                    {% include patterns/number-input/number-input.md %}
+                </div>
+            {%endif%}
             <div class="sort__by">
                 {% include patterns/select-input/select-input.md %}
             </div>
-        </div>
-        <div class="search__results">
-            {% for item in page.content-list%}
-                <div class="subtopic__details">
-                    <div class="content__icon">
-                        <img src="{{item.icon}}">
-                    </div>
-                    <div class="content__information">
-                        <div class="content__title">
-                            <a href="">{{item.title}}</a>
-                        </div>
-                        <div class="pdf__size">
-                            <span class="pdf-size">{{item.size}}</span>
-                        </div>
-                        <div class="content__desc">
-                            <p>{{item.desc}}</p>
-                        </div>
-                        <div class="content__type">
-                            <span>{{item.type}}</span>
-                        </div>
-                    </div>
+            {%if page.applied-filters%}
+                <div class="applied__filters">
+                    <span id="applied-filters">Applied Filters</span>
+                    {% include patterns/tag/tag.md %}
                 </div>
-              {%endfor%}
+            {%endif%}
         </div>
-        <div class="related__series grid-container">
-            <p>Page shows 15 results</p>
-            {% include patterns/callout-box/callout-box-secondary.md %}
-        </div>
+        {%if page.results == events%}
+            <div class="search__results">
+                {%for item in site.data.prototype.events%}
+                    <div class="event__details">
+                        <span class="event__format">{{item.format}}</span>
+                        <div class="date__time">
+                            <p>{{item.date}}</p>
+                            <p>|</p>
+                            <p>{{item.time}}</p>
+                        </div>
+                        <a href="">{{item.event}}</a>
+                        <p class="event__sponsor">{{item.sponsor}}</p>
+                        <p>{{item.desc}}</p>
+                    </div>
+                {%endfor%}
+            </div>
+        {%endif%}
+        {%if page.results == subtopics%}
+            <div class="search__results">
+                {% for item in page.content-list%}
+                    <div class="subtopic__details">
+                        <div class="content__icon">
+                            <img src="{{item.icon}}">
+                        </div>
+                        <div class="content__information">
+                            <div class="content__title">
+                                <a href="">{{item.title}}</a>
+                            </div>
+                            <div class="pdf__size">
+                                <span class="pdf-size">{{item.size}}</span>
+                            </div>
+                            <div class="content__desc">
+                                <p>{{item.desc}}</p>
+                            </div>
+                            <div class="content__type">
+                                <span>{{item.type}}</span>
+                            </div>
+                        </div>
+                    </div>
+                {%endfor%}
+            </div>
+        {%endif%}
         <div class="pagination">
             {% include patterns/pagination/pagination-unbounded.md %}
         </div>
