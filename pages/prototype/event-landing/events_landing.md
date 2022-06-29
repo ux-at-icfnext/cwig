@@ -3,6 +3,7 @@ layout: prototype/events-landing
 title: Events
 permalink: /events-landing
 categories: prototype
+type: Events Landing Template
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   View conferences and calls for papers related to child abuse and neglect, child welfare, and adoption by month and/or state, or submit your conference. Child Welfare Information Gateway exhibit at many conferences throughout the country to provide free materials to the field.

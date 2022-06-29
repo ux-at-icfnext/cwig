@@ -1,6 +1,6 @@
 ---
 layout: prototype/events-landing-temp
-title: Events Landing and Subscriptions Template
+title: Events Landing Template
 permalink: /events-landing-temp
 categories: prototype
 type: Events Landing Template
