@@ -18,7 +18,7 @@ View specifications for the page templates.
 ## Resource Pages
 - [Topics](/topics-template)
 - [Subtopics](/subtopics-template)
-- Resource
+- [Resource](/resource-details-template)
 - Cart
 
 ## Search

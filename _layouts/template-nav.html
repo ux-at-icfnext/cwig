@@ -20,6 +20,8 @@ layout: default
        </aside>
     </div>
     <div class="article" markdown="1" style="padding-left: 20px;">
+        <h1>{{ page.title }}</h1>
+        {% if page.layout-type %}
         <div class="designcomps">
             <div class="designcomp-layout">
                 <h4>Layout: {{ page.layout-type }}</h4>
@@ -33,6 +35,7 @@ layout: default
                 <img src="{{ page.screenshot-sm }}">
             </div>
         </div>
+        {% endif %}
         
         {{content}}
     </div>
