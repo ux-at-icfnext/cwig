@@ -15,6 +15,20 @@
     .left__col{
         order: 1;
     }
+    .format{
+        background-color: #005DAA;
+        color: white;
+        padding: 5px 10px;
+    }
+    .format::before{
+        content: "";
+        display: block;
+        background: url("/assets/img/icons/hybrid-event.svg") no-repeat;
+        width: 30px;
+        height: 20px;
+        float: left;
+        background-color: #005DAA;
+    }
     .main__col{
         order: 2;
     }
