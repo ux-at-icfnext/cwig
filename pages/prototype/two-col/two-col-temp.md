@@ -5,7 +5,7 @@ permalink: /two-col-temp
 categories: prototype
 type: Two Column
 summary-box: true
-feature-section: false
+feature-section: true
 view-results: true
 applied-filters: true
 results: events
@@ -14,6 +14,9 @@ related-resources: false
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Body copy-Hanc ego cum memoriter, tum etiam erga nos amice et dolorem eum iure reprehenderit, qui haec putat, ut perspiciatis, unde omnis dolor sit, a natura incorrupte atque haec subtilius velint tradere et via procedat oratio quaerimus igitur, inquit, modo. Hanc ego cum memoriter, tum etiam ac ratione voluptatem accusantium dolor multavit si sine causa, nollem me tamen laudandis maioribus meis corrupisti nec me tamen.
+callout-header: Submit Events and Calls for Papers
+callout-body: Submit information on your events. We will then post your submission to this website.
+callout-link: Fill in a submission form
 callout-heading: Related Series
 related-resources:
   - related-resource: Secondary Link
