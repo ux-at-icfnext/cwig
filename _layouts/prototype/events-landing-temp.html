@@ -30,7 +30,7 @@ layout: prototype/colorVers/proto-default-color
     </div>
 </div>
 {%if page.content-type == "event"%}
-    <div class="event__search">
+    <div class="img__div">
         <div class="grid-container">
             <p>Find your next event</p>
             {% include patterns/search/search-styled.md %}
@@ -57,6 +57,13 @@ layout: prototype/colorVers/proto-default-color
     </div>
 {%endif%}
 {%if page.content-type == "subscriptions"%}
+    <div class="img__div">
+        <div class="grid-container">
+            <p>Stay connected with the latest news and events</p>
+            {% include patterns/button/button-inverted.md %}
+            <a href="">Manage your subscription</a>
+        </div>
+    </div>
     <div class="sub__content grid-container">
         <h2>Heading Here</h2>
         <h3>Subheading Here</h3>

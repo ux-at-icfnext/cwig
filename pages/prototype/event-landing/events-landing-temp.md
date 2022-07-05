@@ -13,6 +13,7 @@ intro: >
 callout-header: Submit Events and Calls for Papers
 callout-body: Submit information on your events. We will then post your submission to this website.
 callout-link: Fill in a submission form
+button: Subscribe
 cards:
   - event-format: Virtual Event
     event-heading: Living the Protective Factors
