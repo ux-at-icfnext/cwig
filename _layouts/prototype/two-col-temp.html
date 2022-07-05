@@ -41,8 +41,13 @@ layout: prototype/colorVers/proto-default-color
 </div>
 {%if page.feature-section%}
     <div class="feature__section">
-        <div class="cards grid-container">
-            {% include patterns/card/card-styled.md  data=card %}
+        <div class="featured__content grid-container">
+            {%for item in page.featured-content%}
+                <div class="featured-text">
+                    <a href="">{{item.link}}</a>
+                    <p>{{item.desc}}</p>
+                </div>
+            {%endfor%}
         </div>
     </div>
 {%endif%}

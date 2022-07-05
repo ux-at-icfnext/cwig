@@ -4,7 +4,7 @@ title: Two Column Template
 permalink: /two-col-temp
 categories: prototype
 type: Two Column
-header: image
+header: text
 summary-box: true
 feature-section: true
 view-results: true
@@ -24,7 +24,26 @@ related-resources:
   - related-resource: Secondary Link
   - related-resource: Secondary link that is a bit longer than most
   - related-resource: Secondary Link
+featured-content:
+  - link: Link
+    desc: Description
+  - link: Link
+    desc: Description
+  - link: Link
+    desc: Description
+  - link: Link
+    desc: Description
+  - link: Link
+    desc: Description
+  - link: Link
+    desc: Description
 cards:
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  - card-title: Resource title
+    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Resource title
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Resource title

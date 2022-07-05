@@ -40,8 +40,13 @@ p{
     .feature__section{
         background-color: #eef1f9;
     }
-    .cards{
+    .feature__section a{
+        color:#005DAA;
+    }
+    .featured__content{
         padding-top: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
     .content{
         display: grid;
