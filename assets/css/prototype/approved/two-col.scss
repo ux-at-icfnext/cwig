@@ -60,4 +60,33 @@ p{
         padding-right: 5px;
         font-weight: bold;
     }
+    .search__results{
+        margin-top: 20px;
+    }
+    .event__details{
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    .event__details a{
+        color:#005DAA;
+        font-size: 22px;
+    }
+    .event__details p{
+        font-family: 'Lora';
+    }
+    .event__sponsor{
+        color: #71767A;
+    }
+    .event__format{
+        background-color: #005DAA;
+        color: white;
+        padding-right: 10px;
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+    .date__time{
+        display: grid;
+        grid-template-columns: 0.5fr 0.3fr 1fr;
+        font-weight: bold;
+    }
 }
