@@ -9,7 +9,7 @@ summary-box: true
 feature-section: true
 view-results: true
 applied-filters: true
-results: events
+results: subtopics
 accoridion: false
 extra: true
 accordion-bottom: true
