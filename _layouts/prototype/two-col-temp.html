@@ -129,6 +129,11 @@ layout: prototype/colorVers/proto-default-color
         </div>
     </div>
 </div>
+{%if page.accordion-bottom%}
+    <div class="accordion__bottom grid-container">
+        {% include patterns/accordion/accordion-cards.md %}
+    </div>
+{%endif%}
 <div class="footer">
     {% include patterns/footer/footer.md %}
 </div>

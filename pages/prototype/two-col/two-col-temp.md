@@ -12,6 +12,7 @@ applied-filters: true
 results: events
 accoridion: false
 related-resources: false
+accordion-bottom: true
 feature-image: https://via.placeholder.com/300
 intro: >
   Body copy-Hanc ego cum memoriter, tum etiam erga nos amice et dolorem eum iure reprehenderit, qui haec putat, ut perspiciatis, unde omnis dolor sit, a natura incorrupte atque haec subtilius velint tradere et via procedat oratio quaerimus igitur, inquit, modo. Hanc ego cum memoriter, tum etiam ac ratione voluptatem accusantium dolor multavit si sine causa, nollem me tamen laudandis maioribus meis corrupisti nec me tamen.
@@ -38,12 +39,6 @@ featured-content:
   - link: Link
     desc: Description
 cards:
-  - card-title: Resource title
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Resource title
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  - card-title: Resource title
-    body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Resource title
     body: "Card Body - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
   - card-title: Resource title
@@ -92,6 +87,8 @@ accordion:
       - filter: Thing 1
       - filter: Thing 2
       - filter: Thing 3
+accordion-cards:
+  - name: Accordion Heading
 content-list:
   - title: List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel.
     size: PDF, 210 KB
