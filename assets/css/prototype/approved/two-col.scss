@@ -137,12 +137,39 @@ p{
     .pdf__size{
         padding-left: 10px;
     }
-    .related__series{
-        margin-top: 20px;
+    .related__resources{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-top: 30px;
     }
-    .related__series p{
+    .dark__blue__col{
+        order: 1;
+        background-color: #002552;
+        color: white;
         text-align: center;
-        color: #757575;
-        font-size: 15px;
+        vertical-align: center;
+        padding: 20px;
+        padding-top: 70px;
+    }
+    .dark__blue__col p{
+        font-weight: bold;
+    }
+    .lighter__col{
+        order: 2;
+        background-color: #C7CFE9;
+        padding-right: 100px;
+    }
+    .lighter__col h2{
+        color: #002552;
+        padding-left: 100px;
+    }
+    .lighter__col ul{
+        padding-left: 100px;
+    }
+    .lighter__col a{
+        color: #005DAA;
+    }
+    .related-resources__list{
+        list-style-type: none;
     }
 }

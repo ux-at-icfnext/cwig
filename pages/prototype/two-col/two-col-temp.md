@@ -11,7 +11,7 @@ view-results: true
 applied-filters: true
 results: events
 accoridion: false
-related-resources: false
+extra: true
 accordion-bottom: true
 feature-image: https://via.placeholder.com/300
 intro: >
@@ -20,11 +20,14 @@ callout-header: Submit Events and Calls for Papers
 callout-body: Submit information on your events. We will then post your submission to this website.
 callout-link: Fill in a submission form
 callout-heading: Related Series
-related-resources:
-  - related-resource: Secondary Link
-  - related-resource: Secondary Link
-  - related-resource: Secondary link that is a bit longer than most
-  - related-resource: Secondary Link
+related-content: Header goes here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+related__resources:
+  - link: Secondary Link
+  - link: Secondary Link
+  - link: Secondary link that is a bit longer than most
+  - link: Secondary Link
+  - link: Secondary link that is a bit longer than most
+  - link: Secondary Link
 featured-content:
   - link: Link
     desc: Description

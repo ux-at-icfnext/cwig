@@ -134,6 +134,22 @@ layout: prototype/colorVers/proto-default-color
         {% include patterns/accordion/accordion-cards.md %}
     </div>
 {%endif%}
+{%if page.extra%}
+    <div class="related__resources">
+        <div class="dark__blue__col">
+            <p>{{ page.related-content | markdowify}}</p>
+            <button class="usa-button inverted__button">Button</button>
+        </div>
+        <div class="lighter__col">
+            <h2>Related Resources from our Partners</h2>
+            {%for item in page.related__resources%}
+                <ul class="related-resources__list">
+                    <li><a href="">{{item.link}}</a></li>
+                </ul>    
+            {%endfor%}
+        </div>
+    </div>
+{%endif%}
 <div class="footer">
     {% include patterns/footer/footer.md %}
 </div>
