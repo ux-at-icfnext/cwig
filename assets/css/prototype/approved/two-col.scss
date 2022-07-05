@@ -46,19 +46,27 @@ p{
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 1fr;
         padding-bottom: 20px;
+        gap: 1rem;
     }
     .results__filters_two_col{
         display: grid;
         grid-template-columns: auto auto;
         padding-bottom: 20px;
     }
+    .flex{
+        display: flex;
+    }
     .applied__filters{
+        order: 1;
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
-    #applied-filters{
+    .applied-filters__tag{
         padding-right: 5px;
         font-weight: bold;
+    }
+    .empty{
+        order: 2;
     }
     .search__results{
         margin-top: 20px;

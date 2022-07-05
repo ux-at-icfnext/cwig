@@ -49,13 +49,15 @@ layout: prototype/colorVers/proto-default-color
             <div class="sort__by">
                 {% include patterns/select-input/select-input.md %}
             </div>
-            {%if page.applied-filters%}
-                <div class="applied__filters">
-                    <span id="applied-filters">Applied Filters</span>
-                    {% include patterns/tag/tag.md %}
-                </div>
-            {%endif%}
         </div>
+        {%if page.applied-filters%}
+        <div class="flex">
+            <div class="applied__filters">
+                <span class="applied-filters__tag">Applied Filters</span>
+                {% include patterns/tag/tag.md %}
+            </div>
+        </div>
+        {%endif%}
         {%if page.results == "events"%}
             <div class="search__results">
                 {%for item in site.data.prototype.events%}
