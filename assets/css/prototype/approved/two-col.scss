@@ -89,4 +89,33 @@ p{
         grid-template-columns: 0.5fr 0.3fr 1fr;
         font-weight: bold;
     }
+    .subtopic__details{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+    }
+    .content__icon{
+        order:1;
+        margin-right: 10px;
+    }
+    .content__information{
+        order: 2;
+    }
+    .content__title a{
+        color:#005DAA;
+    }
+    .content__desc p{
+        font-size: 16px;
+    }
+    .pdf__size{
+        padding-left: 10px;
+    }
+    .related__series{
+        margin-top: 20px;
+    }
+    .related__series p{
+        text-align: center;
+        color: #757575;
+        font-size: 15px;
+    }
 }

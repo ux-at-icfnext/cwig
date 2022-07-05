@@ -73,7 +73,7 @@ layout: prototype/colorVers/proto-default-color
                 {%endfor%}
             </div>
         {%endif%}
-        {%if page.results == subtopics%}
+        {%if page.results == "subtopics"%}
             <div class="search__results">
                 {% for item in page.content-list%}
                     <div class="subtopic__details">
@@ -96,6 +96,10 @@ layout: prototype/colorVers/proto-default-color
                         </div>
                     </div>
                 {%endfor%}
+            </div>
+            <div class="related__series grid-container">
+                <p>Page shows 15 results</p>
+                {% include patterns/callout-box/callout-box-secondary.md %}
             </div>
         {%endif%}
         <div class="pagination">
