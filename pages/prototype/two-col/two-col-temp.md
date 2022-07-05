@@ -4,6 +4,7 @@ title: Two Column Template
 permalink: /two-col-temp
 categories: prototype
 type: Two Column
+header: image
 summary-box: true
 feature-section: true
 view-results: true
@@ -11,7 +12,7 @@ applied-filters: true
 results: events
 accoridion: false
 related-resources: false
-feature-image: https://via.placeholder.com/300x300?text=-
+feature-image: https://via.placeholder.com/300
 intro: >
   Body copy-Hanc ego cum memoriter, tum etiam erga nos amice et dolorem eum iure reprehenderit, qui haec putat, ut perspiciatis, unde omnis dolor sit, a natura incorrupte atque haec subtilius velint tradere et via procedat oratio quaerimus igitur, inquit, modo. Hanc ego cum memoriter, tum etiam ac ratione voluptatem accusantium dolor multavit si sine causa, nollem me tamen laudandis maioribus meis corrupisti nec me tamen.
 callout-header: Submit Events and Calls for Papers

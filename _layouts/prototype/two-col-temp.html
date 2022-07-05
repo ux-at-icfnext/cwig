@@ -12,17 +12,32 @@ layout: prototype/colorVers/proto-default-color
     <div class="breadcrumbs">
         {% include patterns/breadcrumb/breadcrumb-white-bg.md%}
     </div>
-    <div class="intro__section grid-container">
-        <div class="page__title">
-            <h1 id="page__title"> {{ page.title }}</h1>
-            <p>{{ page.intro | markdowify}}</p>
-        </div>
-        {%if page.summary-box %}
-            <div class="callout__box">
-                {% include patterns/callout-box/callout-box-blue.md%}
+    {%if page.header == "image"%}
+        <div class="image__header">
+            <div class="page__title__with__image">
+                <h1>{{page.title}}</h1>
             </div>
-        {%endif%}
-    </div>
+            <div class="header__image">
+                <img src="{{page.feature-image}}" height="300" width="300">
+            </div>
+            <div class="header__text">
+                <p>{{ page.intro | markdowify}}</p>
+            </div>
+        </div>
+    {%endif%}
+    {%if page.header == "text"%}
+        <div class="intro__section grid-container">
+            <div class="page__title">
+                <h1 id="page__title"> {{ page.title }}</h1>
+                <p>{{ page.intro | markdowify}}</p>
+            </div>
+            {%if page.summary-box %}
+                <div class="callout__box">
+                    {% include patterns/callout-box/callout-box-blue.md%}
+                </div>
+            {%endif%}
+        </div>
+    {%endif%}
 </div>
 {%if page.feature-section%}
     <div class="feature__section">

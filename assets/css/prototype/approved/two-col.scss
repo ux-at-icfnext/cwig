@@ -10,6 +10,20 @@ p{
 @media only screen and (min-width: 880px) {
     /* For desktop: */
 
+    .image__header{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 175px;
+    }
+    .page__title__with__image{
+        order: 1;
+    }
+    .header__image{
+        order: 2;
+    }
+    .header__text{
+        order: 3;
+    }
     .intro__section{
         display: grid;
         grid-template-columns: 1fr 1fr;
