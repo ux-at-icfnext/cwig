@@ -4,6 +4,7 @@ title: Events Landing Template
 permalink: /events-landing-temp
 categories: prototype
 type: Events Landing Template
+summary-box: false
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
