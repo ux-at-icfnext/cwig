@@ -52,4 +52,22 @@
     .usa-card-group{
         margin: auto;
     }
+    .sub__card{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        margin-bottom: 40px;
+    }
+    .sub__card img{
+        order: 1;
+    }
+    .card__text{
+        order: 2;
+    }
+    .sub__price{
+        font-size: 12px;
+        color: #005DAA;
+    }
+    .card__text a{
+        color: #005DAA;
+    }
 }

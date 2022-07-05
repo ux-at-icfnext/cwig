@@ -63,11 +63,14 @@ layout: prototype/colorVers/proto-default-color
         <p> {{page.content-desc | markdownify}}</p>
         {%for item in page.subscription-cards%}
             <div class="sub__card">
-                <img src="">
-                <h3>Title</h3>
-                <p>Price</p>
-                <p>Description</p>
-                <a href="">Link</a>
+                <img src="https://via.placeholder.com/150">
+                <div class="card__text">
+                    <h3>Title</h3>
+                    <p class="sub__price">Price</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="">Link</a>
+                </div>
             </div>
         {%endfor%}
     </div>
