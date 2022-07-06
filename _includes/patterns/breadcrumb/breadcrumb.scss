@@ -122,10 +122,17 @@ ul.breadcrumb__white{
         font-weight: 200;
       }
     
+      #current__page__white{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        display: contents;
+      }
+
       #current__page{
         font-family: 'Montserrat';
         font-weight: 600;
         display: contents;
+        color: white;
       }
       
       /* Add a color on mouse-over */

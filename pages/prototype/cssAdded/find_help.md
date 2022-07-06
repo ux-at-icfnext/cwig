@@ -3,6 +3,7 @@ layout: prototype/cta-find-help
 title: Find Help with a Personal Situation
 permalink: /find-help-prototype
 categories: prototype
+type: Call to Action Template
 feature-image: https://via.placeholder.com/300x300?text=-
 intro: >
   Families face difficult challenges and may need specific resources, information, or assistance to deal with problematic personal situations. The following questions address common child welfare issues that families face.Inclusion on this list is for information purposes and does not constitute an endorsement by Child Welfare Information Gateway or the Children's Bureau.

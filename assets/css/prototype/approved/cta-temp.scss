@@ -1,0 +1,75 @@
+/* For mobile phones: */
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+}
+@media only screen and (min-width: 880px) {
+    /* For desktop: */
+    .dark__bg{
+        background-color: #002552;
+    }
+    .intro__section__full{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 100px;
+        gap: 5rem;
+        background-color: #002552;
+        color: white;
+        border-bottom: 5px solid #E50E63;
+        padding-bottom: 20px;
+    }
+    .page__title__full{
+        order: 1;
+    }
+    .right__col__full{
+        order: 2;
+        justify-self: end;
+        margin-right: 100px;
+    }
+    .spanish__button__full{
+        margin-left: 200px;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    .cta__full{
+        margin-top: 20px;
+    }
+    .intro__section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .page__title{
+        order: 1;
+    }
+    .spanish__button{
+        order: 2;
+    }
+    .page__intro{
+        order: 3;
+    }
+    .card__section{
+        background-color: #C7CFE9;
+    }
+    .cards{
+        padding-top: 30px;
+    }
+    h2{
+        font-family: 'Montserrat';
+        font-size: 28px;
+        font-weight: 700;
+        color: #002552;
+    }
+    p{
+        line-height: 29px;
+        font-family: 'Lora';
+        font-size: 18px;
+    }
+    a{
+        color: #005DAA;
+    }
+    .callout-button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,10 +1,11 @@
 ---
-layout: prototype/how-to-report
-title: How to Report Child Abuse or Neglect
-permalink: /how-to-report
+layout: prototype/cta-temp
+title: Call to Action Template
+permalink: /cta-temp
 categories: prototype
 type: Call to Action Template
 feature-image: https://via.placeholder.com/300x300?text=-
+full-header: false
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
   covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
