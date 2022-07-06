@@ -59,16 +59,16 @@ layout: prototype/colorVers/proto-default-color
 {%if page.content-type == "subscriptions"%}
     <div class="img__div">
         <div class="grid-container">
-            <p>Stay connected with the latest news and events</p>
+            <h3>Stay connected with the latest news and events</h3>
             {% include patterns/button/button-inverted.md %}
             <a href="">Manage your subscription</a>
         </div>
     </div>
     <div class="sub__content grid-container">
-        <h2>Heading Here</h2>
-        <h3>Subheading Here</h3>
+        <h2>Heading</h2>
+        <h4>Subheading One</h4>
         <p> {{page.content-desc | markdownify}}</p>
-        {%for item in page.subscription-cards%}
+        {%for item in page.subscription-cards_one%}
             <div class="sub__card">
                 <img src="https://via.placeholder.com/150">
                 <div class="card__text">
@@ -80,6 +80,39 @@ layout: prototype/colorVers/proto-default-color
                 </div>
             </div>
         {%endfor%}
+        <h4>Subheading Two</h4>
+        <p> {{page.content-desc | markdownify}}</p>
+        {%for item in page.subscription-cards_two%}
+            <div class="sub__card">
+                <img src="https://via.placeholder.com/150">
+                <div class="card__text">
+                    <h3>Title</h3>
+                    <p class="sub__price">Price</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="">Link</a>
+                </div>
+            </div>
+        {%endfor%}
+        <h4>Subheading Three</h4>
+        <p> {{page.content-desc | markdownify}}</p>
+        {%for item in page.subscription-cards_three%}
+            <div class="sub__card">
+                <img src="https://via.placeholder.com/150">
+                <div class="card__text">
+                    <h3>Title</h3>
+                    <p class="sub__price">Price</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="">Link</a>
+                </div>
+            </div>
+        {%endfor%}
+    </div>
+    <div class="subscribe__banner">
+        <h2>Sign up now for news and updates</h2>
+        {% include patterns/button/button-transparent-dark.md %}
+        <a href="">Manage your subscription</a>
     </div>
 {%endif%}
 

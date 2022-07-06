@@ -38,6 +38,11 @@
         background-size: cover;
         background-blend-mode: saturation;
     }
+    .img__div a{
+        color:#005DAA;
+        display: block;
+        margin-top: 10px;
+    }
     .event__search a{
         color: white;
     }
@@ -51,6 +56,9 @@
     }
     .usa-card-group{
         margin: auto;
+    }
+    .sub__content h2{
+        color: #002552;
     }
     .sub__card{
         display: grid;
@@ -69,5 +77,19 @@
     }
     .card__text a{
         color: #005DAA;
+    }
+    .subscribe__banner{
+        background-color: #EEF1F9;
+        text-align: center;
+    }
+    .subscribe__banner a{
+        color: #005DAA;
+        display: block;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe__banner h2{
+        color: #002552;
+        padding-top: 10px;
     }
 }
