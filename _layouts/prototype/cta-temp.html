@@ -49,36 +49,53 @@ layout: prototype/colorVers/proto-default-color
         </div>
     </div>
 {% endif %}
-<div class="card__section">
-    <div class="cards grid-container">
-        {% include patterns/card/card-with-button.md  data=card %}
+{% if page.card-section % }
+    <div class="card__section">
+        <div class="cards grid-container">
+            {% include patterns/card/card-with-button.md  data=card %}
+        </div>
     </div>
-</div>
-<div class="main__content">
-    <div class="featured__events grid-container">
-        <div class="para__1">
-            <h2>{{ page.first_subhead | markdowify}}</h2>
-            <p>{{ page.first_para | markdowify}}</p>
+{% endif %}
+
+{% if page.content-type == "text" %}
+    <div class="main__content">
+        <div class="featured__events grid-container">
+            <div class="para__1">
+                <h2>{{ page.first_subhead | markdowify}}</h2>
+                <p>{{ page.first_para | markdowify}}</p>
+            </div>
+            <div class="para__2">
+                <h2>{{ page.second_subhead | markdowify}}</h2>
+                <p>{{ page.second_para | markdowify}}</p>
+            </div>
+            <div class="para__3">
+                <h2>{{ page.third_subhead | markdowify}}</h2>
+                <p>{{ page.third_para | markdowify}}</p>
+            </div>
+            <div class="para__4">
+                <h2>{{ page.fourth_subhead | markdowify}}</h2>
+                <p>{{ page.fourth_para | markdowify}}</p>
+            </div>
+            {%if page.cta-bottom %}
+                <div class="cta-button">
+                    {% include patterns/button/cta-button-block.md %}
+                </div>
+            {%endif%}
         </div>
-        <div class="para__2">
-            <h2>{{ page.second_subhead | markdowify}}</h2>
-            <p>{{ page.second_para | markdowify}}</p>
-        </div>
-        <div class="para__3">
-            <h2>{{ page.third_subhead | markdowify}}</h2>
-            <p>{{ page.third_para | markdowify}}</p>
-        </div>
-        <div class="para__4">
-            <h2>{{ page.fourth_subhead | markdowify}}</h2>
-            <p>{{ page.fourth_para | markdowify}}</p>
-        </div>
-        <div class="callout-button">
-            {% include patterns/callout-box/callout-button-inverted.md %}
+    </div>
+{%endif%}
+{%if page.content-type == "accordion" %}
+    <div class="content__section">
+        <div id="main-content" class="grid-container">
+            {% include patterns/accordion/accordion.md %}
         </div>
         <div class="quick__exit">
-            
+            <span class="quick__exit__button"><a href="">Quick Exit</a></span>
         </div>
     </div>
+{%endif%}
+<div class="quick__exit">
+    <span class="quick__exit__button"><a href="">Quick Exit</a></span>
 </div>
 
 <div class="footer">

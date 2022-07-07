@@ -6,6 +6,8 @@ categories: prototype
 type: Call to Action Template
 feature-image: https://via.placeholder.com/300x300?text=-
 full-header: false
+content-type: text
+cta-bottom: true
 intro: >
   Child Welfare Information Gateway provides information and resources on a wide range of child welfare topics,
   covering the continuum from preventing child abuse and neglect through adoption. To support professionals working with children and families involved with child welfare, we offer current information, research, statistics, best practices, and other materials on the topics listed below.
@@ -27,7 +29,7 @@ fourth_subhead: How You Can Help Someone Who Is Being Abused or Neglected.
 fourth_para: >
   Provides children and youth with information about what child abuse and neglect is and what to do if they are concerned about the safety and well-being of another child. See more resources on this topic. 
 fifth_subhead: M
-callout-text: Find Help with a Personal Situation
+cta-button: Find Help with a Personal Situation
 cards:
   - card-title: Childhelp National Child Abuse Hotline
     body: "Call or text 24/7, in over 170 languages, to report child abuse or neglect."

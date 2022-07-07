@@ -146,3 +146,25 @@
     text-decoration: none;
     width: auto;
 }
+// cta buttons
+
+.block{
+    display: block;
+    width: 100%;
+}
+.cta__heading{
+    text-align: center;
+    padding-top: 10px;
+}
+.cta__container{
+    background-color: transparent;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.cta__body{
+    text-align: center;
+}
+.cta__body h3{
+    display: block;
+    color: #005DAA;
+}

@@ -71,5 +71,14 @@
     .callout-button{
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 100%;
+    }
+    .quick__exit{
+        text-align: right;
+    }
+    .quick__exit a{
+        color: white;
+        background-color: #005DAA;
+        padding: 20px;
     }
 }
