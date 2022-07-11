@@ -10,7 +10,7 @@ feature-section: true
 view-results: true
 applied-filters: true
 results: subtopics
-accoridion: false
+accoridion-bottom: true
 extra: true
 accordion-bottom: true
 feature-image: https://via.placeholder.com/300

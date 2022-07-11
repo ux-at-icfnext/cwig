@@ -161,6 +161,12 @@
     border: solid 1px black;
     cursor: pointer;
 }
+.cta__container:hover{
+    background-color: #002552;
+}
+.cta__container:hover h3{
+    color: white;
+}
 .cta__body{
     text-align: center;
 }
