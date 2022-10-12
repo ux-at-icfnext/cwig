@@ -2,7 +2,7 @@
 layout: template-nav
 title: "Resource - Webinar"
 categories: template
-permalink: "/resource-video"
+permalink: "/resource-webinar"
 
 ---
 < [Return to Overview page](/resource-details-template)
